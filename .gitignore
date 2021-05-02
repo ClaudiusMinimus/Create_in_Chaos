@@ -1,0 +1,31 @@
+#Ignore these files
+minecraft/BotaniaVars.dat
+minecraft/knownkeys.txt
+minecraft/options.txt
+minecraft/patchouli_data.json
+minecraft/realms_persistence.json
+minecraft/reauth.toml
+minecraft/servers.dat
+Create in Chaos.code-workspace
+instance.cfg
+
+#Ignore these folders
+minecraft/config/*
+minecraft/coremods/
+minecraft/global_data_packs/
+minecraft/local/
+minecraft/mods/
+minecraft/resourcepacks/
+minecraft/saves/
+minecraft/screenshots/
+minecraft/texturepacks/
+minecraft/Xaero*/
+
+#Stop Ignoring these folders
+!minecraft/config/brandon3055
+!minecraft/config/fancymenu
+
+#Stop Ignoring these files
+!minecraft/config/iceandfire-client.toml
+!minecraft/config/iceandfire-common.toml
+!minecraft/config/xaerominimap.txt
