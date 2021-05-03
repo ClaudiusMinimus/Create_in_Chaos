@@ -1,0 +1,12 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MultiplayerScreen
+  renderorder = foreground
+}
+
+customization {
+  path = config/fancymenu/images/backgroundnologo.png
+  action = texturizebackground
+}
+

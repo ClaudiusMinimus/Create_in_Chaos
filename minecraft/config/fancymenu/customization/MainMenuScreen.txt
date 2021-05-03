@@ -18,14 +18,14 @@ customization {
 customization {
   identifier = %id=400322%
   orientation = top-left
-  x = 0
+  x = 35
   action = movebutton
-  y = 40
+  y = 70
 }
 
 customization {
   identifier = %id=400322%
-  width = 160
+  width = 115
   action = resizebutton
   height = 20
 }
@@ -39,22 +39,29 @@ customization {
 customization {
   identifier = %id=400322%
   action = setbuttontexture
-  backgroundhovered = config/fancymenu/images/menu/hover/multiplayer.png
+  backgroundhovered = config/fancymenu/images/menu/multiplayerhover.png
   backgroundnormal = config/fancymenu/images/menu/multiplayer.png
 }
 
 customization {
   identifier = %id=400322%
   action = setbuttondescription
-  description = The official server will soon be whitelisted.&nTo play, you will need to join our discord&n(see discord button on this page) and apply&nto be whitelisted.
+  description = Hi %playername%,%n%The offical server address is included%n%on the Multiplayer screen.%n%%n%We look forward to seeing you in-game!%n%%n%If you would like to have your server %n%listed, please contact us on our discord.
 }
 
 customization {
   identifier = %id=604382%
   orientation = top-left
-  x = 55
+  x = 35
   action = movebutton
-  y = 140
+  y = 120
+}
+
+customization {
+  identifier = %id=604382%
+  width = 55
+  action = resizebutton
+  height = 20
 }
 
 customization {
@@ -66,21 +73,27 @@ customization {
 customization {
   identifier = %id=604382%
   action = setbuttontexture
-  backgroundhovered = config/fancymenu/images/menu/hover/accessibility.png
+  backgroundhovered = config/fancymenu/images/menu/accessibilityhover.png
   backgroundnormal = config/fancymenu/images/menu/accessibility.png
 }
 
 customization {
-  identifier = %id=400382%
-  orientation = top-left
-  x = 0
-  action = movebutton
-  y = 60
+  identifier = %id=604382%
+  action = setbuttondescription
+  description = Accessibility
 }
 
 customization {
   identifier = %id=400382%
-  width = 160
+  orientation = top-left
+  x = 35
+  action = movebutton
+  y = 95
+}
+
+customization {
+  identifier = %id=400382%
+  width = 55
   action = resizebutton
   height = 20
 }
@@ -94,21 +107,27 @@ customization {
 customization {
   identifier = %id=400382%
   action = setbuttontexture
-  backgroundhovered = config/fancymenu/images/menu/hover/options.png
+  backgroundhovered = config/fancymenu/images/menu/optionshover.png
   backgroundnormal = config/fancymenu/images/menu/options.png
 }
 
 customization {
-  identifier = %id=502382%
-  orientation = top-left
-  x = 1
-  action = movebutton
-  y = 121
+  identifier = %id=400382%
+  action = setbuttondescription
+  description = Options
 }
 
 customization {
   identifier = %id=502382%
-  width = 160
+  orientation = top-left
+  x = 95
+  action = movebutton
+  y = 145
+}
+
+customization {
+  identifier = %id=502382%
+  width = 55
   action = resizebutton
   height = 20
 }
@@ -122,21 +141,27 @@ customization {
 customization {
   identifier = %id=502382%
   action = setbuttontexture
-  backgroundhovered = config/fancymenu/images/menu/hover/quit.png
+  backgroundhovered = config/fancymenu/images/menu/quithover.png
   backgroundnormal = config/fancymenu/images/menu/quit.png
 }
 
 customization {
-  identifier = %id=376382%
-  orientation = top-left
-  x = 1
-  action = movebutton
-  y = 140
+  identifier = %id=502382%
+  action = setbuttondescription
+  description = Quit Minecraft
 }
 
 customization {
   identifier = %id=376382%
-  width = 54
+  orientation = top-left
+  x = 35
+  action = movebutton
+  y = 145
+}
+
+customization {
+  identifier = %id=376382%
+  width = 55
   action = resizebutton
   height = 20
 }
@@ -150,21 +175,27 @@ customization {
 customization {
   identifier = %id=376382%
   action = setbuttontexture
-  backgroundhovered = config/fancymenu/images/menu/hover/abc.png
-  backgroundnormal = config/fancymenu/images/menu/abc.png
+  backgroundhovered = config/fancymenu/images/menu/langugehover.png
+  backgroundnormal = config/fancymenu/images/menu/languge.png
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttondescription
+  description = Language
 }
 
 customization {
   identifier = %id=400298%
   orientation = top-left
-  x = 0
+  x = 35
   action = movebutton
-  y = 20
+  y = 45
 }
 
 customization {
   identifier = %id=400298%
-  width = 160
+  width = 115
   action = resizebutton
   height = 20
 }
@@ -178,21 +209,21 @@ customization {
 customization {
   identifier = %id=400298%
   action = setbuttontexture
-  backgroundhovered = config/fancymenu/images/menu/hover/singleplayer.png
+  backgroundhovered = config/fancymenu/images/menu/singleplayerhover.png
   backgroundnormal = config/fancymenu/images/menu/singleplayer.png
 }
 
 customization {
   identifier = %id=400346%
   orientation = top-left
-  x = 0
+  x = 95
   action = movebutton
-  y = 80
+  y = 95
 }
 
 customization {
   identifier = %id=400346%
-  width = 160
+  width = 55
   action = resizebutton
   height = 20
 }
@@ -206,29 +237,19 @@ customization {
 customization {
   identifier = %id=400346%
   action = setbuttontexture
-  backgroundhovered = config/fancymenu/images/menu/hover/mods.png
+  backgroundhovered = config/fancymenu/images/menu/modshover.png
   backgroundnormal = config/fancymenu/images/menu/mods.png
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttondescription
+  description = Mods
 }
 
 customization {
   identifier = %id=502346%
   action = hidebutton
-}
-
-customization {
-  orientation = top-left
-  buttonaction = openlink
-  backgroundhovered = config/fancymenu/images/menu/hover/discord.png
-  description = Please come join our discord server&ncommunity for fun and support!
-  label = 
-  x = 0
-  width = 160
-  actionid = f52a88eb-70b9-40d1-a860-02f7a9e8b9d61619985773746
-  action = addbutton
-  y = 100
-  backgroundnormal = config/fancymenu/images/menu/discord.png
-  value = https://discord.gg/jXrx4Tu
-  height = 20
 }
 
 customization {
@@ -246,17 +267,65 @@ customization {
 customization {
   orientation = top-left
   buttonaction = openlink
-  backgroundhovered = config/fancymenu/images/menu/hover/server.png
-  description = Use code 'minimus' for&n25% off 1st month
+  backgroundhovered = config/fancymenu/images/menu/serverhover.png
+  description = %playername%,%n%Need a server to play with friends?%n%%n%Use the code minimus%n%to get 25% off your first month!
   label = 
   hoverlabel = 
-  x = 0
-  width = 213
-  actionid = 0157bd77-071f-47aa-9974-7fa5339fc5921619985773752
+  x = 35
+  width = 115
+  actionid = d7cfdc75-e2e4-4a50-8470-63ab9be4f5451620020733994
   action = addbutton
-  y = 160
+  y = 170
   backgroundnormal = config/fancymenu/images/menu/server.png
   value = https://bisecthosting.com/minimus
-  height = 37
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/images/menu/supporthover.png
+  description = Support
+  label = 
+  x = 95
+  width = 55
+  actionid = 639b7141-43a2-4358-acaa-8433cb6248db1620020734001
+  action = addbutton
+  y = 120
+  backgroundnormal = config/fancymenu/images/menu/support.png
+  value = https://github.com/ClaudiusMinimus/Create_in_Chaos-DEV/issues
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/images/social/discordhover.png
+  description = %playername%,%n%Please come join us on our discord server,%n%%n%We have a great community%n%and look forward to having You a be part of it!
+  label = 
+  x = 53
+  width = 25
+  actionid = e464c0bc-f125-4481-882c-03464282d0eb1620020734006
+  action = addbutton
+  y = 195
+  backgroundnormal = config/fancymenu/images/social/discord.png
+  value = https://discord.com/invite/jXrx4Tu
+  height = 16
+}
+
+customization {
+  orientation = top-left
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/images/social/curseforgehover.png
+  description = Create in Chaos on Curseforge
+  label = 
+  x = 105
+  width = 30
+  actionid = 5f02880e-1f3f-4b9f-9e89-33a85cc487011620020734009
+  action = addbutton
+  y = 195
+  backgroundnormal = config/fancymenu/images/social/curseforge.png
+  value = 
+  height = 16
 }
 
