@@ -2,10 +2,13 @@
 minecraft/BotaniaVars.dat
 minecraft/knownkeys.txt
 minecraft/options.txt
+minecraft/openloader/.cache
 minecraft/patchouli_data.json
 minecraft/realms_persistence.json
 minecraft/reauth.toml
 minecraft/servers.dat
+minecraft/usernamecache.json
+minecraft/usercache.json
 Create in Chaos.code-workspace
 instance.cfg
 
@@ -13,7 +16,9 @@ instance.cfg
 minecraft/config/*
 minecraft/coremods/
 minecraft/global_data_packs/
+minecraft/kubejs/
 minecraft/local/
+minecraft/logs/
 minecraft/mods/
 minecraft/resourcepacks/
 minecraft/saves/
@@ -29,3 +34,4 @@ minecraft/Xaero*/
 !minecraft/config/iceandfire-client.toml
 !minecraft/config/iceandfire-common.toml
 !minecraft/config/xaerominimap.txt
+
