@@ -293,7 +293,7 @@ customization {
   action = addbutton
   y = 120
   backgroundnormal = config/fancymenu/images/menu/support.png
-  value = https://github.com/ClaudiusMinimus/Create_in_Chaos-DEV/issues
+  value = https://github.com/ClaudiusMinimus/Create_in_Chaos/issues
   height = 20
 }
 
