@@ -1,4 +1,5 @@
 #Ignore these files
+builds/cic-server*.zip
 minecraft/BotaniaVars.dat
 minecraft/knownkeys.txt
 minecraft/options.txt
@@ -14,18 +15,20 @@ Create in Chaos.code-workspace
 instance.cfg
 
 #Ignore these folders
+minecraft/.mixin.out/*
 minecraft/config/*
-minecraft/coremods/
-minecraft/global_data_packs/
-minecraft/kubejs/
-minecraft/local/
-minecraft/logs/
-minecraft/mods/
-minecraft/resourcepacks/
-minecraft/saves/
-minecraft/screenshots/
-minecraft/texturepacks/
-minecraft/Xaero*/
+minecraft/coremods/*
+minecraft/global_data_packs/*
+minecraft/local/*
+minecraft/logs/*
+minecraft/mods/*
+minecraft/resourcepacks/*
+minecraft/saves/*
+minecraft/screenshots/*
+minecraft/texturepacks/*
+minecraft/Xaero*/*
+server/mods/*
+server/world*
 
 #Stop Ignoring these folders
 !minecraft/config/brandon3055
@@ -35,4 +38,4 @@ minecraft/Xaero*/
 !minecraft/config/iceandfire-client.toml
 !minecraft/config/iceandfire-common.toml
 !minecraft/config/xaerominimap.txt
-
+!minecraft/config/forge-client.toml
