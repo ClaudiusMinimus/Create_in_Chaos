@@ -39,8 +39,7 @@ server/world*
 !minecraft/config/fancymenu
 
 #Stop Ignoring these files
-!minecraft/config/iceandfire-client.toml
-!minecraft/config/iceandfire-common.toml
 !minecraft/config/xaerominimap.txt
 !minecraft/config/forge-client.toml
 !minecraft/config/quark-common.toml
+!server/config/quark-common.toml
