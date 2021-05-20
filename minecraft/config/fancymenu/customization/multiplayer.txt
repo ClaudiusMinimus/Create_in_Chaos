@@ -10,3 +10,14 @@ customization {
   action = texturizebackground
 }
 
+customization {
+  path = config/fancymenu/images/cic_logo.png
+  orientation = bottom-right
+  x = -50
+  width = 45
+  action = addtexture
+  actionid = 8a898310-9944-46a1-b068-9635e9c7cff31621542958822
+  y = -53
+  height = 45
+}
+

@@ -261,7 +261,7 @@ customization {
   y = -13
   scale = 1.0
   alignment = left
-  value = Create in Chaos v.1.16.5-0.4.0
+  value = Create in Chaos v.1.16.5-0.6.0 ALPHA
 }
 
 customization {
@@ -273,7 +273,7 @@ customization {
   hoverlabel = 
   x = 35
   width = 115
-  actionid = d7cfdc75-e2e4-4a50-8470-63ab9be4f5451620020733994
+  actionid = 7efd1c85-c87c-4cbd-9be1-225663f277761621542543543
   action = addbutton
   y = 170
   backgroundnormal = config/fancymenu/images/menu/server.png
@@ -289,7 +289,7 @@ customization {
   label = 
   x = 95
   width = 55
-  actionid = 639b7141-43a2-4358-acaa-8433cb6248db1620020734001
+  actionid = 3f1c6ffd-6d58-4db8-96cf-98716b7fa0ef1621542543546
   action = addbutton
   y = 120
   backgroundnormal = config/fancymenu/images/menu/support.png
@@ -305,7 +305,7 @@ customization {
   label = 
   x = 53
   width = 25
-  actionid = e464c0bc-f125-4481-882c-03464282d0eb1620020734006
+  actionid = 3ebcb4ea-ec41-4f65-9399-cb9bf19f8e5a1621542543548
   action = addbutton
   y = 195
   backgroundnormal = config/fancymenu/images/social/discord.png
@@ -321,7 +321,7 @@ customization {
   label = 
   x = 105
   width = 30
-  actionid = 5f02880e-1f3f-4b9f-9e89-33a85cc487011620020734009
+  actionid = 83831e94-1bf4-47ca-b9a5-0dbe465d12fd1621542543549
   action = addbutton
   y = 195
   backgroundnormal = config/fancymenu/images/social/curseforge.png
