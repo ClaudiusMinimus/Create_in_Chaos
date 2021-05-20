@@ -1,23 +1,22 @@
-To refresh this file, delete it and run /reload command again! Last updated: May 2, 2021, 4:12:36 PM
+To refresh this file, delete it and run /reload command again! Last updated: Feb 13, 2021 6:04:25 AM
 
-#iceandfire:scares_cockatrices
-
-#tconstruct:bouncy
-- tconstruct:sky_slime
-
-#botania:cocoon/common
+#alexsmobs:snow_leopard_targets
+- minecraft:sheep
 - minecraft:pig
-- minecraft:cow
 - minecraft:chicken
+- minecraft:mooshroom
+- minecraft:llama
+- minecraft:parrot
 - minecraft:rabbit
-- minecraft:sheep
+- minecraft:trader_llama
+- alexsmobs:roadrunner
+- alexsmobs:gazelle
 
-#iceandfire:fear_dragons
+#alexsmobs:passive_land_animals
 - minecraft:cow
 - minecraft:sheep
 - minecraft:pig
 - minecraft:chicken
-- minecraft:cat
 - minecraft:fox
 - minecraft:horse
 - minecraft:mooshroom
@@ -25,108 +24,44 @@ To refresh this file, delete it and run /reload command again! Last updated: May
 - minecraft:llama
 - minecraft:panda
 - minecraft:parrot
-- minecraft:polar_bear
 - minecraft:rabbit
-- minecraft:strider
 - minecraft:trader_llama
 - minecraft:wolf
-- minecraft:hoglin
+- minecraft:cat
+- minecraft:strider
+- alexsmobs:roadrunner
+- alexsmobs:gazelle
+- alexsmobs:capuchin_monkey
+- alexsmobs:seal
+- alexsmobs:shoebill
 
-#iceandfire:villagers
+#alexsmobs:orca_targets
+- alexsmobs:moose
+- alexsmobs:seal
+- minecraft:polar_bear
+- minecraft:turtle
+- minecraft:drowned
+- minecraft:guardian
+- minecraft:elder_guardian
+
+#alexsmobs:villagers
 - minecraft:villager
 - minecraft:wandering_trader
 
-#iceandfire:lightning_dragon_targets
-- #iceandfire:dragon_targets
-
-#botania:cocoon/rare_aquatic
-- minecraft:dolphin
-
-#tconstruct:melting/show_in_default
-- minecraft:iron_golem
-- minecraft:snow_golem
-- minecraft:villager
-- minecraft:player
-
-#botania:cocoon/rare
-- minecraft:horse
-- minecraft:donkey
-- minecraft:wolf
-- minecraft:ocelot
-- minecraft:cat
-- minecraft:parrot
-- minecraft:llama
-- minecraft:fox
-- minecraft:panda
-- minecraft:turtle
-- quark:frog?
-
-#iceandfire:sheep
-- minecraft:sheep
-
-#tconstruct:piggybackpack_blacklist
-
-#botania:shaded_mesa_blacklist
-- minecraft:ender_dragon
-- minecraft:wither
-- minecraft:item_frame
-- minecraft:end_crystal
-- minecraft:painting
-- botania:corporea_spark
-- botania:doppleganger
-- botania:flame_ring
-- botania:magic_landmine
-- botania:magic_missile
-- botania:mana_burst
-- botania:pink_wither
-- botania:spark
-- botania:player_mover
-
-#minecraft:raiders
-- minecraft:evoker
-- minecraft:pillager
-- minecraft:ravager
-- minecraft:vindicator
-- minecraft:illusioner
-- minecraft:witch
-
-#tconstruct:melting/hide_in_default
-- minecraft:giant
-
-#iceandfire:dragon_targets
-- minecraft:cow
-- minecraft:sheep
-- minecraft:pig
-- minecraft:chicken
-- minecraft:fox
-- minecraft:horse
-- minecraft:mooshroom
-- minecraft:ocelot
-- minecraft:llama
-- minecraft:panda
-- minecraft:parrot
+#alexsmobs:neutral_land_animals
+- alexsmobs:grizzly_bear
+- alexsmobs:gorilla
 - minecraft:polar_bear
-- minecraft:rabbit
-- minecraft:trader_llama
-- minecraft:wolf
-- minecraft:cat
-- minecraft:pillager
-- minecraft:cat
-- minecraft:strider
-- minecraft:piglin
-- minecraft:hoglin
-- minecraft:zoglin
+- alexsmobs:endergrade
+- alexsmobs:rattlesnake
+- alexsmobs:moose
+- alexsmobs:elephant
+- alexsmobs:snow_leopard
 
-#forge:slimes
-- tconstruct:sky_slime
-
-#botania:cocoon/common_aquatic
-- minecraft:cod
-- minecraft:salmon
-- minecraft:tropical_fish
-- minecraft:pufferfish
-- minecraft:squid
-- quark:crab?
+#alexsmobs:fly_hurt_targets
+- minecraft:zombie
+- minecraft:drowned
+- minecraft:husk
 
 #minecraft:impact_projectiles
 - #minecraft:arrows
@@ -141,13 +76,28 @@ To refresh this file, delete it and run /reload command again! Last updated: May
 #minecraft:beehive_inhabitors
 - minecraft:bee
 
-#iceandfire:chickens
-- minecraft:chicken
+#alexsmobs:sunbird_scorch_targets
+- #minecraft:skeletons
+- minecraft:zombie
+- minecraft:husk
+- minecraft:drowned
+- minecraft:phantom
+
+#alexsmobs:scatters_crows
+- #alexsmobs:neutral_land_animals
+
+#alexsmobs:crimson_mosquito_targets
+- #alexsmobs:passive_land_animals
+- #alexsmobs:neutral_land_animals
+- #alexsmobs:villagers
 
 #minecraft:skeletons
 - minecraft:skeleton
 - minecraft:stray
 - minecraft:wither_skeleton
+
+#alexsmobs:fly_annoy_targets
+- minecraft:player
 
 #forbidden_arcanus:quantum_catcher_blacklisted
 - minecraft:wither
@@ -158,19 +108,21 @@ To refresh this file, delete it and run /reload command again! Last updated: May
 - minecraft:arrow
 - minecraft:spectral_arrow
 
-#tconstruct:bacon_producer
-- minecraft:pig
-- minecraft:piglin
-- minecraft:hoglin
+#alexsmobs:warped_toad_targets
+- alexsmobs:crimson_mosquito
+- alexsmobs:fly
 
-#iceandfire:fire_dragon_targets
-- #iceandfire:dragon_targets
+#alexsmobs:crocodile_targets
+- #alexsmobs:passive_land_animals
+- #alexsmobs:villagers
 
-#iceandfire:ice_dragon_targets
-- #iceandfire:dragon_targets
-- minecraft:turtle
-- minecraft:dolphin
-- minecraft:cod
-- minecraft:pufferfish
-- minecraft:salmon
-- minecraft:tropical_fish
+#minecraft:raiders
+- minecraft:evoker
+- minecraft:pillager
+- minecraft:ravager
+- minecraft:vindicator
+- minecraft:illusioner
+- minecraft:witch
+
+#alexsmobs:komodo_dragon_targets
+- #alexsmobs:passive_land_animals
