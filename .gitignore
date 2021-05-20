@@ -1,4 +1,5 @@
 #Ignore these files
+*.log
 builds/cic-server*.zip
 minecraft/BotaniaVars.dat
 minecraft/knownkeys.txt
@@ -9,6 +10,7 @@ minecraft/realms_persistence.json
 minecraft/reauth.toml
 minecraft/servers.dat
 minecraft/servers.dat_old
+minecraft/TrashSlotSaveState.json
 minecraft/usernamecache.json
 minecraft/usercache.json
 Create in Chaos.code-workspace
@@ -16,6 +18,7 @@ instance.cfg
 
 #Ignore these folders
 minecraft/.mixin.out/*
+minecraft/backups/*
 minecraft/config/*
 minecraft/coremods/*
 minecraft/global_data_packs/*
@@ -27,6 +30,7 @@ minecraft/saves/*
 minecraft/screenshots/*
 minecraft/texturepacks/*
 minecraft/Xaero*/*
+natives/*
 server/mods/*
 server/world*
 
@@ -39,3 +43,4 @@ server/world*
 !minecraft/config/iceandfire-common.toml
 !minecraft/config/xaerominimap.txt
 !minecraft/config/forge-client.toml
+!minecraft/config/quark-common.toml
