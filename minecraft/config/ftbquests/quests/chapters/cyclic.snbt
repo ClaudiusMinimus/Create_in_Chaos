@@ -1,0 +1,9 @@
+{
+	id: "20E6FC41161FB4D9",
+	group: "37EAAC9D8DC49F5D",
+	order_index: 1,
+	filename: "cyclic",
+	title: "Cyclic",
+	default_quest_shape: "",
+	quests: [ ]
+}

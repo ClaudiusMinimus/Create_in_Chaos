@@ -1,0 +1,230 @@
+{
+	id: "17AF53642EC58824",
+	group: "43D755B81910D6DC",
+	order_index: 1,
+	filename: "fluid_storage__tranport",
+	title: "Fluid Storage \\& Tranport",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 2.0d,
+			y: -1.5d,
+			shape: "diamond",
+			id: "31FE37A1B45CA31D",
+			tasks: [{
+				id: "46A76331FEAF9C55",
+				type: "item",
+				item: "minecraft:bucket"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 0.0d,
+			shape: "diamond",
+			size: 1.5d,
+			id: "09A39D1E3299F11A",
+			tasks: [{
+				id: "5FE44A76C3DEEC5B",
+				type: "item",
+				item: "fluidtank:tank_wood"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -1.5d,
+			dependencies: ["09A39D1E3299F11A"],
+			id: "132AECDD7796D59E",
+			tasks: [{
+				id: "4C519450C4ED32A9",
+				type: "item",
+				item: "fluidtank:tank_stone"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -3.0d,
+			dependencies: ["132AECDD7796D59E"],
+			id: "66134BDE39F39D05",
+			tasks: [{
+				id: "1F011E5BA675076B",
+				type: "item",
+				item: "fluidtank:tank_iron"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -4.5d,
+			dependencies: ["66134BDE39F39D05"],
+			id: "02D1B014E5892DBE",
+			tasks: [{
+				id: "110A0C60F11A5B35",
+				type: "item",
+				item: "fluidtank:tank_gold"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -6.0d,
+			dependencies: ["02D1B014E5892DBE"],
+			id: "19809692880A90F3",
+			tasks: [{
+				id: "39D12F2AA2BF44FB",
+				type: "item",
+				item: "fluidtank:tank_diamond"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -7.5d,
+			dependencies: ["19809692880A90F3"],
+			id: "5A97D6711533FE4E",
+			tasks: [{
+				id: "7CAE8C1813AD0953",
+				type: "item",
+				item: "fluidtank:tank_emerald"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -9.0d,
+			dependencies: ["5A97D6711533FE4E"],
+			id: "421B492357251393",
+			tasks: [{
+				id: "33A8CE7C8578143B",
+				type: "item",
+				item: "fluidtank:tank_star"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 1.5d,
+			dependencies: ["09A39D1E3299F11A"],
+			id: "1EB856D71F4A0975",
+			tasks: [{
+				id: "2E08098D3640520B",
+				type: "item",
+				item: "fluidtank:tank_void"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 0.0d,
+			dependencies: ["69A27260812A7BC5"],
+			id: "190769F72E9CDCC8",
+			tasks: [{
+				id: "0CA0A865D2D6A1A9",
+				type: "item",
+				item: "fluidtank:tank_copper"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 1.5d,
+			dependencies: ["09A39D1E3299F11A"],
+			id: "69A27260812A7BC5",
+			tasks: [{
+				id: "10A696A4F465CE48",
+				type: "item",
+				item: "fluidtank:tank_tin"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: 1.5d,
+			dependencies: ["69A27260812A7BC5"],
+			id: "5FDD69711D14372B",
+			tasks: [{
+				id: "0233D403B53675E1",
+				type: "item",
+				item: "fluidtank:tank_bronze"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 3.0d,
+			dependencies: ["69A27260812A7BC5"],
+			id: "32007C7A2FBC6F4F",
+			tasks: [{
+				id: "4698928530ECFF16",
+				type: "item",
+				item: "fluidtank:tank_lead"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 1.5d,
+			dependencies: ["69A27260812A7BC5"],
+			id: "083BF26BA7D2B3FF",
+			tasks: [{
+				id: "48C5A9040AE45D1C",
+				type: "item",
+				item: "fluidtank:tank_silver"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 0.0d,
+			dependencies: [
+				"09A39D1E3299F11A",
+				"31FE37A1B45CA31D"
+			],
+			id: "7C722069E07DDF7E",
+			tasks: [{
+				id: "0AEB5CF32F54E1E5",
+				type: "item",
+				item: "fluidtank:reservoir_wood"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -1.5d,
+			dependencies: [
+				"132AECDD7796D59E",
+				"31FE37A1B45CA31D"
+			],
+			id: "222C6C66E021A234",
+			tasks: [{
+				id: "70FCC51C66D0BEAD",
+				type: "item",
+				item: "fluidtank:reservoir_stone"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -3.0d,
+			dependencies: [
+				"66134BDE39F39D05",
+				"31FE37A1B45CA31D"
+			],
+			id: "5E33843B31D72429",
+			tasks: [{
+				id: "250DCE715EAB56D6",
+				type: "item",
+				item: "fluidtank:reservoir_iron"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -1.5d,
+			dependencies: ["31FE37A1B45CA31D"],
+			id: "7EC7E5FB29F01CDC",
+			tasks: [{
+				id: "4C69419111656484",
+				type: "item",
+				item: "enderstorage:ender_tank"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 0.0d,
+			dependencies: ["31FE37A1B45CA31D"],
+			id: "6969A989EB0D0B30",
+			tasks: [{
+				id: "3DD9EAE659BEB508",
+				type: "item",
+				item: "cyclic:fluid_pipe",
+				count: 8L
+			}]
+		}
+	]
+}

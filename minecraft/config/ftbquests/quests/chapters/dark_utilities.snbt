@@ -1,0 +1,9 @@
+{
+	id: "0C6D11CCC2E48130",
+	group: "604087A1B90DA52E",
+	order_index: 1,
+	filename: "dark_utilities",
+	title: "Dark Utilities",
+	default_quest_shape: "",
+	quests: [ ]
+}

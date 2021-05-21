@@ -1,0 +1,9 @@
+{
+	id: "74FE044767D115C1",
+	group: "37EAAC9D8DC49F5D",
+	order_index: 0,
+	filename: "create",
+	title: "Create",
+	default_quest_shape: "",
+	quests: [ ]
+}

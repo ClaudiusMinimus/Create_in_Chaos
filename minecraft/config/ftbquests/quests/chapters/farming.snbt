@@ -1,0 +1,9 @@
+{
+	id: "20F3CF8CEB794B18",
+	group: "1DA1ACE38CC9E8FA",
+	order_index: 0,
+	filename: "farming",
+	title: "Farming",
+	default_quest_shape: "",
+	quests: [ ]
+}

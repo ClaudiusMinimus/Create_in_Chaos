@@ -1,0 +1,216 @@
+{
+	id: "1D6910D6C705CF83",
+	group: "43D755B81910D6DC",
+	order_index: 2,
+	filename: "storage_drawers",
+	title: "Storage Drawers",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -1.0d,
+			y: 0.0d,
+			shape: "diamond",
+			size: 1.5d,
+			id: "3860FC95EA1FD441",
+			tasks: [{
+				id: "2253E74EBF834D53",
+				type: "item",
+				title: "Any #storagedrawers:drawers",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 0.0d,
+			dependencies: ["3860FC95EA1FD441"],
+			id: "6CFD33F8704FEB0E",
+			tasks: [{
+				id: "28F33B2E041DB4CC",
+				type: "item",
+				item: "storagedrawers:upgrade_template"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -1.5d,
+			dependencies: ["6CFD33F8704FEB0E"],
+			id: "18394D0FD67C9BC7",
+			tasks: [{
+				id: "0EEA44A7A0C7B130",
+				type: "item",
+				item: "storagedrawers:obsidian_storage_upgrade"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -3.0d,
+			dependencies: ["18394D0FD67C9BC7"],
+			id: "57D40FFBB606C0D5",
+			tasks: [{
+				id: "4E4F44CB1B3E23D1",
+				type: "item",
+				item: "storagedrawers:iron_storage_upgrade"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -4.5d,
+			dependencies: ["57D40FFBB606C0D5"],
+			id: "4C8B81EDD6FBE98D",
+			tasks: [{
+				id: "6371D66D583537B0",
+				type: "item",
+				item: "storagedrawers:gold_storage_upgrade"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -6.0d,
+			dependencies: ["4C8B81EDD6FBE98D"],
+			id: "52B17F40413B163F",
+			tasks: [{
+				id: "33FD92FCADE91011",
+				type: "item",
+				item: "storagedrawers:diamond_storage_upgrade"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -7.5d,
+			dependencies: ["52B17F40413B163F"],
+			id: "211525579F7DA16A",
+			tasks: [{
+				id: "2289B79B99A4B351",
+				type: "item",
+				item: "storagedrawers:emerald_storage_upgrade"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -1.0d,
+			dependencies: ["6CFD33F8704FEB0E"],
+			id: "449AA0BFBB5DCD5B",
+			tasks: [{
+				id: "00C4AC3DD4AE66F2",
+				type: "item",
+				item: "storagedrawers:redstone_upgrade"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -2.0d,
+			dependencies: ["449AA0BFBB5DCD5B"],
+			id: "004D3575364B13FE",
+			tasks: [{
+				id: "1CF4B94505B9BABA",
+				type: "item",
+				item: "storagedrawers:min_redstone_upgrade"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -3.0d,
+			dependencies: ["004D3575364B13FE"],
+			id: "49803F81E55E7D0F",
+			tasks: [{
+				id: "5DC44B1EA8C6C687",
+				type: "item",
+				item: "storagedrawers:max_redstone_upgrade"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 1.0d,
+			dependencies: ["6CFD33F8704FEB0E"],
+			id: "1C80CE3F9035E553",
+			tasks: [{
+				id: "799D4C813BF9E771",
+				type: "item",
+				item: "storagedrawers:illumination_upgrade"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 1.5d,
+			dependencies: ["6CFD33F8704FEB0E"],
+			id: "718F7C0FF81B931B",
+			tasks: [{
+				id: "1C9BF186668DC2F1",
+				type: "item",
+				item: "storagedrawers:conversion_upgrade"
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 2.0d,
+			dependencies: ["1DAAF46B37F4A4EE"],
+			id: "06D27189EB53EC1D",
+			tasks: [{
+				id: "286B5D39154B2B42",
+				type: "item",
+				item: "storagedrawers:drawer_key"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 2.0d,
+			dependencies: ["06D27189EB53EC1D"],
+			id: "69A76AA001DE891A",
+			tasks: [{
+				id: "02CD20016F5EAE39",
+				type: "item",
+				item: "storagedrawers:quantify_key"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -2.0d,
+			dependencies: ["3860FC95EA1FD441"],
+			id: "528A358AB09DFF46",
+			tasks: [{
+				id: "4A371034ED1FE6A1",
+				type: "item",
+				item: "storagedrawers:controller"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 2.0d,
+			dependencies: ["3860FC95EA1FD441"],
+			id: "1DAAF46B37F4A4EE",
+			tasks: [{
+				id: "630B562CC66BF7F2",
+				type: "item",
+				item: "storagedrawers:controller"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 3.5d,
+			dependencies: ["1DAAF46B37F4A4EE"],
+			id: "182986FA73C30732",
+			tasks: [{
+				id: "3CD93B866F7D2EDB",
+				type: "item",
+				item: "storagedrawers:controller_slave"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 1.0d,
+			dependencies: ["6CFD33F8704FEB0E"],
+			id: "7DF0EFC36FE3FD16",
+			tasks: [{
+				id: "4905994392CDD405",
+				type: "item",
+				item: "storagedrawers:void_upgrade"
+			}]
+		}
+	]
+}

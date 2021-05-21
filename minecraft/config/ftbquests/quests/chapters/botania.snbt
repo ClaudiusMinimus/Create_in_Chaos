@@ -1,0 +1,9 @@
+{
+	id: "5DD7F6A39C611E6C",
+	group: "7FFE46A6C5143A10",
+	order_index: 0,
+	filename: "botania",
+	title: "Botania",
+	default_quest_shape: "",
+	quests: [ ]
+}

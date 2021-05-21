@@ -37,6 +37,7 @@ server/world*
 #Stop Ignoring these folders
 !minecraft/config/brandon3055
 !minecraft/config/fancymenu
+!minecraft/config/ftbquests
 
 #Stop Ignoring these files
 !minecraft/config/xaerominimap.txt

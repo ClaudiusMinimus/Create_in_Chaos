@@ -1,0 +1,9 @@
+{
+	id: "73FADB757C32CF7C",
+	group: "1DA1ACE38CC9E8FA",
+	order_index: 1,
+	filename: "get_cooking",
+	title: "Get Cooking",
+	default_quest_shape: "",
+	quests: [ ]
+}
