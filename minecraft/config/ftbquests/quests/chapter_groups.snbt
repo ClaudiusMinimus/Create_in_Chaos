@@ -1,10 +1,10 @@
 {
 	chapter_groups: [
 		{ id: "43D755B81910D6DC", title: "Storage" },
+		{ id: "7FFE46A6C5143A10", title: "Magic" },
 		{ id: "37EAAC9D8DC49F5D", title: "Tech" },
 		{ id: "1DA1ACE38CC9E8FA", title: "Husbandry \\& Cuisine" },
 		{ id: "56962F29541F0868", title: "Weapons \\& Armor" },
-		{ id: "604087A1B90DA52E", title: "Beasts \\& Bosses" },
-		{ id: "7FFE46A6C5143A10", title: "Magic" }
+		{ id: "604087A1B90DA52E", title: "Beasts \\& Bosses" }
 	]
 }

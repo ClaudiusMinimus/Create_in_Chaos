@@ -1,0 +1,9 @@
+{
+	id: "4FF44CDCD2D11903",
+	group: "37EAAC9D8DC49F5D",
+	order_index: 2,
+	filename: "essentials",
+	title: "Essentials",
+	default_quest_shape: "",
+	quests: [ ]
+}

@@ -1,0 +1,9 @@
+{
+	id: "3C747C3D83F0EE10",
+	group: "7FFE46A6C5143A10",
+	order_index: 0,
+	filename: "apotheosis",
+	title: "Apotheosis",
+	default_quest_shape: "",
+	quests: [ ]
+}

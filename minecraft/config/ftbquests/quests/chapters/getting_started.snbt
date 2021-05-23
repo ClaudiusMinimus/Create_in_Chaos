@@ -421,6 +421,133 @@
 				type: "xp",
 				xp: 25
 			}]
+		},
+		{
+			title: "Just Enough Items (JEI)",
+			x: -1.5d,
+			y: -6.0d,
+			shape: "square",
+			description: [
+				"JEI is an item and recipe viewing mod for Minecraft.",
+				"Basic Controls:",
+				"- Inventory:",
+				"  - (Minecraft Options -> Controls)",
+				"  - Show Recipes: Hover over item + R",
+				"  - Show Uses: Hover over item + U",
+				"  - Toggle Item List Overlay: Control + O",
+				"For more information visit curseforge.com and serach mods for 'jei'"
+			],
+			dependencies: ["684FA0E505BFD43B"],
+			id: "4F860729BD2D92EB",
+			tasks: [{
+				id: "3E23A7BA34C72D7A",
+				type: "checkmark",
+				title: "Just Enough Items"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -6.0d,
+			shape: "square",
+			description: [
+				"I made a short YouTube video showing how to claim, un-claim, and force load chunks. You can view it by going to this address.",
+				"",
+				"tinyurl.com/ftbchunk",
+				"",
+				"Sorry, links do not work in quests."
+			],
+			dependencies: ["684FA0E505BFD43B"],
+			id: "3B6E98998179A87A",
+			tasks: [{
+				id: "4E2F247A311FA50B",
+				type: "checkmark",
+				title: "Chunk Claiming"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -6.0d,
+			shape: "square",
+			description: [
+				"Commands are initiated when you press the slash key '/' from within the world. Basic commands include:",
+				"/sethome will set a waypoint for your home",
+				"/home will teleport you to the home you set",
+				"/delhome delete your current hom",
+				"/spawn teleport you to spawn",
+				"/tpa allows you to request a teleport to another player. The player on the other end must accept your request for the teleport to be completed.",
+				"/rtp executes a teleport to a random location. Please note there is a cooldown period between random teleport.",
+				"/back after death you can teleport to your death point or can be used to return to a previous location.",
+				"/trashcan opens a trashcan from your inventory."
+			],
+			dependencies: ["684FA0E505BFD43B"],
+			id: "28D89D7D75CBB663",
+			tasks: [{
+				id: "3A68183CE1FFE005",
+				type: "checkmark",
+				title: "Basic Commands"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -8.0d,
+			shape: "pentagon",
+			description: [
+				"For the most part, the quests listed on the left menu are not necessarily in any particular order. However, the quests listed at the top of each category are probably good ones to start with.",
+				"",
+				"**IMPORTANT:**",
+				"It is very important that when you complete any quest that has an item or block that you place that item or block in your inventory before going to the next step. For example: In the Easy Steel quest 'Sharp Flint' if you leave it in the crafting grid and use it for the flint tools, FTB Quests will not credit you for making Sharp Flint."
+			],
+			size: 2.0d,
+			id: "684FA0E505BFD43B",
+			tasks: [{
+				id: "4601929084D98EF1",
+				type: "checkmark",
+				title: "Quest Basics - Step-by-Step"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 1.5d,
+			dependencies: ["4A659E1BEA04F29F"],
+			id: "1CDFB15043AA98E3",
+			tasks: [{
+				id: "5EB08A78FAB7E76F",
+				type: "item",
+				item: "minecraft:bamboo"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 3.0d,
+			dependencies: ["1CDFB15043AA98E3"],
+			id: "435375BE475421C8",
+			tasks: [{
+				id: "50D13DB20714B534",
+				type: "item",
+				item: "minecraft:scaffolding"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -3.5d,
+			dependencies: ["45876E96C7B8E0EE"],
+			id: "6DE2AA72D0E51A71",
+			tasks: [{
+				id: "4BA3BB68274EBED8",
+				type: "item",
+				item: "minecraft:campfire"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -4.5d,
+			dependencies: ["6DE2AA72D0E51A71"],
+			id: "1B246AA7C295922F",
+			tasks: [{
+				id: "230E579B9575F907",
+				type: "item",
+				item: "minecraft:composter"
+			}]
 		}
 	]
 }
