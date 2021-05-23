@@ -1,0 +1,910 @@
+{
+	id: "0F5E062449A22C54",
+	group: "56962F29541F0868",
+	order_index: 0,
+	filename: "easy_steel",
+	title: "Easy Steel",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Any Easy Steel Alloy",
+			x: 8.0d,
+			y: -1.0d,
+			subtitle: "Craft any Easy Steel alloy shown",
+			description: [
+				"Bronze is made by mixing copper and tin powders (3x1) in crafting table and processing the Raw Bronze in a regular Furnace.",
+				"",
+				"Steel is made by mixing carbon powder and iron powder in crafting table and processing the Raw Steel in a Blast Furnance.",
+				"",
+				"Titanium Alloy is made by mixing carbon powder and titanium powder in crafting table and processing the Raw Titanium Alloy in a Blast Furnance.",
+				"",
+				"Hardened Steel is made by mixing raw steel and carbon powder in crafting table and processing the Raw Hardened Steel in a Blast Furnance.",
+				"",
+				"Tungsten-Carbide is made by mixing tungsten powder and carbon powder in crafting table and processing the Raw Tungsten_Carbide in a Blast Furnance.",
+				"",
+				"Crack Hammer provides ore doubling for copper, tin, tungsten, iron, gold, diamond, and emerald. Carbon is obtained by using a crack hammer with coal in a crafting table."
+			],
+			dependencies: ["36ED129709E4DD7B"],
+			dependency_requirement: "one_completed",
+			id: "1150C4CDA0D9A1D3",
+			tasks: [
+				{
+					id: "29FC1AE32FAE36A3",
+					type: "item",
+					item: "easy_steel:bronze_ingot"
+				},
+				{
+					id: "3B20BC89C0A2AAD1",
+					type: "item",
+					item: "easy_steel:steel_ingot"
+				},
+				{
+					id: "2BAD909B9101A8D6",
+					type: "item",
+					item: "easy_steel:titanium_ingot"
+				},
+				{
+					id: "5A937A70DCB164B7",
+					type: "item",
+					item: "easy_steel:hardened_steel_ingot"
+				},
+				{
+					id: "7E2DFF6BB4CD243C",
+					type: "item",
+					item: "easy_steel:tungsten_carbide_ingot"
+				}
+			]
+		},
+		{
+			title: "Any Easy Steel Paxel",
+			x: 6.0d,
+			y: -1.0d,
+			subtitle: "Craft any Easy Steel Paxel shown",
+			description: [
+				"The Paxel is an amazing tool! It mines, chops, and digs most anything. My personal favorites are the Titanium or Tungsten paxels as their ores are easy to obtain and very plentiful once you get to lower levels. ",
+				"",
+				"Place an Eternal Stella in a Smithing Table with this or any tool and you have a powerful and unbreakable tool.",
+				"",
+				"Because most tools can be repaired with the same ingot/stone it was made with these tools are easily repaired in the field by placing the tool in a crafting grid with the appropriate ingot/stone."
+			],
+			dependencies: ["74F6DAF0C93A96ED"],
+			dependency_requirement: "one_completed",
+			id: "58631AF72E3C0890",
+			tasks: [
+				{
+					id: "6883073034FC7A87",
+					type: "item",
+					item: {
+						id: "easy_steel:bronze_paxel",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "49458E7285F1728E",
+					type: "item",
+					item: {
+						id: "easy_steel:steel_paxel",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "2ACB172F12C38E66",
+					type: "item",
+					item: {
+						id: "easy_steel:titanium_paxel",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "7D15A9FF118B8BE9",
+					type: "item",
+					item: {
+						id: "easy_steel:hardened_steel_paxel",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "62646E180953C080",
+					type: "item",
+					item: {
+						id: "easy_steel:tungsten_carbide_paxel",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "735BE4256BBB37AC",
+				type: "item",
+				item: {
+					id: "silentgems:enchantment_token",
+					Count: 1b,
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s,
+							id: "minecraft:efficiency"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			title: "Any Easy Steel Excavator",
+			x: 6.5d,
+			y: -2.5d,
+			subtitle: "Craft any Easy Steel Excavator shown",
+			description: [
+				"The Excavator is great for quickly mining a 3x3 area of various dirt, gravel, and sands. My personal favorites are the Titanium or Tungsten excavators as their ores are easy to obtain and very plentiful once you get to lower levels.",
+				"",
+				"Place an Eternal Stella in a Smithing Table with this or any tool and you have a powerful and unbreakable tool.",
+				"",
+				"Because most tools can be repaired with the same ingot/stone it was made with these tools are easily repaired in the field by placing the tool in a crafting grid with the appropriate ingot/stone."
+			],
+			dependencies: ["74F6DAF0C93A96ED"],
+			dependency_requirement: "one_completed",
+			id: "33F6F37A60751426",
+			tasks: [
+				{
+					id: "098B6E5152D58817",
+					type: "item",
+					item: {
+						id: "easy_steel:bronze_excavator",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "1D2B209C6F41C6AB",
+					type: "item",
+					item: {
+						id: "easy_steel:steel_excavator",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "6CF4C1A15F73CF9F",
+					type: "item",
+					item: {
+						id: "easy_steel:titanium_excavator",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "709B47AD94B6DBF1",
+					type: "item",
+					item: {
+						id: "easy_steel:hardened_steel_excavator",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "435BA2675130911A",
+					type: "item",
+					item: {
+						id: "easy_steel:tungsten_carbide_excavator",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "528183569CE8E9E7",
+				type: "item",
+				item: {
+					id: "silentgems:enchantment_token",
+					Count: 1b,
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s,
+							id: "minecraft:efficiency"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			title: "Any Easy Steel Hammer",
+			x: 6.5d,
+			y: 0.5d,
+			subtitle: "Craft any Easy Steel Hammer shown",
+			description: [
+				"The Hammer is great for quickly mining a 3x3 area of stone or ores. My personal favorites are the Titanium or Tungsten hammers as their ores are easy to obtain and very plentiful once you get to lower levels.",
+				"",
+				"Place an Eternal Stella in a Smithing Table with this or any tool and you have a powerful and unbreakable tool.",
+				"",
+				"Because most tools can be repaired with the same ingot/stone it was made with these tools are easily repaired in the field by placing the tool in a crafting grid with the appropriate ingot/stone."
+			],
+			dependencies: ["74F6DAF0C93A96ED"],
+			dependency_requirement: "one_completed",
+			id: "4A57BF05F5FE4C60",
+			tasks: [
+				{
+					id: "465EC0BBF8DD9C6C",
+					type: "item",
+					item: {
+						id: "easy_steel:bronze_hammer",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "2F0D3574D9D96DD5",
+					type: "item",
+					item: {
+						id: "easy_steel:steel_hammer",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "77D1AC9EF7CE99E4",
+					type: "item",
+					item: {
+						id: "easy_steel:titanium_hammer",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "0B3157F8C847F133",
+					type: "item",
+					item: {
+						id: "easy_steel:hardened_steel_hammer",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "2A467DAE8A8F82CD",
+					type: "item",
+					item: {
+						id: "easy_steel:tungsten_carbide_hammer",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "60D076756EA28428",
+				type: "item",
+				item: {
+					id: "silentgems:enchantment_token",
+					Count: 1b,
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s,
+							id: "minecraft:efficiency"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			title: "Any Easy Steel Helmet",
+			x: 8.0d,
+			y: -3.0d,
+			subtitle: "Craft any Easy Steel Helmet shown",
+			description: [
+				"These are an easy upgrade to your leather armor you spawned with. I often craft Bronze armor, then move into either Titanium or Tungsten as soon as possible.",
+				"",
+				"Because most armor can be repaired with the same ingot/stone it was made with these pieces of armor are easily repaired in the field by placing the armor in a crafting grid with the appropriate ingot/stone."
+			],
+			dependencies: ["74F6DAF0C93A96ED"],
+			dependency_requirement: "one_completed",
+			id: "7B12FB07A1179466",
+			tasks: [
+				{
+					id: "771D010BD9D66061",
+					type: "item",
+					item: {
+						id: "easy_steel:armor_bronze_head",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "5C3312A776B517FB",
+					type: "item",
+					item: {
+						id: "easy_steel:armor_steel_head",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "1D8B48C5480C390D",
+					type: "item",
+					item: {
+						id: "easy_steel:armor_titanium_head",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "203A51A07DEFAA32",
+					type: "item",
+					item: {
+						id: "easy_steel:armor_hardened_steel_head",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "3423227C343AEDDD",
+					type: "item",
+					item: {
+						id: "easy_steel:armor_tungsten_carbide_head",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "2151B8AE1B76AA56",
+				type: "item",
+				item: {
+					id: "silentgems:enchantment_token",
+					Count: 1b,
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s,
+							id: "minecraft:protection"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			title: "Any Easy Steel Chestplate",
+			x: 9.5d,
+			y: -2.5d,
+			subtitle: "Craft any Easy Steel Chestplate shown",
+			description: [
+				"These are an easy upgrade to your leather armor you spawned with. I often craft Bronze armor, then move into either Titanium or Tungsten as soon as possible.",
+				"",
+				"Because most armor can be repaired with the same ingot/stone it was made with these pieces of armor are easily repaired in the field by placing the armor in a crafting grid with the appropriate ingot/stone."
+			],
+			dependencies: ["74F6DAF0C93A96ED"],
+			dependency_requirement: "one_completed",
+			id: "485E897EACB8278D",
+			tasks: [
+				{
+					id: "46A5B7D1ADCA9E93",
+					type: "item",
+					item: {
+						id: "easy_steel:armor_bronze_body",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "36CDADEEE2770489",
+					type: "item",
+					item: {
+						id: "easy_steel:armor_steel_body",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "4CE3B81B2852D006",
+					type: "item",
+					item: {
+						id: "easy_steel:armor_titanium_body",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "1F74E63262B8C11F",
+					type: "item",
+					item: {
+						id: "easy_steel:armor_hardened_steel_body",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "3BC940C5D1CBF8C5",
+					type: "item",
+					item: {
+						id: "easy_steel:armor_tungsten_carbide_body",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "5AEBD01800D75910",
+				type: "item",
+				item: {
+					id: "silentgems:enchantment_token",
+					Count: 1b,
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s,
+							id: "minecraft:protection"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			title: "Any Easy Steel Leggings",
+			x: 10.0d,
+			y: -1.0d,
+			subtitle: "Craft any Easy Steel Leggings shown",
+			description: [
+				"These are an easy upgrade to your leather armor you spawned with. I often craft Bronze armor, then move into either Titanium or Tungsten as soon as possible.",
+				"",
+				"Because most armor can be repaired with the same ingot/stone it was made with these pieces of armor are easily repaired in the field by placing the armor in a crafting grid with the appropriate ingot/stone."
+			],
+			dependencies: ["74F6DAF0C93A96ED"],
+			dependency_requirement: "one_completed",
+			id: "18F2E6F8FEE1F19E",
+			tasks: [
+				{
+					id: "204F396B5E3B2F4A",
+					type: "item",
+					item: {
+						id: "easy_steel:armor_bronze_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "41C98CAD6815D18D",
+					type: "item",
+					item: {
+						id: "easy_steel:armor_steel_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "1D09CF42AA2D38CC",
+					type: "item",
+					item: {
+						id: "easy_steel:armor_titanium_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "28C1FA28D0BDD4E2",
+					type: "item",
+					item: {
+						id: "easy_steel:armor_hardened_steel_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "7D1DBFCB2BD6CB75",
+					type: "item",
+					item: {
+						id: "easy_steel:armor_tungsten_carbide_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "78070676873ECDE2",
+				type: "item",
+				item: {
+					id: "silentgems:enchantment_token",
+					Count: 1b,
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s,
+							id: "minecraft:protection"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			title: "Any Easy Steel Boots",
+			x: 9.5d,
+			y: 0.5d,
+			subtitle: "Craft any Easy Steel Boots shown",
+			description: [
+				"These are an easy upgrade to your leather armor you spawned with. I often craft Bronze armor, then move into either Titanium or Tungsten as soon as possible.",
+				"",
+				"Because most armor can be repaired with the same ingot/stone it was made with these pieces of armor are easily repaired in the field by placing the armor in a crafting grid with the appropriate ingot/stone."
+			],
+			dependencies: ["74F6DAF0C93A96ED"],
+			dependency_requirement: "one_completed",
+			id: "507BBCBC6D43F87F",
+			tasks: [
+				{
+					id: "05BABD87A3C3A926",
+					type: "item",
+					item: {
+						id: "easy_steel:armor_bronze_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "630BE4A39ECC32EF",
+					type: "item",
+					item: {
+						id: "easy_steel:armor_steel_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "61FFCBF118C287FC",
+					type: "item",
+					item: {
+						id: "easy_steel:armor_titanium_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "191E12672DF6289C",
+					type: "item",
+					item: {
+						id: "easy_steel:armor_hardened_steel_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "0FE5322CA5D38690",
+					type: "item",
+					item: {
+						id: "easy_steel:armor_tungsten_carbide_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "525280499965A9AD",
+				type: "item",
+				item: {
+					id: "silentgems:enchantment_token",
+					Count: 1b,
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s,
+							id: "minecraft:protection"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: 11.6142857142857d,
+			y: -2.5023809523809675d,
+			shape: "diamond",
+			description: ["Use a Hand Shovel to gather Sharp Flint to make flint tools.  Use on Gravel blocks, random chance to get either flint or sharp flint."],
+			size: 1.5d,
+			id: "344399DAF4CB1D02",
+			tasks: [{
+				id: "415ADCC8F23516A3",
+				type: "item",
+				item: {
+					id: "easy_steel:hand_shovel",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			title: "Sharp Flint",
+			x: 13.5d,
+			y: -4.5d,
+			description: ["Used for making flint tools"],
+			dependencies: ["36ED129709E4DD7B"],
+			id: "36C5AEAAE44F3081",
+			tasks: [{
+				id: "4F29D758DDE5A466",
+				type: "item",
+				item: "easy_steel:sharp_flint"
+			}],
+			rewards: [{
+				id: "596A8E3F3C34DA33",
+				type: "xp",
+				xp: 20
+			}]
+		},
+		{
+			x: 13.5d,
+			y: -6.0d,
+			description: ["Better than a stone shovel."],
+			dependencies: ["124BE9203171FF45"],
+			id: "4A16C5868B733DD4",
+			tasks: [{
+				id: "38174DC3E82B6BE7",
+				type: "item",
+				item: {
+					id: "easy_steel:flint_shovel",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "2463501B638F5CAA",
+				type: "item",
+				item: "minecraft:gravel",
+				count: 16
+			}]
+		},
+		{
+			x: 12.0d,
+			y: -4.5d,
+			description: ["Better than a stone axe and not only chops trees but also useful right-click on wool to obtain string."],
+			dependencies: ["124BE9203171FF45"],
+			id: "214AFD197930DABE",
+			tasks: [{
+				id: "5A0D34A80CD924E3",
+				type: "item",
+				item: {
+					id: "easy_steel:flint_hatchet",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "6C3A8A0860E967BD",
+				type: "item",
+				item: "simplefarming:orange_sapling"
+			}]
+		},
+		{
+			x: 15.0d,
+			y: -4.5d,
+			description: ["Not a weapon, but for obtaining string from wool or sheep."],
+			dependencies: ["124BE9203171FF45"],
+			id: "1162658675FF748E",
+			tasks: [{
+				id: "7C4E1B44760DC514",
+				type: "item",
+				item: {
+					id: "easy_steel:flint_knife",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "0272EFA747A01990",
+				type: "item",
+				item: "minecraft:white_wool",
+				count: 8
+			}]
+		},
+		{
+			title: "Any Easy Steel Bow",
+			x: 7.5d,
+			y: 1.5d,
+			subtitle: "Craft either one",
+			description: ["A more durable bow."],
+			dependencies: ["74F6DAF0C93A96ED"],
+			dependency_requirement: "one_completed",
+			id: "48879F225CA2C42C",
+			tasks: [
+				{
+					id: "5E31C777D8416AA5",
+					type: "item",
+					item: {
+						id: "easy_steel:steel_bow",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "549A0A1699525873",
+					type: "item",
+					item: {
+						id: "easy_steel:hardened_steel_bow",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "2642E5220C8745EE",
+				type: "item",
+				item: {
+					id: "silentgems:enchantment_token",
+					Count: 1b,
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s,
+							id: "cyclic:multishot"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			title: "Any Easy Steel Crossbow",
+			x: 8.5d,
+			y: 1.5d,
+			subtitle: "Craft either one",
+			description: ["A more accurate and durable crossbow. Also has a faster charge"],
+			dependencies: ["74F6DAF0C93A96ED"],
+			dependency_requirement: "one_completed",
+			id: "3CF480F6316E7AE7",
+			tasks: [
+				{
+					id: "5DDBD0B646436695",
+					type: "item",
+					item: {
+						id: "easy_steel:steel_crossbow",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "4E7C6AE58DA33A63",
+					type: "item",
+					item: {
+						id: "easy_steel:hardened_steel_crossbow",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: "6B3B52A5BB74991A",
+				type: "item",
+				item: {
+					id: "silentgems:enchantment_token",
+					Count: 1b,
+					tag: {
+						TokenEnchantments: [{
+							lvl: 1s,
+							id: "apotheosis:crescendo"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: 14.5d,
+			y: -3.0d,
+			dependencies: ["124BE9203171FF45"],
+			id: "1E1AD8DC4319FB54",
+			tasks: [{
+				id: "501C8FEE8DF47F81",
+				type: "item",
+				item: {
+					id: "easy_steel:flint_hoe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "66BC1D822B7B0BC6",
+				type: "item",
+				item: "minecraft:bone_meal",
+				count: 32
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -1.0d,
+			dependencies: [
+				"4B4A0FCC4843F21A",
+				"60C9D2F23A696EAA",
+				"56EB52447479A9AA"
+			],
+			id: "6ECD6548E4912D4E",
+			tasks: [{
+				id: "57963775CDE65138",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "1713267C3FCD5B13",
+				type: "item",
+				item: {
+					id: "forbidden_arcanus:eternal_stella",
+					Count: 1b,
+					tag: { }
+				}
+			}]
+		}
+	]
+}
