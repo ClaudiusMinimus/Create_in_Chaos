@@ -4,6 +4,7 @@
 	order_index: 0,
 	filename: "easy_steel",
 	title: "Easy Steel",
+	subtitle: ["Some good early game tool, weapons, and armor."],
 	default_quest_shape: "",
 	quests: [
 		{
@@ -24,7 +25,7 @@
 				"",
 				"Crack Hammer provides ore doubling for copper, tin, tungsten, iron, gold, diamond, and emerald. Carbon is obtained by using a crack hammer with coal in a crafting table."
 			],
-			dependencies: ["36ED129709E4DD7B"],
+			dependencies: ["344399DAF4CB1D02"],
 			dependency_requirement: "one_completed",
 			id: "1150C4CDA0D9A1D3",
 			tasks: [
@@ -67,7 +68,7 @@
 				"",
 				"Because most tools can be repaired with the same ingot/stone it was made with these tools are easily repaired in the field by placing the tool in a crafting grid with the appropriate ingot/stone."
 			],
-			dependencies: ["74F6DAF0C93A96ED"],
+			dependencies: ["1150C4CDA0D9A1D3"],
 			dependency_requirement: "one_completed",
 			id: "58631AF72E3C0890",
 			tasks: [
@@ -131,11 +132,11 @@
 				id: "735BE4256BBB37AC",
 				type: "item",
 				item: {
-					id: "silentgems:enchantment_token",
+					id: "minecraft:enchanted_book",
 					Count: 1b,
 					tag: {
-						TokenEnchantments: [{
-							lvl: 1s,
+						StoredEnchantments: [{
+							lvl: 2s,
 							id: "minecraft:efficiency"
 						}]
 					}
@@ -154,7 +155,7 @@
 				"",
 				"Because most tools can be repaired with the same ingot/stone it was made with these tools are easily repaired in the field by placing the tool in a crafting grid with the appropriate ingot/stone."
 			],
-			dependencies: ["74F6DAF0C93A96ED"],
+			dependencies: ["1150C4CDA0D9A1D3"],
 			dependency_requirement: "one_completed",
 			id: "33F6F37A60751426",
 			tasks: [
@@ -218,11 +219,11 @@
 				id: "528183569CE8E9E7",
 				type: "item",
 				item: {
-					id: "silentgems:enchantment_token",
+					id: "minecraft:enchanted_book",
 					Count: 1b,
 					tag: {
-						TokenEnchantments: [{
-							lvl: 1s,
+						StoredEnchantments: [{
+							lvl: 2s,
 							id: "minecraft:efficiency"
 						}]
 					}
@@ -241,7 +242,7 @@
 				"",
 				"Because most tools can be repaired with the same ingot/stone it was made with these tools are easily repaired in the field by placing the tool in a crafting grid with the appropriate ingot/stone."
 			],
-			dependencies: ["74F6DAF0C93A96ED"],
+			dependencies: ["1150C4CDA0D9A1D3"],
 			dependency_requirement: "one_completed",
 			id: "4A57BF05F5FE4C60",
 			tasks: [
@@ -305,11 +306,11 @@
 				id: "60D076756EA28428",
 				type: "item",
 				item: {
-					id: "silentgems:enchantment_token",
+					id: "minecraft:enchanted_book",
 					Count: 1b,
 					tag: {
-						TokenEnchantments: [{
-							lvl: 1s,
+						StoredEnchantments: [{
+							lvl: 2s,
 							id: "minecraft:efficiency"
 						}]
 					}
@@ -326,7 +327,7 @@
 				"",
 				"Because most armor can be repaired with the same ingot/stone it was made with these pieces of armor are easily repaired in the field by placing the armor in a crafting grid with the appropriate ingot/stone."
 			],
-			dependencies: ["74F6DAF0C93A96ED"],
+			dependencies: ["1150C4CDA0D9A1D3"],
 			dependency_requirement: "one_completed",
 			id: "7B12FB07A1179466",
 			tasks: [
@@ -390,10 +391,10 @@
 				id: "2151B8AE1B76AA56",
 				type: "item",
 				item: {
-					id: "silentgems:enchantment_token",
+					id: "minecraft:enchanted_book",
 					Count: 1b,
 					tag: {
-						TokenEnchantments: [{
+						StoredEnchantments: [{
 							lvl: 1s,
 							id: "minecraft:protection"
 						}]
@@ -411,7 +412,7 @@
 				"",
 				"Because most armor can be repaired with the same ingot/stone it was made with these pieces of armor are easily repaired in the field by placing the armor in a crafting grid with the appropriate ingot/stone."
 			],
-			dependencies: ["74F6DAF0C93A96ED"],
+			dependencies: ["1150C4CDA0D9A1D3"],
 			dependency_requirement: "one_completed",
 			id: "485E897EACB8278D",
 			tasks: [
@@ -475,10 +476,10 @@
 				id: "5AEBD01800D75910",
 				type: "item",
 				item: {
-					id: "silentgems:enchantment_token",
+					id: "minecraft:enchanted_book",
 					Count: 1b,
 					tag: {
-						TokenEnchantments: [{
+						StoredEnchantments: [{
 							lvl: 1s,
 							id: "minecraft:protection"
 						}]
@@ -496,7 +497,7 @@
 				"",
 				"Because most armor can be repaired with the same ingot/stone it was made with these pieces of armor are easily repaired in the field by placing the armor in a crafting grid with the appropriate ingot/stone."
 			],
-			dependencies: ["74F6DAF0C93A96ED"],
+			dependencies: ["1150C4CDA0D9A1D3"],
 			dependency_requirement: "one_completed",
 			id: "18F2E6F8FEE1F19E",
 			tasks: [
@@ -560,10 +561,10 @@
 				id: "78070676873ECDE2",
 				type: "item",
 				item: {
-					id: "silentgems:enchantment_token",
+					id: "minecraft:enchanted_book",
 					Count: 1b,
 					tag: {
-						TokenEnchantments: [{
+						StoredEnchantments: [{
 							lvl: 1s,
 							id: "minecraft:protection"
 						}]
@@ -581,7 +582,7 @@
 				"",
 				"Because most armor can be repaired with the same ingot/stone it was made with these pieces of armor are easily repaired in the field by placing the armor in a crafting grid with the appropriate ingot/stone."
 			],
-			dependencies: ["74F6DAF0C93A96ED"],
+			dependencies: ["1150C4CDA0D9A1D3"],
 			dependency_requirement: "one_completed",
 			id: "507BBCBC6D43F87F",
 			tasks: [
@@ -645,10 +646,10 @@
 				id: "525280499965A9AD",
 				type: "item",
 				item: {
-					id: "silentgems:enchantment_token",
+					id: "minecraft:enchanted_book",
 					Count: 1b,
 					tag: {
-						TokenEnchantments: [{
+						StoredEnchantments: [{
 							lvl: 1s,
 							id: "minecraft:protection"
 						}]
@@ -680,7 +681,7 @@
 			x: 13.5d,
 			y: -4.5d,
 			description: ["Used for making flint tools"],
-			dependencies: ["36ED129709E4DD7B"],
+			dependencies: ["344399DAF4CB1D02"],
 			id: "36C5AEAAE44F3081",
 			tasks: [{
 				id: "4F29D758DDE5A466",
@@ -697,7 +698,7 @@
 			x: 13.5d,
 			y: -6.0d,
 			description: ["Better than a stone shovel."],
-			dependencies: ["124BE9203171FF45"],
+			dependencies: ["36C5AEAAE44F3081"],
 			id: "4A16C5868B733DD4",
 			tasks: [{
 				id: "38174DC3E82B6BE7",
@@ -721,7 +722,7 @@
 			x: 12.0d,
 			y: -4.5d,
 			description: ["Better than a stone axe and not only chops trees but also useful right-click on wool to obtain string."],
-			dependencies: ["124BE9203171FF45"],
+			dependencies: ["36C5AEAAE44F3081"],
 			id: "214AFD197930DABE",
 			tasks: [{
 				id: "5A0D34A80CD924E3",
@@ -737,14 +738,14 @@
 			rewards: [{
 				id: "6C3A8A0860E967BD",
 				type: "item",
-				item: "simplefarming:orange_sapling"
+				item: "forbidden_arcanus:cherrywood_sapling"
 			}]
 		},
 		{
 			x: 15.0d,
 			y: -4.5d,
 			description: ["Not a weapon, but for obtaining string from wool or sheep."],
-			dependencies: ["124BE9203171FF45"],
+			dependencies: ["36C5AEAAE44F3081"],
 			id: "1162658675FF748E",
 			tasks: [{
 				id: "7C4E1B44760DC514",
@@ -770,7 +771,7 @@
 			y: 1.5d,
 			subtitle: "Craft either one",
 			description: ["A more durable bow."],
-			dependencies: ["74F6DAF0C93A96ED"],
+			dependencies: ["1150C4CDA0D9A1D3"],
 			dependency_requirement: "one_completed",
 			id: "48879F225CA2C42C",
 			tasks: [
@@ -801,12 +802,12 @@
 				id: "2642E5220C8745EE",
 				type: "item",
 				item: {
-					id: "silentgems:enchantment_token",
+					id: "minecraft:enchanted_book",
 					Count: 1b,
 					tag: {
-						TokenEnchantments: [{
-							lvl: 1s,
-							id: "cyclic:multishot"
+						StoredEnchantments: [{
+							lvl: 2s,
+							id: "cyclic:quickshot"
 						}]
 					}
 				}
@@ -818,7 +819,7 @@
 			y: 1.5d,
 			subtitle: "Craft either one",
 			description: ["A more accurate and durable crossbow. Also has a faster charge"],
-			dependencies: ["74F6DAF0C93A96ED"],
+			dependencies: ["1150C4CDA0D9A1D3"],
 			dependency_requirement: "one_completed",
 			id: "3CF480F6316E7AE7",
 			tasks: [
@@ -849,12 +850,12 @@
 				id: "6B3B52A5BB74991A",
 				type: "item",
 				item: {
-					id: "silentgems:enchantment_token",
+					id: "minecraft:enchanted_book",
 					Count: 1b,
 					tag: {
-						TokenEnchantments: [{
-							lvl: 1s,
-							id: "apotheosis:crescendo"
+						StoredEnchantments: [{
+							lvl: 2s,
+							id: "minecraft:quick_charge"
 						}]
 					}
 				}
@@ -863,7 +864,7 @@
 		{
 			x: 14.5d,
 			y: -3.0d,
-			dependencies: ["124BE9203171FF45"],
+			dependencies: ["36C5AEAAE44F3081"],
 			id: "1E1AD8DC4319FB54",
 			tasks: [{
 				id: "501C8FEE8DF47F81",
@@ -887,9 +888,9 @@
 			x: 4.5d,
 			y: -1.0d,
 			dependencies: [
-				"4B4A0FCC4843F21A",
-				"60C9D2F23A696EAA",
-				"56EB52447479A9AA"
+				"33F6F37A60751426",
+				"58631AF72E3C0890",
+				"4A57BF05F5FE4C60"
 			],
 			id: "6ECD6548E4912D4E",
 			tasks: [{

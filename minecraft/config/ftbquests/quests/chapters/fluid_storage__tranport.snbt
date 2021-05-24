@@ -3,7 +3,7 @@
 	group: "43D755B81910D6DC",
 	order_index: 1,
 	filename: "fluid_storage__tranport",
-	title: "Fluid Storage \\& Tranport",
+	title: "Fluid Storage \\\\& Tranport",
 	default_quest_shape: "",
 	quests: [
 		{

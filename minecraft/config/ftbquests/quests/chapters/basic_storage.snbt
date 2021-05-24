@@ -3,7 +3,7 @@
 	group: "43D755B81910D6DC",
 	order_index: 0,
 	filename: "basic_storage",
-	title: "Basic Storage \\& Transport",
+	title: "Basic Storage \\\\& Transport",
 	default_quest_shape: "",
 	quests: [
 		{

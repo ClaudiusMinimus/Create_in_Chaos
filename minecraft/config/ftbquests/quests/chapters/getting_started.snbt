@@ -4,6 +4,7 @@
 	order_index: 0,
 	filename: "getting_started",
 	title: "Getting Started",
+	icon: "minecraft:crafting_table",
 	default_quest_shape: "",
 	quests: [
 		{
