@@ -1,0 +1,12 @@
+{
+    "name": "Day 5",
+    "icon": "minecraft:writable_book",
+    "category": "journal",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "text",
+            "text": "I discovered some really nice gems while mining underground. I thought I would try to see if I could make some better tools with them, and I could! Not all gems are equal, so look them over well to find the best gems."
+        }
+    ]
+}
