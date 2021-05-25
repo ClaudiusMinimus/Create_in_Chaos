@@ -1,0 +1,9 @@
+{
+	id: "507635D70CCB9C60",
+	group: "43D755B81910D6DC",
+	order_index: 4,
+	filename: "refined_storage",
+	title: "Refined Storage",
+	default_quest_shape: "",
+	quests: [ ]
+}

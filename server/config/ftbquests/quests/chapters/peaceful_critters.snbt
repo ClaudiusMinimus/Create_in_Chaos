@@ -1,0 +1,9 @@
+{
+	id: "2E88952F5BEEAB2E",
+	group: "604087A1B90DA52E",
+	order_index: 0,
+	filename: "peaceful_critters",
+	title: "Peaceful Critters",
+	default_quest_shape: "",
+	quests: [ ]
+}

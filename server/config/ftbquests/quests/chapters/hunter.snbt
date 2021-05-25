@@ -1,0 +1,9 @@
+{
+	id: "76E9993259669F9D",
+	group: "604087A1B90DA52E",
+	order_index: 2,
+	filename: "hunter",
+	title: "Hunter",
+	default_quest_shape: "",
+	quests: [ ]
+}

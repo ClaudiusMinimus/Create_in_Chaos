@@ -1,0 +1,566 @@
+{
+	id: "76856C2CE957213A",
+	group: "56962F29541F0868",
+	order_index: 1,
+	filename: "tinkers_construct",
+	title: "Tinker's Construct",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.5d,
+			shape: "diamond",
+			size: 1.5d,
+			id: "1904BC5191AC4592",
+			tasks: [{
+				id: "6A19B6339205B72C",
+				type: "item",
+				item: "tconstruct:pattern"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 0.5d,
+			description: [
+				"The Tinker's Construct Crafting Station is part of the Tinker's multiblock crafting system. If you right-click the Crafting Station you can access any connected Tinker's Station, Part Builder, Part Chest, Modifier Chest, or Tinker's Anvil. It can also access any connected SINGLE inventory. ",
+				"",
+				'Please note the Crafting Station you made in the "Getting Started" questline looks like the Tinker\\'s Construct Crafting Station but acts completely differently. The Getting Started Crafting Station does not connect to the other Tinker\\'s stations and it can access any attached inventory.'
+			],
+			dependencies: ["1904BC5191AC4592"],
+			id: "75D8AB9CEB89D1C8",
+			tasks: [{
+				id: "0AADB204900746B0",
+				type: "item",
+				item: "tconstruct:crafting_station"
+			}]
+		},
+		{
+			title: "Part Builder",
+			x: 0.0d,
+			y: -1.5d,
+			subtitle: "Craft Any Vanilla Part Builder",
+			dependencies: ["1904BC5191AC4592"],
+			id: "5D1515D14C6A473A",
+			tasks: [{
+				id: "1BE08D40CA345D80",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "tconstruct:part_builder",
+								Count: 1b,
+								tag: {
+									texture: "minecraft:oak_planks"
+								}
+							},
+							{
+								id: "tconstruct:part_builder",
+								Count: 1b,
+								tag: {
+									texture: "minecraft:spruce_planks"
+								}
+							},
+							{
+								id: "tconstruct:part_builder",
+								Count: 1b,
+								tag: {
+									texture: "minecraft:birch_planks"
+								}
+							},
+							{
+								id: "tconstruct:part_builder",
+								Count: 1b,
+								tag: {
+									texture: "minecraft:jungle_planks"
+								}
+							},
+							{
+								id: "tconstruct:part_builder",
+								Count: 1b,
+								tag: {
+									texture: "minecraft:acacia_planks"
+								}
+							},
+							{
+								id: "tconstruct:part_builder",
+								Count: 1b,
+								tag: {
+									texture: "minecraft:dark_oak_planks"
+								}
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			title: "Tinker Station",
+			x: 1.5d,
+			y: -1.0d,
+			subtitle: "Craft Any Tinker Station",
+			dependencies: ["1904BC5191AC4592"],
+			id: "4B172848A1E98261",
+			tasks: [{
+				id: "320A56D3154192CF",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "tconstruct:tinker_station",
+								Count: 1b,
+								tag: {
+									texture: "minecraft:oak_planks"
+								}
+							},
+							{
+								id: "tconstruct:tinker_station",
+								Count: 1b,
+								tag: {
+									texture: "minecraft:spruce_planks"
+								}
+							},
+							{
+								id: "tconstruct:tinker_station",
+								Count: 1b,
+								tag: {
+									texture: "minecraft:birch_planks"
+								}
+							},
+							{
+								id: "tconstruct:tinker_station",
+								Count: 1b,
+								tag: {
+									texture: "minecraft:jungle_planks"
+								}
+							},
+							{
+								id: "tconstruct:tinker_station",
+								Count: 1b,
+								tag: {
+									texture: "minecraft:acacia_planks"
+								}
+							},
+							{
+								id: "tconstruct:tinker_station",
+								Count: 1b,
+								tag: {
+									texture: "minecraft:dark_oak_planks"
+								}
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			x: 9.5d,
+			y: 4.5d,
+			subtitle: "Craft Any Tinker's Anvil",
+			dependencies: ["42F545EC04EE5D7E"],
+			id: "0F6CE33B51FC2859",
+			tasks: [{
+				id: "1EBCC45A095DE67F",
+				type: "item",
+				title: "Tinker's Anvil",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "tconstruct:tinkers_anvil",
+								Count: 1b,
+								tag: {
+									texture: "tconstruct:slimesteel_block"
+								}
+							},
+							{
+								id: "tconstruct:tinkers_anvil",
+								Count: 1b,
+								tag: {
+									texture: "tconstruct:tinkers_bronze_block"
+								}
+							},
+							{
+								id: "tconstruct:tinkers_anvil",
+								Count: 1b,
+								tag: {
+									texture: "tconstruct:rose_gold_block"
+								}
+							},
+							{
+								id: "tconstruct:tinkers_anvil",
+								Count: 1b,
+								tag: {
+									texture: "tconstruct:pig_iron_block"
+								}
+							},
+							{
+								id: "tconstruct:tinkers_anvil",
+								Count: 1b,
+								tag: {
+									texture: "tconstruct:manyullyn_block"
+								}
+							},
+							{
+								id: "tconstruct:tinkers_anvil",
+								Count: 1b,
+								tag: {
+									texture: "tconstruct:hepatizon_block"
+								}
+							},
+							{
+								id: "tconstruct:tinkers_anvil",
+								Count: 1b,
+								tag: {
+									texture: "minecraft:netherite_block"
+								}
+							},
+							{
+								id: "tconstruct:tinkers_anvil",
+								Count: 1b,
+								tag: {
+									texture: "easy_steel:bronze_block"
+								}
+							},
+							{
+								id: "tconstruct:tinkers_anvil",
+								Count: 1b,
+								tag: {
+									texture: "create:brass_block"
+								}
+							},
+							{
+								id: "tconstruct:tinkers_anvil",
+								Count: 1b,
+								tag: {
+									texture: "immersiveengineering:storage_electrum"
+								}
+							},
+							{
+								id: "tconstruct:tinkers_anvil",
+								Count: 1b,
+								tag: {
+									texture: "immersiveengineering:storage_constantan"
+								}
+							},
+							{
+								id: "tconstruct:tinkers_anvil",
+								Count: 1b,
+								tag: {
+									texture: "easy_steel:steel_block"
+								}
+							},
+							{
+								id: "tconstruct:tinkers_anvil",
+								Count: 1b,
+								tag: {
+									texture: "immersiveengineering:storage_steel"
+								}
+							}
+						]
+					}
+				}
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 0.5d,
+			dependencies: ["1904BC5191AC4592"],
+			id: "2232723F165E73A7",
+			tasks: [{
+				id: "00AE27AA38A10C41",
+				type: "item",
+				item: "tconstruct:part_chest"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -1.0d,
+			dependencies: ["1904BC5191AC4592"],
+			id: "212A36E0C12C7C85",
+			tasks: [{
+				id: "38A4837AE245C0CF",
+				type: "item",
+				item: "tconstruct:modifier_chest"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 2.5d,
+			dependencies: ["1904BC5191AC4592"],
+			id: "2376FB302DA38680",
+			tasks: [{
+				id: "6B4DBED3097AB6F0",
+				type: "item",
+				item: {
+					id: "tconstruct:materials_and_you",
+					Count: 1b,
+					tag: {
+						mantle: {
+							book: {
+								current_page: "intro.advertisements"
+							}
+						}
+					}
+				}
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 2.0d,
+			dependencies: ["1904BC5191AC4592"],
+			id: "25CB4104D3950BD4",
+			tasks: [{
+				id: "19BFDCCA9F7C27D7",
+				type: "item",
+				item: {
+					id: "tconstruct:puny_smelting",
+					Count: 1b,
+					tag: {
+						mantle: {
+							book: {
+								current_page: "tier_two_materials.page0"
+							}
+						}
+					}
+				}
+			}]
+		},
+		{
+			x: 9.5d,
+			y: 2.5d,
+			dependencies: ["4B4C4C1BB61790B1"],
+			id: "42F545EC04EE5D7E",
+			tasks: [{
+				id: "589AEE7A3EBAAABC",
+				type: "item",
+				item: {
+					id: "tconstruct:mighty_smelting",
+					Count: 1b,
+					tag: {
+						mantle: {
+							book: {
+								current_page: ""
+							}
+						}
+					}
+				}
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 4.0d,
+			dependencies: ["2376FB302DA38680"],
+			id: "149FB4B3FA979737",
+			tasks: [{
+				id: "40C299C442EDC282",
+				type: "item",
+				item: {
+					id: "tconstruct:tinkers_gadgetry",
+					Count: 1b,
+					tag: {
+						mantle: {
+							book: {
+								current_page: "tools.damage_tools"
+							}
+						}
+					}
+				}
+			}]
+		},
+		{
+			x: 9.5d,
+			y: -1.0d,
+			dependencies: ["00B2B5CB48CDDA8C"],
+			id: "0C97096D8572D9DD",
+			tasks: [{
+				id: "32489E9B76F3C461",
+				type: "item",
+				item: {
+					id: "tconstruct:fantastic_foundry",
+					Count: 1b,
+					tag: {
+						mantle: {
+							book: {
+								current_page: "tier_four_materials.tconstruct:hepatizon"
+							}
+						}
+					}
+				}
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 3.0d,
+			dependencies: ["4B4C4C1BB61790B1"],
+			id: "7EB1D546A7B997FD",
+			tasks: [{
+				id: "4507048F8EB34B8A",
+				type: "item",
+				item: "tconstruct:melter"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 3.0d,
+			dependencies: ["25CB4104D3950BD4"],
+			id: "3E3AF33374D55F25",
+			tasks: [{
+				id: "54B42201AFE6EC20",
+				type: "item",
+				item: "tconstruct:grout",
+				count: 32L
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 4.5d,
+			dependencies: ["3E3AF33374D55F25"],
+			id: "4B4C4C1BB61790B1",
+			tasks: [{
+				id: "49BA1E5215CF0FD2",
+				type: "item",
+				item: "tconstruct:seared_brick"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 6.0d,
+			dependencies: ["4B4C4C1BB61790B1"],
+			id: "412EB9B2B4A28A9B",
+			tasks: [{
+				id: "71CCF64BA9C290E3",
+				type: "item",
+				item: "tconstruct:faucet"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: 4.5d,
+			dependencies: ["4B4C4C1BB61790B1"],
+			id: "67469CFAAA4405B4",
+			tasks: [{
+				id: "4A5806A099B9B5E9",
+				type: "item",
+				item: "tconstruct:casting_table"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 4.5d,
+			dependencies: ["4B4C4C1BB61790B1"],
+			id: "6F13A3EA356A0982",
+			tasks: [{
+				id: "110FA5CAC7F1EE02",
+				type: "item",
+				item: "tconstruct:casting_basin"
+			}]
+		},
+		{
+			x: 9.5d,
+			y: 0.5d,
+			dependencies: ["42F545EC04EE5D7E"],
+			id: "00B2B5CB48CDDA8C",
+			tasks: [{
+				id: "35430871D74194D6",
+				type: "item",
+				item: "tconstruct:smeltery_controller"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 2.5d,
+			dependencies: ["42F545EC04EE5D7E"],
+			id: "1ADF0DDA1B256BC7",
+			tasks: [{
+				id: "014DAC09F0923684",
+				type: "item",
+				item: "tconstruct:seared_tank"
+			}]
+		},
+		{
+			x: 11.0d,
+			y: 4.0d,
+			dependencies: ["42F545EC04EE5D7E"],
+			id: "7C1B362338E57C69",
+			tasks: [{
+				id: "539BB553EE182908",
+				type: "item",
+				item: "tconstruct:seared_window"
+			}]
+		},
+		{
+			x: 11.0d,
+			y: 1.0d,
+			dependencies: ["42F545EC04EE5D7E"],
+			id: "65275A58BB3DBCFC",
+			tasks: [{
+				id: "27C9E20B88C86143",
+				type: "item",
+				item: "tconstruct:seared_drain"
+			}]
+		},
+		{
+			x: 11.5d,
+			y: 2.5d,
+			dependencies: ["42F545EC04EE5D7E"],
+			id: "21484885D4E39C6E",
+			tasks: [{
+				id: "2632327594BC588E",
+				type: "item",
+				item: "tconstruct:seared_duct"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 4.0d,
+			dependencies: ["42F545EC04EE5D7E"],
+			id: "112C8D988FE7D9FA",
+			tasks: [{
+				id: "68F4C11D289006AC",
+				type: "item",
+				item: "tconstruct:seared_chute"
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 1.0d,
+			dependencies: ["42F545EC04EE5D7E"],
+			id: "68AA2AC0E2918FA4",
+			tasks: [{
+				id: "1ABA902722BFCB17",
+				type: "item",
+				item: "tconstruct:seared_bricks"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 7.5d,
+			dependencies: ["412EB9B2B4A28A9B"],
+			id: "455BB6ED9FC95632",
+			tasks: [{
+				id: "1C8FD43808905130",
+				type: "item",
+				item: "tconstruct:channel"
+			}]
+		},
+		{
+			x: 7.0d,
+			y: 4.5d,
+			dependencies: ["67469CFAAA4405B4"],
+			id: "5DCDCA2831462ADB",
+			tasks: [{
+				id: "33C096496B46B5B1",
+				type: "item",
+				item: "tconstruct:cast_chest"
+			}]
+		}
+	]
+}

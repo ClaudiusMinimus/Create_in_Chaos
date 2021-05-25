@@ -1,0 +1,9 @@
+{
+	id: "7C463444CB956AEC",
+	group: "56962F29541F0868",
+	order_index: 4,
+	filename: "wyrmroost_ii",
+	title: "Wyrmroost",
+	default_quest_shape: "",
+	quests: [ ]
+}

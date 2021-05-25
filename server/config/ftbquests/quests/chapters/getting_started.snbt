@@ -1,0 +1,554 @@
+{
+	id: "0BF331013ABF28E1",
+	group: "",
+	order_index: 0,
+	filename: "getting_started",
+	title: "Getting Started",
+	icon: "minecraft:crafting_table",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Chopping Logs",
+			x: 0.0d,
+			y: 0.0d,
+			shape: "diamond",
+			description: [
+				"You're going to need some wood, so start chopping!",
+				"",
+				"Pro Tip: Use vein-mining (press and hold ` key while chopping)"
+			],
+			size: 1.5d,
+			id: "4A659E1BEA04F29F",
+			tasks: [{
+				id: "0D36D681DC054C6F",
+				type: "item",
+				title: "Any #minecraft:logs_that_burn",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "minecraft:logs_that_burn"
+					}
+				},
+				count: 16L
+			}]
+		},
+		{
+			x: -2.5d,
+			y: -1.0d,
+			dependencies: ["4BEB230D4F7905DE"],
+			id: "23274EB29988F646",
+			tasks: [{
+				id: "340238E9C041AE5D",
+				type: "item",
+				item: "minecraft:furnace"
+			}],
+			rewards: [{
+				id: "50F5CB7D348D94FE",
+				type: "item",
+				item: "pickletweaks:coal_piece",
+				count: 64
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -1.5d,
+			dependencies: ["4A659E1BEA04F29F"],
+			id: "2405FE76A3121826",
+			tasks: [{
+				id: "640D4C32452C2E6E",
+				type: "item",
+				item: "minecraft:crafting_table"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -3.0d,
+			dependencies: ["2405FE76A3121826"],
+			id: "4C4B7AE582427546",
+			tasks: [{
+				id: "1E56FE49E444FC38",
+				type: "item",
+				item: "craftingcraft:portable_crafting"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -4.5d,
+			dependencies: ["4C4B7AE582427546"],
+			id: "3BD9FED68DCBE0D8",
+			tasks: [{
+				id: "03CD2EBB7C44DF5C",
+				type: "item",
+				item: "craftingstation:crafting_station"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 0.0d,
+			dependencies: ["4A659E1BEA04F29F"],
+			id: "4BEB230D4F7905DE",
+			tasks: [{
+				id: "095D91EB1F2A7CB9",
+				type: "item",
+				item: "minecraft:cobblestone",
+				count: 64L
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 0.0d,
+			dependencies: ["4BEB230D4F7905DE"],
+			id: "1FBB36A31460EFA4",
+			tasks: [{
+				id: "6FC22BD6C98AF730",
+				type: "item",
+				item: "minecraft:stone",
+				count: 64L
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 0.0d,
+			dependencies: ["1FBB36A31460EFA4"],
+			id: "1EE093D88E556C9C",
+			tasks: [{
+				id: "397701606A1911F5",
+				type: "item",
+				item: "minecraft:smooth_stone",
+				count: 64L
+			}]
+		},
+		{
+			x: -1.5d,
+			y: -2.5d,
+			dependencies: ["2405FE76A3121826"],
+			id: "649FF59EC4B742FA",
+			tasks: [{
+				id: "572B63969047CF72",
+				type: "item",
+				item: {
+					id: "grapple_hooks:hook_wooden",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -3.5d,
+			dependencies: ["649FF59EC4B742FA"],
+			id: "47AAE61C9F1C6CF1",
+			tasks: [{
+				id: "031DB07C44A6ADAF",
+				type: "item",
+				item: {
+					id: "grapple_hooks:hook_stone",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -4.5d,
+			dependencies: ["47AAE61C9F1C6CF1"],
+			id: "19AFBC9B04C78366",
+			tasks: [{
+				id: "717B90C279ACDC6C",
+				type: "item",
+				item: {
+					id: "grapple_hooks:hook_iron",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "29FA89BACF636E01",
+				type: "item",
+				item: "tconstruct:ender_slime_boots"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -5.5d,
+			dependencies: ["19AFBC9B04C78366"],
+			id: "6BF9B791705D12A0",
+			tasks: [{
+				id: "2A5198D3CD3BCAD0",
+				type: "item",
+				item: {
+					id: "grapple_hooks:hook_golden",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -7.5d,
+			y: -6.5d,
+			dependencies: ["6BF9B791705D12A0"],
+			id: "269BD2F0A6A5AB10",
+			tasks: [{
+				id: "17157A92D7C6F95D",
+				type: "item",
+				item: {
+					id: "grapple_hooks:hook_diamond",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 1.5d,
+			dependencies: ["4A659E1BEA04F29F"],
+			id: "4363929441E4D416",
+			tasks: [{
+				id: "2831E4D76C3C86A7",
+				type: "item",
+				item: "minecraft:iron_ore",
+				count: 12L
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 3.0d,
+			dependencies: ["4363929441E4D416"],
+			id: "6A9AF3F5ECD8E2C4",
+			tasks: [{
+				id: "5B647D8BAC6E0F81",
+				type: "item",
+				item: "minecraft:iron_ingot",
+				count: 24L
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -2.5d,
+			dependencies: ["2405FE76A3121826"],
+			id: "45876E96C7B8E0EE",
+			tasks: [{
+				id: "6E63A6A5C7076D6E",
+				type: "item",
+				title: "Hit the Sack",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 0.0d,
+			dependencies: ["4A659E1BEA04F29F"],
+			id: "09FB4328289BD237",
+			tasks: [{
+				id: "20CAD1BCB3FD8B91",
+				type: "item",
+				item: "waterstrainer:strainer_base"
+			}],
+			rewards: [{
+				id: "4D62CC2B17C8544E",
+				type: "item",
+				item: "waterstrainer:strainer_base"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -1.0d,
+			dependencies: ["684AEEDA07D713B0"],
+			id: "3EF9005C59A0D911",
+			tasks: [{
+				id: "232EE15B6B1318B4",
+				type: "item",
+				item: {
+					id: "waterstrainer:strainer_survivalist_solid",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -1.0d,
+			dependencies: ["3EF9005C59A0D911"],
+			id: "3236CCA2BE7FDE9D",
+			tasks: [{
+				id: "2DC3A68450954891",
+				type: "item",
+				item: {
+					id: "waterstrainer:strainer_survivalist_reinforced",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 1.0d,
+			dependencies: ["09FB4328289BD237"],
+			id: "4B9E3926DB1F2CFA",
+			tasks: [
+				{
+					id: "2023721E877A6994",
+					type: "item",
+					item: {
+						id: "waterstrainer:strainer_fisherman",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "45C4C4D2D0D5E123",
+					type: "item",
+					item: {
+						id: "waterstrainer:bait_pot",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [
+				{
+					id: "69E9FA4F82E076A0",
+					type: "item",
+					item: "waterstrainer:worm",
+					count: 16
+				},
+				{
+					id: "4981FEDC3C86C201",
+					type: "item",
+					item: {
+						id: "waterstrainer:garden_trowel",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: 1.0d,
+			dependencies: ["4B9E3926DB1F2CFA"],
+			id: "67A12ED65233C750",
+			tasks: [
+				{
+					id: "7EF6DD317AAA19E1",
+					type: "item",
+					item: {
+						id: "waterstrainer:strainer_fisherman_solid",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "1C848B7FE3501955",
+					type: "item",
+					item: "waterstrainer:worm_bin"
+				}
+			],
+			rewards: [{
+				id: "365B3A91694FDF7C",
+				type: "item",
+				item: "waterstrainer:efficiency_meter"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 1.0d,
+			dependencies: ["67A12ED65233C750"],
+			id: "63E35E602F643968",
+			tasks: [{
+				id: "6FBB16459F872CE2",
+				type: "item",
+				item: {
+					id: "waterstrainer:strainer_fisherman_reinforced",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "015F8CEEFADC6479",
+				type: "item",
+				item: "waterstrainer:super_worm"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -1.0d,
+			dependencies: ["09FB4328289BD237"],
+			id: "684AEEDA07D713B0",
+			tasks: [{
+				id: "42617B59BF40A108",
+				type: "item",
+				item: {
+					id: "waterstrainer:strainer_survivalist",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "53B49187377CC43F",
+				type: "xp",
+				xp: 25
+			}]
+		},
+		{
+			title: "Just Enough Items (JEI)",
+			x: -1.5d,
+			y: -6.0d,
+			shape: "square",
+			description: [
+				"JEI is an item and recipe viewing mod for Minecraft.",
+				"Basic Controls:",
+				"- Inventory:",
+				"  - (Minecraft Options -> Controls)",
+				"  - Show Recipes: Hover over item + R",
+				"  - Show Uses: Hover over item + U",
+				"  - Toggle Item List Overlay: Control + O",
+				"For more information visit curseforge.com and serach mods for 'jei'"
+			],
+			dependencies: ["684FA0E505BFD43B"],
+			id: "4F860729BD2D92EB",
+			tasks: [{
+				id: "3E23A7BA34C72D7A",
+				type: "checkmark",
+				title: "Just Enough Items"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -6.0d,
+			shape: "square",
+			description: [
+				"I made a short YouTube video showing how to claim, un-claim, and force load chunks. You can view it by going to this address.",
+				"",
+				"tinyurl.com/ftbchunk",
+				"",
+				"Sorry, links do not work in quests."
+			],
+			dependencies: ["684FA0E505BFD43B"],
+			id: "3B6E98998179A87A",
+			tasks: [{
+				id: "4E2F247A311FA50B",
+				type: "checkmark",
+				title: "Chunk Claiming"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: -6.0d,
+			shape: "square",
+			description: [
+				"Commands are initiated when you press the slash key '/' from within the world. Basic commands include:",
+				"/sethome will set a waypoint for your home",
+				"/home will teleport you to the home you set",
+				"/delhome delete your current hom",
+				"/spawn teleport you to spawn",
+				"/tpa allows you to request a teleport to another player. The player on the other end must accept your request for the teleport to be completed.",
+				"/rtp executes a teleport to a random location. Please note there is a cooldown period between random teleport.",
+				"/back after death you can teleport to your death point or can be used to return to a previous location.",
+				"/trashcan opens a trashcan from your inventory."
+			],
+			dependencies: ["684FA0E505BFD43B"],
+			id: "28D89D7D75CBB663",
+			tasks: [{
+				id: "3A68183CE1FFE005",
+				type: "checkmark",
+				title: "Basic Commands"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -8.0d,
+			shape: "pentagon",
+			description: [
+				"For the most part, the quests listed on the left menu are not necessarily in any particular order. However, the quests listed at the top of each category are probably good ones to start with.",
+				"",
+				"**IMPORTANT:**",
+				"It is very important that when you complete any quest that has an item or block that you place that item or block in your inventory before going to the next step. For example: In the Easy Steel quest 'Sharp Flint' if you leave it in the crafting grid and use it for the flint tools, FTB Quests will not credit you for making Sharp Flint."
+			],
+			size: 2.0d,
+			id: "684FA0E505BFD43B",
+			tasks: [{
+				id: "4601929084D98EF1",
+				type: "checkmark",
+				title: "Quest Basics - Step-by-Step"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 1.5d,
+			dependencies: ["4A659E1BEA04F29F"],
+			id: "1CDFB15043AA98E3",
+			tasks: [{
+				id: "5EB08A78FAB7E76F",
+				type: "item",
+				item: "minecraft:bamboo"
+			}]
+		},
+		{
+			x: -3.0d,
+			y: 3.0d,
+			dependencies: ["1CDFB15043AA98E3"],
+			id: "435375BE475421C8",
+			tasks: [{
+				id: "50D13DB20714B534",
+				type: "item",
+				item: "minecraft:scaffolding"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -3.5d,
+			dependencies: ["45876E96C7B8E0EE"],
+			id: "6DE2AA72D0E51A71",
+			tasks: [{
+				id: "4BA3BB68274EBED8",
+				type: "item",
+				item: "minecraft:campfire"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -4.5d,
+			dependencies: ["6DE2AA72D0E51A71"],
+			id: "1B246AA7C295922F",
+			tasks: [{
+				id: "230E579B9575F907",
+				type: "item",
+				item: "minecraft:composter"
+			}]
+		}
+	]
+}

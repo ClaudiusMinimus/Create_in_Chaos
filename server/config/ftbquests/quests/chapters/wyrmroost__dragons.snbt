@@ -1,0 +1,9 @@
+{
+	id: "34A5A20C6277E72F",
+	group: "604087A1B90DA52E",
+	order_index: 3,
+	filename: "wyrmroost__dragons",
+	title: "Wyrmroost - Dragons",
+	default_quest_shape: "",
+	quests: [ ]
+}
