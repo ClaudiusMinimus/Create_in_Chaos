@@ -31,6 +31,7 @@ minecraft/screenshots/*
 minecraft/texturepacks/*
 minecraft/Xaero*/*
 natives/*
+server/openloader/.cache
 server/mods/*
 server/world*
 
