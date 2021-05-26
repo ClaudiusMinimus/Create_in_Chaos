@@ -21,6 +21,7 @@ minecraft/.mixin.out/*
 minecraft/backups/*
 minecraft/config/*
 minecraft/coremods/*
+minecraft/crash-reports/*
 minecraft/global_data_packs/*
 minecraft/local/*
 minecraft/logs/*
@@ -46,4 +47,5 @@ server/world*
 !minecraft/config/forge-client.toml
 !minecraft/config/ftbchunks-client.json5
 !minecraft/config/quark-common.toml
+!minecraft/config/theoneprobe-client.toml
 !server/config/quark-common.toml
