@@ -1,9 +1,0 @@
-{
-	id: "65654643FD323ECA",
-	group: "43D755B81910D6DC",
-	order_index: 3,
-	filename: "simple_storage_network",
-	title: "Simple Storage Network",
-	default_quest_shape: "",
-	quests: [ ]
-}

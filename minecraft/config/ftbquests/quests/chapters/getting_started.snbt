@@ -549,6 +549,17 @@
 				type: "item",
 				item: "minecraft:composter"
 			}]
+		},
+		{
+			x: 0.0d,
+			y: 4.5d,
+			dependencies: ["6A9AF3F5ECD8E2C4"],
+			id: "5CE062A26B88E279",
+			tasks: [{
+				id: "302EB4A7F837CCF0",
+				type: "item",
+				item: "globalxp:xp_block"
+			}]
 		}
 	]
 }

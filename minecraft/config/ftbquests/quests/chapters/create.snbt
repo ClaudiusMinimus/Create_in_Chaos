@@ -1,9 +1,24 @@
 {
 	id: "74FE044767D115C1",
-	group: "37EAAC9D8DC49F5D",
+	group: "0A2579D302D893EF",
 	order_index: 0,
 	filename: "create",
 	title: "Create",
 	default_quest_shape: "",
-	quests: [ ]
+	quests: [{
+		x: 0.0d,
+		y: 0.0d,
+		shape: "diamond",
+		description: [
+			"Create is your primary way to automate just about anything. You can also build just about whatever you can imagine.",
+			"",
+			'With the Create .3.1 update when holding the "w" key while hovering over a kinetic block in your inventory or JEI will show detailed information. In other items, the shift key will reveal information.'
+		],
+		size: 1.5d,
+		id: "5D781897DF2C16C9",
+		tasks: [{
+			id: "148EE0D9E5157D53",
+			type: "checkmark"
+		}]
+	}]
 }

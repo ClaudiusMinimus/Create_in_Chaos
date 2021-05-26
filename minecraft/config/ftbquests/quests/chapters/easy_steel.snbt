@@ -1,6 +1,6 @@
 {
 	id: "0F5E062449A22C54",
-	group: "56962F29541F0868",
+	group: "6987EBD3219FABBD",
 	order_index: 0,
 	filename: "easy_steel",
 	title: "Easy Steel",
@@ -903,7 +903,7 @@
 				item: {
 					id: "forbidden_arcanus:eternal_stella",
 					Count: 1b,
-					tag: { }
+					tag: {}
 				}
 			}]
 		}

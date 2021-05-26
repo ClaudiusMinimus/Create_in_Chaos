@@ -1,9 +1,19 @@
 {
 	id: "3C747C3D83F0EE10",
-	group: "7FFE46A6C5143A10",
+	group: "256FB765D00D2B76",
 	order_index: 0,
 	filename: "apotheosis",
 	title: "Apotheosis",
 	default_quest_shape: "",
-	quests: [ ]
+	quests: [{
+		x: 0.0d,
+		y: 0.0d,
+		shape: "diamond",
+		size: 1.5d,
+		id: "7C189C17806ABC32",
+		tasks: [{
+			id: "6650D0AAC2657543",
+			type: "checkmark"
+		}]
+	}]
 }

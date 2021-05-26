@@ -1,9 +1,17 @@
 {
 	id: "76E9993259669F9D",
-	group: "604087A1B90DA52E",
-	order_index: 2,
+	group: "34C5A3DF1908DEB8",
+	order_index: 0,
 	filename: "hunter",
 	title: "Hunter",
 	default_quest_shape: "",
-	quests: [ ]
+	quests: [{
+		x: 0.0d,
+		y: 0.5d,
+		id: "1514CBF31D490BA2",
+		tasks: [{
+			id: "2FDD832514E123E6",
+			type: "checkmark"
+		}]
+	}]
 }

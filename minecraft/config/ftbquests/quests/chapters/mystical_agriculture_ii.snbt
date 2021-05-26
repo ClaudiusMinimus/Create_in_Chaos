@@ -1,9 +1,9 @@
 {
 	id: "4C96DE3C33903804",
-	group: "56962F29541F0868",
-	order_index: 3,
+	group: "6987EBD3219FABBD",
+	order_index: 2,
 	filename: "mystical_agriculture_ii",
 	title: "Mystical Agriculture II",
 	default_quest_shape: "",
-	quests: [ ]
+	quests: []
 }

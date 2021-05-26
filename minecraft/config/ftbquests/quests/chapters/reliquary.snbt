@@ -1,9 +1,17 @@
 {
 	id: "489311464D41869D",
-	group: "7FFE46A6C5143A10",
-	order_index: 2,
+	group: "256FB765D00D2B76",
+	order_index: 3,
 	filename: "reliquary",
 	title: "Reliquary",
 	default_quest_shape: "",
-	quests: [ ]
+	quests: [{
+		x: 0.0d,
+		y: 0.0d,
+		id: "0AFBAE04AE60DEB6",
+		tasks: [{
+			id: "3EB41E550E93BDBC",
+			type: "checkmark"
+		}]
+	}]
 }

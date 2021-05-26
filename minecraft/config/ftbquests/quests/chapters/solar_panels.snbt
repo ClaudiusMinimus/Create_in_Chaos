@@ -1,9 +1,17 @@
 {
 	id: "617B1EE55EF482F4",
-	group: "37EAAC9D8DC49F5D",
-	order_index: 4,
+	group: "0A2579D302D893EF",
+	order_index: 3,
 	filename: "solar_panels",
 	title: "Power!",
 	default_quest_shape: "",
-	quests: [ ]
+	quests: [{
+		x: 0.0d,
+		y: 0.0d,
+		id: "03755414883A06F2",
+		tasks: [{
+			id: "6247198D9C5203B5",
+			type: "checkmark"
+		}]
+	}]
 }
