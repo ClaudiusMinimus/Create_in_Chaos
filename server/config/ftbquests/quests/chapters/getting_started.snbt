@@ -93,7 +93,19 @@
 				type: "item",
 				item: "minecraft:cobblestone",
 				count: 64L
-			}]
+			}],
+			rewards: [
+				{
+					id: "731E8FCF871C96A5",
+					type: "item",
+					item: "dankstorage:dank_1"
+				},
+				{
+					id: "4FDBBBEDE41BA51F",
+					type: "item",
+					item: "dankstorage:dock"
+				}
+			]
 		},
 		{
 			x: -3.0d,
@@ -105,6 +117,11 @@
 				type: "item",
 				item: "minecraft:stone",
 				count: 64L
+			}],
+			rewards: [{
+				id: "4C7D81FF05B78216",
+				type: "item",
+				item: "dankstorage:1_to_2"
 			}]
 		},
 		{
@@ -435,7 +452,8 @@
 				"  - (Minecraft Options -> Controls)",
 				"  - Show Recipes: Hover over item + R",
 				"  - Show Uses: Hover over item + U",
-				"  - Toggle Item List Overlay: Control + O",
+				"  - Toggle Item List Overlay:",
+				"     Control + O",
 				"For more information visit curseforge.com and serach mods for 'jei'"
 			],
 			dependencies: ["684FA0E505BFD43B"],
@@ -548,6 +566,17 @@
 				id: "230E579B9575F907",
 				type: "item",
 				item: "minecraft:composter"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 4.5d,
+			dependencies: ["6A9AF3F5ECD8E2C4"],
+			id: "5CE062A26B88E279",
+			tasks: [{
+				id: "302EB4A7F837CCF0",
+				type: "item",
+				item: "globalxp:xp_block"
 			}]
 		}
 	]

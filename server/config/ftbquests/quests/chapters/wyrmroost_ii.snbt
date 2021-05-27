@@ -1,9 +1,731 @@
 {
 	id: "7C463444CB956AEC",
-	group: "56962F29541F0868",
+	group: "6987EBD3219FABBD",
 	order_index: 4,
 	filename: "wyrmroost_ii",
 	title: "Wyrmroost",
 	default_quest_shape: "",
-	quests: [ ]
+	quests: [
+		{
+			x: 1.0d,
+			y: 0.0d,
+			id: "5FD7390A6E75D128",
+			tasks: [{
+				id: "4C0B0F913A9DE272",
+				type: "item",
+				item: "wyrmroost:blue_geode"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 6.0d,
+			id: "564D77F4B73A39BD",
+			tasks: [{
+				id: "2458EEC219C8A9EE",
+				type: "item",
+				item: "wyrmroost:red_geode"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 6.0d,
+			id: "05E26A2DAE3F8242",
+			tasks: [{
+				id: "4BAEE466371DD004",
+				type: "item",
+				item: "wyrmroost:purple_geode"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 0.0d,
+			id: "37C58B4799CE9911",
+			tasks: [{
+				id: "7DC5773DBBEEE1E4",
+				type: "item",
+				item: "wyrmroost:platinum_ingot"
+			}]
+		},
+		{
+			title: "Platinum Armor",
+			x: -6.0d,
+			y: -1.5d,
+			dependencies: ["37C58B4799CE9911"],
+			id: "54F50B2E5F22B472",
+			tasks: [
+				{
+					id: "50F53923CD23C0EE",
+					type: "item",
+					item: {
+						id: "wyrmroost:platinum_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "6A35DDC61769E5FD",
+					type: "item",
+					item: {
+						id: "wyrmroost:platinum_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "553B2F0F01F55D40",
+					type: "item",
+					item: {
+						id: "wyrmroost:platinum_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "7CBACC4612D91188",
+					type: "item",
+					item: {
+						id: "wyrmroost:platinum_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Blue Geode Armor",
+			x: 1.0d,
+			y: -1.5d,
+			dependencies: ["5FD7390A6E75D128"],
+			id: "087A84130E3B5830",
+			tasks: [
+				{
+					id: "521DACD73A53FF66",
+					type: "item",
+					item: {
+						id: "wyrmroost:blue_geode_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "4A134CEA6C578A25",
+					type: "item",
+					item: {
+						id: "wyrmroost:blue_geode_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "5E18CA54C24FB477",
+					type: "item",
+					item: {
+						id: "wyrmroost:blue_geode_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "11AF99E01AACCA3F",
+					type: "item",
+					item: {
+						id: "wyrmroost:blue_geode_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Red Geode Armor",
+			x: -6.0d,
+			y: 4.5d,
+			dependencies: ["564D77F4B73A39BD"],
+			id: "33174BB2907725DE",
+			tasks: [
+				{
+					id: "4FAB12B5CF3692B8",
+					type: "item",
+					item: {
+						id: "wyrmroost:red_geode_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "15DFE099CAB94665",
+					type: "item",
+					item: {
+						id: "wyrmroost:red_geode_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "56E30CFE36C38F73",
+					type: "item",
+					item: {
+						id: "wyrmroost:red_geode_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "6196ACE4A5F61D68",
+					type: "item",
+					item: {
+						id: "wyrmroost:red_geode_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Purple Geode Armor",
+			x: 1.0d,
+			y: 4.5d,
+			dependencies: ["05E26A2DAE3F8242"],
+			id: "776F4D36C0B336AF",
+			tasks: [
+				{
+					id: "0A4F94A14A2C0A20",
+					type: "item",
+					item: {
+						id: "wyrmroost:purple_geode_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "1FC2F41A7F5283D6",
+					type: "item",
+					item: {
+						id: "wyrmroost:purple_geode_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "59447198A949DB2E",
+					type: "item",
+					item: {
+						id: "wyrmroost:purple_geode_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "370CD04E79A6C6F9",
+					type: "item",
+					item: {
+						id: "wyrmroost:purple_geode_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -7.5d,
+			y: 0.0d,
+			dependencies: ["37C58B4799CE9911"],
+			id: "2BD36743CBCE4F49",
+			tasks: [{
+				id: "3DFC133FFED54A4E",
+				type: "item",
+				item: "wyrmroost:platinum_dragon_armor"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 0.0d,
+			dependencies: ["5FD7390A6E75D128"],
+			id: "3E74F20085AD0887",
+			tasks: [{
+				id: "1A1D9F4D7FD55FDC",
+				type: "item",
+				item: "wyrmroost:blue_geode_dragon_armor"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 6.0d,
+			dependencies: ["05E26A2DAE3F8242"],
+			id: "1BE938B847738644",
+			tasks: [{
+				id: "575E5E89D78C73C5",
+				type: "item",
+				item: "wyrmroost:purple_geode_dragon_armor"
+			}]
+		},
+		{
+			x: -7.5d,
+			y: 6.0d,
+			dependencies: ["564D77F4B73A39BD"],
+			id: "1A6F24EF1BF7FF34",
+			tasks: [{
+				id: "7CF679C8527AFC75",
+				type: "item",
+				item: "wyrmroost:red_geode_dragon_armor"
+			}]
+		},
+		{
+			x: -7.5d,
+			y: -1.5d,
+			dependencies: ["54F50B2E5F22B472"],
+			id: "25C9D7CC090E0348",
+			tasks: [
+				{
+					id: "5B40D4C7D28238BF",
+					type: "item",
+					item: {
+						id: "wyrmroost:drake_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "0530A8B1857A151B",
+					type: "item",
+					item: {
+						id: "wyrmroost:drake_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "3E57DCC19E6AA8F7",
+					type: "item",
+					item: {
+						id: "wyrmroost:drake_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "1C21DF4A693E55DE",
+					type: "item",
+					item: {
+						id: "wyrmroost:drake_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		},
+		{
+			x: -4.5d,
+			y: -1.5d,
+			dependencies: ["37C58B4799CE9911"],
+			id: "42BD1FF8126E5E26",
+			tasks: [{
+				id: "52B953A5B90C9AB3",
+				type: "item",
+				item: {
+					id: "wyrmroost:platinum_sword",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 0.0d,
+			dependencies: ["37C58B4799CE9911"],
+			id: "043DFC2AB6316928",
+			tasks: [{
+				id: "2FDD4BAE15878F8F",
+				type: "item",
+				item: {
+					id: "wyrmroost:platinum_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 1.5d,
+			dependencies: ["37C58B4799CE9911"],
+			id: "19CDFE6ED42F4BA1",
+			tasks: [{
+				id: "21A80665DDF2FD5B",
+				type: "item",
+				item: {
+					id: "wyrmroost:platinum_axe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 1.5d,
+			dependencies: ["37C58B4799CE9911"],
+			id: "35FE2584E69F8931",
+			tasks: [{
+				id: "4576689C2F5B4427",
+				type: "item",
+				item: {
+					id: "wyrmroost:platinum_shovel",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -7.5d,
+			y: 1.5d,
+			dependencies: ["37C58B4799CE9911"],
+			id: "117F791647B1ACE0",
+			tasks: [{
+				id: "6517BA955DBD92D3",
+				type: "item",
+				item: {
+					id: "wyrmroost:platinum_hoe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -1.5d,
+			dependencies: ["5FD7390A6E75D128"],
+			id: "183A943DB2FDB7CC",
+			tasks: [{
+				id: "251649371611420E",
+				type: "item",
+				item: {
+					id: "wyrmroost:blue_geode_sword",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 0.0d,
+			dependencies: ["5FD7390A6E75D128"],
+			id: "499BAAAD8FFC1C03",
+			tasks: [{
+				id: "2F4DC773DD365CAA",
+				type: "item",
+				item: {
+					id: "wyrmroost:blue_geode_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 1.5d,
+			dependencies: ["5FD7390A6E75D128"],
+			id: "421EEB393351E290",
+			tasks: [{
+				id: "3D96D816ABC0C3BF",
+				type: "item",
+				item: {
+					id: "wyrmroost:blue_geode_axe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 1.5d,
+			dependencies: ["5FD7390A6E75D128"],
+			id: "0BB3A5472B462562",
+			tasks: [{
+				id: "62EE8BADC4DF1CE7",
+				type: "item",
+				item: {
+					id: "wyrmroost:blue_geode_shovel",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 1.5d,
+			dependencies: ["5FD7390A6E75D128"],
+			id: "4D47C17737F04823",
+			tasks: [{
+				id: "197CBD1C390190AE",
+				type: "item",
+				item: {
+					id: "wyrmroost:blue_geode_hoe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -1.5d,
+			dependencies: ["5FD7390A6E75D128"],
+			id: "3D4DAE01A56B33C5",
+			tasks: [{
+				id: "05AB8ED3D710FB68",
+				type: "item",
+				item: "wyrmroost:blue_geode_tipped_arrow"
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 4.5d,
+			dependencies: ["564D77F4B73A39BD"],
+			id: "6908A8957370C85F",
+			tasks: [{
+				id: "4129A7A102A5B065",
+				type: "item",
+				item: {
+					id: "wyrmroost:red_geode_sword",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 6.0d,
+			dependencies: ["564D77F4B73A39BD"],
+			id: "679D40F7C21BBF2A",
+			tasks: [{
+				id: "7D2E0E619EC5991F",
+				type: "item",
+				item: {
+					id: "wyrmroost:red_geode_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -4.5d,
+			y: 7.5d,
+			dependencies: ["564D77F4B73A39BD"],
+			id: "1A58D8AE3C19F26B",
+			tasks: [{
+				id: "697920E29CCDB21E",
+				type: "item",
+				item: {
+					id: "wyrmroost:red_geode_axe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -6.0d,
+			y: 7.5d,
+			dependencies: ["564D77F4B73A39BD"],
+			id: "69835558288570A1",
+			tasks: [{
+				id: "402858CFFD5A34D1",
+				type: "item",
+				item: {
+					id: "wyrmroost:red_geode_shovel",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -7.5d,
+			y: 7.5d,
+			dependencies: ["564D77F4B73A39BD"],
+			id: "4406446631E257A1",
+			tasks: [{
+				id: "7243E5FE8FA6E0A4",
+				type: "item",
+				item: {
+					id: "wyrmroost:red_geode_hoe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -7.5d,
+			y: 4.5d,
+			dependencies: ["564D77F4B73A39BD"],
+			id: "33487C6F429B803C",
+			tasks: [{
+				id: "6F1293D5BD8EB11F",
+				type: "item",
+				item: "wyrmroost:red_geode_tipped_arrow"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 4.5d,
+			dependencies: ["05E26A2DAE3F8242"],
+			id: "3078E56063531E10",
+			tasks: [{
+				id: "26087FACB59F096B",
+				type: "item",
+				item: {
+					id: "wyrmroost:purple_geode_sword",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 6.0d,
+			dependencies: ["05E26A2DAE3F8242"],
+			id: "006C70CB6D9A783C",
+			tasks: [{
+				id: "47D17DD0C9457988",
+				type: "item",
+				item: {
+					id: "wyrmroost:purple_geode_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 7.5d,
+			dependencies: ["05E26A2DAE3F8242"],
+			id: "511CE7388BC59D06",
+			tasks: [{
+				id: "51FEBF0A1CE0C707",
+				type: "item",
+				item: {
+					id: "wyrmroost:purple_geode_axe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 7.5d,
+			dependencies: ["05E26A2DAE3F8242"],
+			id: "10C62A6AFBC82F3C",
+			tasks: [{
+				id: "0C8F0A0009454F68",
+				type: "item",
+				item: {
+					id: "wyrmroost:purple_geode_shovel",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 7.5d,
+			dependencies: ["05E26A2DAE3F8242"],
+			id: "418EF439DDA892A9",
+			tasks: [{
+				id: "0474EEDA16A1D6E1",
+				type: "item",
+				item: {
+					id: "wyrmroost:purple_geode_hoe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 4.5d,
+			dependencies: ["05E26A2DAE3F8242"],
+			id: "768F8E6DE3DF16FE",
+			tasks: [{
+				id: "16E082D8CB072170",
+				type: "item",
+				item: "wyrmroost:purple_geode_tipped_arrow"
+			}]
+		}
+	]
 }

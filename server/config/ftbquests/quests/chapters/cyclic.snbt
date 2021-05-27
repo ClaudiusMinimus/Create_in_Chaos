@@ -1,9 +1,26 @@
 {
 	id: "20E6FC41161FB4D9",
-	group: "37EAAC9D8DC49F5D",
+	group: "0A2579D302D893EF",
 	order_index: 1,
 	filename: "cyclic",
 	title: "Cyclic",
 	default_quest_shape: "",
-	quests: [ ]
+	quests: [{
+		x: 0.0d,
+		y: 0.0d,
+		shape: "diamond",
+		size: 1.5d,
+		id: "22A4B57FAEE09ACF",
+		tasks: [{
+			id: "1ED26AA3994FF4BF",
+			type: "item",
+			item: {
+				id: "patchouli:guide_book",
+				Count: 1b,
+				tag: {
+					"patchouli:book": "cyclic:cyclic_guide_book"
+				}
+			}
+		}]
+	}]
 }
