@@ -43,9 +43,10 @@ server/world*
 !minecraft/config/ftbquests
 
 #Stop Ignoring these files
-!minecraft/config/xaerominimap.txt
+!minecraft/config/cyclic.toml
 !minecraft/config/forge-client.toml
 !minecraft/config/ftbchunks-client.json5
 !minecraft/config/quark-common.toml
 !minecraft/config/theoneprobe-client.toml
+!minecraft/config/xaerominimap.txt
 !server/config/quark-common.toml
