@@ -93,7 +93,19 @@
 				type: "item",
 				item: "minecraft:cobblestone",
 				count: 64L
-			}]
+			}],
+			rewards: [
+				{
+					id: "731E8FCF871C96A5",
+					type: "item",
+					item: "dankstorage:dank_1"
+				},
+				{
+					id: "4FDBBBEDE41BA51F",
+					type: "item",
+					item: "dankstorage:dock"
+				}
+			]
 		},
 		{
 			x: -3.0d,
@@ -105,6 +117,11 @@
 				type: "item",
 				item: "minecraft:stone",
 				count: 64L
+			}],
+			rewards: [{
+				id: "4C7D81FF05B78216",
+				type: "item",
+				item: "dankstorage:1_to_2"
 			}]
 		},
 		{
@@ -435,7 +452,8 @@
 				"  - (Minecraft Options -> Controls)",
 				"  - Show Recipes: Hover over item + R",
 				"  - Show Uses: Hover over item + U",
-				"  - Toggle Item List Overlay: Control + O",
+				"  - Toggle Item List Overlay:",
+				"     Control + O",
 				"For more information visit curseforge.com and serach mods for 'jei'"
 			],
 			dependencies: ["684FA0E505BFD43B"],

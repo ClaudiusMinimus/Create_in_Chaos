@@ -144,16 +144,6 @@
 			}]
 		},
 		{
-			x: 5.5d,
-			y: -3.5d,
-			id: "1E590A4112852E0D",
-			tasks: [{
-				id: "623832E56B9532D1",
-				type: "item",
-				item: "forbidden_arcanus:magical_farmland"
-			}]
-		},
-		{
 			x: 8.5d,
 			y: -2.0d,
 			id: "589F16CCF92EE330",
