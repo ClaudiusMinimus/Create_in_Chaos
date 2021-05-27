@@ -50,4 +50,5 @@ server/world*
 !minecraft/config/quark-common.toml
 !minecraft/config/theoneprobe-client.toml
 !minecraft/config/xaerominimap.txt
+!server/config/cyclic.toml
 !server/config/quark-common.toml
