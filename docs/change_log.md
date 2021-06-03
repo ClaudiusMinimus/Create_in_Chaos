@@ -39,7 +39,10 @@
 - Mods Removed: none
 - Other Changes:
   - Updated a few quests
-  - You can now search for UAD biomes with Natures Compass
+  - You can now search for 'UAD' biomes with Natures Compass
+  - Changed settings in minecraft/config/clienttweaks-client.toml
+    - Set autoClimbLadder = true
+    - hideOwnParticleEffects = true - This option will hide your own potion particle effects for your client, other players will still see them
 
 ## Version 0.6.0 ALPHA
 
