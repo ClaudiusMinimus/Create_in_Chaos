@@ -69,7 +69,7 @@
 				"Because most tools can be repaired with the same ingot/stone it was made with these tools are easily repaired in the field by placing the tool in a crafting grid with the appropriate ingot/stone."
 			],
 			dependencies: ["1150C4CDA0D9A1D3"],
-			dependency_requirement: "one_completed",
+			dependency_requirement: "one_started",
 			id: "58631AF72E3C0890",
 			tasks: [
 				{
@@ -156,7 +156,7 @@
 				"Because most tools can be repaired with the same ingot/stone it was made with these tools are easily repaired in the field by placing the tool in a crafting grid with the appropriate ingot/stone."
 			],
 			dependencies: ["1150C4CDA0D9A1D3"],
-			dependency_requirement: "one_completed",
+			dependency_requirement: "one_started",
 			id: "33F6F37A60751426",
 			tasks: [
 				{
@@ -243,7 +243,7 @@
 				"Because most tools can be repaired with the same ingot/stone it was made with these tools are easily repaired in the field by placing the tool in a crafting grid with the appropriate ingot/stone."
 			],
 			dependencies: ["1150C4CDA0D9A1D3"],
-			dependency_requirement: "one_completed",
+			dependency_requirement: "one_started",
 			id: "4A57BF05F5FE4C60",
 			tasks: [
 				{
@@ -328,7 +328,7 @@
 				"Because most armor can be repaired with the same ingot/stone it was made with these pieces of armor are easily repaired in the field by placing the armor in a crafting grid with the appropriate ingot/stone."
 			],
 			dependencies: ["1150C4CDA0D9A1D3"],
-			dependency_requirement: "one_completed",
+			dependency_requirement: "one_started",
 			id: "7B12FB07A1179466",
 			tasks: [
 				{
@@ -413,7 +413,7 @@
 				"Because most armor can be repaired with the same ingot/stone it was made with these pieces of armor are easily repaired in the field by placing the armor in a crafting grid with the appropriate ingot/stone."
 			],
 			dependencies: ["1150C4CDA0D9A1D3"],
-			dependency_requirement: "one_completed",
+			dependency_requirement: "one_started",
 			id: "485E897EACB8278D",
 			tasks: [
 				{
@@ -498,7 +498,7 @@
 				"Because most armor can be repaired with the same ingot/stone it was made with these pieces of armor are easily repaired in the field by placing the armor in a crafting grid with the appropriate ingot/stone."
 			],
 			dependencies: ["1150C4CDA0D9A1D3"],
-			dependency_requirement: "one_completed",
+			dependency_requirement: "one_started",
 			id: "18F2E6F8FEE1F19E",
 			tasks: [
 				{
@@ -583,7 +583,7 @@
 				"Because most armor can be repaired with the same ingot/stone it was made with these pieces of armor are easily repaired in the field by placing the armor in a crafting grid with the appropriate ingot/stone."
 			],
 			dependencies: ["1150C4CDA0D9A1D3"],
-			dependency_requirement: "one_completed",
+			dependency_requirement: "one_started",
 			id: "507BBCBC6D43F87F",
 			tasks: [
 				{
@@ -772,7 +772,7 @@
 			subtitle: "Craft either one",
 			description: ["A more durable bow."],
 			dependencies: ["1150C4CDA0D9A1D3"],
-			dependency_requirement: "one_completed",
+			dependency_requirement: "one_started",
 			id: "48879F225CA2C42C",
 			tasks: [
 				{
@@ -820,7 +820,7 @@
 			subtitle: "Craft either one",
 			description: ["A more accurate and durable crossbow. Also has a faster charge"],
 			dependencies: ["1150C4CDA0D9A1D3"],
-			dependency_requirement: "one_completed",
+			dependency_requirement: "one_started",
 			id: "3CF480F6316E7AE7",
 			tasks: [
 				{
