@@ -2,7 +2,8 @@
 
 ## Version 0.7.0 ALPHA
 
-- Mods Added: none
+- Mods Added:
+  - ftb-ranks-1604.1.1.11
 - Mods Updated:
   - AmbientSounds_v3.1.9_mc1.16.5
   - Apotheosis-1.16.4-4.6.1
