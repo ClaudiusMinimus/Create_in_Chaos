@@ -43,6 +43,7 @@ server/world*
 !minecraft/config/ftbquests
 
 #Stop Ignoring these files
+!minecraft/config/clienttweaks-client.toml
 !minecraft/config/cyclic.toml
 !minecraft/config/forge-client.toml
 !minecraft/config/ftbchunks-client.json5
