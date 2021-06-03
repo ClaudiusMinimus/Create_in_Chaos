@@ -1,5 +1,49 @@
 # Change Log
 
+## Version 0.7.0 ALPHA
+
+- Mods Added: none
+- Mods Updated:
+  - AmbientSounds_v3.1.9_mc1.16.5
+  - Apotheosis-1.16.4-4.6.1
+  - architectury-1.17.20-forge
+  - AutoRegLib-1.6-49
+  - Bookshelf-1.16.5-10.1.11
+  - Clay WorldGen-1.16.5-1.2.1
+  - Clumps-6.0.0.24
+  - Controlling-7.0.0.20
+  - CookingForBlockheads_1.16.5-9.3.2
+  - CraftingTweaks_1.16.5-12.2.1
+  - Cyclic-1.16.5-1.2.8
+  - DefaultOptions_1.16.5-12.2.1
+  - essentials-1.16.5-2.11.0
+  - extremeSoundMuffler-3.12_Forge-1.16.5
+  - FarmingForBlockheads_1.16.5-7.3.1
+  - ftb-chunks-1605.2.3-build.75
+  - ftb-essentials-1604.1.0.13
+  - ftb-quests-1605.2.1-build.39-forge
+  - ftb-teams-1604.1.0.16-forge
+  - InventoryEssentials_1.16.5-2.3.2
+  - kubejs-forge-1605.3.10-build.16
+  - MysticalAgriculture-1.16.4-4.1.8
+  - NaturesCompass-1.16.5-1.9.0 - supports UAD dimensions
+  - PickleTweaks-1.16.4-5.2.3
+  - Placebo-1.16.4-4.5.0
+  - Quark-r2.4-312
+  - rhino-1605.1.0-build.4
+  - theoneprobe-1.16-3.1.4
+  - ultra_amplified_dimension-1.16.5-9.1.4-forge
+  - Waystones_1.16.5-7.6.2
+  - Xaeros_Minimap_21.9.0.1_Forge_1.16.5
+  - XaerosWorldMap_1.14.1_Forge_1.16.5
+- Mods Removed: none
+- Other Changes:
+  - Updated a few quests
+  - You can now search for 'UAD' biomes with Natures Compass
+  - Changed settings in minecraft/config/clienttweaks-client.toml
+    - Set autoClimbLadder = true
+    - hideOwnParticleEffects = true - This option will hide your own potion particle effects for your client, other players will still see them
+
 ## Version 0.6.0 ALPHA
 
 - Mods Added:

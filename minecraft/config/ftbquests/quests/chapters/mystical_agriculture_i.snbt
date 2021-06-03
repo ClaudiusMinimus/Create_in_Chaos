@@ -1,0 +1,26 @@
+{
+	id: "424938101F6AB051",
+	group: "256FB765D00D2B76",
+	order_index: 2,
+	filename: "mystical_agriculture_i",
+	title: "Mystical Agriculture I",
+	default_quest_shape: "",
+	quests: [{
+		x: 0.0d,
+		y: 0.0d,
+		shape: "diamond",
+		size: 1.5d,
+		id: "4711F3A095919714",
+		tasks: [{
+			id: "634DE75A8CAC5739",
+			type: "item",
+			item: {
+				id: "patchouli:guide_book",
+				Count: 1b,
+				tag: {
+					"patchouli:book": "mysticalagriculture:guide"
+				}
+			}
+		}]
+	}]
+}

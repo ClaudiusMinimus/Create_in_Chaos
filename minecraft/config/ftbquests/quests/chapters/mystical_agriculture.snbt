@@ -1,9 +1,0 @@
-{
-	id: "41BF297DC630F8B4",
-	group: "1DA1ACE38CC9E8FA",
-	order_index: 2,
-	filename: "mystical_agriculture",
-	title: "Mystical Agriculture I",
-	default_quest_shape: "",
-	quests: [ ]
-}
