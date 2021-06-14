@@ -1,5 +1,12 @@
 # Change Log
 
+## Version 0.8.0 ALPHA
+
+- Mods Added:
+- Mods Updated:
+- Mods Removed: none
+- Other Changes:
+
 ## Version 0.7.0 ALPHA
 
 - Mods Added:
