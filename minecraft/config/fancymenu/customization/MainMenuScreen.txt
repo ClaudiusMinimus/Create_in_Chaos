@@ -261,7 +261,7 @@ customization {
   y = -13
   scale = 1.0
   alignment = left
-  value = Create in Chaos v.1.16.5-0.8.0 ALPHA
+  value = Create in Chaos v.1.16.5-0.8.1 ALPHA
 }
 
 customization {
