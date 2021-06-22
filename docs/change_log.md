@@ -1,5 +1,23 @@
 # Change Log
 
+## Version 0.10.0 ALPHA
+
+2021-06-22
+
+- Mods Added:
+  - createplus-1.16.4_v0.3.2
+  - glassential-forge-1.16.5-1.1.6
+  - morered-1.16.5-2.1.1.0
+- Mods Updated:
+  - refinedstorage-1.9.13
+  - rhino-1605.1.1-build.21
+  - SoL-Carrot-1.16.5-1.10.0
+  - ultra_amplified_dimension-1.16.5-9.2.1-forge
+- Mods Removed: none
+- Other Changes:
+  - Updated quests
+  - Updated Forge to 36.1.32
+
 ## Version 0.9.1 ALPHA
 
 2021-06-16
