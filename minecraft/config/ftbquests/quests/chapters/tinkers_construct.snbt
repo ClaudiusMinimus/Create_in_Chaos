@@ -16,6 +16,12 @@
 				id: "6A19B6339205B72C",
 				type: "item",
 				item: "tconstruct:pattern"
+			}],
+			rewards: [{
+				id: "7424B05D3C5DA218",
+				type: "item",
+				item: "tconstruct:pattern",
+				count: 3
 			}]
 		},
 		{
@@ -32,6 +38,12 @@
 				id: "0AADB204900746B0",
 				type: "item",
 				item: "tconstruct:crafting_station"
+			}],
+			rewards: [{
+				id: "1CE836533592FC94",
+				type: "item",
+				item: "pamhc2foodcore:fishjerkyitem",
+				count: 4
 			}]
 		},
 		{
@@ -92,6 +104,17 @@
 								}
 							}
 						]
+					}
+				}
+			}],
+			rewards: [{
+				id: "65DF20DFEFF9F44D",
+				type: "item",
+				item: {
+					id: "tconstruct:repair_kit",
+					Count: 1b,
+					tag: {
+						Material: "tconstruct:iron"
 					}
 				}
 			}]
@@ -156,13 +179,18 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "656DD2F7595E618C",
+				type: "item",
+				item: "tconstruct:reinforcement"
 			}]
 		},
 		{
-			x: 9.5d,
-			y: 4.5d,
+			x: 5.5d,
+			y: 2.5d,
 			subtitle: "Craft Any Tinker's Anvil",
-			dependencies: ["42F545EC04EE5D7E"],
+			dependencies: ["7EB1D546A7B997FD"],
 			id: "0F6CE33B51FC2859",
 			tasks: [{
 				id: "1EBCC45A095DE67F",
@@ -267,6 +295,17 @@
 						]
 					}
 				}
+			}],
+			rewards: [{
+				id: "1F69D144EC978B1C",
+				type: "item",
+				item: {
+					id: "minecraft:potion",
+					Count: 1b,
+					tag: {
+						Potion: "potionsmaster:emerald_sight"
+					}
+				}
 			}]
 		},
 		{
@@ -278,6 +317,17 @@
 				id: "00AE27AA38A10C41",
 				type: "item",
 				item: "tconstruct:part_chest"
+			}],
+			rewards: [{
+				id: "28D216A3074B0F40",
+				type: "item",
+				item: {
+					id: "tconstruct:sword_blade",
+					Count: 1b,
+					tag: {
+						Material: "tconstruct:iron"
+					}
+				}
 			}]
 		},
 		{
@@ -289,6 +339,11 @@
 				id: "38A4837AE245C0CF",
 				type: "item",
 				item: "tconstruct:modifier_chest"
+			}],
+			rewards: [{
+				id: "10FAA41FA140297F",
+				type: "item",
+				item: "minecraft:diamond"
 			}]
 		},
 		{
@@ -310,12 +365,17 @@
 						}
 					}
 				}
+			}],
+			rewards: [{
+				id: "3D63F053F1C50340",
+				type: "xp",
+				xp: 25
 			}]
 		},
 		{
-			x: 1.5d,
-			y: 2.0d,
-			dependencies: ["1904BC5191AC4592"],
+			x: 0.0d,
+			y: 4.0d,
+			dependencies: ["2376FB302DA38680"],
 			id: "25CB4104D3950BD4",
 			tasks: [{
 				id: "19BFDCCA9F7C27D7",
@@ -331,12 +391,17 @@
 						}
 					}
 				}
+			}],
+			rewards: [{
+				id: "538FB7EC583D6F41",
+				type: "xp",
+				xp: 25
 			}]
 		},
 		{
-			x: 9.5d,
-			y: 2.5d,
-			dependencies: ["4B4C4C1BB61790B1"],
+			x: 0.0d,
+			y: 5.5d,
+			dependencies: ["25CB4104D3950BD4"],
 			id: "42F545EC04EE5D7E",
 			tasks: [{
 				id: "589AEE7A3EBAAABC",
@@ -352,12 +417,17 @@
 						}
 					}
 				}
+			}],
+			rewards: [{
+				id: "407B4C455CB642B8",
+				type: "xp",
+				xp: 50
 			}]
 		},
 		{
-			x: 0.0d,
-			y: 4.0d,
-			dependencies: ["2376FB302DA38680"],
+			x: -1.5d,
+			y: 2.0d,
+			dependencies: ["1904BC5191AC4592"],
 			id: "149FB4B3FA979737",
 			tasks: [{
 				id: "40C299C442EDC282",
@@ -373,12 +443,17 @@
 						}
 					}
 				}
+			}],
+			rewards: [{
+				id: "29E1A6064B0A59BF",
+				type: "xp",
+				xp: 25
 			}]
 		},
 		{
-			x: 9.5d,
-			y: -1.0d,
-			dependencies: ["00B2B5CB48CDDA8C"],
+			x: 0.0d,
+			y: 7.0d,
+			dependencies: ["42F545EC04EE5D7E"],
 			id: "0C97096D8572D9DD",
 			tasks: [{
 				id: "32489E9B76F3C461",
@@ -394,11 +469,16 @@
 						}
 					}
 				}
+			}],
+			rewards: [{
+				id: "0107E246BBE3589B",
+				type: "xp",
+				xp: 75
 			}]
 		},
 		{
-			x: 4.0d,
-			y: 3.0d,
+			x: 5.5d,
+			y: 0.5d,
 			dependencies: ["4B4C4C1BB61790B1"],
 			id: "7EB1D546A7B997FD",
 			tasks: [{
@@ -408,120 +488,181 @@
 			}]
 		},
 		{
-			x: 2.5d,
-			y: 3.0d,
-			dependencies: ["25CB4104D3950BD4"],
+			x: 1.5d,
+			y: 2.0d,
+			dependencies: ["1904BC5191AC4592"],
 			id: "3E3AF33374D55F25",
 			tasks: [{
 				id: "54B42201AFE6EC20",
 				type: "item",
 				item: "tconstruct:grout",
 				count: 32L
+			}],
+			rewards: [{
+				id: "6EC24F64C6B11FCC",
+				type: "item",
+				item: "tconstruct:grout",
+				count: 64
 			}]
 		},
 		{
-			x: 4.0d,
-			y: 4.5d,
+			x: 3.5d,
+			y: 4.0d,
 			dependencies: ["3E3AF33374D55F25"],
 			id: "4B4C4C1BB61790B1",
 			tasks: [{
 				id: "49BA1E5215CF0FD2",
 				type: "item",
-				item: "tconstruct:seared_brick"
+				item: "tconstruct:seared_brick",
+				count: 64L
+			}],
+			rewards: [{
+				id: "2B6387689B3FAF06",
+				type: "item",
+				item: "minecraft:sand",
+				count: 64
 			}]
 		},
 		{
-			x: 4.0d,
-			y: 6.0d,
+			x: 3.5d,
+			y: 5.5d,
 			dependencies: ["4B4C4C1BB61790B1"],
 			id: "412EB9B2B4A28A9B",
 			tasks: [{
 				id: "71CCF64BA9C290E3",
 				type: "item",
 				item: "tconstruct:faucet"
+			}],
+			rewards: [{
+				id: "15962CC022AA9360",
+				type: "item",
+				item: "cyclic:clock"
 			}]
 		},
 		{
-			x: 5.5d,
-			y: 4.5d,
+			x: 5.0d,
+			y: 4.0d,
 			dependencies: ["4B4C4C1BB61790B1"],
 			id: "67469CFAAA4405B4",
 			tasks: [{
 				id: "4A5806A099B9B5E9",
 				type: "item",
 				item: "tconstruct:casting_table"
+			}],
+			rewards: [{
+				id: "1445911FC1FAED82",
+				type: "item",
+				item: "tconstruct:hammer_head_cast"
 			}]
 		},
 		{
-			x: 2.5d,
-			y: 4.5d,
+			x: 2.0d,
+			y: 4.0d,
 			dependencies: ["4B4C4C1BB61790B1"],
 			id: "6F13A3EA356A0982",
 			tasks: [{
 				id: "110FA5CAC7F1EE02",
 				type: "item",
 				item: "tconstruct:casting_basin"
+			}],
+			rewards: [{
+				id: "4DA6D9F4C6E81D27",
+				type: "item",
+				item: "minecraft:obsidian",
+				count: 8
 			}]
 		},
 		{
-			x: 9.5d,
-			y: 0.5d,
-			dependencies: ["42F545EC04EE5D7E"],
+			x: 5.5d,
+			y: -1.5d,
+			dependencies: ["7EB1D546A7B997FD"],
 			id: "00B2B5CB48CDDA8C",
 			tasks: [{
 				id: "35430871D74194D6",
 				type: "item",
 				item: "tconstruct:smeltery_controller"
+			}],
+			rewards: [{
+				id: "7AC4C5770702F2CA",
+				type: "item",
+				item: "create:copper_ore",
+				count: 8
 			}]
 		},
 		{
-			x: 7.5d,
-			y: 2.5d,
-			dependencies: ["42F545EC04EE5D7E"],
+			x: 3.5d,
+			y: 0.5d,
+			dependencies: ["7EB1D546A7B997FD"],
 			id: "1ADF0DDA1B256BC7",
 			tasks: [{
 				id: "014DAC09F0923684",
 				type: "item",
 				item: "tconstruct:seared_tank"
+			}],
+			rewards: [{
+				id: "2A3AA7759D6ACB29",
+				type: "item",
+				item: "minecraft:lava_bucket"
 			}]
 		},
 		{
-			x: 11.0d,
-			y: 4.0d,
-			dependencies: ["42F545EC04EE5D7E"],
+			x: 7.0d,
+			y: 2.0d,
+			dependencies: ["7EB1D546A7B997FD"],
 			id: "7C1B362338E57C69",
 			tasks: [{
 				id: "539BB553EE182908",
 				type: "item",
 				item: "tconstruct:seared_window"
+			}],
+			rewards: [{
+				id: "4FE514A4014367FB",
+				type: "item",
+				item: {
+					id: "tconstruct:large_plate",
+					Count: 1b,
+					tag: {
+						Material: "tconstruct:bronze"
+					}
+				}
 			}]
 		},
 		{
-			x: 11.0d,
-			y: 1.0d,
-			dependencies: ["42F545EC04EE5D7E"],
+			x: 7.0d,
+			y: -1.0d,
+			dependencies: ["7EB1D546A7B997FD"],
 			id: "65275A58BB3DBCFC",
 			tasks: [{
 				id: "27C9E20B88C86143",
 				type: "item",
 				item: "tconstruct:seared_drain"
+			}],
+			rewards: [{
+				id: "50A6AEB054F635F3",
+				type: "item",
+				item: "tconstruct:pickaxe_head_sand_cast"
 			}]
 		},
 		{
-			x: 11.5d,
-			y: 2.5d,
-			dependencies: ["42F545EC04EE5D7E"],
+			x: 7.5d,
+			y: 0.5d,
+			dependencies: ["7EB1D546A7B997FD"],
 			id: "21484885D4E39C6E",
 			tasks: [{
 				id: "2632327594BC588E",
 				type: "item",
 				item: "tconstruct:seared_duct"
+			}],
+			rewards: [{
+				id: "6461FFB4FA2CEAB4",
+				type: "item",
+				item: "tconstruct:sword_blade_sand_cast"
 			}]
 		},
 		{
-			x: 8.0d,
-			y: 4.0d,
-			dependencies: ["42F545EC04EE5D7E"],
+			x: 4.0d,
+			y: 2.0d,
+			dependencies: ["7EB1D546A7B997FD"],
 			id: "112C8D988FE7D9FA",
 			tasks: [{
 				id: "68F4C11D289006AC",
@@ -530,30 +671,42 @@
 			}]
 		},
 		{
-			x: 8.0d,
-			y: 1.0d,
-			dependencies: ["42F545EC04EE5D7E"],
+			x: 4.0d,
+			y: -1.0d,
+			dependencies: ["7EB1D546A7B997FD"],
 			id: "68AA2AC0E2918FA4",
 			tasks: [{
 				id: "1ABA902722BFCB17",
 				type: "item",
-				item: "tconstruct:seared_bricks"
+				item: "tconstruct:seared_bricks",
+				count: 32L
+			}],
+			rewards: [{
+				id: "16A5802BCB9D306A",
+				type: "item",
+				item: "minecraft:gravel",
+				count: 64
 			}]
 		},
 		{
-			x: 4.0d,
-			y: 7.5d,
+			x: 3.5d,
+			y: 7.0d,
 			dependencies: ["412EB9B2B4A28A9B"],
 			id: "455BB6ED9FC95632",
 			tasks: [{
 				id: "1C8FD43808905130",
 				type: "item",
 				item: "tconstruct:channel"
+			}],
+			rewards: [{
+				id: "3148E08150BB7C04",
+				type: "item",
+				item: "tconstruct:casting_table"
 			}]
 		},
 		{
-			x: 7.0d,
-			y: 4.5d,
+			x: 5.0d,
+			y: 5.5d,
 			dependencies: ["67469CFAAA4405B4"],
 			id: "5DCDCA2831462ADB",
 			tasks: [{

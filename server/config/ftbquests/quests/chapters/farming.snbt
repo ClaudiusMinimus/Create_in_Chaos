@@ -7,29 +7,39 @@
 	default_quest_shape: "",
 	quests: [
 		{
-			x: -2.0d,
-			y: -2.0d,
+			x: 2.0d,
+			y: -5.5d,
 			id: "15DFE40137CD1FB3",
 			tasks: [{
 				id: "6D62F69D1A6CAE5A",
 				type: "item",
 				item: "minecraft:wheat",
 				count: 32L
+			}],
+			rewards: [{
+				id: "2E01F0D74865968E",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
-			x: -0.5d,
-			y: -2.0d,
+			x: 1.0d,
+			y: -4.5d,
 			id: "2BF1E390AD2789BA",
 			tasks: [{
 				id: "016FF058FB539DC6",
 				type: "item",
 				item: "minecraft:beetroot",
 				count: 32L
+			}],
+			rewards: [{
+				id: "6850D23C4DCDC577",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
-			x: 1.0d,
+			x: 0.0d,
 			y: -2.0d,
 			id: "4F5361F48688F7F3",
 			tasks: [{
@@ -37,75 +47,97 @@
 				type: "item",
 				item: "minecraft:carrot",
 				count: 32L
+			}],
+			rewards: [{
+				id: "7B1CF7A0233305DD",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
-			x: 2.5d,
-			y: -2.0d,
+			x: 0.0d,
+			y: -3.5d,
 			id: "78EB8DE3B0D313A4",
 			tasks: [{
 				id: "3A2003263BD9B737",
 				type: "item",
 				item: "minecraft:potato",
 				count: 32L
+			}],
+			rewards: [{
+				id: "66146D6BF157F87F",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
-			x: 4.0d,
-			y: -2.0d,
+			x: 2.0d,
+			y: 0.0d,
 			id: "478A885B55E9E32C",
 			tasks: [{
 				id: "2B79E302B8525954",
 				type: "item",
 				item: "minecraft:pumpkin",
 				count: 16L
+			}],
+			rewards: [{
+				id: "59757D7ACADB9068",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
-			x: 5.5d,
-			y: -2.0d,
+			x: 1.0d,
+			y: -1.0d,
 			id: "236BF4F5E9900A27",
 			tasks: [{
 				id: "3995B82EEA9D27DF",
 				type: "item",
 				item: "minecraft:melon",
 				count: 16L
+			}],
+			rewards: [{
+				id: "2DB487F782656AD0",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
-			x: 7.0d,
-			y: -2.0d,
+			x: 6.0d,
+			y: 0.0d,
 			id: "5C8318DF3A45F843",
 			tasks: [{
 				id: "4EE302B7843C6378",
 				type: "item",
 				item: "minecraft:cocoa_beans",
 				count: 32L
+			}],
+			rewards: [{
+				id: "73958DB2D4AED2AD",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
-			x: -0.5d,
-			y: -3.5d,
-			id: "5DB770D109E98588",
-			tasks: [{
-				id: "15E2484EC6529741",
-				type: "item",
-				item: "botanypots:botany_pot"
-			}]
-		},
-		{
-			x: 1.0d,
-			y: -3.5d,
+			x: 3.0d,
+			y: -6.5d,
+			description: ["The Hopper Botany Pot is a great way to make compact maintenance-free farms. Placed on top of an inventory it will keep producing until there is no more room."],
 			id: "64E6207D2D776123",
 			tasks: [{
 				id: "68BEF8D2B9D0E221",
 				type: "item",
 				item: "botanypots:hopper_botany_pot"
+			}],
+			rewards: [{
+				id: "78AEA6FFA61D4869",
+				type: "item",
+				item: "botanypots:hopper_botany_pot"
 			}]
 		},
 		{
-			x: 2.5d,
-			y: -3.5d,
+			x: 5.0d,
+			y: -6.5d,
+			description: ["The Market block allows you to buy seeds, saplings, or other things such as bonemeal. The market allows searching and scrolling through trades, can filter by category."],
 			id: "19A278CE45F97928",
 			tasks: [{
 				id: "3411F17A4F13E58B",
@@ -114,37 +146,61 @@
 			}]
 		},
 		{
-			x: 10.0d,
+			x: 8.0d,
 			y: -3.5d,
+			description: ["The Green Fertilizer increases crop output when right-clicked on farmland. May also be applied to farmland that has been treated with Yellow Fertilizer."],
 			id: "67CB7FAE5930D8C0",
 			tasks: [{
 				id: "055B24781D6D614B",
 				type: "item",
-				item: "farmingforblockheads:green_fertilizer"
+				item: "farmingforblockheads:green_fertilizer",
+				count: 4L
+			}],
+			rewards: [{
+				id: "791E54E157B39EBA",
+				type: "item",
+				item: "farmingforblockheads:green_fertilizer",
+				count: 4
 			}]
 		},
 		{
-			x: 7.0d,
-			y: -3.5d,
+			x: 6.0d,
+			y: -5.5d,
+			description: ["The Red Fertilizer speeds up growth. May also be applied to farmland that has been treated with Yellow Fertilizer."],
 			id: "52F9D6401B0266AF",
 			tasks: [{
 				id: "7E263A28639BBEBD",
 				type: "item",
-				item: "farmingforblockheads:red_fertilizer"
+				item: "farmingforblockheads:red_fertilizer",
+				count: 4L
+			}],
+			rewards: [{
+				id: "0E1878270E2EA281",
+				type: "item",
+				item: "farmingforblockheads:red_fertilizer",
+				count: 4
 			}]
 		},
 		{
-			x: 8.5d,
-			y: -3.5d,
+			x: 7.0d,
+			y: -4.5d,
+			description: ["The Yellow Fertilizer prevents trampling. You may also apply to farmland that has been treated with Red or Green Fertilizer, but you cannot apply both."],
 			id: "3C3C4495BC103D53",
 			tasks: [{
 				id: "51BF5C06D2607104",
 				type: "item",
-				item: "farmingforblockheads:yellow_fertilizer"
+				item: "farmingforblockheads:yellow_fertilizer",
+				count: 4L
+			}],
+			rewards: [{
+				id: "60FE60270F598EE6",
+				type: "item",
+				item: "farmingforblockheads:yellow_fertilizer",
+				count: 4
 			}]
 		},
 		{
-			x: 8.5d,
+			x: 8.0d,
 			y: -2.0d,
 			id: "589F16CCF92EE330",
 			tasks: [{
@@ -152,59 +208,136 @@
 				type: "item",
 				item: "minecraft:sugar_cane",
 				count: 32L
-			}]
-		},
-		{
-			x: 10.0d,
-			y: -2.0d,
-			id: "39F9AB76BFDCFEF3",
-			tasks: [{
-				id: "76350FC11D854AF1",
-				type: "item",
-				item: "minecraft:melon",
-				count: 16L
-			}]
-		},
-		{
-			x: 11.5d,
-			y: -2.0d,
-			id: "59FF95CAC9F25AB1",
-			tasks: [{
-				id: "1C4E060D993B67CA",
-				type: "item",
-				item: "minecraft:kelp"
+			}],
+			rewards: [{
+				id: "42E175B113EA0C5D",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
 			x: 4.0d,
-			y: -0.5d,
+			y: 2.0d,
+			id: "59FF95CAC9F25AB1",
+			tasks: [{
+				id: "1C4E060D993B67CA",
+				type: "item",
+				item: "minecraft:kelp",
+				count: 32L
+			}],
+			rewards: [{
+				id: "67635E54E5E2FD09",
+				type: "xp",
+				xp: 100
+			}]
+		},
+		{
+			x: 5.0d,
+			y: 1.0d,
 			id: "101438B3EE0B12EC",
 			tasks: [{
 				id: "7CA6ACF25D193C9F",
 				type: "item",
-				item: "minecraft:brown_mushroom"
+				item: "minecraft:brown_mushroom",
+				count: 32L
+			}],
+			rewards: [{
+				id: "0542587ED8B27D58",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
-			x: 5.5d,
-			y: -0.5d,
+			x: 7.0d,
+			y: -1.0d,
 			id: "37BE5FA19237D906",
 			tasks: [{
 				id: "68AFEDD7C9AFEAE5",
 				type: "item",
 				item: "minecraft:red_mushroom"
+			}],
+			rewards: [{
+				id: "512264A51FE7C1E3",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
-			x: 2.5d,
-			y: -0.5d,
+			x: 3.0d,
+			y: 1.0d,
 			id: "4DA21C67C16FE1BB",
 			tasks: [{
 				id: "276F897D3956E6BA",
 				type: "item",
 				item: "minecraft:honey_bottle",
 				count: 8L
+			}],
+			rewards: [{
+				id: "309AB698E4E09CB4",
+				type: "xp",
+				xp: 100
 			}]
+		},
+		{
+			x: 3.923809523809524d,
+			y: -7.385714285714304d,
+			shape: "diamond",
+			description: ["To track your progress, we offer a handy book called the Food Book, crafted simply by combining a book and a carrot in any shape. This book offers a visualization of your overall progress, as well as lists of the foods you have and have not eaten."],
+			size: 1.5d,
+			id: "1D78C12FA9180BC4",
+			tasks: [{
+				id: "08B4D548A3D56762",
+				type: "item",
+				item: "solcarrot:food_book"
+			}],
+			rewards: [{
+				id: "4F5F8C79ED79A2CA",
+				type: "xp",
+				xp: 100
+			}]
+		},
+		{
+			icon: "cyclic:heart",
+			x: 4.0d,
+			y: -2.5d,
+			shape: "heart",
+			dependencies: [
+				"478A885B55E9E32C",
+				"236BF4F5E9900A27",
+				"4F5361F48688F7F3",
+				"78EB8DE3B0D313A4",
+				"2BF1E390AD2789BA",
+				"15DFE40137CD1FB3",
+				"64E6207D2D776123",
+				"1D78C12FA9180BC4",
+				"19A278CE45F97928",
+				"52F9D6401B0266AF",
+				"3C3C4495BC103D53",
+				"67CB7FAE5930D8C0",
+				"589F16CCF92EE330",
+				"37BE5FA19237D906",
+				"5C8318DF3A45F843",
+				"101438B3EE0B12EC",
+				"59FF95CAC9F25AB1",
+				"4DA21C67C16FE1BB"
+			],
+			id: "5479A7016463E7BD",
+			tasks: [{
+				id: "42E2A73ECDA1E23B",
+				type: "checkmark"
+			}],
+			rewards: [
+				{
+					id: "5719CFD3CD262392",
+					type: "item",
+					item: "xreliquary:fertile_lily_pad"
+				},
+				{
+					id: "504ED9AFA8097D0E",
+					type: "item",
+					item: "cyclic:heart"
+				}
+			]
 		}
 	]
 }

@@ -2,7 +2,10 @@ type = menu
 
 customization-meta {
   identifier = net.minecraft.client.gui.screen.MainMenuScreen
-  renderorder = foreground
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
 }
 
 customization {
@@ -18,16 +21,16 @@ customization {
 customization {
   identifier = %id=400322%
   orientation = top-left
-  x = 35
+  x = 322
   action = movebutton
-  y = 70
+  y = 90
 }
 
 customization {
   identifier = %id=400322%
-  width = 115
+  width = 112
   action = resizebutton
-  height = 20
+  height = 26
 }
 
 customization {
@@ -39,7 +42,7 @@ customization {
 customization {
   identifier = %id=400322%
   action = setbuttontexture
-  backgroundhovered = config/fancymenu/images/menu/multiplayerhover.png
+  backgroundhovered = config/fancymenu/images/menu/romultiplayer.png
   backgroundnormal = config/fancymenu/images/menu/multiplayer.png
 }
 
@@ -52,16 +55,16 @@ customization {
 customization {
   identifier = %id=604382%
   orientation = top-left
-  x = 35
+  x = 322
   action = movebutton
-  y = 120
+  y = 153
 }
 
 customization {
   identifier = %id=604382%
-  width = 55
+  width = 54
   action = resizebutton
-  height = 20
+  height = 26
 }
 
 customization {
@@ -73,7 +76,7 @@ customization {
 customization {
   identifier = %id=604382%
   action = setbuttontexture
-  backgroundhovered = config/fancymenu/images/menu/accessibilityhover.png
+  backgroundhovered = config/fancymenu/images/menu/roaccessibility.png
   backgroundnormal = config/fancymenu/images/menu/accessibility.png
 }
 
@@ -86,16 +89,16 @@ customization {
 customization {
   identifier = %id=400382%
   orientation = top-left
-  x = 35
+  x = 322
   action = movebutton
-  y = 95
+  y = 122
 }
 
 customization {
   identifier = %id=400382%
-  width = 55
+  width = 54
   action = resizebutton
-  height = 20
+  height = 26
 }
 
 customization {
@@ -107,7 +110,7 @@ customization {
 customization {
   identifier = %id=400382%
   action = setbuttontexture
-  backgroundhovered = config/fancymenu/images/menu/optionshover.png
+  backgroundhovered = config/fancymenu/images/menu/rooptions.png
   backgroundnormal = config/fancymenu/images/menu/options.png
 }
 
@@ -120,16 +123,16 @@ customization {
 customization {
   identifier = %id=502382%
   orientation = top-left
-  x = 95
+  x = 380
   action = movebutton
-  y = 145
+  y = 185
 }
 
 customization {
   identifier = %id=502382%
-  width = 55
+  width = 54
   action = resizebutton
-  height = 20
+  height = 26
 }
 
 customization {
@@ -141,7 +144,7 @@ customization {
 customization {
   identifier = %id=502382%
   action = setbuttontexture
-  backgroundhovered = config/fancymenu/images/menu/quithover.png
+  backgroundhovered = config/fancymenu/images/menu/roquit.png
   backgroundnormal = config/fancymenu/images/menu/quit.png
 }
 
@@ -154,16 +157,16 @@ customization {
 customization {
   identifier = %id=376382%
   orientation = top-left
-  x = 35
+  x = 322
   action = movebutton
-  y = 145
+  y = 185
 }
 
 customization {
   identifier = %id=376382%
-  width = 55
+  width = 54
   action = resizebutton
-  height = 20
+  height = 26
 }
 
 customization {
@@ -175,8 +178,8 @@ customization {
 customization {
   identifier = %id=376382%
   action = setbuttontexture
-  backgroundhovered = config/fancymenu/images/menu/langugehover.png
-  backgroundnormal = config/fancymenu/images/menu/languge.png
+  backgroundhovered = config/fancymenu/images/menu/rolanguage.png
+  backgroundnormal = config/fancymenu/images/menu/language.png
 }
 
 customization {
@@ -188,16 +191,16 @@ customization {
 customization {
   identifier = %id=400298%
   orientation = top-left
-  x = 35
+  x = 322
   action = movebutton
-  y = 45
+  y = 58
 }
 
 customization {
   identifier = %id=400298%
-  width = 115
+  width = 112
   action = resizebutton
-  height = 20
+  height = 26
 }
 
 customization {
@@ -209,23 +212,23 @@ customization {
 customization {
   identifier = %id=400298%
   action = setbuttontexture
-  backgroundhovered = config/fancymenu/images/menu/singleplayerhover.png
+  backgroundhovered = config/fancymenu/images/menu/rosingleplayer.png
   backgroundnormal = config/fancymenu/images/menu/singleplayer.png
 }
 
 customization {
   identifier = %id=400346%
   orientation = top-left
-  x = 95
+  x = 380
   action = movebutton
-  y = 95
+  y = 122
 }
 
 customization {
   identifier = %id=400346%
-  width = 55
+  width = 54
   action = resizebutton
-  height = 20
+  height = 26
 }
 
 customization {
@@ -237,7 +240,7 @@ customization {
 customization {
   identifier = %id=400346%
   action = setbuttontexture
-  backgroundhovered = config/fancymenu/images/menu/modshover.png
+  backgroundhovered = config/fancymenu/images/menu/romods.png
   backgroundnormal = config/fancymenu/images/menu/mods.png
 }
 
@@ -261,71 +264,93 @@ customization {
   y = -13
   scale = 1.0
   alignment = left
-  value = Create in Chaos v.1.16.5-0.7.0 ALPHA
+  value = Create in Chaos v.1.16.5-0.10.0 ALPHA
 }
 
 customization {
   orientation = top-left
   buttonaction = openlink
-  backgroundhovered = config/fancymenu/images/menu/serverhover.png
+  backgroundhovered = config/fancymenu/images/menu/robisect.png
   description = %playername%,%n%Need a server to play with friends?%n%%n%Use the code minimus%n%to get 25% off your first month!
   label = 
   hoverlabel = 
-  x = 35
-  width = 115
-  actionid = d91c9ec5-ca36-4097-8dd5-1eff848fd0221621908591279
+  x = 46
+  width = 88
+  actionid = da8d31c1-5dd3-4671-b9c7-873a3eed96cc1624143814387
   action = addbutton
-  y = 170
-  backgroundnormal = config/fancymenu/images/menu/server.png
+  y = 194
+  backgroundnormal = config/fancymenu/images/menu/bisect.png
   value = https://bisecthosting.com/minimus
-  height = 20
+  height = 17
 }
 
 customization {
   orientation = top-left
   buttonaction = openlink
-  backgroundhovered = config/fancymenu/images/menu/supporthover.png
-  description = Support
-  label = 
-  x = 95
-  width = 55
-  actionid = a3b6734e-6240-4a54-a037-9a214751396f1621908591285
-  action = addbutton
-  y = 120
-  backgroundnormal = config/fancymenu/images/menu/support.png
-  value = https://github.com/ClaudiusMinimus/Create_in_Chaos/issues
-  height = 20
-}
-
-customization {
-  orientation = top-left
-  buttonaction = openlink
-  backgroundhovered = config/fancymenu/images/social/discordhover.png
+  backgroundhovered = config/fancymenu/images/menu/rodiscord.png
   description = %playername%,%n%Please come join us on our discord server,%n%%n%We have a great community%n%and look forward to having You a be part of it!
   label = 
-  x = 53
-  width = 25
-  actionid = 99f2cce7-cbe7-419e-a1e5-8aeff81e81941621908591291
+  x = 275
+  width = 17
+  actionid = 12acf54e-7ff5-4c6d-b354-59930e82e13e1624143814394
   action = addbutton
-  y = 195
-  backgroundnormal = config/fancymenu/images/social/discord.png
+  y = 196
+  backgroundnormal = config/fancymenu/images/menu/discord.png
   value = https://discord.com/invite/jXrx4Tu
-  height = 16
+  height = 12
 }
 
 customization {
   orientation = top-left
   buttonaction = openlink
-  backgroundhovered = config/fancymenu/images/social/curseforgehover.png
+  backgroundhovered = config/fancymenu/images/menu/rocurseforge.png
   description = Create in Chaos on Curseforge
   label = 
-  x = 105
-  width = 30
-  actionid = 8f681b43-f52e-4d29-b0ed-66663f11fb251621908591295
+  x = 247
+  width = 23
+  actionid = aae9fddb-3bd5-410e-b00d-86cf01d93e901624143814400
   action = addbutton
-  y = 195
-  backgroundnormal = config/fancymenu/images/social/curseforge.png
+  y = 196
+  backgroundnormal = config/fancymenu/images/menu/curseforge.png
   value = 
-  height = 16
+  height = 13
+}
+
+customization {
+  path = config/fancymenu/images/logo.png
+  orientation = top-left
+  x = 45
+  width = 250
+  action = addtexture
+  actionid = 8510ad31-cd4b-4593-9e05-2eb9bdac870e1624140654396
+  y = 58
+  height = 135
+}
+
+customization {
+  orientation = top-left
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/images/menu/rosupport.png
+  description = Support
+  label = 
+  x = 380
+  width = 54
+  actionid = 08dcdd56-e671-4c40-b901-899881dd8b481624143814410
+  action = addbutton
+  y = 153
+  backgroundnormal = config/fancymenu/images/menu/support.png
+  value = https://github.com/ClaudiusMinimus/Create_in_Chaos/issues
+  height = 26
+}
+
+customization {
+  path = config/fancymenu/images/whiterectangle.png
+  orientation = top-left
+  x = 138
+  width = 103
+  action = addtexture
+  actionid = 0682d63c-15b3-4bc0-8468-267e5539d2831624143770408
+  y = 201
+  height = 2
 }
 

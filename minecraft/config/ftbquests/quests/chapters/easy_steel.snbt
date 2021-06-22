@@ -26,35 +26,40 @@
 				"Crack Hammer provides ore doubling for copper, tin, tungsten, iron, gold, diamond, and emerald. Carbon is obtained by using a crack hammer with coal in a crafting table."
 			],
 			dependencies: ["344399DAF4CB1D02"],
-			dependency_requirement: "one_completed",
+			dependency_requirement: "one_started",
 			id: "1150C4CDA0D9A1D3",
-			tasks: [
-				{
-					id: "29FC1AE32FAE36A3",
-					type: "item",
-					item: "easy_steel:bronze_ingot"
-				},
-				{
-					id: "3B20BC89C0A2AAD1",
-					type: "item",
-					item: "easy_steel:steel_ingot"
-				},
-				{
-					id: "2BAD909B9101A8D6",
-					type: "item",
-					item: "easy_steel:titanium_ingot"
-				},
-				{
-					id: "5A937A70DCB164B7",
-					type: "item",
-					item: "easy_steel:hardened_steel_ingot"
-				},
-				{
-					id: "7E2DFF6BB4CD243C",
-					type: "item",
-					item: "easy_steel:tungsten_carbide_ingot"
+			tasks: [{
+				id: "29FC1AE32FAE36A3",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "easy_steel:bronze_ingot",
+								Count: 1b
+							},
+							{
+								id: "easy_steel:steel_ingot",
+								Count: 1b
+							},
+							{
+								id: "easy_steel:titanium_ingot",
+								Count: 1b
+							},
+							{
+								id: "easy_steel:hardened_steel_ingot",
+								Count: 1b
+							},
+							{
+								id: "easy_steel:tungsten_carbide_ingot",
+								Count: 1b
+							}
+						]
+					}
 				}
-			]
+			}]
 		},
 		{
 			title: "Any Easy Steel Paxel",
@@ -71,63 +76,54 @@
 			dependencies: ["1150C4CDA0D9A1D3"],
 			dependency_requirement: "one_started",
 			id: "58631AF72E3C0890",
-			tasks: [
-				{
-					id: "6883073034FC7A87",
-					type: "item",
-					item: {
-						id: "easy_steel:bronze_paxel",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "49458E7285F1728E",
-					type: "item",
-					item: {
-						id: "easy_steel:steel_paxel",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "2ACB172F12C38E66",
-					type: "item",
-					item: {
-						id: "easy_steel:titanium_paxel",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "7D15A9FF118B8BE9",
-					type: "item",
-					item: {
-						id: "easy_steel:hardened_steel_paxel",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "62646E180953C080",
-					type: "item",
-					item: {
-						id: "easy_steel:tungsten_carbide_paxel",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "6883073034FC7A87",
+				type: "item",
+				title: "Any Easy Steel Paxel",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "easy_steel:bronze_paxel",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "easy_steel:steel_paxel",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "easy_steel:titanium_paxel",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "easy_steel:hardened_steel_paxel",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "easy_steel:tungsten_carbide_paxel",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							}
+						]
 					}
 				}
-			],
+			}],
 			rewards: [{
 				id: "735BE4256BBB37AC",
 				type: "item",
@@ -158,63 +154,53 @@
 			dependencies: ["1150C4CDA0D9A1D3"],
 			dependency_requirement: "one_started",
 			id: "33F6F37A60751426",
-			tasks: [
-				{
-					id: "098B6E5152D58817",
-					type: "item",
-					item: {
-						id: "easy_steel:bronze_excavator",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "1D2B209C6F41C6AB",
-					type: "item",
-					item: {
-						id: "easy_steel:steel_excavator",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "6CF4C1A15F73CF9F",
-					type: "item",
-					item: {
-						id: "easy_steel:titanium_excavator",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "709B47AD94B6DBF1",
-					type: "item",
-					item: {
-						id: "easy_steel:hardened_steel_excavator",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "435BA2675130911A",
-					type: "item",
-					item: {
-						id: "easy_steel:tungsten_carbide_excavator",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "098B6E5152D58817",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "easy_steel:bronze_excavator",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "easy_steel:steel_excavator",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "easy_steel:titanium_excavator",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "easy_steel:hardened_steel_excavator",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "easy_steel:tungsten_carbide_excavator",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							}
+						]
 					}
 				}
-			],
+			}],
 			rewards: [{
 				id: "528183569CE8E9E7",
 				type: "item",
@@ -245,63 +231,53 @@
 			dependencies: ["1150C4CDA0D9A1D3"],
 			dependency_requirement: "one_started",
 			id: "4A57BF05F5FE4C60",
-			tasks: [
-				{
-					id: "465EC0BBF8DD9C6C",
-					type: "item",
-					item: {
-						id: "easy_steel:bronze_hammer",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "2F0D3574D9D96DD5",
-					type: "item",
-					item: {
-						id: "easy_steel:steel_hammer",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "77D1AC9EF7CE99E4",
-					type: "item",
-					item: {
-						id: "easy_steel:titanium_hammer",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "0B3157F8C847F133",
-					type: "item",
-					item: {
-						id: "easy_steel:hardened_steel_hammer",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "2A467DAE8A8F82CD",
-					type: "item",
-					item: {
-						id: "easy_steel:tungsten_carbide_hammer",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "77D1AC9EF7CE99E4",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "easy_steel:bronze_hammer",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "easy_steel:steel_hammer",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "easy_steel:titanium_hammer",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "easy_steel:hardened_steel_hammer",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "easy_steel:tungsten_carbide_hammer",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							}
+						]
 					}
 				}
-			],
+			}],
 			rewards: [{
 				id: "60D076756EA28428",
 				type: "item",
@@ -330,63 +306,53 @@
 			dependencies: ["1150C4CDA0D9A1D3"],
 			dependency_requirement: "one_started",
 			id: "7B12FB07A1179466",
-			tasks: [
-				{
-					id: "771D010BD9D66061",
-					type: "item",
-					item: {
-						id: "easy_steel:armor_bronze_head",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "5C3312A776B517FB",
-					type: "item",
-					item: {
-						id: "easy_steel:armor_steel_head",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "1D8B48C5480C390D",
-					type: "item",
-					item: {
-						id: "easy_steel:armor_titanium_head",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "203A51A07DEFAA32",
-					type: "item",
-					item: {
-						id: "easy_steel:armor_hardened_steel_head",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "3423227C343AEDDD",
-					type: "item",
-					item: {
-						id: "easy_steel:armor_tungsten_carbide_head",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "771D010BD9D66061",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "easy_steel:armor_bronze_head",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "easy_steel:armor_hardened_steel_head",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "easy_steel:armor_steel_head",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "easy_steel:armor_titanium_head",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "easy_steel:armor_tungsten_carbide_head",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							}
+						]
 					}
 				}
-			],
+			}],
 			rewards: [{
 				id: "2151B8AE1B76AA56",
 				type: "item",
@@ -415,63 +381,53 @@
 			dependencies: ["1150C4CDA0D9A1D3"],
 			dependency_requirement: "one_started",
 			id: "485E897EACB8278D",
-			tasks: [
-				{
-					id: "46A5B7D1ADCA9E93",
-					type: "item",
-					item: {
-						id: "easy_steel:armor_bronze_body",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "36CDADEEE2770489",
-					type: "item",
-					item: {
-						id: "easy_steel:armor_steel_body",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "4CE3B81B2852D006",
-					type: "item",
-					item: {
-						id: "easy_steel:armor_titanium_body",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "1F74E63262B8C11F",
-					type: "item",
-					item: {
-						id: "easy_steel:armor_hardened_steel_body",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "3BC940C5D1CBF8C5",
-					type: "item",
-					item: {
-						id: "easy_steel:armor_tungsten_carbide_body",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "46A5B7D1ADCA9E93",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "easy_steel:armor_bronze_body",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "easy_steel:armor_hardened_steel_body",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "easy_steel:armor_steel_body",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "easy_steel:armor_titanium_body",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "easy_steel:armor_tungsten_carbide_body",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							}
+						]
 					}
 				}
-			],
+			}],
 			rewards: [{
 				id: "5AEBD01800D75910",
 				type: "item",
@@ -500,63 +456,53 @@
 			dependencies: ["1150C4CDA0D9A1D3"],
 			dependency_requirement: "one_started",
 			id: "18F2E6F8FEE1F19E",
-			tasks: [
-				{
-					id: "204F396B5E3B2F4A",
-					type: "item",
-					item: {
-						id: "easy_steel:armor_bronze_leggings",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "41C98CAD6815D18D",
-					type: "item",
-					item: {
-						id: "easy_steel:armor_steel_leggings",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "1D09CF42AA2D38CC",
-					type: "item",
-					item: {
-						id: "easy_steel:armor_titanium_leggings",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "28C1FA28D0BDD4E2",
-					type: "item",
-					item: {
-						id: "easy_steel:armor_hardened_steel_leggings",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "7D1DBFCB2BD6CB75",
-					type: "item",
-					item: {
-						id: "easy_steel:armor_tungsten_carbide_leggings",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "7C9C3A49E5C804DE",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "easy_steel:armor_bronze_leggings",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "easy_steel:armor_hardened_steel_leggings",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "easy_steel:armor_steel_leggings",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "easy_steel:armor_titanium_leggings",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "easy_steel:armor_tungsten_carbide_leggings",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							}
+						]
 					}
 				}
-			],
+			}],
 			rewards: [{
 				id: "78070676873ECDE2",
 				type: "item",
@@ -585,63 +531,53 @@
 			dependencies: ["1150C4CDA0D9A1D3"],
 			dependency_requirement: "one_started",
 			id: "507BBCBC6D43F87F",
-			tasks: [
-				{
-					id: "05BABD87A3C3A926",
-					type: "item",
-					item: {
-						id: "easy_steel:armor_bronze_boots",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "630BE4A39ECC32EF",
-					type: "item",
-					item: {
-						id: "easy_steel:armor_steel_boots",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "61FFCBF118C287FC",
-					type: "item",
-					item: {
-						id: "easy_steel:armor_titanium_boots",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "191E12672DF6289C",
-					type: "item",
-					item: {
-						id: "easy_steel:armor_hardened_steel_boots",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "0FE5322CA5D38690",
-					type: "item",
-					item: {
-						id: "easy_steel:armor_tungsten_carbide_boots",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "05BABD87A3C3A926",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "easy_steel:armor_bronze_boots",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "easy_steel:armor_hardened_steel_boots",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "easy_steel:armor_steel_boots",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "easy_steel:armor_titanium_boots",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "easy_steel:armor_tungsten_carbide_boots",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							}
+						]
 					}
 				}
-			],
+			}],
 			rewards: [{
 				id: "525280499965A9AD",
 				type: "item",
@@ -662,7 +598,7 @@
 			y: -2.5023809523809675d,
 			shape: "diamond",
 			description: ["Use a Hand Shovel to gather Sharp Flint to make flint tools.  Use on Gravel blocks, random chance to get either flint or sharp flint."],
-			size: 1.5d,
+			size: 2.0d,
 			id: "344399DAF4CB1D02",
 			tasks: [{
 				id: "415ADCC8F23516A3",
@@ -674,6 +610,12 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: "614FB8E60FCB7470",
+				type: "item",
+				item: "minecraft:gravel",
+				count: 8
 			}]
 		},
 		{
@@ -774,30 +716,32 @@
 			dependencies: ["1150C4CDA0D9A1D3"],
 			dependency_requirement: "one_started",
 			id: "48879F225CA2C42C",
-			tasks: [
-				{
-					id: "5E31C777D8416AA5",
-					type: "item",
-					item: {
-						id: "easy_steel:steel_bow",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "549A0A1699525873",
-					type: "item",
-					item: {
-						id: "easy_steel:hardened_steel_bow",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "5E31C777D8416AA5",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "easy_steel:steel_bow",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							},
+							{
+								id: "easy_steel:hardened_steel_bow",
+								Count: 1b,
+								tag: {
+									Damage: 0
+								}
+							}
+						]
 					}
 				}
-			],
+			}],
 			rewards: [{
 				id: "2642E5220C8745EE",
 				type: "item",
@@ -822,30 +766,18 @@
 			dependencies: ["1150C4CDA0D9A1D3"],
 			dependency_requirement: "one_started",
 			id: "3CF480F6316E7AE7",
-			tasks: [
-				{
-					id: "5DDBD0B646436695",
-					type: "item",
-					item: {
-						id: "easy_steel:steel_crossbow",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "4E7C6AE58DA33A63",
-					type: "item",
-					item: {
-						id: "easy_steel:hardened_steel_crossbow",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "5DDBD0B646436695",
+				type: "item",
+				title: "Any Easy Steel Crossbow",
+				item: {
+					id: "easy_steel:steel_crossbow",
+					Count: 1b,
+					tag: {
+						Damage: 0
 					}
 				}
-			],
+			}],
 			rewards: [{
 				id: "6B3B52A5BB74991A",
 				type: "item",

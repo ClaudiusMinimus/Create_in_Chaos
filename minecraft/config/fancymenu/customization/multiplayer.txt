@@ -2,22 +2,25 @@ type = menu
 
 customization-meta {
   identifier = net.minecraft.client.gui.screen.MultiplayerScreen
+  randomgroup = 1
   renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
 }
 
 customization {
-  path = config/fancymenu/images/backgroundnologo.png
+  path = config/fancymenu/images/background.png
   action = texturizebackground
 }
 
 customization {
-  path = config/fancymenu/images/cic_logo.png
+  path = config/fancymenu/images/logo.png
   orientation = bottom-right
-  x = -50
-  width = 45
+  x = -76
+  width = 66
   action = addtexture
-  actionid = 8a898310-9944-46a1-b068-9635e9c7cff31621542958822
-  y = -53
-  height = 45
+  actionid = f6d13c0e-b5f3-4c87-9588-d6a68cba81af1624143025642
+  y = -46
+  height = 35
 }
 

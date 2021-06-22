@@ -1,6 +1,7 @@
 #Ignore these files
 *.log
 builds/cic-server*.zip
+builds/Forge*.zip
 minecraft/BotaniaVars.dat
 minecraft/knownkeys.txt
 minecraft/options.txt

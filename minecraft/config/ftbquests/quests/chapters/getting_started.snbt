@@ -31,7 +31,20 @@
 					}
 				},
 				count: 16L
-			}]
+			}],
+			rewards: [
+				{
+					id: "6ABDCF1F85D08C7F",
+					type: "item",
+					item: "pamhc2foodcore:juiceritem"
+				},
+				{
+					id: "2E30150FEE1478B9",
+					type: "item",
+					item: "pamhc2foodcore:applejuiceitem",
+					count: 8
+				}
+			]
 		},
 		{
 			x: -2.5d,
@@ -59,6 +72,11 @@
 				id: "640D4C32452C2E6E",
 				type: "item",
 				item: "minecraft:crafting_table"
+			}],
+			rewards: [{
+				id: "28D2A97C59691181",
+				type: "xp",
+				xp: 25
 			}]
 		},
 		{
@@ -70,17 +88,32 @@
 				id: "1E56FE49E444FC38",
 				type: "item",
 				item: "craftingcraft:portable_crafting"
+			}],
+			rewards: [{
+				id: "29A32F6EEEB45BF2",
+				type: "xp",
+				xp: 25
 			}]
 		},
 		{
 			x: 0.0d,
 			y: -4.5d,
+			description: [
+				"This may be not be the crafting table you are looking for.",
+				"",
+				"This crafting acts differently than the Tinkers Construct crafting table. This table will connect to multiple inventories and the Tinkers will only connect to one and also Tinkers multiblock."
+			],
 			dependencies: ["4C4B7AE582427546"],
 			id: "3BD9FED68DCBE0D8",
 			tasks: [{
 				id: "03CD2EBB7C44DF5C",
 				type: "item",
 				item: "craftingstation:crafting_station"
+			}],
+			rewards: [{
+				id: "4D97525C1821DDFD",
+				type: "item",
+				item: "metalbarrels:wood_to_silver"
 			}]
 		},
 		{
@@ -134,11 +167,17 @@
 				type: "item",
 				item: "minecraft:smooth_stone",
 				count: 64L
+			}],
+			rewards: [{
+				id: "5A7346CFCCC8812A",
+				type: "item",
+				item: "dankstorage:2_to_3"
 			}]
 		},
 		{
 			x: -1.5d,
 			y: -2.5d,
+			description: ["These handy little grappling hooks are great when you need to go up, down, or to the next plateau. Be sure to be careful, because you will take fall damage if you hit the ground hard without protection."],
 			dependencies: ["2405FE76A3121826"],
 			id: "649FF59EC4B742FA",
 			tasks: [{
@@ -151,15 +190,9 @@
 						Damage: 0
 					}
 				}
-			}]
-		},
-		{
-			x: -3.0d,
-			y: -3.5d,
-			dependencies: ["649FF59EC4B742FA"],
-			id: "47AAE61C9F1C6CF1",
-			tasks: [{
-				id: "031DB07C44A6ADAF",
+			}],
+			rewards: [{
+				id: "07A392E5A5ABE9D5",
 				type: "item",
 				item: {
 					id: "grapple_hooks:hook_stone",
@@ -171,9 +204,10 @@
 			}]
 		},
 		{
-			x: -4.5d,
-			y: -4.5d,
-			dependencies: ["47AAE61C9F1C6CF1"],
+			x: -3.0d,
+			y: -3.5d,
+			description: ["To craft an Iron Hook, surround a Stone Hook with iron ingots in a crafting grid. The JEI reciped is currently broken."],
+			dependencies: ["649FF59EC4B742FA"],
 			id: "19AFBC9B04C78366",
 			tasks: [{
 				id: "717B90C279ACDC6C",
@@ -193,8 +227,9 @@
 			}]
 		},
 		{
-			x: -6.0d,
-			y: -5.5d,
+			x: -4.5d,
+			y: -4.5d,
+			description: ["To craft a Golden Hook, surround an Iron Hook with gold ingots in a crafting grid. The JEI reciped is currently broken."],
 			dependencies: ["19AFBC9B04C78366"],
 			id: "6BF9B791705D12A0",
 			tasks: [{
@@ -207,11 +242,26 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: "1E1A93BD655408BD",
+				type: "item",
+				item: {
+					id: "minecraft:enchanted_book",
+					Count: 1b,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s,
+							id: "grapple_hooks:pull_speed"
+						}]
+					}
+				}
 			}]
 		},
 		{
-			x: -7.5d,
-			y: -6.5d,
+			x: -6.0d,
+			y: -5.5d,
+			description: ["To craft a Diamond Hook, surround a Golden Hook with diamonds in a crafting grid. The JEI reciped is currently broken."],
 			dependencies: ["6BF9B791705D12A0"],
 			id: "269BD2F0A6A5AB10",
 			tasks: [{
@@ -222,6 +272,20 @@
 					Count: 1b,
 					tag: {
 						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "47F8FD5D6E0D8ADF",
+				type: "item",
+				item: {
+					id: "minecraft:enchanted_book",
+					Count: 1b,
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s,
+							id: "grapple_hooks:rope_distance"
+						}]
 					}
 				}
 			}]
@@ -236,6 +300,11 @@
 				type: "item",
 				item: "minecraft:iron_ore",
 				count: 12L
+			}],
+			rewards: [{
+				id: "56A23223E7F606CB",
+				type: "xp",
+				xp: 25
 			}]
 		},
 		{
@@ -248,6 +317,11 @@
 				type: "item",
 				item: "minecraft:iron_ingot",
 				count: 24L
+			}],
+			rewards: [{
+				id: "083FAE2C0D818155",
+				type: "xp",
+				xp: 50
 			}]
 		},
 		{
@@ -266,6 +340,11 @@
 						value: "minecraft:beds"
 					}
 				}
+			}],
+			rewards: [{
+				id: "24B02F17D7A156B7",
+				type: "item",
+				item: "torchmaster:megatorch"
 			}]
 		},
 		{
@@ -275,11 +354,6 @@
 			id: "09FB4328289BD237",
 			tasks: [{
 				id: "20CAD1BCB3FD8B91",
-				type: "item",
-				item: "waterstrainer:strainer_base"
-			}],
-			rewards: [{
-				id: "4D62CC2B17C8544E",
 				type: "item",
 				item: "waterstrainer:strainer_base"
 			}]
@@ -299,6 +373,11 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: "532EABC8AE1EA67F",
+				type: "item",
+				item: "minecraft:iron_block"
 			}]
 		},
 		{
@@ -316,6 +395,12 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: "448E927407873996",
+				type: "item",
+				item: "minecraft:terracotta",
+				count: 64
 			}]
 		},
 		{
@@ -462,6 +547,12 @@
 				id: "3E23A7BA34C72D7A",
 				type: "checkmark",
 				title: "Just Enough Items"
+			}],
+			rewards: [{
+				id: "2148C8CB9E160BCD",
+				type: "item",
+				item: "pamhc2foodcore:chickenjerkyitem",
+				count: 8
 			}]
 		},
 		{
@@ -481,6 +572,11 @@
 				id: "4E2F247A311FA50B",
 				type: "checkmark",
 				title: "Chunk Claiming"
+			}],
+			rewards: [{
+				id: "2CB27AC9B420D4AC",
+				type: "item",
+				item: "forbidden_arcanus:edelwood_chicken_bucket"
 			}]
 		},
 		{
@@ -504,6 +600,11 @@
 				id: "3A68183CE1FFE005",
 				type: "checkmark",
 				title: "Basic Commands"
+			}],
+			rewards: [{
+				id: "0A1C39C70480B20B",
+				type: "item",
+				item: "waystones:waystone"
 			}]
 		},
 		{
@@ -522,6 +623,12 @@
 				id: "4601929084D98EF1",
 				type: "checkmark",
 				title: "Quest Basics - Step-by-Step"
+			}],
+			rewards: [{
+				id: "4CEE5E7293A59BA5",
+				type: "item",
+				item: "create:electron_tube",
+				count: 8
 			}]
 		},
 		{
@@ -533,7 +640,20 @@
 				id: "5EB08A78FAB7E76F",
 				type: "item",
 				item: "minecraft:bamboo"
-			}]
+			}],
+			rewards: [
+				{
+					id: "4CFDF1A0601F54DB",
+					type: "item",
+					item: "minecraft:kelp",
+					count: 8
+				},
+				{
+					id: "4CCB7FFF0C738CCC",
+					type: "xp",
+					xp: 25
+				}
+			]
 		},
 		{
 			x: -3.0d,
@@ -544,7 +664,20 @@
 				id: "50D13DB20714B534",
 				type: "item",
 				item: "minecraft:scaffolding"
-			}]
+			}],
+			rewards: [
+				{
+					id: "759741B2266677F2",
+					type: "item",
+					item: "minecraft:cactus",
+					count: 3
+				},
+				{
+					id: "673EEF57E21C2456",
+					type: "xp",
+					xp: 25
+				}
+			]
 		},
 		{
 			x: 3.0d,
@@ -555,7 +688,21 @@
 				id: "4BA3BB68274EBED8",
 				type: "item",
 				item: "minecraft:campfire"
-			}]
+			}],
+			rewards: [
+				{
+					id: "5A667BDCCCDDB16D",
+					type: "item",
+					item: "minecraft:porkchop",
+					count: 8
+				},
+				{
+					id: "1731305E22CA3E2B",
+					type: "item",
+					item: "forbidden_arcanus:rotten_leather",
+					count: 4
+				}
+			]
 		},
 		{
 			x: 4.5d,
@@ -566,6 +713,12 @@
 				id: "230E579B9575F907",
 				type: "item",
 				item: "minecraft:composter"
+			}],
+			rewards: [{
+				id: "205AD38F10941F7D",
+				type: "item",
+				item: "minecraft:bone_block",
+				count: 8
 			}]
 		},
 		{
@@ -577,6 +730,11 @@
 				id: "302EB4A7F837CCF0",
 				type: "item",
 				item: "globalxp:xp_block"
+			}],
+			rewards: [{
+				id: "79A4C3C6E6A50E03",
+				type: "xp",
+				xp: 100
 			}]
 		}
 	]

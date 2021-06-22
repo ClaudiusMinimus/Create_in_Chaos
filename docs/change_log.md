@@ -1,8 +1,59 @@
 # Change Log
 
-## Version 0.7.0 ALPHA
+## Version 0.10.0 ALPHA
+
+2021-06-22
+
+- Mods Added:
+  - createplus-1.16.4_v0.3.2
+  - glassential-forge-1.16.5-1.1.6
+  - morered-1.16.5-2.1.1.0
+- Mods Updated:
+  - refinedstorage-1.9.13
+  - rhino-1605.1.1-build.21
+  - SoL-Carrot-1.16.5-1.10.0
+  - ultra_amplified_dimension-1.16.5-9.2.1-forge
+- Mods Removed: none
+- Other Changes:
+  - Updated quests
+  - Updated Forge to 36.1.32
+
+## Version 0.9.1 ALPHA
+
+2021-06-16
 
 - Mods Added: none
+- Mods Updated:
+  - architectury-1.17.22-forge
+  - Clay WorldGen-1.16.5-1.2.2
+  - Clumps-6.0.0.25
+  - Controlling-7.0.0.23
+  - CreativeCore_v2.2.0_mc1.16.5
+  - Cucumber-1.16.4-4.1.10
+  - curios-forge-1.16.5-4.0.5.2
+  - Cyclic-1.16.5-1.2.11
+  - extremeSoundMuffler-3.13-1.16.5
+  - fancymenu_2.1.0_MC_1.16.2-1.16.5
+  - ftb-ultimine-forge-1605.2.2-build.4
+  - ImmersiveEngineering-1.16.5-5.0.0-135
+  - kubejs-forge-1605.3.10-build.25
+  - mcw-doors-1.0.3-mc1.16.5
+  - moreoverlays-1.18.14-mc1.16.5
+  - refinedstorage-1.9.13
+  - repurposed_structures-1.16.5-2.7.5-forge
+  - rhino-1605.1.1-build.14
+  - u_team_core-1.16.5-3.2.1.196
+  - ultra_amplified_dimension-1.16.5-9.2.1-forge (fixes broken world gen)
+  - useful_backpacks-1.16.5-1.12.1.90
+  - Xaeros_Minimap_21.10.0.3_Forge_1.16.5
+- Mods Removed: none
+- Other Changes:
+  - Updated quests
+
+## Version 0.7.0 ALPHA
+
+- Mods Added:
+  - ftb-ranks-1604.1.1.11
 - Mods Updated:
   - AmbientSounds_v3.1.9_mc1.16.5
   - Apotheosis-1.16.4-4.6.1
