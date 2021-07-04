@@ -42,6 +42,8 @@ server/world*
 !minecraft/config/defaultoptions
 !minecraft/config/fancymenu
 !minecraft/config/ftbquests
+!minecraft/config/waterstrainer
+!server/config/waterstrainer
 
 #Stop Ignoring these files
 !minecraft/config/clienttweaks-client.toml
