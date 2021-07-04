@@ -1,0 +1,39 @@
+{
+	id: "32CFB97A9CD91D57",
+	order_index: 1,
+	title: "Uncommon",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "morered:red_alloy_wire",
+			count: 8
+		},
+		{
+			item: "morered:red_network_cable",
+			count: 8
+		},
+		{
+			item: {
+				id: "usefulbackpacks:backpack_medium",
+				Count: 1b,
+				tag: {
+					display: {
+						color: 16351261
+					}
+				}
+			}
+		},
+		{
+			item: "torchmaster:feral_flare_lantern"
+		},
+		{
+			item: "tconstruct:silky_cloth"
+		},
+		{
+			item: "mysticalagriculture:prudentium_furnace"
+		},
+		{
+			item: "mysticalagriculture:earth_seeds"
+		}
+	]
+}

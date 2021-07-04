@@ -1,0 +1,32 @@
+{
+	id: "2A8C948AE4362BC5",
+	order_index: 4,
+	title: "Legendary",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "tconstruct:manyullyn_block"
+		},
+		{
+			item: {
+				id: "wstweaks:blaze_blade",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			}
+		},
+		{
+			item: "waterstrainer:super_worm"
+		},
+		{
+			item: "tconstruct:creative_upgrade"
+		},
+		{
+			item: "tconstruct:hepatizon_block"
+		},
+		{
+			item: "mysticalagriculture:nether_star_seeds"
+		}
+	]
+}

@@ -1,0 +1,103 @@
+{
+	id: "2C70CD39CB9FE168",
+	order_index: 0,
+	title: "Common",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "waterstrainer:worm",
+			count: 16
+		},
+		{
+			item: {
+				id: "naturescompass:naturescompass",
+				Count: 1b,
+				tag: {}
+			}
+		},
+		{
+			item: "tconstruct:earth_slime_grass_seeds"
+		},
+		{
+			item: "tconstruct:earth_slime_sapling"
+		},
+		{
+			item: "tconstruct:sky_slime_grass_seeds"
+		},
+		{
+			item: "tconstruct:sky_slime_sapling"
+		},
+		{
+			item: "tconstruct:ender_slime_grass_seeds"
+		},
+		{
+			item: "tconstruct:ender_slime_sapling"
+		},
+		{
+			item: "mysticalagriculture:inferium_furnace"
+		},
+		{
+			item: "waterstrainer:worm_bin"
+		},
+		{
+			item: "pamhc2foodcore:saucepanitem"
+		},
+		{
+			item: "pamhc2foodcore:chocolatecupcakeitem",
+			count: 6
+		},
+		{
+			item: "pamhc2foodcore:cookiesandmilkitem",
+			count: 4
+		},
+		{
+			item: "pamhc2foodcore:fruitcrumbleitem",
+			count: 4
+		},
+		{
+			item: "pamhc2foodcore:meatloafitem",
+			count: 4
+		},
+		{
+			item: "pamhc2foodcore:cottoncandyitem",
+			count: 4
+		},
+		{
+			item: "pamhc2foodcore:basichamburgeritem",
+			count: 6
+		},
+		{
+			item: "pamhc2foodcore:trailmixitem",
+			count: 8
+		},
+		{
+			item: "pamhc2foodcore:chocolatecaramelfudgeitem",
+			count: 4
+		},
+		{
+			item: "pamhc2foodcore:rolleritem"
+		},
+		{
+			item: "pamhc2foodcore:melonsmoothieitem",
+			count: 6
+		},
+		{
+			item: "pamhc2foodcore:pumpkincupcakeitem",
+			count: 6
+		},
+		{
+			item: "pamhc2foodcore:caramelappleitem",
+			count: 4
+		},
+		{
+			item: "pamhc2foodcore:chickenpotpieitem",
+			count: 2
+		},
+		{
+			item: "mysticalagriculture:apatite_seeds"
+		},
+		{
+			item: "mysticalagriculture:dye_seeds"
+		}
+	]
+}

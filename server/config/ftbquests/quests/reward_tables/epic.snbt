@@ -1,0 +1,68 @@
+{
+	id: "75BD8C457B36A1DF",
+	order_index: 3,
+	title: "Epic",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "tconstruct:hepatizon_block"
+		},
+		{
+			item: "metalbarrels:crystal_barrel"
+		},
+		{
+			item: {
+				id: "tconstruct:broad_axe_head",
+				Count: 1b,
+				tag: {
+					Material: "tconstruct:queens_slime"
+				}
+			}
+		},
+		{
+			item: {
+				id: "wyrmroost:drake_leggings",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			}
+		},
+		{
+			item: {
+				id: "wyrmroost:drake_boots",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			}
+		},
+		{
+			item: {
+				id: "wyrmroost:drake_chestplate",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			}
+		},
+		{
+			item: {
+				id: "wyrmroost:drake_helmet",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			}
+		},
+		{
+			item: "cyclic:heart"
+		},
+		{
+			item: "mysticalagriculture:end_seeds"
+		},
+		{
+			item: "metalbarrels:crystal_barrel"
+		}
+	]
+}
