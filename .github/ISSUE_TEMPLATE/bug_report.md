@@ -9,6 +9,8 @@ assignees: ClaudiusMinimus
 
 ## Please Fill in ALL Applicable Sections ##
 
+### If this Bug report is not completed to the best of your ability, we may require additional information before we can help you. If you do not attempt to provide completely accurate information, then your Bug report may be ignored and closed. ###
+
 **Describe the bug**
 - A clear and concise description of what the bug is.
 - Please paste a link to this Bug Report in our discord in the cic-support channel. https://discord.com/invite/jXrx4Tu
