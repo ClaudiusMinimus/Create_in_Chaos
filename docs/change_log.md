@@ -1,5 +1,48 @@
 # Change Log
 
+## Version 0.13.0 BETA
+
+2021-07-05
+
+- Mods Added:
+  - BetterStrongholds-1.16.4-1.1
+  - collective-1.16.5-2.27
+  - EnhancedVisuals_v1.3.31_mc1.16.5
+  - EyesInTheDarkness-1.16.5-1.0.2
+  - infinitetrading_1.16.5-1.4
+  - mob_grinding_utils-1.16.5-0.4.23
+  - MutantBeasts-1.16.4-1.1.3
+  - sounddeviceoptions-1.4.2
+  - YungsApi-1.16.4-Forge-6
+- Mods Updated:
+  - appleskin-forge-mc1.16.x-2.0.0
+  - architectury-1.19.27-forge
+  - Botania-1.16.5-418
+  - cc-tweaked-1.16.5-1.97.0
+  - CodeChickenLib-1.16.5-4.0.2.427-universal
+  - comforts-forge-1.16.5-4.0.1.1
+  - CookingForBlockheads_1.16.5-9.3.3
+  - create-stuff-additions1.16.5_v1.0.5
+  - EnderStorage-1.16.5-2.8.0.168-universal
+  - fancymenu_2.1.2-1_MC_1.16.2-1.16.5
+  - ImmersiveEngineering-1.16.5-5.0.2-137
+  - item-filters-forge-1605.2.5-build.9
+  - kubejs-forge-1605.3.11-build.31
+  - LargeFluidTank-16.1.8
+  - LightingWand-1.16.4-1.8.0
+  - MysticalAgriculture-1.16.4-4.2.0
+  - Patchouli-1.16.4-53.1
+  - Quark-r2.4-314
+  - reliquary-1.16.5-1.3.5.1100
+  - repurposed_structures-1.16.5-2.7.7-forge
+  - Xaeros_Minimap_21.12.5_Forge_1.16.5
+  - XaerosWorldMap_1.14.5_Forge_1.16.5
+- Mods Removed: none
+- Other Changes:
+  - Fixed Water Strainer loot
+  - Updated some quests
+  - Add loot tables to quests
+
 ## Version 0.10.0 ALPHA
 
 2021-06-22
