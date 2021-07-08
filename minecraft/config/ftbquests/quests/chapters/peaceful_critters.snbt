@@ -17,6 +17,11 @@
 				type: "kill",
 				entity: "minecraft:chicken",
 				value: 10L
+			}],
+			rewards: [{
+				id: "37028282F663C520",
+				type: "random",
+				table_id: 3202284983173505384L
 			}]
 		},
 		{
@@ -108,7 +113,11 @@
 			icon: "forbidden_arcanus:tentacle",
 			x: -4.5d,
 			y: -4.0d,
-			description: ["Where are those squid when you need them? It seems they are only around when you don't need them. Go and hunt 10 squids."],
+			description: [
+				"Where are those squid when you need them? It seems they are only around when you don't need them. Go and hunt 10 squids.",
+				"",
+				"Hint: You may need to go to the normal overworld. Is there a portal?"
+			],
 			dependencies: ["637598044F08ED11"],
 			id: "79232CC11759A093",
 			tasks: [{

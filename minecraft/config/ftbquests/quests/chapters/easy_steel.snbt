@@ -750,8 +750,8 @@
 					Count: 1b,
 					tag: {
 						StoredEnchantments: [{
-							lvl: 2s,
-							id: "cyclic:quickshot"
+							lvl: 1s,
+							id: "apotheosis:true_infinity"
 						}]
 					}
 				}

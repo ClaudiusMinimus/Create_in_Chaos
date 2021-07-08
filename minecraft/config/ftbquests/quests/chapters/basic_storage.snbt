@@ -23,6 +23,11 @@
 						value: "forge:chests/wooden"
 					}
 				}
+			}],
+			rewards: [{
+				id: "3EEBD875E110A874",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -34,6 +39,11 @@
 				id: "2056E7385095979C",
 				type: "item",
 				item: "minecraft:barrel"
+			}],
+			rewards: [{
+				id: "5E159003F5337605",
+				type: "random",
+				table_id: 3202284983173505384L
 			}]
 		},
 		{

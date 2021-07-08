@@ -356,6 +356,11 @@
 				id: "20CAD1BCB3FD8B91",
 				type: "item",
 				item: "waterstrainer:strainer_base"
+			}],
+			rewards: [{
+				id: "1061713648FE2E84",
+				type: "random",
+				table_id: 3202284983173505384L
 			}]
 		},
 		{

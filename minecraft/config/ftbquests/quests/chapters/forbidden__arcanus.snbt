@@ -15,6 +15,11 @@
 				id: "1A04290319537A2A",
 				type: "item",
 				item: "forbidden_arcanus:yellow_orchid"
+			}],
+			rewards: [{
+				id: "5D21911D796B29B9",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -26,6 +31,11 @@
 				id: "532CC29EC3A99BA6",
 				type: "item",
 				item: "forbidden_arcanus:arcane_gold_ingot"
+			}],
+			rewards: [{
+				id: "682125DBD3A43830",
+				type: "random",
+				table_id: 913513194644622992L
 			}]
 		},
 		{
@@ -37,6 +47,11 @@
 				id: "2206C1D04AD07B3B",
 				type: "item",
 				item: "forbidden_arcanus:golden_orchid_seeds"
+			}],
+			rewards: [{
+				id: "038068B6AE6298E9",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -89,7 +104,12 @@
 						}
 					}
 				}
-			]
+			],
+			rewards: [{
+				id: "2265DCCD68B0D013",
+				type: "random",
+				table_id: 3202284983173505384L
+			}]
 		},
 		{
 			x: -11.5d,
@@ -141,7 +161,12 @@
 						}
 					}
 				}
-			]
+			],
+			rewards: [{
+				id: "091D32FD4C9C09E3",
+				type: "choice",
+				table_id: 913513194644622992L
+			}]
 		},
 		{
 			x: 0.5d,
@@ -193,7 +218,12 @@
 						}
 					}
 				}
-			]
+			],
+			rewards: [{
+				id: "075A65EA13294721",
+				type: "random",
+				table_id: 913513194644622992L
+			}]
 		},
 		{
 			x: -15.0d,
@@ -245,7 +275,12 @@
 						}
 					}
 				}
-			]
+			],
+			rewards: [{
+				id: "0EDBD42442033945",
+				type: "choice",
+				table_id: 913513194644622992L
+			}]
 		},
 		{
 			x: 2.0d,
@@ -297,7 +332,12 @@
 						}
 					}
 				}
-			]
+			],
+			rewards: [{
+				id: "497CD8D610B2C4EB",
+				type: "random",
+				table_id: 8484091503083692511L
+			}]
 		},
 		{
 			x: -5.5d,
@@ -310,6 +350,11 @@
 				id: "3D8C494DDC45AD3C",
 				type: "checkmark",
 				title: "Getting Started"
+			}],
+			rewards: [{
+				id: "31AF9F8D8809788C",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -321,6 +366,11 @@
 				id: "4DBEDB001DD53A6F",
 				type: "item",
 				item: "forbidden_arcanus:cloth"
+			}],
+			rewards: [{
+				id: "36B48A7752FB2E59",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -332,6 +382,11 @@
 				id: "0647CD5F783BF09E",
 				type: "item",
 				item: "forbidden_arcanus:obsidian_ingot"
+			}],
+			rewards: [{
+				id: "39F8138C1BD874AA",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -343,6 +398,11 @@
 				id: "6A873017A8E5F93E",
 				type: "item",
 				item: "forbidden_arcanus:dragon_scale"
+			}],
+			rewards: [{
+				id: "18355F4152E5AAD3",
+				type: "random",
+				table_id: 913513194644622992L
 			}]
 		},
 		{
@@ -354,6 +414,11 @@
 				id: "2024888BAA04736D",
 				type: "item",
 				item: "forbidden_arcanus:golden_dragon_scale"
+			}],
+			rewards: [{
+				id: "5BCEB98A7410C984",
+				type: "choice",
+				table_id: 3661348958344125783L
 			}]
 		},
 		{
@@ -365,6 +430,11 @@
 				id: "541B6FE6A162BA7A",
 				type: "item",
 				item: "forbidden_arcanus:golden_feather"
+			}],
+			rewards: [{
+				id: "148A54D011194C61",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -376,6 +446,11 @@
 				id: "16AB7E715C6B10AA",
 				type: "item",
 				item: "forbidden_arcanus:aquatic_dragon_scale"
+			}],
+			rewards: [{
+				id: "5D2E64222EC7416D",
+				type: "random",
+				table_id: 913513194644622992L
 			}]
 		},
 		{
@@ -387,6 +462,11 @@
 				id: "02F4E7DD427B4DC7",
 				type: "item",
 				item: "forbidden_arcanus:obsidian_skull"
+			}],
+			rewards: [{
+				id: "5DCFFA3F3E7BF79A",
+				type: "random",
+				table_id: 3661348958344125783L
 			}]
 		},
 		{
@@ -398,23 +478,11 @@
 				id: "2DA1EE7D0911949F",
 				type: "item",
 				item: "forbidden_arcanus:eternal_obsidian_skull"
-			}]
-		},
-		{
-			x: -7.5d,
-			y: 6.5d,
-			dependencies: ["0B70FCA54474D81D"],
-			id: "2E3E875376CE3521",
-			tasks: [{
-				id: "3D76B46A580DA9ED",
-				type: "item",
-				item: {
-					id: "forbidden_arcanus:obsidian_skull_shield",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				}
+			}],
+			rewards: [{
+				id: "5EF279F6CADF5D5C",
+				type: "random",
+				table_id: 913513194644622992L
 			}]
 		},
 		{
@@ -426,6 +494,11 @@
 				id: "235D7A738EDB2154",
 				type: "item",
 				item: "forbidden_arcanus:xpetrified_orb"
+			}],
+			rewards: [{
+				id: "37ECD9ADB4BB77CF",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -437,6 +510,11 @@
 				id: "53B31F6322D3765A",
 				type: "item",
 				item: "forbidden_arcanus:stellarite_piece"
+			}],
+			rewards: [{
+				id: "2A1197DBEB48C1FD",
+				type: "choice",
+				table_id: 3661348958344125783L
 			}]
 		},
 		{
@@ -452,6 +530,11 @@
 					Count: 1b,
 					tag: {}
 				}
+			}],
+			rewards: [{
+				id: "12A6C11691967817",
+				type: "random",
+				table_id: 8484091503083692511L
 			}]
 		},
 		{
@@ -485,7 +568,12 @@
 						}
 					}
 				}
-			]
+			],
+			rewards: [{
+				id: "7E081DBD1787C634",
+				type: "random",
+				table_id: 3661348958344125783L
+			}]
 		},
 		{
 			x: -2.5d,
@@ -517,7 +605,12 @@
 						}
 					}
 				}
-			]
+			],
+			rewards: [{
+				id: "529ACA1C8E532608",
+				type: "random",
+				table_id: 3661348958344125783L
+			}]
 		},
 		{
 			x: -3.0d,
@@ -549,7 +642,12 @@
 						}
 					}
 				}
-			]
+			],
+			rewards: [{
+				id: "6E9E1F0ACF489C73",
+				type: "random",
+				table_id: 3661348958344125783L
+			}]
 		},
 		{
 			x: -1.0d,
@@ -581,7 +679,12 @@
 						}
 					}
 				}
-			]
+			],
+			rewards: [{
+				id: "4DA555CA9E7DC253",
+				type: "random",
+				table_id: 3661348958344125783L
+			}]
 		},
 		{
 			x: 1.0d,
@@ -602,6 +705,11 @@
 						}]
 					}
 				}
+			}],
+			rewards: [{
+				id: "2740F6F1FCE4BB26",
+				type: "random",
+				table_id: 3202284983173505384L
 			}]
 		},
 		{
@@ -619,6 +727,11 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: "42E4A489C74BCF1F",
+				type: "random",
+				table_id: 3661348958344125783L
 			}]
 		},
 		{
@@ -636,6 +749,11 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: "0F6495C06212B1DB",
+				type: "random",
+				table_id: 3202284983173505384L
 			}]
 		},
 		{
@@ -653,6 +771,11 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: "16C9CDF87D1B8AD2",
+				type: "random",
+				table_id: 3202284983173505384L
 			}]
 		},
 		{
@@ -670,6 +793,11 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: "3B703D142BBA0D18",
+				type: "random",
+				table_id: 3202284983173505384L
 			}]
 		},
 		{
@@ -687,6 +815,11 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: "2A9ABAB6F8518458",
+				type: "choice",
+				table_id: 3202284983173505384L
 			}]
 		},
 		{
@@ -704,6 +837,11 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: "6687B17611514F89",
+				type: "random",
+				table_id: 3202284983173505384L
 			}]
 		},
 		{
@@ -721,6 +859,11 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: "56BB9FCD101340FA",
+				type: "random",
+				table_id: 913513194644622992L
 			}]
 		},
 		{
@@ -738,6 +881,11 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: "67384ECC77E9C909",
+				type: "choice",
+				table_id: 3661348958344125783L
 			}]
 		},
 		{
@@ -755,6 +903,11 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: "758516336E091891",
+				type: "random",
+				table_id: 913513194644622992L
 			}]
 		},
 		{
@@ -772,6 +925,11 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: "38A35CB4FA08F11C",
+				type: "random",
+				table_id: 913513194644622992L
 			}]
 		},
 		{
@@ -789,6 +947,11 @@
 						Damage: 0
 					}
 				}
+			}],
+			rewards: [{
+				id: "38878D06224A6049",
+				type: "random",
+				table_id: 913513194644622992L
 			}]
 		},
 		{
@@ -800,6 +963,11 @@
 				id: "2CAB3C418119C89D",
 				type: "item",
 				item: "forbidden_arcanus:boom_arrow"
+			}],
+			rewards: [{
+				id: "78D4B6AC5B666AE8",
+				type: "choice",
+				table_id: 3202284983173505384L
 			}]
 		},
 		{
@@ -811,6 +979,11 @@
 				id: "088918DC9C1EE768",
 				type: "item",
 				item: "forbidden_arcanus:draco_arcanus_arrow"
+			}],
+			rewards: [{
+				id: "6FBD292686F66EBD",
+				type: "random",
+				table_id: 3202284983173505384L
 			}]
 		}
 	]

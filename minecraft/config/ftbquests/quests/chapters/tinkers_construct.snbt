@@ -485,6 +485,11 @@
 				id: "4507048F8EB34B8A",
 				type: "item",
 				item: "tconstruct:melter"
+			}],
+			rewards: [{
+				id: "26A56AEB41FF251F",
+				type: "random",
+				table_id: 3202284983173505384L
 			}]
 		},
 		{
@@ -668,6 +673,11 @@
 				id: "68F4C11D289006AC",
 				type: "item",
 				item: "tconstruct:seared_chute"
+			}],
+			rewards: [{
+				id: "1A656EBCC39AA29B",
+				type: "random",
+				table_id: 3202284983173505384L
 			}]
 		},
 		{
@@ -699,9 +709,9 @@
 				item: "tconstruct:channel"
 			}],
 			rewards: [{
-				id: "3148E08150BB7C04",
-				type: "item",
-				item: "tconstruct:casting_table"
+				id: "7C8AFE256B66233A",
+				type: "random",
+				table_id: 3202284983173505384L
 			}]
 		},
 		{
@@ -713,6 +723,11 @@
 				id: "33C096496B46B5B1",
 				type: "item",
 				item: "tconstruct:cast_chest"
+			}],
+			rewards: [{
+				id: "0A1891A3F9D8461E",
+				type: "random",
+				table_id: 3202284983173505384L
 			}]
 		}
 	]

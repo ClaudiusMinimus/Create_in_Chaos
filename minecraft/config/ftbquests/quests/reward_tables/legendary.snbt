@@ -8,15 +8,6 @@
 			item: "tconstruct:manyullyn_block"
 		},
 		{
-			item: {
-				id: "wstweaks:blaze_blade",
-				Count: 1b,
-				tag: {
-					Damage: 0
-				}
-			}
-		},
-		{
 			item: "waterstrainer:super_worm"
 		},
 		{
@@ -27,6 +18,258 @@
 		},
 		{
 			item: "mysticalagriculture:nether_star_seeds"
+		},
+		{
+			item: "tconstruct:creative_ability"
+		},
+		{
+			item: "xreliquary:witherless_rose"
+		},
+		{
+			item: "mysticalagriculture:flight_augment"
+		},
+		{
+			item: {
+				id: "mysticalagriculture:supremium_sword",
+				Count: 1b,
+				tag: {
+					Augment-0: "mysticalagriculture:strength_iii"
+				}
+			}
+		},
+		{
+			item: {
+				ForgeCaps: {
+					Parent: {
+						Items: []
+					}
+				},
+				id: "xreliquary:void_tear",
+				Count: 1b
+			}
+		},
+		{
+			item: {
+				id: "xreliquary:alkahestry_tome",
+				Count: 1b,
+				tag: {
+					Damage: 1001
+				}
+			}
+		},
+		{
+			item: "refinedstorage:brown_creative_controller"
+		},
+		{
+			item: "mysticalagradditions:nether_star_crux"
+		},
+		{
+			item: {
+				id: "minecraft:enchanted_book",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 7s,
+						id: "grapple_hooks:pull_speed"
+					}]
+				}
+			}
+		},
+		{
+			item: {
+				id: "minecraft:enchanted_book",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 7s,
+						id: "grapple_hooks:rope_distance"
+					}]
+				}
+			}
+		},
+		{
+			item: "dankstorage:6_to_7"
+		},
+		{
+			item: "essentials:wither_cannon"
+		},
+		{
+			item: "solarflux:sp_8",
+			count: 2
+		},
+		{
+			item: "createaddition:creative_energy"
+		},
+		{
+			item: "botania:creative_pool"
+		},
+		{
+			item: {
+				id: "minecraft:enchanted_book",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 7s,
+						id: "cyclic:beheading"
+					}]
+				}
+			}
+		},
+		{
+			item: {
+				id: "minecraft:enchanted_book",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 7s,
+						id: "cyclic:quickshot"
+					}]
+				}
+			}
+		},
+		{
+			item: {
+				id: "minecraft:enchanted_book",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s,
+						id: "cyclic:experience_boost"
+					}]
+				}
+			}
+		},
+		{
+			item: {
+				id: "cyclic:charm_ultimate",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			}
+		},
+		{
+			item: {
+				id: "tconstruct:sledge_hammer",
+				Count: 1b,
+				tag: {
+					tic_stats: {
+						mining_speed: 19.059376f,
+						attack: 12.890625f,
+						reach: 5.0f,
+						durability: 8995,
+						attack_speed: 1.284f,
+						harvest_level: 4
+					},
+					RepairCost: 0,
+					tic_broken: 0b,
+					tic_modifiers: [
+						{
+							name: "tconstruct:diamond",
+							level: 1s
+						},
+						{
+							name: "tconstruct:experienced",
+							level: 5s
+						},
+						{
+							name: "tconstruct:haste",
+							level: 5s
+						},
+						{
+							name: "tconstruct:insatiable",
+							level: 2s
+						},
+						{
+							name: "tconstruct:lightweight",
+							level: 1s
+						},
+						{
+							name: "tconstruct:luck",
+							level: 1s
+						},
+						{
+							name: "tconstruct:netherite",
+							level: 1s
+						},
+						{
+							name: "tconstruct:smite",
+							level: 2s
+						},
+						{
+							name: "tconstruct:creative_ability",
+							level: 2s
+						},
+						{
+							name: "tconstruct:creative_upgrade",
+							level: 11s
+						},
+						{
+							name: "tconstruct:two_handed",
+							level: 1s
+						}
+					],
+					Enchantments: [{
+						lvl: 1s,
+						id: "forbidden_arcanus:indestructible"
+					}],
+					display: {
+						Name: '{"text":"CM\'s Sledge Hammer"}'
+					},
+					tic_upgrades: [
+						{
+							name: "tconstruct:diamond",
+							level: 1s
+						},
+						{
+							name: "tconstruct:netherite",
+							level: 1s
+						},
+						{
+							name: "tconstruct:luck",
+							level: 1s
+						},
+						{
+							name: "tconstruct:creative_upgrade",
+							level: 11s
+						},
+						{
+							name: "tconstruct:haste",
+							level: 5s
+						},
+						{
+							name: "tconstruct:experienced",
+							level: 4s
+						},
+						{
+							name: "tconstruct:creative_ability",
+							level: 2s
+						}
+					],
+					tic_materials: [
+						"tconstruct:manyullyn",
+						"tconstruct:cobalt",
+						"tconstruct:electrum",
+						"tconstruct:manyullyn"
+					],
+					Damage: 0,
+					tic_volatile_data: {
+						abilities: 2,
+						"tconstruct:indestructible": 1b,
+						upgrades: 11
+					},
+					tic_persistent_data: {
+						abilities: 0,
+						traits: 0,
+						"tconstruct:luck": 108,
+						upgrades: -9,
+						"tconstruct:haste": 45
+					}
+				}
+			}
+		},
+		{
+			item: "cyclic:anvil"
 		}
 	]
 }

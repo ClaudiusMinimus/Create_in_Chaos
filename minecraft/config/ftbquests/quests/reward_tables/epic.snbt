@@ -63,6 +63,184 @@
 		},
 		{
 			item: "metalbarrels:crystal_barrel"
+		},
+		{
+			item: "tconstruct:manyullyn_ingot",
+			count: 4
+		},
+		{
+			item: "wyrmroost:purple_geode",
+			count: 4
+		},
+		{
+			item: "xreliquary:fertile_lily_pad",
+			random_bonus: 1
+		},
+		{
+			item: "xreliquary:salamander_eye"
+		},
+		{
+			item: "xreliquary:witherless_rose"
+		},
+		{
+			item: "xreliquary:infernal_claws"
+		},
+		{
+			item: "xreliquary:phoenix_down"
+		},
+		{
+			item: {
+				id: "xreliquary:lingering_potion",
+				Count: 1b,
+				tag: {
+					effects: [{
+						duration: 500,
+						name: "xreliquary:cure",
+						potency: 3
+					}]
+				}
+			},
+			count: 4
+		},
+		{
+			item: "mysticalagriculture:imperium_furnace"
+		},
+		{
+			item: "mysticalagriculture:mining_fatigue_resistance_augment"
+		},
+		{
+			item: "rsrequestify:requester"
+		},
+		{
+			item: "immersiveengineering:tesla_coil"
+		},
+		{
+			item: "immersiveengineering:turret_gun"
+		},
+		{
+			item: "immersiveengineering:turret_chem"
+		},
+		{
+			item: "mysticalagradditions:imperium_apple",
+			count: 4
+		},
+		{
+			item: "mob_grinding_utils:saw"
+		},
+		{
+			item: "mob_grinding_utils:entity_spawner"
+		},
+		{
+			item: "dankstorage:5_to_6"
+		},
+		{
+			item: {
+				id: "cyclic:ender_eye_reuse",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			}
+		},
+		{
+			item: "cyclic:uncrafter"
+		},
+		{
+			item: "solarflux:sp_5",
+			count: 2
+		},
+		{
+			item: {
+				id: "cyclic:antigravity",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			}
+		},
+		{
+			item: {
+				id: "cyclic:antimatter_wand",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			}
+		},
+		{
+			item: "cyclic:anvil"
+		},
+		{
+			item: {
+				id: "minecraft:enchanted_book",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 7s,
+						id: "cyclic:growth"
+					}]
+				}
+			}
+		},
+		{
+			item: {
+				id: "minecraft:enchanted_book",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 6s,
+						id: "cyclic:life_leech"
+					}]
+				}
+			}
+		},
+		{
+			item: {
+				id: "minecraft:enchanted_book",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 4s,
+						id: "cyclic:disarm"
+					}]
+				}
+			}
+		},
+		{
+			item: {
+				id: "minecraft:enchanted_book",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 7s,
+						id: "cyclic:magnet"
+					}]
+				}
+			}
+		},
+		{
+			item: {
+				id: "minecraft:enchanted_book",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 4s,
+						id: "cyclic:launch"
+					}]
+				}
+			}
+		},
+		{
+			item: "minecraft:guardian_spawn_egg"
+		},
+		{
+			item: "minecraft:elder_guardian_spawn_egg"
+		},
+		{
+			item: "minecraft:enderman_spawn_egg"
+		},
+		{
+			item: "minecraft:ghast_spawn_egg"
 		}
 	]
 }

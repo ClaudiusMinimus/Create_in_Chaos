@@ -32,6 +32,11 @@
 				id: "14128D7A72D952B3",
 				type: "item",
 				item: "cookingforblockheads:crafting_book"
+			}],
+			rewards: [{
+				id: "7ED13D0026300304",
+				type: "random",
+				table_id: 3661348958344125783L
 			}]
 		},
 		{
@@ -43,6 +48,11 @@
 				id: "747A91DB56C25634",
 				type: "item",
 				item: "cookingforblockheads:no_filter_edition"
+			}],
+			rewards: [{
+				id: "2320AF404D642E83",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -140,6 +150,11 @@
 				id: "7B7281C08214F291",
 				type: "item",
 				item: "cookingforblockheads:milk_jar"
+			}],
+			rewards: [{
+				id: "516DF2766C3C960A",
+				type: "random",
+				table_id: 3202284983173505384L
 			}]
 		},
 		{
@@ -184,7 +199,12 @@
 					type: "item",
 					item: "pamhc2foodcore:skilletitem"
 				}
-			]
+			],
+			rewards: [{
+				id: "067596B7F9A1DC33",
+				type: "random",
+				table_id: 3202284983173505384L
+			}]
 		},
 		{
 			x: 3.0d,
@@ -259,6 +279,11 @@
 				id: "7523F685DE695243",
 				type: "item",
 				item: "pamhc2foodcore:fruitsaladitem"
+			}],
+			rewards: [{
+				id: "58C0EC58CF2864EA",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -270,6 +295,11 @@
 				id: "1FCB71809B523483",
 				type: "item",
 				item: "pamhc2foodcore:applejuiceitem"
+			}],
+			rewards: [{
+				id: "4B07F39D4C39640B",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -281,6 +311,11 @@
 				id: "23A7729AE272A8D2",
 				type: "item",
 				item: "pamhc2foodcore:fruitpunchitem"
+			}],
+			rewards: [{
+				id: "183898EA7971C357",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -293,6 +328,11 @@
 				type: "item",
 				item: "pamhc2foodcore:applesauceitem",
 				count: 8L
+			}],
+			rewards: [{
+				id: "64939AA68575231F",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -305,6 +345,11 @@
 				type: "item",
 				item: "pamhc2foodcore:hotdogitem",
 				count: 8L
+			}],
+			rewards: [{
+				id: "76F6C23EBD4F2F8E",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -317,6 +362,11 @@
 				type: "item",
 				item: "pamhc2foodcore:beefjerkyitem",
 				count: 8L
+			}],
+			rewards: [{
+				id: "0EAFCFF6A46F84A4",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -327,6 +377,11 @@
 				id: "389B014AEA7CB83C",
 				type: "item",
 				item: "cyclic:apple_chocolate"
+			}],
+			rewards: [{
+				id: "738E54BDC69EBEF4",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -337,17 +392,26 @@
 				id: "5352D71D187A6297",
 				type: "item",
 				item: "cyclic:apple_honey"
+			}],
+			rewards: [{
+				id: "0A27DFBEA6ECB1DE",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
 			x: -3.0d,
 			y: 10.0d,
-			dependencies: ["61E649BF9A3C9D44"],
 			id: "7C726D2B013ACEA3",
 			tasks: [{
 				id: "6DD740891C3A7839",
 				type: "item",
 				item: "create:builders_tea"
+			}],
+			rewards: [{
+				id: "7EBB3A45C318D4D5",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -358,6 +422,11 @@
 				id: "7FE8FEBCF039A7DC",
 				type: "item",
 				item: "mysticalagradditions:inferium_apple"
+			}],
+			rewards: [{
+				id: "6F7E81DA8868FFDD",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -368,6 +437,11 @@
 				id: "59DFDBEAF8746954",
 				type: "item",
 				item: "minecraft:cooked_salmon"
+			}],
+			rewards: [{
+				id: "7B668A93BC5FBC13",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -378,6 +452,11 @@
 				id: "7C43BB162F1A781F",
 				type: "item",
 				item: "pamhc2foodcore:carrotbreaditem"
+			}],
+			rewards: [{
+				id: "71250F952E55CDA4",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -388,6 +467,11 @@
 				id: "10803C362362D119",
 				type: "item",
 				item: "pamhc2foodcore:hotchocolateitem"
+			}],
+			rewards: [{
+				id: "6E9F5FB39CF9EB10",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -398,6 +482,11 @@
 				id: "482A73116FABC1AF",
 				type: "item",
 				item: "pamhc2foodcore:carrotmuffinitem"
+			}],
+			rewards: [{
+				id: "2983CDB3A5F3B785",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -408,6 +497,11 @@
 				id: "52D4993AAA11B714",
 				type: "item",
 				item: "pamhc2foodcore:chocolatebaconitem"
+			}],
+			rewards: [{
+				id: "153472D45E35EA0F",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -418,6 +512,11 @@
 				id: "4D45080BCA0DF4CD",
 				type: "item",
 				item: "pamhc2foodcore:scrambledeggitem"
+			}],
+			rewards: [{
+				id: "286B7AB17EFA0053",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -428,6 +527,11 @@
 				id: "72FD61B42BDC39F5",
 				type: "item",
 				item: "pamhc2foodcore:applejellytoastitem"
+			}],
+			rewards: [{
+				id: "1780A0AB20323559",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -438,6 +542,11 @@
 				id: "39927E9410482CB8",
 				type: "item",
 				item: "forbidden_arcanus:cherry_peach"
+			}],
+			rewards: [{
+				id: "5C3B8FF4E4A35F83",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -448,6 +557,11 @@
 				id: "7202AD18BC3E37D7",
 				type: "item",
 				item: "pamhc2foodcore:basichamburgeritem"
+			}],
+			rewards: [{
+				id: "12B28838D37FCC69",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -458,6 +572,11 @@
 				id: "75E73D16BAA16A31",
 				type: "item",
 				item: "pamhc2foodcore:glazedcarrotsitem"
+			}],
+			rewards: [{
+				id: "00548493937C171B",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -468,6 +587,11 @@
 				id: "37AD72A7A0EC95C5",
 				type: "item",
 				item: "pamhc2foodcore:fruitcrumbleitem"
+			}],
+			rewards: [{
+				id: "1D469F0E5D718C9F",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -478,6 +602,11 @@
 				id: "09D9552005A48D76",
 				type: "item",
 				item: "pamhc2foodcore:fishandchipsitem"
+			}],
+			rewards: [{
+				id: "214722F7B4C1FA96",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -488,6 +617,11 @@
 				id: "182D96AE90B6117C",
 				type: "item",
 				item: "pamhc2foodcore:caramelappleitem"
+			}],
+			rewards: [{
+				id: "629677BB3BF7EF09",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -498,6 +632,11 @@
 				id: "6338E585AFE7AF32",
 				type: "item",
 				item: "xreliquary:glowing_bread"
+			}],
+			rewards: [{
+				id: "2D97CCE62E652B2C",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -508,17 +647,26 @@
 				id: "5BD12758F92D5E7B",
 				type: "item",
 				item: "pamhc2foodcore:baconcheeseburgeritem"
+			}],
+			rewards: [{
+				id: "416EF9FC597D75AB",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
 			x: -3.0d,
 			y: 11.5d,
-			dependencies: ["61E649BF9A3C9D44"],
 			id: "5D244B82268FCF98",
 			tasks: [{
 				id: "152658E8077C0AD4",
 				type: "item",
 				item: "createaddition:chocolate_cake"
+			}],
+			rewards: [{
+				id: "460140FEAE72F4C4",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
@@ -529,31 +677,31 @@
 				id: "0BDBD847F3338735",
 				type: "item",
 				item: "pamhc2foodcore:gummybearsitem"
+			}],
+			rewards: [{
+				id: "708EF7A9D1DCFEBB",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
 			x: -3.0d,
 			y: 13.0d,
-			dependencies: ["61E649BF9A3C9D44"],
 			id: "6AD08FAD9F99EC6F",
 			tasks: [{
 				id: "34828DF76E54974B",
 				type: "item",
 				item: "create:chocolate_glazed_berries"
+			}],
+			rewards: [{
+				id: "399FE618A9EB264C",
+				type: "xp",
+				xp: 100
 			}]
 		},
 		{
-			x: -5.5d,
-			y: 11.5d,
-			id: "61E649BF9A3C9D44",
-			tasks: [{
-				id: "55ED68A78514F45D",
-				type: "checkmark"
-			}]
-		},
-		{
-			x: 2.0d,
-			y: 9.5d,
+			x: 2.1785714285714235d,
+			y: 9.440476190476183d,
 			shape: "octagon",
 			dependencies: [
 				"480A61F6D6DFC5C4",

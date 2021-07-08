@@ -34,6 +34,603 @@
 		},
 		{
 			item: "mysticalagriculture:earth_seeds"
+		},
+		{
+			item: "tconstruct:rose_gold_ingot",
+			count: 4
+		},
+		{
+			item: "tconstruct:quartz_shuriken",
+			count: 16
+		},
+		{
+			item: {
+				id: "tconstruct:earth_slime_sling",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			}
+		},
+		{
+			item: "torchmaster:dreadlamp"
+		},
+		{
+			item: "waystones:waystone"
+		},
+		{
+			item: "tconstruct:ender_slime_drop",
+			count: 4
+		},
+		{
+			item: "tconstruct:ichor_slime_drop",
+			count: 4
+		},
+		{
+			item: "wyrmroost:jewelled_apple",
+			count: 4
+		},
+		{
+			item: "tconstruct:efln_ball",
+			count: 4
+		},
+		{
+			item: "storagedrawers:controller_slave"
+		},
+		{
+			item: "xreliquary:withered_rib",
+			count: 4
+		},
+		{
+			item: "xreliquary:lantern_of_paranoia"
+		},
+		{
+			item: "xreliquary:fortune_coin"
+		},
+		{
+			item: "xreliquary:squid_beak",
+			count: 4
+		},
+		{
+			item: "storagedrawers:compacting_drawers_3"
+		},
+		{
+			item: "xreliquary:holy_hand_grenade",
+			count: 4
+		},
+		{
+			item: "xreliquary:emperor_chalice"
+		},
+		{
+			item: "xreliquary:pedestals/white_pedestal"
+		},
+		{
+			item: "tconstruct:slimesteel_ingot",
+			count: 8
+		},
+		{
+			item: "refinedstorage:destruction_core",
+			count: 8
+		},
+		{
+			item: "refinedstorage:construction_core",
+			count: 8
+		},
+		{
+			item: "refinedstorage:basic_processor",
+			count: 16
+		},
+		{
+			item: "refinedstorage:improved_processor",
+			count: 8
+		},
+		{
+			item: "refinedstorage:advanced_processor",
+			count: 4
+		},
+		{
+			item: "refinedstorage:range_upgrade",
+			count: 2
+		},
+		{
+			item: "refinedstorage:stack_upgrade"
+		},
+		{
+			item: "refinedstorage:speed_upgrade",
+			count: 8
+		},
+		{
+			item: "refinedstorage:range_upgrade",
+			count: 2
+		},
+		{
+			item: "refinedstorage:stack_upgrade"
+		},
+		{
+			item: "refinedstorage:16k_storage_part"
+		},
+		{
+			item: "quark:bamboo_block",
+			count: 4
+		},
+		{
+			item: "refinedstorage:quartz_enriched_iron",
+			count: 8,
+			random_bonus: 4
+		},
+		{
+			item: "refinedstorage:processor_binding",
+			count: 8
+		},
+		{
+			item: "xreliquary:mob_charm_belt"
+		},
+		{
+			item: "xreliquary:mob_charm_belt"
+		},
+		{
+			item: "minecraft:iron_block"
+		},
+		{
+			item: "forbidden_arcanus:mysterywood_sapling"
+		},
+		{
+			item: "mob_grinding_utils:fluid_xp_bucket"
+		},
+		{
+			item: "immersiveengineering:creosote_bucket"
+		},
+		{
+			item: "forbidden_arcanus:obsidian_skull"
+		},
+		{
+			item: "mysticalagradditions:prudentium_apple",
+			count: 4
+		},
+		{
+			item: "mob_grinding_utils:saw_upgrade_smite",
+			count: 4
+		},
+		{
+			item: "mob_grinding_utils:spawner_upgrade_width"
+		},
+		{
+			item: "mob_grinding_utils:spawner_upgrade_height"
+		},
+		{
+			item: "forbidden_arcanus:mysterywood_sapling"
+		},
+		{
+			item: "immersiveengineering:fluid_pump"
+		},
+		{
+			item: "glassential:glass_light",
+			count: 8
+		},
+		{
+			item: {
+				id: "lightingwand:wand",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			}
+		},
+		{
+			item: "mob_grinding_utils:tinted_glass",
+			count: 8
+		},
+		{
+			item: "essentials:fertile_soil_netherwart"
+		},
+		{
+			item: "cyclic:scaffold_responsive",
+			count: 16
+		},
+		{
+			item: "darkutils:redstone_randomizer"
+		},
+		{
+			item: "darkutils:filter_player",
+			count: 8
+		},
+		{
+			item: "cyclic:magic_net",
+			count: 2
+		},
+		{
+			item: "darkutils:charm_gluttony"
+		},
+		{
+			item: {
+				id: "cyclic:glowing_helmet",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			}
+		},
+		{
+			item: "cyclic:heart"
+		},
+		{
+			item: {
+				id: "cyclic:scythe_harvest",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			}
+		},
+		{
+			item: {
+				id: "cyclic:boomerang_damage",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			}
+		},
+		{
+			item: {
+				id: "engineerstools:crushing_hammer",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			}
+		},
+		{
+			item: "darkutils:redstone_randomizer"
+		},
+		{
+			item: "darkutils:vector_plate_extreme",
+			count: 16
+		},
+		{
+			item: "darkutils:rune_damage_player",
+			count: 4
+		},
+		{
+			item: "cyclic:soundproofing",
+			count: 8
+		},
+		{
+			item: {
+				id: "cyclic:stirrups",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			}
+		},
+		{
+			item: "solarflux:sp_2"
+		},
+		{
+			item: "cyclic:water_candle"
+		},
+		{
+			item: {
+				id: "cyclic:flippers",
+				Count: 1b,
+				tag: {}
+			}
+		},
+		{
+			item: "cyclic:fan"
+		},
+		{
+			item: "cyclic:clock"
+		},
+		{
+			item: "cyclic:collector"
+		},
+		{
+			item: "cyclic:screen"
+		},
+		{
+			item: {
+				id: "cyclic:antimatter_wand",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			}
+		},
+		{
+			item: "cyclic:water_candle"
+		},
+		{
+			item: "cyclic:anvil"
+		},
+		{
+			item: {
+				ForgeCaps: {
+					Parent: {
+						Size: 81,
+						Items: []
+					}
+				},
+				id: "cyclic:storage_bag",
+				Count: 1b,
+				tag: {}
+			}
+		},
+		{
+			item: "cyclic:trash"
+		},
+		{
+			item: "botanypots:hopper_botany_pot"
+		},
+		{
+			item: "cyclic:fisher"
+		},
+		{
+			item: {
+				id: "minecraft:enchanted_book",
+				Count: 1b,
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s,
+						id: "cyclic:step"
+					}]
+				}
+			}
+		},
+		{
+			item: "cyclic:mason_iron",
+			count: 4
+		},
+		{
+			item: "cyclic:mason_plate",
+			count: 4
+		},
+		{
+			item: "cyclic:terra_preta",
+			count: 16
+		},
+		{
+			item: {
+				id: "minecraft:potion",
+				Count: 1b,
+				tag: {
+					Potion: "potionsmaster:crimsoniron_sight"
+				}
+			}
+		},
+		{
+			item: "metalbarrels:iron_to_diamond"
+		},
+		{
+			item: "minecraft:ender_pearl",
+			count: 4,
+			random_bonus: 2
+		},
+		{
+			item: {
+				id: "forbidden_arcanus:obsidian_boots",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			}
+		},
+		{
+			item: "forbidden_arcanus:obsidian_ingot",
+			count: 4
+		},
+		{
+			item: {
+				id: "forbidden_arcanus:obsidian_knee_pads",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			}
+		},
+		{
+			item: {
+				id: "forbidden_arcanus:obsidian_shoulder_pads",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			}
+		},
+		{
+			item: "minecraft:netherite_ingot"
+		},
+		{
+			item: "tconstruct:ender_slime_crystal"
+		},
+		{
+			item: "minecraft:lapis_block",
+			count: 4
+		},
+		{
+			item: "minecraft:redstone_block",
+			count: 4
+		},
+		{
+			item: "minecraft:anvil"
+		},
+		{
+			item: "minecraft:wither_skeleton_skull",
+			count: 3
+		},
+		{
+			item: "minecraft:blast_furnace"
+		},
+		{
+			item: "minecraft:sea_lantern",
+			count: 8
+		},
+		{
+			item: "minecraft:magma_block",
+			count: 8
+		},
+		{
+			item: "minecraft:nether_wart_block",
+			count: 8
+		},
+		{
+			item: "minecraft:chorus_flower",
+			count: 8
+		},
+		{
+			item: "minecraft:end_rod",
+			count: 4
+		},
+		{
+			item: "minecraft:ender_chest"
+		},
+		{
+			item: "minecraft:magenta_shulker_box"
+		},
+		{
+			item: "minecraft:lime_shulker_box"
+		},
+		{
+			item: "minecraft:netherite_scrap",
+			count: 2
+		},
+		{
+			item: "minecraft:diamond",
+			count: 2
+		},
+		{
+			item: "minecraft:gold_ingot",
+			count: 4
+		},
+		{
+			item: {
+				id: "minecraft:carrot_on_a_stick",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			}
+		},
+		{
+			item: {
+				id: "minecraft:warped_fungus_on_a_stick",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			}
+		},
+		{
+			item: "minecraft:redstone_lamp",
+			count: 4
+		},
+		{
+			item: "minecraft:lodestone"
+		},
+		{
+			item: "minecraft:respawn_anchor"
+		},
+		{
+			item: "minecraft:sticky_piston",
+			count: 4
+		},
+		{
+			item: "minecraft:piston",
+			count: 4
+		},
+		{
+			item: "minecraft:tnt",
+			count: 4
+		},
+		{
+			item: "minecraft:dropper",
+			count: 2
+		},
+		{
+			item: "minecraft:dispenser",
+			count: 2
+		},
+		{
+			item: "minecraft:iron_door",
+			count: 3
+		},
+		{
+			item: "minecraft:comparator",
+			count: 2
+		},
+		{
+			item: "minecraft:repeater",
+			count: 2
+		},
+		{
+			item: "minecraft:furnace_minecart"
+		},
+		{
+			item: {
+				id: "minecraft:diamond_sword",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			}
+		},
+		{
+			item: {
+				id: "minecraft:diamond_shovel",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			}
+		},
+		{
+			item: {
+				id: "minecraft:diamond_pickaxe",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			}
+		},
+		{
+			item: {
+				id: "minecraft:diamond_axe",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			}
+		},
+		{
+			item: {
+				id: "minecraft:diamond_hoe",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			}
+		},
+		{
+			item: "minecraft:blaze_rod",
+			count: 8
+		},
+		{
+			item: "minecraft:nether_wart",
+			count: 8
+		},
+		{
+			item: "minecraft:squid_spawn_egg"
+		},
+		{
+			item: "minecraft:brewing_stand"
+		},
+		{
+			item: "minecraft:slime_spawn_egg"
+		},
+		{
+			item: "minecraft:experience_bottle",
+			count: 4
 		}
 	]
 }
