@@ -11,6 +11,7 @@ minecraft/realms_persistence.json
 minecraft/reauth.toml
 minecraft/servers.dat
 minecraft/servers.dat_old
+minecraft/tconplanner/bookmark.dat
 minecraft/TrashSlotSaveState.json
 minecraft/usernamecache.json
 minecraft/usercache.json
@@ -56,4 +57,3 @@ server/world*
 !minecraft/config/xaerominimap.txt
 !server/config/cyclic.toml
 !server/config/quark-common.toml
-minecraft/tconplanner/bookmark.dat
