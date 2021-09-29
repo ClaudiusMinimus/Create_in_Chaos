@@ -1,0 +1,14 @@
+{
+    "name": "Wyrmroost",
+    "icon": "wyrmroost:coin_dragon",
+    "category": "videos",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "link",
+            "text": "This mod showcase by textConjure shows how to find and tame the various Wyrmroost dragons for 1.16.5.",
+            "url": "https://www.youtube.com/watch?v=ed8rLRDNVDQ",
+            "link_text": "Mod Showcase"
+        }
+    ]
+}
