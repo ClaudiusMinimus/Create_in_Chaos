@@ -2,11 +2,17 @@
     "name": "Day 5",
     "icon": "minecraft:writable_book",
     "category": "journal",
-    "sortnum": 5,
+    "sortnum": 4,
     "pages": [
         {
             "type": "text",
-            "text": "I discovered some really nice gems while mining underground. I thought I would try to see if I could make some better tools with them, and I could! Not all gems are equal, so look them over well to find the best gems."
+            "text": "While getting around the various plateaus, floating islands, and all the craziness of this world I discovered Grapple Hooks. I made a wooden hook and was given a stone hook as a reward! These hooks are awesome - I can hardly wait to upgrade this to the diamond level!"
+        },
+        {
+            "type": "crafting",
+            "title": "Grapple Hooks",
+            "recipe": "grapple_hooks:hook_wooden",
+            "text": "I found the recipes for iron through diamond hooks are missing, so I have included them $(l:grapple_hook_recipes)here."
         }
     ]
 }

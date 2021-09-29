@@ -6,14 +6,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "I discovered not to use my metal tools until they break. An alloy furnace will let me recover most metals from worn out tools."
-        },
-        {
-            "type": "crafting",
-            "title": "Alloy Furnace",
-            "recipe": "bluepower:alloyfurnace",
-            "text": "Can use most burnable items as fuel (except tiny coal)."
+            "text": "I discovered not to use my tools until they break. Repairing them was easy all I did was put the correct material in a crafting grid with my tool, and it regained durability!"
         }
-
     ]
 }
