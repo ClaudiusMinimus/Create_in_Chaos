@@ -1,5 +1,101 @@
 # Change Log
 
+## Version 1.1.0
+
+2021-09-28
+
+- Mods Added:
+  - aiotbotania-1.16.5-1.8.1
+  - flywheel-1.16-0.2.4 (dependancy for Create)
+  - tconplanner-1.16.5-1.1.0
+  - YungsExtras-Forge-1.16.4-1.0
+- Mods Updated:
+  - Apotheosis-1.16.5-4.8.0
+  - appleskin-forge-mc1.16.x-2.1.0
+  - architectury-1.23.33-forge
+  - BetterDungeons-1.16.4-1.2
+  - BetterStrongholds-1.16.4-1.2.1
+  - Bookshelf-Forge-1.16.5-10.3.29
+  - BorderlessWindow-1.16.5-1.2.0
+  - Botania-1.16.5-419
+  - BotaniaAdditionsMC1.16.4-1.0.4
+  - buildersaddition-1.16.5-20210807a
+  - bwncr-1.16.5-3.10.16
+  - cc-tweaked-1.16.5-1.98.2
+  - CodeChickenLib-1.16.5-4.0.3.434-universal
+  - collective-1.16.5-2.64
+  - comforts-forge-1.16.5-4.0.1.3
+  - Controlling-7.0.0.24
+  - CookingForBlockheads_1.16.5-9.3.4
+  - crashutilities-3.12
+  - create-mc1.16.5_v0.3.2d
+  - create-stuff-additions1.16.5_v1.1.3
+  - createaddition-1.16.5-20210911a
+  - createplus-1.16.4_v0.3.2.1
+  - CreativeCore_v2.2.1_mc1.16.5
+  - curios-forge-1.16.5-4.0.5.3
+  - CustomStartingGear-1.16.5-2.0.3-universal
+  - Cyclic-1.16.5-1.4.2
+  - EasySteel-Forge-1.16.5-1.2.21
+  - engineersdecor-1.16.4-1.1.14
+  - EnhancedVisuals_v1.3.32_mc1.16.5
+  - essentials-1.16.5-2.11.1
+  - extremeSoundMuffler-3.15_1.16.5
+  - EyesInTheDarkness-1.16.5-1.0.3
+  - fancymenu_2.3.3_MC_1.16.2-1.16.5
+  - flatbedrock-1.2.0-build.2+mc1.16.5
+  - forbidden_arcanus-16.2.0-beta-4
+  - ftb-chunks-forge-1605.3.2-build.57
+  - ftb-essentials-1605.1.4-build.20
+  - ftb-library-forge-1605.3.3-build.71
+  - ftb-quests-forge-1605.3.5-build.64
+  - ftb-ranks-1605.1.4-build.12-forge
+  - ftb-teams-forge-1605.2.2-build.32
+  - ftb-ultimine-forge-1605.3.0-build.25
+  - glassential-forge-1.16.5-1.1.7
+  - ImmersiveEngineering-1.16.5-5.0.3-138
+  - infinitetrading_1.16.5-1.9
+  - jei-1.16.5-7.7.1.121
+  - konkrete_1.3.0_MC_1.16.2-1.16.5
+  - kubejs-create-1605.1.2-build.7
+  - kubejs-forge-1605.3.18-build.133
+  - Mantle-1.16.5-1.6.123
+  - mcw-bridges-1.0.6-mc1.16.5
+  - mcw-windows-2.0.0-mc1.16.5
+  - metalbarrels-1.16.2-3.3b
+  - mob_grinding_utils-1.16.5-0.4.28
+  - moreoverlays-1.18.15-mc1.16.5
+  - MysticalAgradditions-1.16.5-4.2.1
+  - MysticalAgriculture-1.16.5-4.2.3
+  - NaturesCompass-1.16.5-1.9.1-forge
+  - Patchouli-1.16.4-53.2
+  - PickleTweaks-1.16.5-5.2.5
+  - Placebo-1.16.5-4.6.0
+  - polymorph-forge-1.16.5-0.25
+  - potionsmaster-0.2.2-1.16.5-36.1.0
+  - Quark-r2.4-316
+  - refinedstorage-1.9.15
+  - refinedstorageaddons-0.7.3
+  - repurposed_structures_forge-3.2.5+1.16.5
+  - rhino-forge-1605.1.4-build.63
+  - rsrequestify-1.16.5-2.1.3
+  - Runelic-1.16.5-7.0.2
+  - SoL-Carrot-1.16.5-1.10.1
+  - sounddeviceoptions-1.4.3
+  - StorageDrawers-1.16.3-8.3.0
+  - TConstruct-1.16.5-3.1.2.265
+  - torchmaster-2.3.8
+  - ultra_amplified_dimension-1.16.5-9.2.3-forge
+  - valhelsia_core-16.0.10
+  - Waystones_1.16.5-7.6.3
+  - Xaeros_Minimap_21.16.0_Forge_1.16.5
+  - XaerosWorldMap_1.17.1_Forge_1.16.5
+  - YungsApi-1.16.4-Forge-12
+- Mods Removed: none
+- Other Changes:
+  - Upgraded Forge to 36.2.6
+  - Lots of quest changes and additions
+
 ## Version 0.13.0 BETA
 
 2021-07-05
