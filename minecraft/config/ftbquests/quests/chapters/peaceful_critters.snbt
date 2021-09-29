@@ -1,216 +1,217 @@
 {
-	id: "2E88952F5BEEAB2E",
-	group: "6A9ADDD61F3DD320",
-	order_index: 2,
-	filename: "peaceful_critters",
-	title: "Peaceful Critters",
-	default_quest_shape: "",
+	id: "2E88952F5BEEAB2E"
+	group: "6A9ADDD61F3DD320"
+	order_index: 2
+	filename: "peaceful_critters"
+	title: "Peaceful Critters"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			icon: "minecraft:chicken",
-			x: -2.0d,
-			y: -6.5d,
-			dependencies: ["637598044F08ED11"],
-			id: "65F4831582CFA265",
+			icon: "minecraft:chicken"
+			x: -2.0d
+			y: -6.5d
+			dependencies: ["637598044F08ED11"]
+			id: "65F4831582CFA265"
 			tasks: [{
-				id: "6804EB82F3D8F46D",
-				type: "kill",
-				entity: "minecraft:chicken",
+				id: "6804EB82F3D8F46D"
+				type: "kill"
+				entity: "minecraft:chicken"
 				value: 10L
-			}],
+			}]
 			rewards: [{
-				id: "37028282F663C520",
-				type: "random",
+				id: "37028282F663C520"
+				type: "random"
 				table_id: 3202284983173505384L
 			}]
-		},
+		}
 		{
-			title: "Moo... Moo...",
-			icon: "minecraft:beef",
-			x: 0.0d,
-			y: -5.5d,
-			description: ["Moo... Moo... Feed me BEEF! Kill 10 cows."],
-			dependencies: ["637598044F08ED11"],
-			id: "15D51BAC3EEE7A3A",
+			title: "Moo... Moo..."
+			icon: "minecraft:beef"
+			x: 0.0d
+			y: -5.5d
+			description: ["Moo... Moo... Feed me BEEF! Kill 10 cows."]
+			dependencies: ["637598044F08ED11"]
+			id: "15D51BAC3EEE7A3A"
 			tasks: [{
-				id: "6B1BFEA4B496962D",
-				type: "kill",
-				icon: "minecraft:beef",
-				entity: "minecraft:cow",
+				id: "6B1BFEA4B496962D"
+				type: "kill"
+				icon: "minecraft:beef"
+				entity: "minecraft:cow"
 				value: 10L
-			}],
+			}]
 			rewards: [{
-				id: "5CFBE4BA6688A875",
-				type: "xp",
+				id: "5CFBE4BA6688A875"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			title: "Bah... Bah...",
-			icon: "minecraft:mutton",
-			x: 0.5d,
-			y: -4.0d,
-			description: ["Bah bah black sheep have you any wool? Nope, but we have mutton! Go and kill 10 sheep."],
-			dependencies: ["637598044F08ED11"],
-			id: "12481A44B18F84FF",
+			title: "Bah... Bah..."
+			icon: "minecraft:mutton"
+			x: 0.5d
+			y: -4.0d
+			description: ["Bah bah black sheep have you any wool? Nope, but we have mutton! Go and kill 10 sheep."]
+			dependencies: ["637598044F08ED11"]
+			id: "12481A44B18F84FF"
 			tasks: [{
-				id: "4B9B419557AFA661",
-				type: "kill",
-				icon: "minecraft:mutton",
-				entity: "minecraft:sheep",
+				id: "4B9B419557AFA661"
+				type: "kill"
+				icon: "minecraft:mutton"
+				entity: "minecraft:sheep"
 				value: 10L
-			}],
+			}]
 			rewards: [{
-				id: "449F51FA73463BAB",
-				type: "xp",
+				id: "449F51FA73463BAB"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			title: "Oink Oink",
-			icon: "minecraft:porkchop",
-			x: 0.0d,
-			y: -2.0d,
-			description: ["Oink oink, time to go piggie hunting!"],
-			dependencies: ["637598044F08ED11"],
-			id: "46C9CFC764FF10C8",
+			title: "Oink Oink"
+			icon: "minecraft:porkchop"
+			x: 0.0d
+			y: -2.0d
+			description: ["Oink oink, time to go piggie hunting!"]
+			dependencies: ["637598044F08ED11"]
+			id: "46C9CFC764FF10C8"
 			tasks: [{
-				id: "3AD585AA3491D17F",
-				type: "kill",
-				icon: "minecraft:porkchop",
-				entity: "minecraft:pig",
+				id: "3AD585AA3491D17F"
+				type: "kill"
+				icon: "minecraft:porkchop"
+				entity: "minecraft:pig"
 				value: 10L
-			}],
+			}]
 			rewards: [{
-				id: "7922DF4EA400C682",
-				type: "xp",
+				id: "7922DF4EA400C682"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			title: "Wascally Wabbit",
-			icon: "minecraft:rabbit",
-			x: -4.0d,
-			y: -5.5d,
-			description: ["What's up Doc? Go and hunt 10 rabbits."],
-			dependencies: ["637598044F08ED11"],
-			id: "41C502876731ECAF",
+			title: "Wascally Wabbit"
+			icon: "minecraft:rabbit"
+			x: -4.0d
+			y: -5.5d
+			description: ["What's up Doc? Go and hunt 10 rabbits."]
+			dependencies: ["637598044F08ED11"]
+			id: "41C502876731ECAF"
 			tasks: [{
-				id: "691F4B754320BE2C",
-				type: "kill",
-				icon: "minecraft:rabbit",
-				entity: "minecraft:rabbit",
+				id: "691F4B754320BE2C"
+				type: "kill"
+				icon: "minecraft:rabbit"
+				entity: "minecraft:rabbit"
 				value: 10L
-			}],
+			}]
 			rewards: [{
-				id: "289484162AD2FCF3",
-				type: "xp",
+				id: "289484162AD2FCF3"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			title: "Ink Blot",
-			icon: "forbidden_arcanus:tentacle",
-			x: -4.5d,
-			y: -4.0d,
+			title: "Ink Blot"
+			icon: "forbidden_arcanus:tentacle"
+			x: -4.5d
+			y: -4.0d
 			description: [
-				"Where are those squid when you need them? It seems they are only around when you don't need them. Go and hunt 10 squids.",
-				"",
+				"Where are those squid when you need them? It seems they are only around when you don't need them. Go and hunt 10 squids."
+				""
 				"Hint: You may need to go to the normal overworld. Is there a portal?"
-			],
-			dependencies: ["637598044F08ED11"],
-			id: "79232CC11759A093",
+			]
+			dependencies: ["637598044F08ED11"]
+			id: "79232CC11759A093"
 			tasks: [{
-				id: "3956A7163623ABEB",
-				type: "kill",
-				icon: "forbidden_arcanus:tentacle",
-				entity: "minecraft:squid",
+				id: "3956A7163623ABEB"
+				type: "kill"
+				icon: "forbidden_arcanus:tentacle"
+				entity: "minecraft:squid"
 				value: 10L
-			}],
+			}]
 			rewards: [{
-				id: "16B3A78FC0BC9320",
-				type: "xp",
+				id: "16B3A78FC0BC9320"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			title: "Cokadoddledoo!",
-			x: -4.0d,
-			y: -2.0d,
-			description: ["Hey, roosters don't lay eggs. Gather 16 eggs and try not to break any!"],
-			dependencies: ["637598044F08ED11"],
-			id: "4F71F4182A8CED21",
+			title: "Cokadoddledoo!"
+			x: -4.0d
+			y: -2.0d
+			description: ["Hey, roosters don't lay eggs. Gather 16 eggs and try not to break any!"]
+			dependencies: ["637598044F08ED11"]
+			id: "4F71F4182A8CED21"
 			tasks: [{
-				id: "21DDB6D73E6EAB82",
-				type: "item",
-				item: "minecraft:egg",
+				id: "21DDB6D73E6EAB82"
+				type: "item"
+				item: "minecraft:egg"
 				count: 16L
-			}],
+			}]
 			rewards: [{
-				id: "1B6CD926C4C4BE83",
-				type: "xp",
+				id: "1B6CD926C4C4BE83"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: -2.0d,
-			y: -4.0d,
+			x: -2.0d
+			y: -4.0d
 			description: [
-				"The Feeding Trough will automatically breed your animals, provided you have supplied the correct food.",
-				"",
+				"The Feeding Trough will automatically breed your animals, provided you have supplied the correct food."
+				""
 				"Placing a Chicken Nest on a hopper connected to an inventory is a great way to gather eggs."
-			],
-			id: "637598044F08ED11",
+			]
+			id: "637598044F08ED11"
 			tasks: [
 				{
-					id: "11FD418FBC9254BF",
-					type: "item",
+					id: "11FD418FBC9254BF"
+					type: "item"
 					item: "farmingforblockheads:feeding_trough"
-				},
+				}
 				{
-					id: "747DCDAAFC038395",
-					type: "item",
+					id: "747DCDAAFC038395"
+					type: "item"
 					item: "farmingforblockheads:chicken_nest"
 				}
-			],
+			]
 			rewards: [{
-				id: "3206BFCA83F5E12F",
-				type: "item",
+				id: "3206BFCA83F5E12F"
+				type: "item"
 				item: "farmingforblockheads:feeding_trough"
 			}]
-		},
+		}
 		{
-			x: -2.0d,
-			y: -1.0d,
-			description: ["Time to do some Ranching. Breed 100 head of anything and feed you and even give you a Dinnerbone!"],
-			dependencies: ["637598044F08ED11"],
-			id: "0794DA3634823859",
+			x: -2.0d
+			y: -1.0d
+			description: ["Time to do some Ranching. Breed 100 head of anything and feed you and even give you a Dinnerbone!"]
+			dependencies: ["637598044F08ED11"]
+			id: "0794DA3634823859"
 			tasks: [{
-				id: "784EC42324085F54",
-				type: "stat",
-				icon: "essentials:animal_feed",
-				stat: "minecraft:animals_bred",
+				id: "784EC42324085F54"
+				type: "stat"
+				icon: "essentials:animal_feed"
+				stat: "minecraft:animals_bred"
 				value: 100
-			}],
+			}]
 			rewards: [
 				{
-					id: "3837434ED2D394E1",
-					type: "item",
+					id: "3837434ED2D394E1"
+					type: "item"
 					item: {
-						id: "minecraft:name_tag",
-						Count: 1b,
+						id: "minecraft:name_tag"
+						Count: 1b
 						tag: {
-							RepairCost: 0,
+							RepairCost: 0
 							display: {
-								Name: '{"text":"Dinnerbone"}'
+								Name: "{\"text\":\"Dinnerbone\"}"
 							}
 						}
 					}
-				},
+				}
 				{
-					id: "1C91DFF03E75021D",
-					type: "item",
-					item: "pamhc2foodcore:chickendinneritem",
+					id: "1C91DFF03E75021D"
+					type: "item"
+					item: "pamhc2foodcore:chickendinneritem"
 					count: 32
 				}
 			]

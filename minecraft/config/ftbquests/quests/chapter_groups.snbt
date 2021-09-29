@@ -1,28 +1,10 @@
 {
 	chapter_groups: [
-		{
-			id: "6987EBD3219FABBD",
-			title: "Tools / Weapons / Armour"
-		},
-		{
-			id: "6A9ADDD61F3DD320",
-			title: "Husbandry / Cuisine"
-		},
-		{
-			id: "76ED38D9025D4E81",
-			title: "Storage"
-		},
-		{
-			id: "0A2579D302D893EF",
-			title: "Tech"
-		},
-		{
-			id: "256FB765D00D2B76",
-			title: "Magic"
-		},
-		{
-			id: "34C5A3DF1908DEB8",
-			title: "Beasts / Bosses"
-		}
+		{ id: "6987EBD3219FABBD", title: "Tools / Weapons / Armour" }
+		{ id: "6A9ADDD61F3DD320", title: "Husbandry / Cuisine" }
+		{ id: "76ED38D9025D4E81", title: "Storage" }
+		{ id: "0A2579D302D893EF", title: "Tech" }
+		{ id: "256FB765D00D2B76", title: "Magic" }
+		{ id: "34C5A3DF1908DEB8", title: "Beasts / Bosses" }
 	]
 }

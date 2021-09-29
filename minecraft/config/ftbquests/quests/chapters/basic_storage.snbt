@@ -1,339 +1,340 @@
 {
-	id: "266E6796881FC88B",
-	group: "76ED38D9025D4E81",
-	order_index: 0,
-	filename: "basic_storage",
-	title: "Basic Storage and Transport",
-	default_quest_shape: "",
+	id: "266E6796881FC88B"
+	group: "76ED38D9025D4E81"
+	order_index: 0
+	filename: "basic_storage"
+	title: "Basic Storage and Transport"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 0.0d,
-			y: 0.0d,
-			shape: "diamond",
-			size: 1.5d,
-			id: "6FA61C0AE71CA2C1",
+			x: 0.0d
+			y: 0.0d
+			shape: "diamond"
+			size: 1.5d
+			id: "6FA61C0AE71CA2C1"
 			tasks: [{
-				id: "536E59435924182A",
-				type: "item",
-				title: "Any Chest",
+				id: "536E59435924182A"
+				type: "item"
+				title: "Any Chest"
 				item: {
-					id: "itemfilters:tag",
-					Count: 1b,
+					id: "itemfilters:tag"
+					Count: 1b
 					tag: {
 						value: "forge:chests/wooden"
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "3EEBD875E110A874",
-				type: "xp",
+				id: "3EEBD875E110A874"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 0.0d,
-			y: -1.5d,
-			dependencies: ["6FA61C0AE71CA2C1"],
-			id: "74C72765B7895D47",
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["6FA61C0AE71CA2C1"]
+			id: "74C72765B7895D47"
 			tasks: [{
-				id: "2056E7385095979C",
-				type: "item",
+				id: "2056E7385095979C"
+				type: "item"
 				item: "minecraft:barrel"
-			}],
+			}]
 			rewards: [{
-				id: "5E159003F5337605",
-				type: "random",
+				id: "5E159003F5337605"
+				type: "random"
 				table_id: 3202284983173505384L
 			}]
-		},
+		}
 		{
-			x: -1.0d,
-			y: -3.0d,
-			dependencies: ["74C72765B7895D47"],
-			id: "7E272D5FED7665F6",
+			x: -1.0d
+			y: -3.0d
+			dependencies: ["74C72765B7895D47"]
+			id: "7E272D5FED7665F6"
 			tasks: [{
-				id: "0C56CEDE31A03D16",
-				type: "item",
+				id: "0C56CEDE31A03D16"
+				type: "item"
 				item: "metalbarrels:wood_to_copper"
 			}]
-		},
+		}
 		{
-			x: 1.0d,
-			y: -3.0d,
-			dependencies: ["74C72765B7895D47"],
-			id: "5FF1F55952BBBE46",
+			x: 1.0d
+			y: -3.0d
+			dependencies: ["74C72765B7895D47"]
+			id: "5FF1F55952BBBE46"
 			tasks: [{
-				id: "2A205A254CC863F4",
-				type: "item",
+				id: "2A205A254CC863F4"
+				type: "item"
 				item: "metalbarrels:wood_to_iron"
 			}]
-		},
+		}
 		{
-			x: -1.0d,
-			y: -4.5d,
-			dependencies: ["7E272D5FED7665F6"],
-			id: "0C9B8413E6E6EB58",
+			x: -1.0d
+			y: -4.5d
+			dependencies: ["7E272D5FED7665F6"]
+			id: "0C9B8413E6E6EB58"
 			tasks: [{
-				id: "42704AD748A89338",
-				type: "item",
+				id: "42704AD748A89338"
+				type: "item"
 				item: "metalbarrels:copper_to_silver"
 			}]
-		},
+		}
 		{
-			x: -1.0d,
-			y: -6.0d,
-			dependencies: ["0C9B8413E6E6EB58"],
-			id: "28ADE8738185FF4B",
+			x: -1.0d
+			y: -6.0d
+			dependencies: ["0C9B8413E6E6EB58"]
+			id: "28ADE8738185FF4B"
 			tasks: [{
-				id: "6C878FC6DE119D95",
-				type: "item",
+				id: "6C878FC6DE119D95"
+				type: "item"
 				item: "metalbarrels:silver_to_gold"
 			}]
-		},
+		}
 		{
-			x: 1.0d,
-			y: -4.5d,
-			dependencies: ["5FF1F55952BBBE46"],
-			id: "284D83147F36495E",
+			x: 1.0d
+			y: -4.5d
+			dependencies: ["5FF1F55952BBBE46"]
+			id: "284D83147F36495E"
 			tasks: [{
-				id: "4201DEF2E85AD027",
-				type: "item",
+				id: "4201DEF2E85AD027"
+				type: "item"
 				item: "metalbarrels:iron_to_gold"
 			}]
-		},
+		}
 		{
-			x: 1.0d,
-			y: -6.0d,
-			dependencies: ["284D83147F36495E"],
-			id: "15612B0E12A9100E",
+			x: 1.0d
+			y: -6.0d
+			dependencies: ["284D83147F36495E"]
+			id: "15612B0E12A9100E"
 			tasks: [{
-				id: "7E40F91B158D5AB7",
-				type: "item",
+				id: "7E40F91B158D5AB7"
+				type: "item"
 				item: "metalbarrels:gold_to_diamond"
 			}]
-		},
+		}
 		{
-			x: 1.0d,
-			y: -7.5d,
-			dependencies: ["15612B0E12A9100E"],
-			id: "37E8FB55D497399D",
+			x: 1.0d
+			y: -7.5d
+			dependencies: ["15612B0E12A9100E"]
+			id: "37E8FB55D497399D"
 			tasks: [{
-				id: "29F1EA68FFB8D84C",
-				type: "item",
+				id: "29F1EA68FFB8D84C"
+				type: "item"
 				item: "metalbarrels:diamond_to_crystal"
 			}]
-		},
+		}
 		{
-			x: 2.5d,
-			y: -7.5d,
-			dependencies: ["15612B0E12A9100E"],
-			id: "0240FF83777426F6",
+			x: 2.5d
+			y: -7.5d
+			dependencies: ["15612B0E12A9100E"]
+			id: "0240FF83777426F6"
 			tasks: [{
-				id: "59A5E214A05BAB68",
-				type: "item",
+				id: "59A5E214A05BAB68"
+				type: "item"
 				item: "metalbarrels:diamond_to_obsidian"
 			}]
-		},
+		}
 		{
-			x: 2.5d,
-			y: -9.0d,
-			dependencies: ["0240FF83777426F6"],
-			id: "06BE615DF755E044",
+			x: 2.5d
+			y: -9.0d
+			dependencies: ["0240FF83777426F6"]
+			id: "06BE615DF755E044"
 			tasks: [{
-				id: "6C6EA7258D249DF8",
-				type: "item",
+				id: "6C6EA7258D249DF8"
+				type: "item"
 				item: "metalbarrels:netherite_barrel"
 			}]
-		},
+		}
 		{
-			x: 3.0d,
-			y: 1.5d,
-			dependencies: ["6FA61C0AE71CA2C1"],
-			id: "7CE99CD2E04210B0",
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["6FA61C0AE71CA2C1"]
+			id: "7CE99CD2E04210B0"
 			tasks: [{
-				id: "4F0FB21BBEEDDD58",
-				type: "item",
+				id: "4F0FB21BBEEDDD58"
+				type: "item"
 				item: "enderstorage:ender_chest"
-			}],
+			}]
 			rewards: [{
-				id: "322732BC42C8039E",
-				type: "item",
+				id: "322732BC42C8039E"
+				type: "item"
 				item: "enderstorage:ender_pouch"
 			}]
-		},
+		}
 		{
-			x: -1.5d,
-			y: 2.0d,
-			dependencies: ["6FA61C0AE71CA2C1"],
-			id: "35FE747573C34C6B",
+			x: -1.5d
+			y: 2.0d
+			dependencies: ["6FA61C0AE71CA2C1"]
+			id: "35FE747573C34C6B"
 			tasks: [{
-				id: "518ABBAA6D6D8D43",
-				type: "item",
+				id: "518ABBAA6D6D8D43"
+				type: "item"
 				item: "minecraft:hopper"
 			}]
-		},
+		}
 		{
-			x: -2.5d,
-			y: 3.5d,
-			dependencies: ["35FE747573C34C6B"],
-			id: "718E7FFE7F47A860",
+			x: -2.5d
+			y: 3.5d
+			dependencies: ["35FE747573C34C6B"]
+			id: "718E7FFE7F47A860"
 			tasks: [{
-				id: "5A21B1CF89883D67",
-				type: "item",
+				id: "5A21B1CF89883D67"
+				type: "item"
 				item: "engineersdecor:factory_hopper"
 			}]
-		},
+		}
 		{
-			x: -3.0d,
-			y: 1.5d,
-			dependencies: ["6FA61C0AE71CA2C1"],
-			id: "2207140E41969ED5",
+			x: -3.0d
+			y: 1.5d
+			dependencies: ["6FA61C0AE71CA2C1"]
+			id: "2207140E41969ED5"
 			tasks: [{
-				id: "374D744149710FE8",
-				type: "item",
+				id: "374D744149710FE8"
+				type: "item"
 				item: "quark:pipe"
 			}]
-		},
+		}
 		{
-			x: -3.0d,
-			y: -1.5d,
-			dependencies: ["6FA61C0AE71CA2C1"],
-			id: "2B0A5ED3A170A4FD",
+			x: -3.0d
+			y: -1.5d
+			dependencies: ["6FA61C0AE71CA2C1"]
+			id: "2B0A5ED3A170A4FD"
 			tasks: [{
-				id: "07DB29A893855B12",
-				type: "item",
+				id: "07DB29A893855B12"
+				type: "item"
 				item: "quark:chute"
 			}]
-		},
+		}
 		{
-			x: 1.5d,
-			y: 2.0d,
-			dependencies: ["6FA61C0AE71CA2C1"],
-			id: "0DEDD25C766D9A00",
+			x: 1.5d
+			y: 2.0d
+			dependencies: ["6FA61C0AE71CA2C1"]
+			id: "0DEDD25C766D9A00"
 			tasks: [{
-				id: "208B1FE8E93C920E",
-				type: "item",
+				id: "208B1FE8E93C920E"
+				type: "item"
 				item: "essentials:slotted_chest"
 			}]
-		},
+		}
 		{
-			x: -1.5d,
-			y: -1.5d,
-			dependencies: ["6FA61C0AE71CA2C1"],
-			id: "44B3833CBBDAF9DC",
+			x: -1.5d
+			y: -1.5d
+			dependencies: ["6FA61C0AE71CA2C1"]
+			id: "44B3833CBBDAF9DC"
 			tasks: [{
-				id: "1F5D04159C8F1FE7",
-				type: "item",
+				id: "1F5D04159C8F1FE7"
+				type: "item"
 				item: "essentials:hopper_filter"
 			}]
-		},
+		}
 		{
-			x: 0.0d,
-			y: 2.0d,
-			dependencies: ["6FA61C0AE71CA2C1"],
-			id: "124F569DA593042E",
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["6FA61C0AE71CA2C1"]
+			id: "124F569DA593042E"
 			tasks: [{
-				id: "0AA9278CDC7EFDFE",
-				type: "item",
+				id: "0AA9278CDC7EFDFE"
+				type: "item"
 				item: "cyclic:trash"
 			}]
-		},
+		}
 		{
-			x: -3.0d,
-			y: 0.0d,
-			dependencies: ["6FA61C0AE71CA2C1"],
-			id: "5096568C2866B497",
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["6FA61C0AE71CA2C1"]
+			id: "5096568C2866B497"
 			tasks: [{
-				id: "30CE4DAA1E139CA9",
-				type: "item",
-				item: "cyclic:item_pipe",
+				id: "30CE4DAA1E139CA9"
+				type: "item"
+				item: "cyclic:item_pipe"
 				count: 8L
-			}],
+			}]
 			rewards: [{
-				id: "090A8C74CB78A3F6",
-				type: "item",
+				id: "090A8C74CB78A3F6"
+				type: "item"
 				item: "cyclic:cable_wrench"
 			}]
-		},
+		}
 		{
-			x: -1.0d,
-			y: 3.5d,
-			dependencies: ["35FE747573C34C6B"],
-			id: "6C1C19219A74199A",
+			x: -1.0d
+			y: 3.5d
+			dependencies: ["35FE747573C34C6B"]
+			id: "6C1C19219A74199A"
 			tasks: [{
-				id: "7A3DA1C8C1B2011E",
-				type: "item",
+				id: "7A3DA1C8C1B2011E"
+				type: "item"
 				item: "darkutils:ender_hopper"
 			}]
-		},
+		}
 		{
-			x: 1.5d,
-			y: -1.5d,
-			dependencies: ["6FA61C0AE71CA2C1"],
-			id: "5B1AF6A1AC3EBA3E",
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["6FA61C0AE71CA2C1"]
+			id: "5B1AF6A1AC3EBA3E"
 			tasks: [{
-				id: "593473901FC77CC1",
-				type: "item",
+				id: "593473901FC77CC1"
+				type: "item"
 				item: "usefulbackpacks:backpack_medium"
 			}]
-		},
+		}
 		{
-			x: 3.0d,
-			y: -1.5d,
-			dependencies: ["5B1AF6A1AC3EBA3E"],
-			id: "36FDEC35CAE76DBB",
+			x: 3.0d
+			y: -1.5d
+			dependencies: ["5B1AF6A1AC3EBA3E"]
+			id: "36FDEC35CAE76DBB"
 			tasks: [{
-				id: "2687DB3E1ED4B6E8",
-				type: "item",
+				id: "2687DB3E1ED4B6E8"
+				type: "item"
 				item: "usefulbackpacks:backpack_large"
 			}]
-		},
+		}
 		{
-			x: 3.0d,
-			y: -3.0d,
-			dependencies: ["5B1AF6A1AC3EBA3E"],
-			id: "085F1A5711D4DBF9",
+			x: 3.0d
+			y: -3.0d
+			dependencies: ["5B1AF6A1AC3EBA3E"]
+			id: "085F1A5711D4DBF9"
 			tasks: [{
-				id: "7BF435EBDBE14069",
-				type: "item",
+				id: "7BF435EBDBE14069"
+				type: "item"
 				item: "usefulbackpacks:filter_configurator"
 			}]
-		},
+		}
 		{
-			x: 3.5d,
-			y: -4.5d,
-			dependencies: ["085F1A5711D4DBF9"],
-			id: "504F7B8772C3116D",
+			x: 3.5d
+			y: -4.5d
+			dependencies: ["085F1A5711D4DBF9"]
+			id: "504F7B8772C3116D"
 			tasks: [{
-				id: "421DBA5B0B26B8EE",
-				type: "item",
+				id: "421DBA5B0B26B8EE"
+				type: "item"
 				item: "usefulbackpacks:filter_item"
 			}]
-		},
+		}
 		{
-			x: 4.5d,
-			y: -3.5d,
-			dependencies: ["085F1A5711D4DBF9"],
-			id: "09CF5876BBC77D68",
+			x: 4.5d
+			y: -3.5d
+			dependencies: ["085F1A5711D4DBF9"]
+			id: "09CF5876BBC77D68"
 			tasks: [{
-				id: "16E63C2A1C5E28E4",
-				type: "item",
+				id: "16E63C2A1C5E28E4"
+				type: "item"
 				item: "usefulbackpacks:filter_tag"
 			}]
-		},
+		}
 		{
-			x: 3.0d,
-			y: 0.0d,
-			dependencies: ["6FA61C0AE71CA2C1"],
-			id: "6BA3E904EE1EBB98",
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["6FA61C0AE71CA2C1"]
+			id: "6BA3E904EE1EBB98"
 			tasks: [{
-				id: "29615A10ED9CCD81",
-				type: "item",
+				id: "29615A10ED9CCD81"
+				type: "item"
 				item: "minecraft:ender_chest"
-			}],
+			}]
 			rewards: [{
-				id: "71F3617A8C757ECD",
-				type: "item",
+				id: "71F3617A8C757ECD"
+				type: "item"
 				item: "usefulbackpacks:backpack_enderchest"
 			}]
 		}

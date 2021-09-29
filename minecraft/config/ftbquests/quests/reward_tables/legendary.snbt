@@ -1,275 +1,247 @@
 {
-	id: "2A8C948AE4362BC5",
-	order_index: 4,
-	title: "Legendary",
-	loot_size: 1,
+	id: "2A8C948AE4362BC5"
+	order_index: 4
+	title: "Legendary"
+	loot_size: 1
 	rewards: [
-		{
-			item: "tconstruct:manyullyn_block"
-		},
-		{
-			item: "waterstrainer:super_worm"
-		},
-		{
-			item: "tconstruct:creative_upgrade"
-		},
-		{
-			item: "tconstruct:hepatizon_block"
-		},
-		{
-			item: "mysticalagriculture:nether_star_seeds"
-		},
-		{
-			item: "tconstruct:creative_ability"
-		},
-		{
-			item: "xreliquary:witherless_rose"
-		},
-		{
-			item: "mysticalagriculture:flight_augment"
-		},
+		{ item: "tconstruct:manyullyn_block" }
+		{ item: "waterstrainer:super_worm" }
+		{ item: "tconstruct:creative_slot" }
+		{ item: "tconstruct:hepatizon_block" }
+		{ item: "mysticalagriculture:nether_star_seeds" }
+		{ item: "tconstruct:creative_slot" }
+		{ item: "xreliquary:witherless_rose" }
+		{ item: "mysticalagriculture:flight_augment" }
 		{
 			item: {
-				id: "mysticalagriculture:supremium_sword",
-				Count: 1b,
+				id: "mysticalagriculture:supremium_sword"
+				Count: 1b
 				tag: {
 					Augment-0: "mysticalagriculture:strength_iii"
 				}
 			}
-		},
+		}
 		{
 			item: {
+				id: "xreliquary:void_tear"
+				Count: 1b
 				ForgeCaps: {
 					Parent: {
-						Items: []
+						Items: [ ]
 					}
-				},
-				id: "xreliquary:void_tear",
-				Count: 1b
+				}
 			}
-		},
+		}
 		{
 			item: {
-				id: "xreliquary:alkahestry_tome",
-				Count: 1b,
+				id: "xreliquary:alkahestry_tome"
+				Count: 1b
 				tag: {
 					Damage: 1001
 				}
 			}
-		},
-		{
-			item: "refinedstorage:brown_creative_controller"
-		},
-		{
-			item: "mysticalagradditions:nether_star_crux"
-		},
+		}
+		{ item: "refinedstorage:brown_creative_controller" }
+		{ item: "mysticalagradditions:nether_star_crux" }
 		{
 			item: {
-				id: "minecraft:enchanted_book",
-				Count: 1b,
+				id: "minecraft:enchanted_book"
+				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						lvl: 7s,
+						lvl: 7s
 						id: "grapple_hooks:pull_speed"
 					}]
 				}
 			}
-		},
+		}
 		{
 			item: {
-				id: "minecraft:enchanted_book",
-				Count: 1b,
+				id: "minecraft:enchanted_book"
+				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						lvl: 7s,
+						lvl: 7s
 						id: "grapple_hooks:rope_distance"
 					}]
 				}
 			}
-		},
-		{
-			item: "dankstorage:6_to_7"
-		},
-		{
-			item: "essentials:wither_cannon"
-		},
-		{
-			item: "solarflux:sp_8",
-			count: 2
-		},
-		{
-			item: "createaddition:creative_energy"
-		},
-		{
-			item: "botania:creative_pool"
-		},
+		}
+		{ item: "dankstorage:6_to_7" }
+		{ item: "essentials:wither_cannon" }
+		{ item: "solarflux:sp_8", count: 2 }
+		{ item: "createaddition:creative_energy" }
+		{ item: "botania:creative_pool" }
 		{
 			item: {
-				id: "minecraft:enchanted_book",
-				Count: 1b,
+				id: "minecraft:enchanted_book"
+				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						lvl: 7s,
+						lvl: 7s
 						id: "cyclic:beheading"
 					}]
 				}
 			}
-		},
+		}
 		{
 			item: {
-				id: "minecraft:enchanted_book",
-				Count: 1b,
+				id: "minecraft:enchanted_book"
+				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						lvl: 7s,
+						lvl: 7s
 						id: "cyclic:quickshot"
 					}]
 				}
 			}
-		},
+		}
 		{
 			item: {
-				id: "minecraft:enchanted_book",
-				Count: 1b,
+				id: "minecraft:enchanted_book"
+				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						lvl: 5s,
+						lvl: 5s
 						id: "cyclic:experience_boost"
 					}]
 				}
 			}
-		},
+		}
 		{
 			item: {
-				id: "cyclic:charm_ultimate",
-				Count: 1b,
+				id: "cyclic:charm_ultimate"
+				Count: 1b
 				tag: {
 					Damage: 0
 				}
 			}
-		},
+		}
 		{
 			item: {
-				id: "tconstruct:sledge_hammer",
-				Count: 1b,
+				id: "tconstruct:sledge_hammer"
+				Count: 1b
 				tag: {
+					tic_multipliers: {
+						"tconstruct:mining_speed": 0.4f
+						"tconstruct:attack_damage": 1.35f
+						"tconstruct:durability": 4.0f
+					}
 					tic_stats: {
-						mining_speed: 19.059376f,
-						attack: 12.890625f,
-						reach: 5.0f,
-						durability: 8995,
-						attack_speed: 1.284f,
-						harvest_level: 4
-					},
-					RepairCost: 0,
-					tic_broken: 0b,
-					tic_modifiers: [
-						{
-							name: "tconstruct:diamond",
-							level: 1s
-						},
-						{
-							name: "tconstruct:experienced",
-							level: 5s
-						},
-						{
-							name: "tconstruct:haste",
-							level: 5s
-						},
-						{
-							name: "tconstruct:insatiable",
-							level: 2s
-						},
-						{
-							name: "tconstruct:lightweight",
-							level: 1s
-						},
-						{
-							name: "tconstruct:luck",
-							level: 1s
-						},
-						{
-							name: "tconstruct:netherite",
-							level: 1s
-						},
-						{
-							name: "tconstruct:smite",
-							level: 2s
-						},
-						{
-							name: "tconstruct:creative_ability",
-							level: 2s
-						},
-						{
-							name: "tconstruct:creative_upgrade",
-							level: 11s
-						},
-						{
-							name: "tconstruct:two_handed",
-							level: 1s
-						}
-					],
+						"tconstruct:attack_speed": 1.0532813f
+						"tconstruct:mining_speed": 15.762975f
+						"tconstruct:attack_damage": 10.395f
+						"tconstruct:harvest_level": 4.0f
+						"tconstruct:durability": 7406.4004f
+					}
+					RepairCost: 0
 					Enchantments: [{
-						lvl: 1s,
+						lvl: 1s
 						id: "forbidden_arcanus:indestructible"
-					}],
+					}]
 					display: {
-						Name: '{"text":"CM\'s Sledge Hammer"}'
-					},
-					tic_upgrades: [
-						{
-							name: "tconstruct:diamond",
-							level: 1s
-						},
-						{
-							name: "tconstruct:netherite",
-							level: 1s
-						},
-						{
-							name: "tconstruct:luck",
-							level: 1s
-						},
-						{
-							name: "tconstruct:creative_upgrade",
-							level: 11s
-						},
-						{
-							name: "tconstruct:haste",
-							level: 5s
-						},
-						{
-							name: "tconstruct:experienced",
-							level: 4s
-						},
-						{
-							name: "tconstruct:creative_ability",
-							level: 2s
-						}
-					],
-					tic_materials: [
-						"tconstruct:manyullyn",
-						"tconstruct:cobalt",
-						"tconstruct:electrum",
-						"tconstruct:manyullyn"
-					],
-					Damage: 0,
+						Name: "{\"text\":\"CMs Sledge Hammer\"}"
+					}
 					tic_volatile_data: {
-						abilities: 2,
-						"tconstruct:indestructible": 1b,
+						abilities: 2
+						"tconstruct:rarity": 2
+						"tconstruct:indestructible": 1b
 						upgrades: 11
-					},
+					}
 					tic_persistent_data: {
-						abilities: 0,
-						traits: 0,
-						"tconstruct:luck": 108,
-						upgrades: -9,
+						abilities: 0
+						traits: 0
+						"tconstruct:luck": 108
+						upgrades: -9
 						"tconstruct:haste": 45
 					}
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							name: "tconstruct:diamond"
+							level: 1s
+						}
+						{
+							name: "tconstruct:experienced"
+							level: 5s
+						}
+						{
+							name: "tconstruct:haste"
+							level: 5s
+						}
+						{
+							name: "tconstruct:insatiable"
+							level: 2s
+						}
+						{
+							name: "tconstruct:lightweight"
+							level: 1s
+						}
+						{
+							name: "tconstruct:luck"
+							level: 1s
+						}
+						{
+							name: "tconstruct:netherite"
+							level: 1s
+						}
+						{
+							name: "tconstruct:smite"
+							level: 2s
+						}
+						{
+							name: "tconstruct:extra_ability"
+							level: 2s
+						}
+						{
+							name: "tconstruct:red_extra_upgrade"
+							level: 11s
+						}
+						{
+							name: "tconstruct:two_handed"
+							level: 1s
+						}
+					]
+					tic_upgrades: [
+						{
+							name: "tconstruct:diamond"
+							level: 1s
+						}
+						{
+							name: "tconstruct:netherite"
+							level: 1s
+						}
+						{
+							name: "tconstruct:luck"
+							level: 1s
+						}
+						{
+							name: "tconstruct:creative_upgrade"
+							level: 11s
+						}
+						{
+							name: "tconstruct:haste"
+							level: 5s
+						}
+						{
+							name: "tconstruct:experienced"
+							level: 4s
+						}
+						{
+							name: "tconstruct:creative_ability"
+							level: 2s
+						}
+					]
+					tic_materials: [
+						"tconstruct:manyullyn"
+						"tconstruct:cobalt"
+						"tconstruct:electrum"
+						"tconstruct:manyullyn"
+					]
+					Damage: 0
 				}
 			}
-		},
-		{
-			item: "cyclic:anvil"
 		}
+		{ item: "cyclic:anvil" }
 	]
 }

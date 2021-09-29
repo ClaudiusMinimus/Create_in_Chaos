@@ -1,246 +1,183 @@
 {
-	id: "75BD8C457B36A1DF",
-	order_index: 3,
-	title: "Epic",
-	loot_size: 1,
+	id: "75BD8C457B36A1DF"
+	order_index: 3
+	title: "Epic"
+	loot_size: 1
 	rewards: [
-		{
-			item: "tconstruct:hepatizon_block"
-		},
-		{
-			item: "metalbarrels:crystal_barrel"
-		},
+		{ item: "tconstruct:hepatizon_block" }
+		{ item: "metalbarrels:crystal_barrel" }
 		{
 			item: {
-				id: "tconstruct:broad_axe_head",
-				Count: 1b,
+				id: "tconstruct:broad_axe_head"
+				Count: 1b
 				tag: {
 					Material: "tconstruct:queens_slime"
 				}
 			}
-		},
+		}
 		{
 			item: {
-				id: "wyrmroost:drake_leggings",
-				Count: 1b,
+				id: "wyrmroost:drake_leggings"
+				Count: 1b
 				tag: {
 					Damage: 0
 				}
 			}
-		},
+		}
 		{
 			item: {
-				id: "wyrmroost:drake_boots",
-				Count: 1b,
+				id: "wyrmroost:drake_boots"
+				Count: 1b
 				tag: {
 					Damage: 0
 				}
 			}
-		},
+		}
 		{
 			item: {
-				id: "wyrmroost:drake_chestplate",
-				Count: 1b,
+				id: "wyrmroost:drake_chestplate"
+				Count: 1b
 				tag: {
 					Damage: 0
 				}
 			}
-		},
+		}
 		{
 			item: {
-				id: "wyrmroost:drake_helmet",
-				Count: 1b,
+				id: "wyrmroost:drake_helmet"
+				Count: 1b
 				tag: {
 					Damage: 0
 				}
 			}
-		},
-		{
-			item: "cyclic:heart"
-		},
-		{
-			item: "mysticalagriculture:end_seeds"
-		},
-		{
-			item: "metalbarrels:crystal_barrel"
-		},
-		{
-			item: "tconstruct:manyullyn_ingot",
-			count: 4
-		},
-		{
-			item: "wyrmroost:purple_geode",
-			count: 4
-		},
-		{
-			item: "xreliquary:fertile_lily_pad",
-			random_bonus: 1
-		},
-		{
-			item: "xreliquary:salamander_eye"
-		},
-		{
-			item: "xreliquary:witherless_rose"
-		},
-		{
-			item: "xreliquary:infernal_claws"
-		},
-		{
-			item: "xreliquary:phoenix_down"
-		},
+		}
+		{ item: "cyclic:heart" }
+		{ item: "mysticalagriculture:end_seeds" }
+		{ item: "metalbarrels:crystal_barrel" }
+		{ item: "tconstruct:manyullyn_ingot", count: 4 }
+		{ item: "wyrmroost:purple_geode", count: 4 }
+		{ item: "xreliquary:fertile_lily_pad", random_bonus: 1 }
+		{ item: "xreliquary:salamander_eye" }
+		{ item: "xreliquary:witherless_rose" }
+		{ item: "xreliquary:infernal_claws" }
+		{ item: "xreliquary:phoenix_down" }
 		{
 			item: {
-				id: "xreliquary:lingering_potion",
-				Count: 1b,
+				id: "xreliquary:lingering_potion"
+				Count: 1b
 				tag: {
 					effects: [{
-						duration: 500,
-						name: "xreliquary:cure",
+						duration: 500
+						name: "xreliquary:cure"
 						potency: 3
 					}]
 				}
-			},
+			}
 			count: 4
-		},
-		{
-			item: "mysticalagriculture:imperium_furnace"
-		},
-		{
-			item: "mysticalagriculture:mining_fatigue_resistance_augment"
-		},
-		{
-			item: "rsrequestify:requester"
-		},
-		{
-			item: "immersiveengineering:tesla_coil"
-		},
-		{
-			item: "immersiveengineering:turret_gun"
-		},
-		{
-			item: "immersiveengineering:turret_chem"
-		},
-		{
-			item: "mysticalagradditions:imperium_apple",
-			count: 4
-		},
-		{
-			item: "mob_grinding_utils:saw"
-		},
-		{
-			item: "mob_grinding_utils:entity_spawner"
-		},
-		{
-			item: "dankstorage:5_to_6"
-		},
+		}
+		{ item: "mysticalagriculture:imperium_furnace" }
+		{ item: "mysticalagriculture:mining_fatigue_resistance_augment" }
+		{ item: "rsrequestify:requester" }
+		{ item: "immersiveengineering:tesla_coil" }
+		{ item: "immersiveengineering:turret_gun" }
+		{ item: "immersiveengineering:turret_chem" }
+		{ item: "mysticalagradditions:imperium_apple", count: 4 }
+		{ item: "mob_grinding_utils:saw" }
+		{ item: "mob_grinding_utils:entity_spawner" }
+		{ item: "dankstorage:5_to_6" }
 		{
 			item: {
-				id: "cyclic:ender_eye_reuse",
-				Count: 1b,
+				id: "cyclic:ender_eye_reuse"
+				Count: 1b
 				tag: {
 					Damage: 0
 				}
 			}
-		},
-		{
-			item: "cyclic:uncrafter"
-		},
-		{
-			item: "solarflux:sp_5",
-			count: 2
-		},
+		}
+		{ item: "cyclic:uncrafter" }
+		{ item: "solarflux:sp_5", count: 2 }
 		{
 			item: {
-				id: "cyclic:antigravity",
-				Count: 1b,
+				id: "cyclic:antigravity"
+				Count: 1b
 				tag: {
 					Damage: 0
 				}
 			}
-		},
+		}
 		{
 			item: {
-				id: "cyclic:antimatter_wand",
-				Count: 1b,
+				id: "cyclic:antimatter_wand"
+				Count: 1b
 				tag: {
 					Damage: 0
 				}
 			}
-		},
-		{
-			item: "cyclic:anvil"
-		},
+		}
+		{ item: "cyclic:anvil" }
 		{
 			item: {
-				id: "minecraft:enchanted_book",
-				Count: 1b,
+				id: "minecraft:enchanted_book"
+				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						lvl: 7s,
+						lvl: 7s
 						id: "cyclic:growth"
 					}]
 				}
 			}
-		},
+		}
 		{
 			item: {
-				id: "minecraft:enchanted_book",
-				Count: 1b,
+				id: "minecraft:enchanted_book"
+				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						lvl: 6s,
+						lvl: 6s
 						id: "cyclic:life_leech"
 					}]
 				}
 			}
-		},
+		}
 		{
 			item: {
-				id: "minecraft:enchanted_book",
-				Count: 1b,
+				id: "minecraft:enchanted_book"
+				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						lvl: 4s,
+						lvl: 4s
 						id: "cyclic:disarm"
 					}]
 				}
 			}
-		},
+		}
 		{
 			item: {
-				id: "minecraft:enchanted_book",
-				Count: 1b,
+				id: "minecraft:enchanted_book"
+				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						lvl: 7s,
+						lvl: 7s
 						id: "cyclic:magnet"
 					}]
 				}
 			}
-		},
+		}
 		{
 			item: {
-				id: "minecraft:enchanted_book",
-				Count: 1b,
+				id: "minecraft:enchanted_book"
+				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						lvl: 4s,
+						lvl: 4s
 						id: "cyclic:launch"
 					}]
 				}
 			}
-		},
-		{
-			item: "minecraft:guardian_spawn_egg"
-		},
-		{
-			item: "minecraft:elder_guardian_spawn_egg"
-		},
-		{
-			item: "minecraft:enderman_spawn_egg"
-		},
-		{
-			item: "minecraft:ghast_spawn_egg"
 		}
+		{ item: "minecraft:guardian_spawn_egg" }
+		{ item: "minecraft:elder_guardian_spawn_egg" }
+		{ item: "minecraft:enderman_spawn_egg" }
+		{ item: "minecraft:ghast_spawn_egg" }
 	]
 }

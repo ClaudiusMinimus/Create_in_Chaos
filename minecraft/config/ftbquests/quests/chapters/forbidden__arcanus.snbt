@@ -1,988 +1,989 @@
 {
-	id: "2BE6FEBCE24B5D55",
-	group: "6987EBD3219FABBD",
-	order_index: 1,
-	filename: "forbidden__arcanus",
-	title: "Forbidden and Arcanus",
-	default_quest_shape: "",
+	id: "2BE6FEBCE24B5D55"
+	group: "6987EBD3219FABBD"
+	order_index: 1
+	filename: "forbidden__arcanus"
+	title: "Forbidden and Arcanus"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -1.0d,
-			y: -3.5d,
-			dependencies: ["0C494FE34002D054"],
-			id: "71CBBD397FB70149",
+			x: -1.0d
+			y: -3.5d
+			dependencies: ["0C494FE34002D054"]
+			id: "71CBBD397FB70149"
 			tasks: [{
-				id: "1A04290319537A2A",
-				type: "item",
+				id: "1A04290319537A2A"
+				type: "item"
 				item: "forbidden_arcanus:yellow_orchid"
-			}],
+			}]
 			rewards: [{
-				id: "5D21911D796B29B9",
-				type: "xp",
+				id: "5D21911D796B29B9"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: -1.0d,
-			y: -1.5d,
-			dependencies: ["7C41BC76BA46393B"],
-			id: "0C494FE34002D054",
+			x: -1.0d
+			y: -1.5d
+			dependencies: ["7C41BC76BA46393B"]
+			id: "0C494FE34002D054"
 			tasks: [{
-				id: "532CC29EC3A99BA6",
-				type: "item",
+				id: "532CC29EC3A99BA6"
+				type: "item"
 				item: "forbidden_arcanus:arcane_gold_ingot"
-			}],
+			}]
 			rewards: [{
-				id: "682125DBD3A43830",
-				type: "random",
+				id: "682125DBD3A43830"
+				type: "random"
 				table_id: 913513194644622992L
 			}]
-		},
+		}
 		{
-			x: -1.0d,
-			y: -5.5d,
-			dependencies: ["71CBBD397FB70149"],
-			id: "6FC90F271A492F2C",
+			x: -1.0d
+			y: -5.5d
+			dependencies: ["71CBBD397FB70149"]
+			id: "6FC90F271A492F2C"
 			tasks: [{
-				id: "2206C1D04AD07B3B",
-				type: "item",
+				id: "2206C1D04AD07B3B"
+				type: "item"
 				item: "forbidden_arcanus:golden_orchid_seeds"
-			}],
+			}]
 			rewards: [{
-				id: "038068B6AE6298E9",
-				type: "xp",
+				id: "038068B6AE6298E9"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: -7.5d,
-			y: -2.0d,
-			dependencies: ["1D07FDF9A5E3A24F"],
-			id: "628D315CC5EE128F",
+			x: -7.5d
+			y: -2.0d
+			dependencies: ["1D07FDF9A5E3A24F"]
+			id: "628D315CC5EE128F"
 			tasks: [
 				{
-					id: "0FC4F954D2376F77",
-					type: "item",
+					id: "0FC4F954D2376F77"
+					type: "item"
 					item: {
-						id: "forbidden_arcanus:mortem_helmet",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "4BB3E60AB4D2C207",
-					type: "item",
-					item: {
-						id: "forbidden_arcanus:mortem_chestplate",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "58F43F64A19A764A",
-					type: "item",
-					item: {
-						id: "forbidden_arcanus:mortem_leggings",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "33E18554C129BEDB",
-					type: "item",
-					item: {
-						id: "forbidden_arcanus:mortem_boots",
-						Count: 1b,
+						id: "forbidden_arcanus:mortem_helmet"
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
 				}
-			],
+				{
+					id: "4BB3E60AB4D2C207"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:mortem_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "58F43F64A19A764A"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:mortem_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "33E18554C129BEDB"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:mortem_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 			rewards: [{
-				id: "2265DCCD68B0D013",
-				type: "random",
+				id: "2265DCCD68B0D013"
+				type: "random"
 				table_id: 3202284983173505384L
 			}]
-		},
+		}
 		{
-			x: -11.5d,
-			y: 4.5d,
-			dependencies: ["5274EFFACC6BE3D7"],
-			id: "144AA4DA978F694B",
+			x: -11.5d
+			y: 4.5d
+			dependencies: ["5274EFFACC6BE3D7"]
+			id: "144AA4DA978F694B"
 			tasks: [
 				{
-					id: "3BD82B989B3BD2B0",
-					type: "item",
+					id: "3BD82B989B3BD2B0"
+					type: "item"
 					item: {
-						id: "forbidden_arcanus:obsidian_helmet",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "04947F5608EFFB85",
-					type: "item",
-					item: {
-						id: "forbidden_arcanus:obsidian_shoulder_pads",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "628FFC99B1ED75FB",
-					type: "item",
-					item: {
-						id: "forbidden_arcanus:obsidian_knee_pads",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "5C406E0D773A2BAD",
-					type: "item",
-					item: {
-						id: "forbidden_arcanus:obsidian_boots",
-						Count: 1b,
+						id: "forbidden_arcanus:obsidian_helmet"
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
 				}
-			],
+				{
+					id: "04947F5608EFFB85"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:obsidian_shoulder_pads"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "628FFC99B1ED75FB"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:obsidian_knee_pads"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5C406E0D773A2BAD"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:obsidian_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 			rewards: [{
-				id: "091D32FD4C9C09E3",
-				type: "choice",
+				id: "091D32FD4C9C09E3"
+				type: "choice"
 				table_id: 913513194644622992L
 			}]
-		},
+		}
 		{
-			x: 0.5d,
-			y: 0.0d,
-			dependencies: ["0C494FE34002D054"],
-			id: "4D94F20505242CDC",
+			x: 0.5d
+			y: 0.0d
+			dependencies: ["0C494FE34002D054"]
+			id: "4D94F20505242CDC"
 			tasks: [
 				{
-					id: "6E248505C2EAF42D",
-					type: "item",
+					id: "6E248505C2EAF42D"
+					type: "item"
 					item: {
-						id: "forbidden_arcanus:arcane_gold_helmet",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "50435167E1E90C07",
-					type: "item",
-					item: {
-						id: "forbidden_arcanus:arcane_gold_chestplate",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "154C6168BC9D0203",
-					type: "item",
-					item: {
-						id: "forbidden_arcanus:arcane_gold_leggings",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "2782B3CAB79DBBFD",
-					type: "item",
-					item: {
-						id: "forbidden_arcanus:arcane_gold_boots",
-						Count: 1b,
+						id: "forbidden_arcanus:arcane_gold_helmet"
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
 				}
-			],
+				{
+					id: "50435167E1E90C07"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:arcane_gold_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "154C6168BC9D0203"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:arcane_gold_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2782B3CAB79DBBFD"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:arcane_gold_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 			rewards: [{
-				id: "075A65EA13294721",
-				type: "random",
+				id: "075A65EA13294721"
+				type: "random"
 				table_id: 913513194644622992L
 			}]
-		},
+		}
 		{
-			x: -15.0d,
-			y: 4.5d,
-			dependencies: ["715DBFE9A6D24CBA"],
-			id: "6CEF84F58324D671",
+			x: -15.0d
+			y: 4.5d
+			dependencies: ["715DBFE9A6D24CBA"]
+			id: "6CEF84F58324D671"
 			tasks: [
 				{
-					id: "6012092288464222",
-					type: "item",
+					id: "6012092288464222"
+					type: "item"
 					item: {
-						id: "forbidden_arcanus:draco_arcanus_helmet",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "711FF3993110983A",
-					type: "item",
-					item: {
-						id: "forbidden_arcanus:draco_arcanus_chestplate",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "3F4D0C82C9D5A057",
-					type: "item",
-					item: {
-						id: "forbidden_arcanus:draco_arcanus_leggings",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "6DA253B95972CFFD",
-					type: "item",
-					item: {
-						id: "forbidden_arcanus:draco_arcanus_boots",
-						Count: 1b,
+						id: "forbidden_arcanus:draco_arcanus_helmet"
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
 				}
-			],
+				{
+					id: "711FF3993110983A"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3F4D0C82C9D5A057"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6DA253B95972CFFD"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 			rewards: [{
-				id: "0EDBD42442033945",
-				type: "choice",
+				id: "0EDBD42442033945"
+				type: "choice"
 				table_id: 913513194644622992L
 			}]
-		},
+		}
 		{
-			x: 2.0d,
-			y: -5.5d,
-			dependencies: ["17729A56C6FD5388"],
-			id: "3E1076ACABF33991",
+			x: 2.0d
+			y: -5.5d
+			dependencies: ["17729A56C6FD5388"]
+			id: "3E1076ACABF33991"
 			tasks: [
 				{
-					id: "2250AD2C430DFC49",
-					type: "item",
+					id: "2250AD2C430DFC49"
+					type: "item"
 					item: {
-						id: "forbidden_arcanus:tyr_helmet",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "14FAA1EF1D9994F9",
-					type: "item",
-					item: {
-						id: "forbidden_arcanus:tyr_chestplate",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "07829F04F21AA59C",
-					type: "item",
-					item: {
-						id: "forbidden_arcanus:tyr_leggings",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "459FD97CE9EE6EFB",
-					type: "item",
-					item: {
-						id: "forbidden_arcanus:tyr_boots",
-						Count: 1b,
+						id: "forbidden_arcanus:tyr_helmet"
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
 				}
-			],
+				{
+					id: "14FAA1EF1D9994F9"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:tyr_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "07829F04F21AA59C"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:tyr_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "459FD97CE9EE6EFB"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:tyr_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 			rewards: [{
-				id: "497CD8D610B2C4EB",
-				type: "random",
+				id: "497CD8D610B2C4EB"
+				type: "random"
 				table_id: 8484091503083692511L
 			}]
-		},
+		}
 		{
-			x: -5.5d,
-			y: 0.0d,
-			shape: "diamond",
-			description: ["Forbidden and Arcanus is not a progression mod at this time but might be soon. It is a collection of some cool items, blocks, and stuff. With that said there are some things you need to do to make certain items, and that is the purpose of this questline."],
-			size: 1.5d,
-			id: "7C41BC76BA46393B",
+			x: -5.5d
+			y: 0.0d
+			shape: "diamond"
+			description: ["Forbidden and Arcanus is not a progression mod at this time but might be soon. It is a collection of some cool items, blocks, and stuff. With that said there are some things you need to do to make certain items, and that is the purpose of this questline."]
+			size: 1.5d
+			id: "7C41BC76BA46393B"
 			tasks: [{
-				id: "3D8C494DDC45AD3C",
-				type: "checkmark",
+				id: "3D8C494DDC45AD3C"
+				type: "checkmark"
 				title: "Getting Started"
-			}],
+			}]
 			rewards: [{
-				id: "31AF9F8D8809788C",
-				type: "xp",
+				id: "31AF9F8D8809788C"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: -6.5d,
-			y: -1.0d,
-			dependencies: ["7C41BC76BA46393B"],
-			id: "1D07FDF9A5E3A24F",
+			x: -6.5d
+			y: -1.0d
+			dependencies: ["7C41BC76BA46393B"]
+			id: "1D07FDF9A5E3A24F"
 			tasks: [{
-				id: "4DBEDB001DD53A6F",
-				type: "item",
+				id: "4DBEDB001DD53A6F"
+				type: "item"
 				item: "forbidden_arcanus:cloth"
-			}],
+			}]
 			rewards: [{
-				id: "36B48A7752FB2E59",
-				type: "xp",
+				id: "36B48A7752FB2E59"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: -9.5d,
-			y: 3.0d,
-			dependencies: ["7C41BC76BA46393B"],
-			id: "5274EFFACC6BE3D7",
+			x: -9.5d
+			y: 3.0d
+			dependencies: ["7C41BC76BA46393B"]
+			id: "5274EFFACC6BE3D7"
 			tasks: [{
-				id: "0647CD5F783BF09E",
-				type: "item",
+				id: "0647CD5F783BF09E"
+				type: "item"
 				item: "forbidden_arcanus:obsidian_ingot"
-			}],
+			}]
 			rewards: [{
-				id: "39F8138C1BD874AA",
-				type: "xp",
+				id: "39F8138C1BD874AA"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: -13.5d,
-			y: 6.0d,
-			dependencies: ["144AA4DA978F694B"],
-			id: "715DBFE9A6D24CBA",
+			x: -13.5d
+			y: 6.0d
+			dependencies: ["144AA4DA978F694B"]
+			id: "715DBFE9A6D24CBA"
 			tasks: [{
-				id: "6A873017A8E5F93E",
-				type: "item",
+				id: "6A873017A8E5F93E"
+				type: "item"
 				item: "forbidden_arcanus:dragon_scale"
-			}],
+			}]
 			rewards: [{
-				id: "18355F4152E5AAD3",
-				type: "random",
+				id: "18355F4152E5AAD3"
+				type: "random"
 				table_id: 913513194644622992L
 			}]
-		},
+		}
 		{
-			x: 0.5d,
-			y: -3.0d,
-			dependencies: ["0C494FE34002D054"],
-			id: "734A9DE6D54ECA56",
+			x: 0.5d
+			y: -3.0d
+			dependencies: ["0C494FE34002D054"]
+			id: "734A9DE6D54ECA56"
 			tasks: [{
-				id: "2024888BAA04736D",
-				type: "item",
+				id: "2024888BAA04736D"
+				type: "item"
 				item: "forbidden_arcanus:golden_dragon_scale"
-			}],
+			}]
 			rewards: [{
-				id: "5BCEB98A7410C984",
-				type: "choice",
+				id: "5BCEB98A7410C984"
+				type: "choice"
 				table_id: 3661348958344125783L
 			}]
-		},
+		}
 		{
-			x: 2.5d,
-			y: -3.5d,
-			dependencies: ["734A9DE6D54ECA56"],
-			id: "34E6EF2A0E4A5A81",
+			x: 2.5d
+			y: -3.5d
+			dependencies: ["734A9DE6D54ECA56"]
+			id: "34E6EF2A0E4A5A81"
 			tasks: [{
-				id: "541B6FE6A162BA7A",
-				type: "item",
+				id: "541B6FE6A162BA7A"
+				type: "item"
 				item: "forbidden_arcanus:golden_feather"
-			}],
+			}]
 			rewards: [{
-				id: "148A54D011194C61",
-				type: "xp",
+				id: "148A54D011194C61"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: 1.0d,
-			y: -4.5d,
-			dependencies: ["734A9DE6D54ECA56"],
-			id: "17729A56C6FD5388",
+			x: 1.0d
+			y: -4.5d
+			dependencies: ["734A9DE6D54ECA56"]
+			id: "17729A56C6FD5388"
 			tasks: [{
-				id: "16AB7E715C6B10AA",
-				type: "item",
+				id: "16AB7E715C6B10AA"
+				type: "item"
 				item: "forbidden_arcanus:aquatic_dragon_scale"
-			}],
+			}]
 			rewards: [{
-				id: "5D2E64222EC7416D",
-				type: "random",
+				id: "5D2E64222EC7416D"
+				type: "random"
 				table_id: 913513194644622992L
 			}]
-		},
+		}
 		{
-			x: -9.5d,
-			y: 4.5d,
-			dependencies: ["5274EFFACC6BE3D7"],
-			id: "0B70FCA54474D81D",
+			x: -9.5d
+			y: 4.5d
+			dependencies: ["5274EFFACC6BE3D7"]
+			id: "0B70FCA54474D81D"
 			tasks: [{
-				id: "02F4E7DD427B4DC7",
-				type: "item",
+				id: "02F4E7DD427B4DC7"
+				type: "item"
 				item: "forbidden_arcanus:obsidian_skull"
-			}],
+			}]
 			rewards: [{
-				id: "5DCFFA3F3E7BF79A",
-				type: "random",
+				id: "5DCFFA3F3E7BF79A"
+				type: "random"
 				table_id: 3661348958344125783L
 			}]
-		},
+		}
 		{
-			x: -9.5d,
-			y: 6.5d,
-			dependencies: ["0B70FCA54474D81D"],
-			id: "2F4C8D08FD62AF57",
+			x: -9.5d
+			y: 6.5d
+			dependencies: ["0B70FCA54474D81D"]
+			id: "2F4C8D08FD62AF57"
 			tasks: [{
-				id: "2DA1EE7D0911949F",
-				type: "item",
+				id: "2DA1EE7D0911949F"
+				type: "item"
 				item: "forbidden_arcanus:eternal_obsidian_skull"
-			}],
+			}]
 			rewards: [{
-				id: "5EF279F6CADF5D5C",
-				type: "random",
+				id: "5EF279F6CADF5D5C"
+				type: "random"
 				table_id: 913513194644622992L
 			}]
-		},
+		}
 		{
-			x: -5.5d,
-			y: -1.5d,
-			dependencies: ["7C41BC76BA46393B"],
-			id: "3BB6651044B6EB2E",
+			x: -5.5d
+			y: -1.5d
+			dependencies: ["7C41BC76BA46393B"]
+			id: "3BB6651044B6EB2E"
 			tasks: [{
-				id: "235D7A738EDB2154",
-				type: "item",
+				id: "235D7A738EDB2154"
+				type: "item"
 				item: "forbidden_arcanus:xpetrified_orb"
-			}],
+			}]
 			rewards: [{
-				id: "37ECD9ADB4BB77CF",
-				type: "xp",
+				id: "37ECD9ADB4BB77CF"
+				type: "xp"
 				xp: 100
 			}]
-		},
+		}
 		{
-			x: -5.5d,
-			y: -3.0d,
-			dependencies: ["3BB6651044B6EB2E"],
-			id: "01FD6E493BD2F443",
+			x: -5.5d
+			y: -3.0d
+			dependencies: ["3BB6651044B6EB2E"]
+			id: "01FD6E493BD2F443"
 			tasks: [{
-				id: "53B31F6322D3765A",
-				type: "item",
+				id: "53B31F6322D3765A"
+				type: "item"
 				item: "forbidden_arcanus:stellarite_piece"
-			}],
+			}]
 			rewards: [{
-				id: "2A1197DBEB48C1FD",
-				type: "choice",
+				id: "2A1197DBEB48C1FD"
+				type: "choice"
 				table_id: 3661348958344125783L
 			}]
-		},
+		}
 		{
-			x: -5.5d,
-			y: -4.5d,
-			dependencies: ["01FD6E493BD2F443"],
-			id: "5C6358B2EFDE02AA",
+			x: -5.5d
+			y: -4.5d
+			dependencies: ["01FD6E493BD2F443"]
+			id: "5C6358B2EFDE02AA"
 			tasks: [{
-				id: "6DF9631270505CE6",
-				type: "item",
+				id: "6DF9631270505CE6"
+				type: "item"
 				item: {
-					id: "forbidden_arcanus:eternal_stella",
-					Count: 1b,
-					tag: {}
+					id: "forbidden_arcanus:eternal_stella"
+					Count: 1b
+					tag: { }
 				}
-			}],
+			}]
 			rewards: [{
-				id: "12A6C11691967817",
-				type: "random",
+				id: "12A6C11691967817"
+				type: "random"
 				table_id: 8484091503083692511L
 			}]
-		},
+		}
 		{
-			x: -2.5d,
-			y: -3.0d,
-			subtitle: "Either regular or Reinforced",
-			dependencies: ["0C494FE34002D054"],
-			dependency_requirement: "one_started",
-			id: "71663C3600605F7F",
+			x: -2.5d
+			y: -3.0d
+			subtitle: "Either regular or Reinforced"
+			dependencies: ["0C494FE34002D054"]
+			dependency_requirement: "one_started"
+			id: "71663C3600605F7F"
 			tasks: [
 				{
-					id: "2AA06664060C8FB6",
-					type: "item",
-					title: "Gold Arcane Sword",
+					id: "2AA06664060C8FB6"
+					type: "item"
+					title: "Gold Arcane Sword"
 					item: {
-						id: "forbidden_arcanus:arcane_golden_sword",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "081EC6D43DCC6905",
-					type: "item",
-					item: {
-						id: "forbidden_arcanus:reinforced_arcane_golden_sword",
-						Count: 1b,
+						id: "forbidden_arcanus:arcane_golden_sword"
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
 				}
-			],
-			rewards: [{
-				id: "7E081DBD1787C634",
-				type: "random",
-				table_id: 3661348958344125783L
-			}]
-		},
-		{
-			x: -2.5d,
-			y: 0.0d,
-			subtitle: "Either regular or Reinforced",
-			dependencies: ["0C494FE34002D054"],
-			dependency_requirement: "one_completed",
-			id: "53F8F35E027FE40B",
-			tasks: [
 				{
-					id: "3E6C06CDE44E18BF",
-					type: "item",
+					id: "081EC6D43DCC6905"
+					type: "item"
 					item: {
-						id: "forbidden_arcanus:arcane_golden_shovel",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "1D532D9572688D35",
-					type: "item",
-					item: {
-						id: "forbidden_arcanus:reinforced_arcane_golden_shovel",
-						Count: 1b,
+						id: "forbidden_arcanus:reinforced_arcane_golden_sword"
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
 				}
-			],
+			]
 			rewards: [{
-				id: "529ACA1C8E532608",
-				type: "random",
+				id: "7E081DBD1787C634"
+				type: "random"
 				table_id: 3661348958344125783L
 			}]
-		},
+		}
 		{
-			x: -3.0d,
-			y: -1.5d,
-			subtitle: "Either regular or Reinforced",
-			dependencies: ["0C494FE34002D054"],
-			dependency_requirement: "one_completed",
-			id: "508862E2C80E1A55",
+			x: -2.5d
+			y: 0.0d
+			subtitle: "Either regular or Reinforced"
+			dependencies: ["0C494FE34002D054"]
+			dependency_requirement: "one_completed"
+			id: "53F8F35E027FE40B"
 			tasks: [
 				{
-					id: "2FC82209755BF729",
-					type: "item",
+					id: "3E6C06CDE44E18BF"
+					type: "item"
 					item: {
-						id: "forbidden_arcanus:arcane_golden_pickaxe",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "02CA5FDE838F4771",
-					type: "item",
-					item: {
-						id: "forbidden_arcanus:reinforced_arcane_golden_pickaxe",
-						Count: 1b,
+						id: "forbidden_arcanus:arcane_golden_shovel"
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
 				}
-			],
-			rewards: [{
-				id: "6E9E1F0ACF489C73",
-				type: "random",
-				table_id: 3661348958344125783L
-			}]
-		},
-		{
-			x: -1.0d,
-			y: 0.5d,
-			subtitle: "Either regular or Reinforced",
-			dependencies: ["0C494FE34002D054"],
-			dependency_requirement: "one_completed",
-			id: "40771787D39C1198",
-			tasks: [
 				{
-					id: "3FEE2A1D9B58730C",
-					type: "item",
+					id: "1D532D9572688D35"
+					type: "item"
 					item: {
-						id: "forbidden_arcanus:arcane_golden_axe",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "092301CA8B14916F",
-					type: "item",
-					item: {
-						id: "forbidden_arcanus:reinforced_arcane_golden_axe",
-						Count: 1b,
+						id: "forbidden_arcanus:reinforced_arcane_golden_shovel"
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
 				}
-			],
+			]
 			rewards: [{
-				id: "4DA555CA9E7DC253",
-				type: "random",
+				id: "529ACA1C8E532608"
+				type: "random"
 				table_id: 3661348958344125783L
 			}]
-		},
+		}
 		{
-			x: 1.0d,
-			y: -1.5d,
-			dependencies: ["0C494FE34002D054"],
-			id: "6EAA9FE0EAB3705D",
+			x: -3.0d
+			y: -1.5d
+			subtitle: "Either regular or Reinforced"
+			dependencies: ["0C494FE34002D054"]
+			dependency_requirement: "one_completed"
+			id: "508862E2C80E1A55"
+			tasks: [
+				{
+					id: "2FC82209755BF729"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:arcane_golden_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "02CA5FDE838F4771"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:reinforced_arcane_golden_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6E9E1F0ACF489C73"
+				type: "random"
+				table_id: 3661348958344125783L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			subtitle: "Either regular or Reinforced"
+			dependencies: ["0C494FE34002D054"]
+			dependency_requirement: "one_completed"
+			id: "40771787D39C1198"
+			tasks: [
+				{
+					id: "3FEE2A1D9B58730C"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:arcane_golden_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "092301CA8B14916F"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:reinforced_arcane_golden_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4DA555CA9E7DC253"
+				type: "random"
+				table_id: 3661348958344125783L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			dependencies: ["0C494FE34002D054"]
+			id: "6EAA9FE0EAB3705D"
 			tasks: [{
-				id: "5C915F3F824C5258",
-				type: "item",
+				id: "5C915F3F824C5258"
+				type: "item"
 				item: {
-					id: "forbidden_arcanus:slimec_pickaxe",
-					Count: 1b,
+					id: "forbidden_arcanus:slimec_pickaxe"
+					Count: 1b
 					tag: {
-						Damage: 0,
+						Damage: 0
 						Enchantments: [{
-							lvl: 1s,
+							lvl: 1s
 							id: "minecraft:silk_touch"
 						}]
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "2740F6F1FCE4BB26",
-				type: "random",
+				id: "2740F6F1FCE4BB26"
+				type: "random"
 				table_id: 3202284983173505384L
 			}]
-		},
+		}
 		{
-			x: -7.5d,
-			y: 4.5d,
-			dependencies: ["0B70FCA54474D81D"],
-			id: "13BFB33FAC3CD2A0",
+			x: -7.5d
+			y: 4.5d
+			dependencies: ["0B70FCA54474D81D"]
+			id: "13BFB33FAC3CD2A0"
 			tasks: [{
-				id: "2A0214C94B28CDC4",
-				type: "item",
+				id: "2A0214C94B28CDC4"
+				type: "item"
 				item: {
-					id: "forbidden_arcanus:infernum_pickaxe",
-					Count: 1b,
+					id: "forbidden_arcanus:infernum_pickaxe"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "42E4A489C74BCF1F",
-				type: "random",
+				id: "42E4A489C74BCF1F"
+				type: "random"
 				table_id: 3661348958344125783L
 			}]
-		},
+		}
 		{
-			x: -9.5d,
-			y: 0.5d,
-			dependencies: ["5274EFFACC6BE3D7"],
-			id: "157F5E5584790E23",
+			x: -9.5d
+			y: 0.5d
+			dependencies: ["5274EFFACC6BE3D7"]
+			id: "157F5E5584790E23"
 			tasks: [{
-				id: "6448602F3CCCEC33",
-				type: "item",
+				id: "6448602F3CCCEC33"
+				type: "item"
 				item: {
-					id: "forbidden_arcanus:obsidian_sword",
-					Count: 1b,
+					id: "forbidden_arcanus:obsidian_sword"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "0F6495C06212B1DB",
-				type: "random",
+				id: "0F6495C06212B1DB"
+				type: "random"
 				table_id: 3202284983173505384L
 			}]
-		},
+		}
 		{
-			x: -12.0d,
-			y: 2.0d,
-			dependencies: ["5274EFFACC6BE3D7"],
-			id: "49A2B0F3DBF7AE94",
+			x: -12.0d
+			y: 2.0d
+			dependencies: ["5274EFFACC6BE3D7"]
+			id: "49A2B0F3DBF7AE94"
 			tasks: [{
-				id: "76ABBAA6BF753DC8",
-				type: "item",
+				id: "76ABBAA6BF753DC8"
+				type: "item"
 				item: {
-					id: "forbidden_arcanus:obsidian_shovel",
-					Count: 1b,
+					id: "forbidden_arcanus:obsidian_shovel"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "16C9CDF87D1B8AD2",
-				type: "random",
+				id: "16C9CDF87D1B8AD2"
+				type: "random"
 				table_id: 3202284983173505384L
 			}]
-		},
+		}
 		{
-			x: -10.5d,
-			y: 0.5d,
-			dependencies: ["5274EFFACC6BE3D7"],
-			id: "413C778D6A4B8B21",
+			x: -10.5d
+			y: 0.5d
+			dependencies: ["5274EFFACC6BE3D7"]
+			id: "413C778D6A4B8B21"
 			tasks: [{
-				id: "4E6F69C1CF712BB8",
-				type: "item",
+				id: "4E6F69C1CF712BB8"
+				type: "item"
 				item: {
-					id: "forbidden_arcanus:obsidian_pickaxe",
-					Count: 1b,
+					id: "forbidden_arcanus:obsidian_pickaxe"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "3B703D142BBA0D18",
-				type: "random",
+				id: "3B703D142BBA0D18"
+				type: "random"
 				table_id: 3202284983173505384L
 			}]
-		},
+		}
 		{
-			x: -11.5d,
-			y: 1.0d,
-			dependencies: ["5274EFFACC6BE3D7"],
-			id: "2593B3230FDD396E",
+			x: -11.5d
+			y: 1.0d
+			dependencies: ["5274EFFACC6BE3D7"]
+			id: "2593B3230FDD396E"
 			tasks: [{
-				id: "2D237F9F53C693C8",
-				type: "item",
+				id: "2D237F9F53C693C8"
+				type: "item"
 				item: {
-					id: "forbidden_arcanus:obsidian_axe",
-					Count: 1b,
+					id: "forbidden_arcanus:obsidian_axe"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "2A9ABAB6F8518458",
-				type: "choice",
+				id: "2A9ABAB6F8518458"
+				type: "choice"
 				table_id: 3202284983173505384L
 			}]
-		},
+		}
 		{
-			x: -12.0d,
-			y: 3.0d,
-			dependencies: ["5274EFFACC6BE3D7"],
-			id: "78809F71749AFBE7",
+			x: -12.0d
+			y: 3.0d
+			dependencies: ["5274EFFACC6BE3D7"]
+			id: "78809F71749AFBE7"
 			tasks: [{
-				id: "687EE207361D2614",
-				type: "item",
+				id: "687EE207361D2614"
+				type: "item"
 				item: {
-					id: "forbidden_arcanus:obsidian_hoe",
-					Count: 1b,
+					id: "forbidden_arcanus:obsidian_hoe"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "6687B17611514F89",
-				type: "random",
+				id: "6687B17611514F89"
+				type: "random"
 				table_id: 3202284983173505384L
 			}]
-		},
+		}
 		{
-			x: -16.0d,
-			y: 5.5d,
-			dependencies: ["715DBFE9A6D24CBA"],
-			id: "7B2455B0B64253A1",
+			x: -16.0d
+			y: 5.5d
+			dependencies: ["715DBFE9A6D24CBA"]
+			id: "7B2455B0B64253A1"
 			tasks: [{
-				id: "000396E69B1A8F47",
-				type: "item",
+				id: "000396E69B1A8F47"
+				type: "item"
 				item: {
-					id: "forbidden_arcanus:draco_arcanus_sword",
-					Count: 1b,
+					id: "forbidden_arcanus:draco_arcanus_sword"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "56BB9FCD101340FA",
-				type: "random",
+				id: "56BB9FCD101340FA"
+				type: "random"
 				table_id: 913513194644622992L
 			}]
-		},
+		}
 		{
-			x: -16.0d,
-			y: 7.0d,
-			dependencies: ["715DBFE9A6D24CBA"],
-			id: "2725CA1D8835F353",
+			x: -16.0d
+			y: 7.0d
+			dependencies: ["715DBFE9A6D24CBA"]
+			id: "2725CA1D8835F353"
 			tasks: [{
-				id: "195F1B3C6648475B",
-				type: "item",
+				id: "195F1B3C6648475B"
+				type: "item"
 				item: {
-					id: "forbidden_arcanus:draco_arcanus_pickaxe",
-					Count: 1b,
+					id: "forbidden_arcanus:draco_arcanus_pickaxe"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "67384ECC77E9C909",
-				type: "choice",
+				id: "67384ECC77E9C909"
+				type: "choice"
 				table_id: 3661348958344125783L
 			}]
-		},
+		}
 		{
-			x: -15.0d,
-			y: 8.0d,
-			dependencies: ["715DBFE9A6D24CBA"],
-			id: "1A3DCB1E43C1340E",
+			x: -15.0d
+			y: 8.0d
+			dependencies: ["715DBFE9A6D24CBA"]
+			id: "1A3DCB1E43C1340E"
 			tasks: [{
-				id: "4940C76B8B5802E8",
-				type: "item",
+				id: "4940C76B8B5802E8"
+				type: "item"
 				item: {
-					id: "forbidden_arcanus:draco_arcanus_axe",
-					Count: 1b,
+					id: "forbidden_arcanus:draco_arcanus_axe"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "758516336E091891",
-				type: "random",
+				id: "758516336E091891"
+				type: "random"
 				table_id: 913513194644622992L
 			}]
-		},
+		}
 		{
-			x: -13.5d,
-			y: 8.5d,
-			dependencies: ["715DBFE9A6D24CBA"],
-			id: "48A60FC8821BDB6C",
+			x: -13.5d
+			y: 8.5d
+			dependencies: ["715DBFE9A6D24CBA"]
+			id: "48A60FC8821BDB6C"
 			tasks: [{
-				id: "712CE9DC13B906B0",
-				type: "item",
+				id: "712CE9DC13B906B0"
+				type: "item"
 				item: {
-					id: "forbidden_arcanus:draco_arcanus_shovel",
-					Count: 1b,
+					id: "forbidden_arcanus:draco_arcanus_shovel"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "38A35CB4FA08F11C",
-				type: "random",
+				id: "38A35CB4FA08F11C"
+				type: "random"
 				table_id: 913513194644622992L
 			}]
-		},
+		}
 		{
-			x: -12.0d,
-			y: 8.0d,
-			dependencies: ["715DBFE9A6D24CBA"],
-			id: "1873D55405D86EF7",
+			x: -12.0d
+			y: 8.0d
+			dependencies: ["715DBFE9A6D24CBA"]
+			id: "1873D55405D86EF7"
 			tasks: [{
-				id: "3F7F719138D60BD0",
-				type: "item",
+				id: "3F7F719138D60BD0"
+				type: "item"
 				item: {
-					id: "forbidden_arcanus:draco_arcanus_hoe",
-					Count: 1b,
+					id: "forbidden_arcanus:draco_arcanus_hoe"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "38878D06224A6049",
-				type: "random",
+				id: "38878D06224A6049"
+				type: "random"
 				table_id: 913513194644622992L
 			}]
-		},
+		}
 		{
-			x: -5.5d,
-			y: 2.0d,
-			dependencies: ["7C41BC76BA46393B"],
-			id: "7C7A64C8A48AB732",
+			x: -5.5d
+			y: 2.0d
+			dependencies: ["7C41BC76BA46393B"]
+			id: "7C7A64C8A48AB732"
 			tasks: [{
-				id: "2CAB3C418119C89D",
-				type: "item",
+				id: "2CAB3C418119C89D"
+				type: "item"
 				item: "forbidden_arcanus:boom_arrow"
-			}],
+			}]
 			rewards: [{
-				id: "78D4B6AC5B666AE8",
-				type: "choice",
+				id: "78D4B6AC5B666AE8"
+				type: "choice"
 				table_id: 3202284983173505384L
 			}]
-		},
+		}
 		{
-			x: -4.0d,
-			y: 1.5d,
-			dependencies: ["7C41BC76BA46393B"],
-			id: "4D44C4E202D39ADC",
+			x: -4.0d
+			y: 1.5d
+			dependencies: ["7C41BC76BA46393B"]
+			id: "4D44C4E202D39ADC"
 			tasks: [{
-				id: "088918DC9C1EE768",
-				type: "item",
+				id: "088918DC9C1EE768"
+				type: "item"
 				item: "forbidden_arcanus:draco_arcanus_arrow"
-			}],
+			}]
 			rewards: [{
-				id: "6FBD292686F66EBD",
-				type: "random",
+				id: "6FBD292686F66EBD"
+				type: "random"
 				table_id: 3202284983173505384L
 			}]
 		}

@@ -56,3 +56,4 @@ server/world*
 !minecraft/config/xaerominimap.txt
 !server/config/cyclic.toml
 !server/config/quark-common.toml
+minecraft/tconplanner/bookmark.dat

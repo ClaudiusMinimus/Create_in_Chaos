@@ -1,556 +1,451 @@
 {
-	id: "0CAD7369186CCE90",
-	order_index: 2,
-	title: "Rare",
-	loot_size: 1,
+	id: "0CAD7369186CCE90"
+	order_index: 2
+	title: "Rare"
+	loot_size: 1
 	rewards: [
-		{
-			item: "torchmaster:megatorch"
-		},
-		{
-			item: "glassential:glass_ethereal",
-			count: 8
-		},
-		{
-			item: "mysticalagriculture:infusion_pedestal"
-		},
-		{
-			item: "waystones:blue_sharestone"
-		},
-		{
-			item: "waystones:warp_plate"
-		},
-		{
-			item: "tconstruct:queens_slime_ingot",
-			count: 4
-		},
-		{
-			item: "tconstruct:cobalt_ingot",
-			count: 4
-		},
+		{ item: "torchmaster:megatorch" }
+		{ item: "glassential:glass_ethereal", count: 8 }
+		{ item: "mysticalagriculture:infusion_pedestal" }
+		{ item: "waystones:blue_sharestone" }
+		{ item: "waystones:warp_plate" }
+		{ item: "tconstruct:queens_slime_ingot", count: 4 }
+		{ item: "tconstruct:cobalt_ingot", count: 4 }
 		{
 			item: {
-				id: "xreliquary:magazines/neutral_magazine",
-				Count: 1b,
+				id: "xreliquary:magazines/neutral_magazine"
+				Count: 1b
 				tag: {
 					effects: [{
-						duration: 300,
-						name: "minecraft:absorption",
+						duration: 300
+						name: "minecraft:absorption"
 						potency: 0
 					}]
 				}
-			},
+			}
 			count: 4
-		},
+		}
 		{
 			item: {
-				id: "xreliquary:magazines/neutral_magazine",
-				Count: 1b,
+				id: "xreliquary:magazines/neutral_magazine"
+				Count: 1b
 				tag: {
 					effects: [{
-						duration: 150,
-						name: "minecraft:water_breathing",
+						duration: 150
+						name: "minecraft:water_breathing"
 						potency: 0
 					}]
 				}
-			},
+			}
 			count: 4
-		},
+		}
 		{
 			item: {
-				id: "xreliquary:magazines/neutral_magazine",
-				Count: 1b,
+				id: "xreliquary:magazines/neutral_magazine"
+				Count: 1b
 				tag: {
 					effects: [{
-						duration: 1,
-						name: "minecraft:instant_damage",
+						duration: 1
+						name: "minecraft:instant_damage"
 						potency: 2
 					}]
 				}
-			},
+			}
 			count: 4
-		},
+		}
 		{
 			item: {
-				id: "xreliquary:lingering_potion",
-				Count: 1b,
+				id: "xreliquary:lingering_potion"
+				Count: 1b
 				tag: {
 					effects: [{
-						duration: 2250,
-						name: "minecraft:resistance",
+						duration: 2250
+						name: "minecraft:resistance"
 						potency: 1
 					}]
 				}
-			},
+			}
 			count: 4
-		},
+		}
 		{
 			item: {
-				id: "xreliquary:lingering_potion",
-				Count: 1b,
+				id: "xreliquary:lingering_potion"
+				Count: 1b
 				tag: {
 					effects: [{
-						duration: 750,
-						name: "minecraft:regeneration",
+						duration: 750
+						name: "minecraft:regeneration"
 						potency: 1
 					}]
 				}
-			},
+			}
 			count: 4
-		},
+		}
 		{
 			item: {
-				id: "xreliquary:lingering_potion",
-				Count: 1b,
+				id: "xreliquary:lingering_potion"
+				Count: 1b
 				tag: {
 					effects: [{
-						duration: 1500,
-						name: "minecraft:strength",
+						duration: 1500
+						name: "minecraft:strength"
 						potency: 1
 					}]
 				}
-			},
+			}
 			count: 4
-		},
-		{
-			item: "xreliquary:apothecary_cauldron"
-		},
-		{
-			item: "xreliquary:apothecary_mortar"
-		},
+		}
+		{ item: "xreliquary:apothecary_cauldron" }
+		{ item: "xreliquary:apothecary_mortar" }
 		{
 			item: {
-				id: "xreliquary:magicbane",
-				Count: 1b,
+				id: "xreliquary:magicbane"
+				Count: 1b
 				tag: {
 					Damage: 0
 				}
 			}
-		},
-		{
-			item: "xreliquary:frozen_core",
-			count: 2
-		},
-		{
-			item: "xreliquary:eye_of_the_storm",
-			count: 4
-		},
-		{
-			item: "xreliquary:molten_core",
-			count: 4
-		},
-		{
-			item: "xreliquary:slime_pearl",
-			count: 4
-		},
-		{
-			item: "xreliquary:catalyzing_gland",
-			count: 4
-		},
+		}
+		{ item: "xreliquary:frozen_core", count: 2 }
+		{ item: "xreliquary:eye_of_the_storm", count: 4 }
+		{ item: "xreliquary:molten_core", count: 4 }
+		{ item: "xreliquary:slime_pearl", count: 4 }
+		{ item: "xreliquary:catalyzing_gland", count: 4 }
 		{
 			item: {
-				id: "xreliquary:mob_charm",
-				Count: 1b,
+				id: "xreliquary:mob_charm"
+				Count: 1b
 				tag: {
-					Damage: 0,
+					Damage: 0
 					entity: "minecraft:piglin"
 				}
 			}
-		},
-		{
-			item: "xreliquary:glowing_water",
-			count: 4
-		},
+		}
+		{ item: "xreliquary:glowing_water", count: 4 }
 		{
 			item: {
+				id: "xreliquary:ender_staff"
+				Count: 1b
+				tag: {
+					mode: "cast"
+					count: 0
+				}
 				ForgeCaps: {
 					Parent: {
 						Items: [{
 							filter: {
-								id: "minecraft:ender_pearl",
+								id: "minecraft:ender_pearl"
 								Count: 1b
-							},
+							}
 							amount: 0
 						}]
 					}
-				},
-				id: "xreliquary:ender_staff",
-				Count: 1b,
-				tag: {
-					mode: "cast",
-					count: 0
 				}
 			}
-		},
-		{
-			item: "xreliquary:phoenix_down"
-		},
-		{
-			item: "refinedstorage:4096k_fluid_storage_part"
-		},
-		{
-			item: "refinedstorage:fortune_3_upgrade"
-		},
+		}
+		{ item: "xreliquary:phoenix_down" }
+		{ item: "refinedstorage:4096k_fluid_storage_part" }
+		{ item: "refinedstorage:fortune_3_upgrade" }
 		{
 			item: {
-				id: "minecraft:potion",
-				Count: 1b,
+				id: "minecraft:potion"
+				Count: 1b
 				tag: {
 					Potion: "potionsmaster:netherite_sight"
 				}
 			}
-		},
-		{
-			item: "refinedstorage:64k_storage_part"
-		},
-		{
-			item: "mysticalagriculture:mining_aoe_ii_augment"
-		},
-		{
-			item: "refinedstorage:advanced_processor",
-			count: 4
-		},
-		{
-			item: "xreliquary:angelic_feather"
-		},
-		{
-			item: "pickletweaks:emerald_apple",
-			count: 4
-		},
-		{
-			item: "pickletweaks:diamond_apple",
-			count: 4
-		},
-		{
-			item: "mob_grinding_utils:fan",
-			count: 2
-		},
-		{
-			item: "immersiveengineering:cloche"
-		},
-		{
-			item: "mysticalagradditions:tertium_apple",
-			count: 4
-		},
+		}
+		{ item: "refinedstorage:64k_storage_part" }
+		{ item: "mysticalagriculture:mining_aoe_ii_augment" }
+		{ item: "refinedstorage:advanced_processor", count: 4 }
+		{ item: "xreliquary:angelic_feather" }
+		{ item: "pickletweaks:emerald_apple", count: 4 }
+		{ item: "pickletweaks:diamond_apple", count: 4 }
+		{ item: "mob_grinding_utils:fan", count: 2 }
+		{ item: "immersiveengineering:cloche" }
+		{ item: "mysticalagradditions:tertium_apple", count: 4 }
 		{
 			item: {
-				id: "grapple_hooks:hook_diamond",
-				Count: 1b,
+				id: "grapple_hooks:hook_diamond"
+				Count: 1b
 				tag: {
 					Damage: 0
 				}
 			}
-		},
-		{
-			item: "mob_grinding_utils:ender_inhibitor_on"
-		},
-		{
-			item: "forbidden_arcanus:eternal_obsidian_skull"
-		},
-		{
-			item: "mob_grinding_utils:ender_inhibitor_on"
-		},
-		{
-			item: "enderstorage:ender_tank"
-		},
-		{
-			item: "enderstorage:ender_chest"
-		},
-		{
-			item: "enderstorage:ender_pouch"
-		},
-		{
-			item: "dankstorage:3_to_4"
-		},
-		{
-			item: "essentials:multi_piston_sticky"
-		},
+		}
+		{ item: "mob_grinding_utils:ender_inhibitor_on" }
+		{ item: "forbidden_arcanus:eternal_obsidian_skull" }
+		{ item: "mob_grinding_utils:ender_inhibitor_on" }
+		{ item: "enderstorage:ender_tank" }
+		{ item: "enderstorage:ender_chest" }
+		{ item: "enderstorage:ender_pouch" }
+		{ item: "dankstorage:3_to_4" }
+		{ item: "essentials:multi_piston_sticky" }
 		{
 			item: {
-				id: "cyclic:build_scepter",
-				Count: 1b,
+				id: "cyclic:build_scepter"
+				Count: 1b
 				tag: {
-					ActionType: 1,
-					Damage: 0,
+					ActionType: 1
+					Damage: 0
 					blockstate: {
 						Name: "minecraft:gravel"
-					},
+					}
 					timeout: 0
 				}
 			}
-		},
+		}
 		{
 			item: {
-				id: "cyclic:replace_scepter",
-				Count: 1b,
+				id: "cyclic:replace_scepter"
+				Count: 1b
 				tag: {
-					Damage: 0,
+					Damage: 0
 					blockstate: {
 						Name: "minecraft:gravel"
-					},
+					}
 					timeout: 0
 				}
 			}
-		},
+		}
 		{
 			item: {
-				id: "cyclic:offset_scepter",
-				Count: 1b,
+				id: "cyclic:offset_scepter"
+				Count: 1b
 				tag: {
-					Damage: 0,
+					Damage: 0
 					blockstate: {
 						Name: "minecraft:cobblestone"
-					},
+					}
 					timeout: 0
 				}
 			}
-		},
+		}
 		{
 			item: {
-				id: "cyclic:randomize_scepter",
-				Count: 1b,
+				id: "cyclic:randomize_scepter"
+				Count: 1b
 				tag: {
 					Damage: 0
 				}
 			}
-		},
+		}
 		{
 			item: {
-				id: "cyclic:charm_antidote",
-				Count: 1b,
+				id: "cyclic:charm_antidote"
+				Count: 1b
 				tag: {
 					Damage: 0
 				}
 			}
-		},
+		}
 		{
 			item: {
-				id: "cyclic:charm_fire",
-				Count: 1b,
+				id: "cyclic:charm_fire"
+				Count: 1b
 				tag: {
 					Damage: 0
 				}
 			}
-		},
+		}
 		{
 			item: {
-				id: "cyclic:charm_void",
-				Count: 1b,
+				id: "cyclic:charm_void"
+				Count: 1b
 				tag: {
 					Damage: 0
 				}
 			}
-		},
+		}
 		{
 			item: {
-				id: "cyclic:charm_wither",
-				Count: 1b,
+				id: "cyclic:charm_wither"
+				Count: 1b
 				tag: {
 					Damage: 0
 				}
 			}
-		},
+		}
 		{
 			item: {
-				id: "cyclic:glove_climb",
-				Count: 1b,
-				tag: {}
+				id: "cyclic:glove_climb"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
 			}
-		},
-		{
-			item: "cyclic:spikes_iron",
-			count: 4
-		},
-		{
-			item: "cyclic:disenchanter"
-		},
+		}
+		{ item: "cyclic:spikes_iron", count: 4 }
+		{ item: "cyclic:disenchanter" }
 		{
 			item: {
-				id: "minecraft:enchanted_book",
-				Count: 1b,
+				id: "minecraft:enchanted_book"
+				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						lvl: 2s,
+						lvl: 2s
 						id: "cyclic:life_leech"
 					}]
 				}
 			}
-		},
+		}
 		{
 			item: {
-				id: "minecraft:enchanted_book",
-				Count: 1b,
+				id: "minecraft:enchanted_book"
+				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						lvl: 1s,
+						lvl: 1s
 						id: "cyclic:reach"
 					}]
 				}
 			}
-		},
-		{
-			item: "botania:fel_pumpkin",
-			count: 8
-		},
-		{
-			item: "cyclic:mason_steel",
-			count: 4
-		},
+		}
+		{ item: "botania:fel_pumpkin", count: 8 }
+		{ item: "cyclic:mason_steel", count: 4 }
 		{
 			item: {
-				id: "minecraft:potion",
-				Count: 1b,
+				id: "minecraft:potion"
+				Count: 1b
 				tag: {
 					Potion: "potionsmaster:netherite_sight"
 				}
 			}
-		},
+		}
 		{
 			item: {
-				id: "apotheosis:potion_charm",
-				Count: 1b,
+				id: "apotheosis:potion_charm"
+				Count: 1b
 				tag: {
-					Damage: 0,
+					Damage: 0
 					Potion: "potionsmaster:emerald_sight"
 				}
 			}
-		},
+		}
 		{
 			item: {
-				id: "tconstruct:pickaxe",
-				Count: 1b,
+				id: "tconstruct:pickaxe"
+				Count: 1b
 				tag: {
+					tic_multipliers: { }
 					tic_stats: {
-						mining_speed: 8.0f,
-						attack: 5.6f,
-						reach: 5.0f,
-						durability: 1800,
-						attack_speed: 1.2f,
-						harvest_level: 4
-					},
-					tic_broken: 0b,
+						"tconstruct:attack_speed": 1.14f
+						"tconstruct:mining_speed": 5.85f
+						"tconstruct:attack_damage": 4.5f
+						"tconstruct:harvest_level": 4.0f
+						"tconstruct:durability": 1375.0f
+					}
+					tic_broken: 0b
 					tic_modifiers: [
 						{
-							name: "tconstruct:insatiable",
+							name: "tconstruct:insatiable"
 							level: 3s
-						},
-						{
-							name: "tconstruct:piercing",
-							level: 2s
 						}
-					],
+						{
+							name: "tconstruct:piercing"
+							level: 1s
+						}
+					]
 					tic_materials: [
-						"tconstruct:manyullyn",
-						"tconstruct:manyullyn",
 						"tconstruct:manyullyn"
-					],
-					Damage: 0,
+						"tconstruct:manyullyn"
+						"tconstruct:manyullyn"
+					]
+					Damage: 0
 					tic_persistent_data: {
-						abilities: 1,
-						traits: 0,
+						abilities: 1
+						traits: 0
 						upgrades: 3
 					}
 				}
 			}
-		},
-		{
-			item: "forbidden_arcanus:stellarite_piece"
-		},
-		{
-			item: "cyclic:anvil"
-		},
-		{
-			item: "minecraft:dragon_head"
-		},
-		{
-			item: {
-				id: "minecraft:netherite_sword",
-				Count: 1b,
-				tag: {
-					Damage: 0
-				}
-			}
-		},
-		{
-			item: {
-				id: "minecraft:netherite_shovel",
-				Count: 1b,
-				tag: {
-					Damage: 0
-				}
-			}
-		},
-		{
-			item: {
-				id: "minecraft:netherite_pickaxe",
-				Count: 1b,
-				tag: {
-					Damage: 0
-				}
-			}
-		},
-		{
-			item: {
-				id: "minecraft:netherite_axe",
-				Count: 1b,
-				tag: {
-					Damage: 0
-				}
-			}
-		},
-		{
-			item: {
-				id: "minecraft:netherite_hoe",
-				Count: 1b,
-				tag: {
-					Damage: 0
-				}
-			}
-		},
-		{
-			item: {
-				id: "minecraft:netherite_helmet",
-				Count: 1b,
-				tag: {
-					Damage: 0
-				}
-			}
-		},
-		{
-			item: {
-				id: "minecraft:netherite_chestplate",
-				Count: 1b,
-				tag: {
-					Damage: 0
-				}
-			}
-		},
-		{
-			item: {
-				id: "minecraft:netherite_leggings",
-				Count: 1b,
-				tag: {
-					Damage: 0
-				}
-			}
-		},
-		{
-			item: {
-				id: "minecraft:netherite_boots",
-				Count: 1b,
-				tag: {
-					Damage: 0
-				}
-			}
-		},
-		{
-			item: "minecraft:shulker_spawn_egg"
-		},
-		{
-			item: "minecraft:villager_spawn_egg"
-		},
-		{
-			item: "minecraft:creeper_spawn_egg"
 		}
+		{ item: "forbidden_arcanus:stellarite_piece" }
+		{ item: "cyclic:anvil" }
+		{ item: "minecraft:dragon_head" }
+		{
+			item: {
+				id: "minecraft:netherite_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:netherite_shovel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:netherite_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:netherite_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:netherite_hoe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:netherite_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:netherite_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:netherite_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:netherite_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:shulker_spawn_egg" }
+		{ item: "minecraft:villager_spawn_egg" }
+		{ item: "minecraft:creeper_spawn_egg" }
 	]
 }
