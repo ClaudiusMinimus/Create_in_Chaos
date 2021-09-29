@@ -634,7 +634,7 @@
 			description: [
 				"For the most part, the quests listed on the left menu are not necessarily in any particular order. However, the quests listed at the top of each category are probably good ones to start with."
 				""
-				"**IMPORTANT**"
+				"&l&a**IMPORTANT**&r"
 				"It is very important that when you complete any quest that has an item or block that you place that item or block in your inventory before going to the next step. For example: In the Easy Steel quest 'Sharp Flint' if you leave it in the crafting grid and use it for the flint tools, FTB Quests will not credit you for making Sharp Flint."
 			]
 			size: 2.0d
