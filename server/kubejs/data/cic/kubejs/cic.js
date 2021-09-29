@@ -43,6 +43,16 @@ events.listen('recipes', function (event) {
         '#minecraft:logs', '#minecraft:logs'
     ])
 
+    // Add shaped recipe for bamboo
+    event.shaped(item.of('minecraft:bamboo', 1), [
+        'R',
+        'R',
+        'S'
+    ], {
+        R: '#forge:rods/wooden',
+        S: '#minecraft:saplings'
+    })
+
     // Add shapeless recipe for Firework Star
     event.shapeless(item.of('minecraft:firework_star', 1), ['minecraft:gunpowder', '#forge:dyes'])
 
