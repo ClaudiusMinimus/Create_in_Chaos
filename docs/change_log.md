@@ -13,7 +13,7 @@
   - Apotheosis-1.16.5-4.8.0
   - appleskin-forge-mc1.16.x-2.1.0
   - architectury-1.23.33-forge
-  - BetterDungeons-1.16.4-1.2
+  - BetterDungeons-1.16.4-1.2.1
   - BetterStrongholds-1.16.4-1.2.1
   - Bookshelf-Forge-1.16.5-10.3.29
   - BorderlessWindow-1.16.5-1.2.0
@@ -30,7 +30,7 @@
   - crashutilities-3.12
   - create-mc1.16.5_v0.3.2d
   - create-stuff-additions1.16.5_v1.1.3
-  - createaddition-1.16.5-20210911a
+  - createaddition-1.16.5-20210930a
   - createplus-1.16.4_v0.3.2.1
   - CreativeCore_v2.2.1_mc1.16.5
   - curios-forge-1.16.5-4.0.5.3
@@ -58,7 +58,7 @@
   - jei-1.16.5-7.7.1.121
   - konkrete_1.3.0_MC_1.16.2-1.16.5
   - kubejs-create-1605.1.2-build.7
-  - kubejs-forge-1605.3.18-build.133
+  - kubejs-forge-1605.3.18-build.141
   - Mantle-1.16.5-1.6.123
   - mcw-bridges-1.0.6-mc1.16.5
   - mcw-windows-2.0.0-mc1.16.5
@@ -86,7 +86,7 @@
   - TConstruct-1.16.5-3.1.2.265
   - torchmaster-2.3.8
   - ultra_amplified_dimension-1.16.5-9.2.3-forge
-  - valhelsia_core-16.0.10
+  - valhelsia_core-16.0.11
   - Waystones_1.16.5-7.6.3
   - Xaeros_Minimap_21.16.0_Forge_1.16.5
   - XaerosWorldMap_1.17.1_Forge_1.16.5
