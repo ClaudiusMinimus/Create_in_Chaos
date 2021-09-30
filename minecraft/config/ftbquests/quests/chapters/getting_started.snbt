@@ -1,739 +1,759 @@
 {
-	id: "0BF331013ABF28E1",
-	group: "",
-	order_index: 0,
-	filename: "getting_started",
-	title: "Getting Started",
-	icon: "minecraft:crafting_table",
-	default_quest_shape: "",
+	id: "0BF331013ABF28E1"
+	group: ""
+	order_index: 0
+	filename: "getting_started"
+	title: "Getting Started"
+	icon: "minecraft:crafting_table"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Chopping Logs",
-			x: 0.0d,
-			y: 0.0d,
-			shape: "diamond",
+			title: "Chopping Logs"
+			x: 0.0d
+			y: 0.0d
+			shape: "diamond"
 			description: [
-				"You're going to need some wood, so start chopping!",
-				"",
+				"You're going to need some wood, so start chopping!"
+				""
 				"Pro Tip: Use vein-mining (press and hold ` key while chopping)"
-			],
-			size: 1.5d,
-			id: "4A659E1BEA04F29F",
+			]
+			size: 1.5d
+			id: "4A659E1BEA04F29F"
 			tasks: [{
-				id: "0D36D681DC054C6F",
-				type: "item",
-				title: "Any #minecraft:logs_that_burn",
+				id: "0D36D681DC054C6F"
+				type: "item"
+				title: "Any #minecraft:logs_that_burn"
 				item: {
-					id: "itemfilters:tag",
-					Count: 1b,
+					id: "itemfilters:tag"
+					Count: 1b
 					tag: {
 						value: "minecraft:logs_that_burn"
 					}
-				},
+				}
 				count: 16L
-			}],
+			}]
 			rewards: [
 				{
-					id: "6ABDCF1F85D08C7F",
-					type: "item",
+					id: "6ABDCF1F85D08C7F"
+					type: "item"
 					item: "pamhc2foodcore:juiceritem"
-				},
+				}
 				{
-					id: "2E30150FEE1478B9",
-					type: "item",
-					item: "pamhc2foodcore:applejuiceitem",
+					id: "2E30150FEE1478B9"
+					type: "item"
+					item: "pamhc2foodcore:applejuiceitem"
 					count: 8
 				}
 			]
-		},
+		}
 		{
-			x: -2.5d,
-			y: -1.0d,
-			dependencies: ["4BEB230D4F7905DE"],
-			id: "23274EB29988F646",
+			x: -2.5d
+			y: -1.0d
+			dependencies: ["4BEB230D4F7905DE"]
+			id: "23274EB29988F646"
 			tasks: [{
-				id: "340238E9C041AE5D",
-				type: "item",
+				id: "340238E9C041AE5D"
+				type: "item"
 				item: "minecraft:furnace"
-			}],
+			}]
 			rewards: [{
-				id: "50F5CB7D348D94FE",
-				type: "item",
-				item: "pickletweaks:coal_piece",
+				id: "50F5CB7D348D94FE"
+				type: "item"
+				item: "pickletweaks:coal_piece"
 				count: 64
 			}]
-		},
+		}
 		{
-			x: 0.0d,
-			y: -1.5d,
-			dependencies: ["4A659E1BEA04F29F"],
-			id: "2405FE76A3121826",
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["4A659E1BEA04F29F"]
+			id: "2405FE76A3121826"
 			tasks: [{
-				id: "640D4C32452C2E6E",
-				type: "item",
+				id: "640D4C32452C2E6E"
+				type: "item"
 				item: "minecraft:crafting_table"
-			}],
+			}]
 			rewards: [{
-				id: "28D2A97C59691181",
-				type: "xp",
+				id: "28D2A97C59691181"
+				type: "xp"
 				xp: 25
 			}]
-		},
+		}
 		{
-			x: 0.0d,
-			y: -3.0d,
-			dependencies: ["2405FE76A3121826"],
-			id: "4C4B7AE582427546",
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["2405FE76A3121826"]
+			id: "4C4B7AE582427546"
 			tasks: [{
-				id: "1E56FE49E444FC38",
-				type: "item",
+				id: "1E56FE49E444FC38"
+				type: "item"
 				item: "craftingcraft:portable_crafting"
-			}],
+			}]
 			rewards: [{
-				id: "29A32F6EEEB45BF2",
-				type: "xp",
+				id: "29A32F6EEEB45BF2"
+				type: "xp"
 				xp: 25
 			}]
-		},
+		}
 		{
-			x: 0.0d,
-			y: -4.5d,
+			x: 0.0d
+			y: -4.5d
 			description: [
-				"This may be not be the crafting table you are looking for.",
-				"",
+				"This may be not be the crafting table you are looking for."
+				""
 				"This crafting acts differently than the Tinkers Construct crafting table. This table will connect to multiple inventories and the Tinkers will only connect to one and also Tinkers multiblock."
-			],
-			dependencies: ["4C4B7AE582427546"],
-			id: "3BD9FED68DCBE0D8",
+			]
+			dependencies: ["4C4B7AE582427546"]
+			id: "3BD9FED68DCBE0D8"
 			tasks: [{
-				id: "03CD2EBB7C44DF5C",
-				type: "item",
+				id: "03CD2EBB7C44DF5C"
+				type: "item"
 				item: "craftingstation:crafting_station"
-			}],
+			}]
 			rewards: [{
-				id: "4D97525C1821DDFD",
-				type: "item",
+				id: "4D97525C1821DDFD"
+				type: "item"
 				item: "metalbarrels:wood_to_silver"
 			}]
-		},
+		}
 		{
-			x: -1.5d,
-			y: 0.0d,
-			dependencies: ["4A659E1BEA04F29F"],
-			id: "4BEB230D4F7905DE",
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["4A659E1BEA04F29F"]
+			id: "4BEB230D4F7905DE"
 			tasks: [{
-				id: "095D91EB1F2A7CB9",
-				type: "item",
-				item: "minecraft:cobblestone",
+				id: "095D91EB1F2A7CB9"
+				type: "item"
+				item: "minecraft:cobblestone"
 				count: 64L
-			}],
+			}]
 			rewards: [
 				{
-					id: "731E8FCF871C96A5",
-					type: "item",
+					id: "731E8FCF871C96A5"
+					type: "item"
 					item: "dankstorage:dank_1"
-				},
+				}
 				{
-					id: "4FDBBBEDE41BA51F",
-					type: "item",
+					id: "4FDBBBEDE41BA51F"
+					type: "item"
 					item: "dankstorage:dock"
 				}
 			]
-		},
+		}
 		{
-			x: -3.0d,
-			y: 0.0d,
-			dependencies: ["4BEB230D4F7905DE"],
-			id: "1FBB36A31460EFA4",
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["4BEB230D4F7905DE"]
+			id: "1FBB36A31460EFA4"
 			tasks: [{
-				id: "6FC22BD6C98AF730",
-				type: "item",
-				item: "minecraft:stone",
+				id: "6FC22BD6C98AF730"
+				type: "item"
+				item: "minecraft:stone"
 				count: 64L
-			}],
+			}]
 			rewards: [{
-				id: "4C7D81FF05B78216",
-				type: "item",
+				id: "4C7D81FF05B78216"
+				type: "item"
 				item: "dankstorage:1_to_2"
 			}]
-		},
+		}
 		{
-			x: -4.5d,
-			y: 0.0d,
-			dependencies: ["1FBB36A31460EFA4"],
-			id: "1EE093D88E556C9C",
+			x: -4.5d
+			y: 0.0d
+			dependencies: ["1FBB36A31460EFA4"]
+			id: "1EE093D88E556C9C"
 			tasks: [{
-				id: "397701606A1911F5",
-				type: "item",
-				item: "minecraft:smooth_stone",
+				id: "397701606A1911F5"
+				type: "item"
+				item: "minecraft:smooth_stone"
 				count: 64L
-			}],
+			}]
 			rewards: [{
-				id: "5A7346CFCCC8812A",
-				type: "item",
+				id: "5A7346CFCCC8812A"
+				type: "item"
 				item: "dankstorage:2_to_3"
 			}]
-		},
+		}
 		{
-			x: -1.5d,
-			y: -2.5d,
-			description: ["These handy little grappling hooks are great when you need to go up, down, or to the next plateau. Be sure to be careful, because you will take fall damage if you hit the ground hard without protection."],
-			dependencies: ["2405FE76A3121826"],
-			id: "649FF59EC4B742FA",
+			x: -1.5d
+			y: -2.5d
+			description: ["These handy little grappling hooks are great when you need to go up, down, or to the next plateau. Be sure to be careful, because you will take fall damage if you hit the ground hard without protection."]
+			dependencies: ["2405FE76A3121826"]
+			id: "649FF59EC4B742FA"
 			tasks: [{
-				id: "572B63969047CF72",
-				type: "item",
+				id: "572B63969047CF72"
+				type: "item"
 				item: {
-					id: "grapple_hooks:hook_wooden",
-					Count: 1b,
-					tag: {
-						Damage: 0
-					}
-				}
-			}],
-			rewards: [{
-				id: "07A392E5A5ABE9D5",
-				type: "item",
-				item: {
-					id: "grapple_hooks:hook_stone",
-					Count: 1b,
+					id: "grapple_hooks:hook_wooden"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
 			}]
-		},
-		{
-			x: -3.0d,
-			y: -3.5d,
-			description: ["To craft an Iron Hook, surround a Stone Hook with iron ingots in a crafting grid. The JEI reciped is currently broken."],
-			dependencies: ["649FF59EC4B742FA"],
-			id: "19AFBC9B04C78366",
-			tasks: [{
-				id: "717B90C279ACDC6C",
-				type: "item",
+			rewards: [{
+				id: "07A392E5A5ABE9D5"
+				type: "item"
 				item: {
-					id: "grapple_hooks:hook_iron",
-					Count: 1b,
+					id: "grapple_hooks:hook_stone"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
-			}],
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.5d
+			description: ["To craft an Iron Hook, surround a Stone Hook with iron ingots in a crafting grid. The JEI reciped is currently broken."]
+			dependencies: ["649FF59EC4B742FA"]
+			id: "19AFBC9B04C78366"
+			tasks: [{
+				id: "717B90C279ACDC6C"
+				type: "item"
+				item: {
+					id: "grapple_hooks:hook_iron"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 			rewards: [{
-				id: "29FA89BACF636E01",
-				type: "item",
+				id: "29FA89BACF636E01"
+				type: "item"
 				item: "tconstruct:ender_slime_boots"
 			}]
-		},
+		}
 		{
-			x: -4.5d,
-			y: -4.5d,
-			description: ["To craft a Golden Hook, surround an Iron Hook with gold ingots in a crafting grid. The JEI reciped is currently broken."],
-			dependencies: ["19AFBC9B04C78366"],
-			id: "6BF9B791705D12A0",
+			x: -4.5d
+			y: -4.5d
+			description: ["To craft a Golden Hook, surround an Iron Hook with gold ingots in a crafting grid. The JEI reciped is currently broken."]
+			dependencies: ["19AFBC9B04C78366"]
+			id: "6BF9B791705D12A0"
 			tasks: [{
-				id: "2A5198D3CD3BCAD0",
-				type: "item",
+				id: "2A5198D3CD3BCAD0"
+				type: "item"
 				item: {
-					id: "grapple_hooks:hook_golden",
-					Count: 1b,
+					id: "grapple_hooks:hook_golden"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "1E1A93BD655408BD",
-				type: "item",
+				id: "1E1A93BD655408BD"
+				type: "item"
 				item: {
-					id: "minecraft:enchanted_book",
-					Count: 1b,
+					id: "minecraft:enchanted_book"
+					Count: 1b
 					tag: {
 						StoredEnchantments: [{
-							lvl: 3s,
+							lvl: 3s
 							id: "grapple_hooks:pull_speed"
 						}]
 					}
 				}
 			}]
-		},
+		}
 		{
-			x: -6.0d,
-			y: -5.5d,
-			description: ["To craft a Diamond Hook, surround a Golden Hook with diamonds in a crafting grid. The JEI reciped is currently broken."],
-			dependencies: ["6BF9B791705D12A0"],
-			id: "269BD2F0A6A5AB10",
+			x: -6.0d
+			y: -5.5d
+			description: ["To craft a Diamond Hook, surround a Golden Hook with diamonds in a crafting grid. The JEI reciped is currently broken."]
+			dependencies: ["6BF9B791705D12A0"]
+			id: "269BD2F0A6A5AB10"
 			tasks: [{
-				id: "17157A92D7C6F95D",
-				type: "item",
+				id: "17157A92D7C6F95D"
+				type: "item"
 				item: {
-					id: "grapple_hooks:hook_diamond",
-					Count: 1b,
+					id: "grapple_hooks:hook_diamond"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "47F8FD5D6E0D8ADF",
-				type: "item",
+				id: "47F8FD5D6E0D8ADF"
+				type: "item"
 				item: {
-					id: "minecraft:enchanted_book",
-					Count: 1b,
+					id: "minecraft:enchanted_book"
+					Count: 1b
 					tag: {
 						StoredEnchantments: [{
-							lvl: 3s,
+							lvl: 3s
 							id: "grapple_hooks:rope_distance"
 						}]
 					}
 				}
 			}]
-		},
+		}
 		{
-			x: 0.0d,
-			y: 1.5d,
-			dependencies: ["4A659E1BEA04F29F"],
-			id: "4363929441E4D416",
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["4A659E1BEA04F29F"]
+			id: "4363929441E4D416"
 			tasks: [{
-				id: "2831E4D76C3C86A7",
-				type: "item",
-				item: "minecraft:iron_ore",
+				id: "2831E4D76C3C86A7"
+				type: "item"
+				item: "minecraft:iron_ore"
 				count: 12L
-			}],
-			rewards: [{
-				id: "56A23223E7F606CB",
-				type: "xp",
-				xp: 25
 			}]
-		},
+			rewards: [
+				{
+					id: "56A23223E7F606CB"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "0ABEC348229556EA"
+					type: "item"
+					item: {
+						id: "easy_steel:crack_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
 		{
-			x: 0.0d,
-			y: 3.0d,
-			dependencies: ["4363929441E4D416"],
-			id: "6A9AF3F5ECD8E2C4",
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["4363929441E4D416"]
+			id: "6A9AF3F5ECD8E2C4"
 			tasks: [{
-				id: "5B647D8BAC6E0F81",
-				type: "item",
-				item: "minecraft:iron_ingot",
+				id: "5B647D8BAC6E0F81"
+				type: "item"
+				item: "minecraft:iron_ingot"
 				count: 24L
-			}],
+			}]
 			rewards: [{
-				id: "083FAE2C0D818155",
-				type: "xp",
+				id: "083FAE2C0D818155"
+				type: "xp"
 				xp: 50
 			}]
-		},
+		}
 		{
-			x: 1.5d,
-			y: -2.5d,
-			dependencies: ["2405FE76A3121826"],
-			id: "45876E96C7B8E0EE",
+			x: 1.5d
+			y: -2.5d
+			dependencies: ["2405FE76A3121826"]
+			id: "45876E96C7B8E0EE"
 			tasks: [{
-				id: "6E63A6A5C7076D6E",
-				type: "item",
-				title: "Hit the Sack",
+				id: "6E63A6A5C7076D6E"
+				type: "item"
+				title: "Hit the Sack"
 				item: {
-					id: "itemfilters:tag",
-					Count: 1b,
+					id: "itemfilters:tag"
+					Count: 1b
 					tag: {
 						value: "minecraft:beds"
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "24B02F17D7A156B7",
-				type: "item",
+				id: "24B02F17D7A156B7"
+				type: "item"
 				item: "torchmaster:megatorch"
 			}]
-		},
+		}
 		{
-			x: 1.5d,
-			y: 0.0d,
-			dependencies: ["4A659E1BEA04F29F"],
-			id: "09FB4328289BD237",
+			x: 1.5d
+			y: 0.0d
+			description: ["Some items are simply hard to find. Making a Water Strainer solves this by straining the water for all kinds of useful things."]
+			dependencies: ["4A659E1BEA04F29F"]
+			id: "09FB4328289BD237"
 			tasks: [{
-				id: "20CAD1BCB3FD8B91",
-				type: "item",
+				id: "20CAD1BCB3FD8B91"
+				type: "item"
 				item: "waterstrainer:strainer_base"
 			}]
-		},
+			rewards: [{
+				id: "1061713648FE2E84"
+				type: "random"
+				table_id: 3202284983173505384L
+			}]
+		}
 		{
-			x: 4.5d,
-			y: -1.0d,
-			dependencies: ["684AEEDA07D713B0"],
-			id: "3EF9005C59A0D911",
+			x: 4.5d
+			y: -1.0d
+			dependencies: ["684AEEDA07D713B0"]
+			id: "3EF9005C59A0D911"
 			tasks: [{
-				id: "232EE15B6B1318B4",
-				type: "item",
+				id: "232EE15B6B1318B4"
+				type: "item"
 				item: {
-					id: "waterstrainer:strainer_survivalist_solid",
-					Count: 1b,
+					id: "waterstrainer:strainer_survivalist_solid"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "532EABC8AE1EA67F",
-				type: "item",
+				id: "532EABC8AE1EA67F"
+				type: "item"
 				item: "minecraft:iron_block"
 			}]
-		},
+		}
 		{
-			x: 6.0d,
-			y: -1.0d,
-			dependencies: ["3EF9005C59A0D911"],
-			id: "3236CCA2BE7FDE9D",
+			x: 6.0d
+			y: -1.0d
+			dependencies: ["3EF9005C59A0D911"]
+			id: "3236CCA2BE7FDE9D"
 			tasks: [{
-				id: "2DC3A68450954891",
-				type: "item",
+				id: "2DC3A68450954891"
+				type: "item"
 				item: {
-					id: "waterstrainer:strainer_survivalist_reinforced",
-					Count: 1b,
+					id: "waterstrainer:strainer_survivalist_reinforced"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "448E927407873996",
-				type: "item",
-				item: "minecraft:terracotta",
+				id: "448E927407873996"
+				type: "item"
+				item: "minecraft:terracotta"
 				count: 64
 			}]
-		},
+		}
 		{
-			x: 3.0d,
-			y: 1.0d,
-			dependencies: ["09FB4328289BD237"],
-			id: "4B9E3926DB1F2CFA",
+			x: 3.0d
+			y: 1.0d
+			dependencies: ["09FB4328289BD237"]
+			id: "4B9E3926DB1F2CFA"
 			tasks: [
 				{
-					id: "2023721E877A6994",
-					type: "item",
+					id: "2023721E877A6994"
+					type: "item"
 					item: {
-						id: "waterstrainer:strainer_fisherman",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					}
-				},
-				{
-					id: "45C4C4D2D0D5E123",
-					type: "item",
-					item: {
-						id: "waterstrainer:bait_pot",
-						Count: 1b,
+						id: "waterstrainer:strainer_fisherman"
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
 				}
-			],
-			rewards: [
 				{
-					id: "69E9FA4F82E076A0",
-					type: "item",
-					item: "waterstrainer:worm",
-					count: 16
-				},
-				{
-					id: "4981FEDC3C86C201",
-					type: "item",
+					id: "45C4C4D2D0D5E123"
+					type: "item"
 					item: {
-						id: "waterstrainer:garden_trowel",
-						Count: 1b,
+						id: "waterstrainer:bait_pot"
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
 				}
 			]
-		},
-		{
-			x: 4.5d,
-			y: 1.0d,
-			dependencies: ["4B9E3926DB1F2CFA"],
-			id: "67A12ED65233C750",
-			tasks: [
+			rewards: [
 				{
-					id: "7EF6DD317AAA19E1",
-					type: "item",
+					id: "69E9FA4F82E076A0"
+					type: "item"
+					item: "waterstrainer:worm"
+					count: 16
+				}
+				{
+					id: "4981FEDC3C86C201"
+					type: "item"
 					item: {
-						id: "waterstrainer:strainer_fisherman_solid",
-						Count: 1b,
+						id: "waterstrainer:garden_trowel"
+						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
-				},
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			dependencies: ["4B9E3926DB1F2CFA"]
+			id: "67A12ED65233C750"
+			tasks: [
 				{
-					id: "1C848B7FE3501955",
-					type: "item",
+					id: "7EF6DD317AAA19E1"
+					type: "item"
+					item: {
+						id: "waterstrainer:strainer_fisherman_solid"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1C848B7FE3501955"
+					type: "item"
 					item: "waterstrainer:worm_bin"
 				}
-			],
+			]
 			rewards: [{
-				id: "365B3A91694FDF7C",
-				type: "item",
+				id: "365B3A91694FDF7C"
+				type: "item"
 				item: "waterstrainer:efficiency_meter"
 			}]
-		},
+		}
 		{
-			x: 6.0d,
-			y: 1.0d,
-			dependencies: ["67A12ED65233C750"],
-			id: "63E35E602F643968",
+			x: 6.0d
+			y: 1.0d
+			dependencies: ["67A12ED65233C750"]
+			id: "63E35E602F643968"
 			tasks: [{
-				id: "6FBB16459F872CE2",
-				type: "item",
+				id: "6FBB16459F872CE2"
+				type: "item"
 				item: {
-					id: "waterstrainer:strainer_fisherman_reinforced",
-					Count: 1b,
+					id: "waterstrainer:strainer_fisherman_reinforced"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "015F8CEEFADC6479",
-				type: "item",
+				id: "015F8CEEFADC6479"
+				type: "item"
 				item: "waterstrainer:super_worm"
 			}]
-		},
+		}
 		{
-			x: 3.0d,
-			y: -1.0d,
-			dependencies: ["09FB4328289BD237"],
-			id: "684AEEDA07D713B0",
+			x: 3.0d
+			y: -1.0d
+			dependencies: ["09FB4328289BD237"]
+			id: "684AEEDA07D713B0"
 			tasks: [{
-				id: "42617B59BF40A108",
-				type: "item",
+				id: "42617B59BF40A108"
+				type: "item"
 				item: {
-					id: "waterstrainer:strainer_survivalist",
-					Count: 1b,
+					id: "waterstrainer:strainer_survivalist"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "53B49187377CC43F",
-				type: "xp",
+				id: "53B49187377CC43F"
+				type: "xp"
 				xp: 25
 			}]
-		},
+		}
 		{
-			title: "Just Enough Items (JEI)",
-			x: -1.5d,
-			y: -6.0d,
-			shape: "square",
+			title: "Just Enough Items (JEI)"
+			x: -1.5d
+			y: -6.0d
+			shape: "square"
 			description: [
-				"JEI is an item and recipe viewing mod for Minecraft.",
-				"Basic Controls:",
-				"- Inventory:",
-				"  - (Minecraft Options -> Controls)",
-				"  - Show Recipes: Hover over item + R",
-				"  - Show Uses: Hover over item + U",
-				"  - Toggle Item List Overlay:",
-				"     Control + O",
+				"JEI is an item and recipe viewing mod for Minecraft."
+				"Basic Controls:"
+				"- Inventory:"
+				"  - (Minecraft Options -> Controls)"
+				"  - Show Recipes: Hover over item + R"
+				"  - Show Uses: Hover over item + U"
+				"  - Toggle Item List Overlay:"
+				"     Control + O"
 				"For more information visit curseforge.com and serach mods for 'jei'"
-			],
-			dependencies: ["684FA0E505BFD43B"],
-			id: "4F860729BD2D92EB",
+			]
+			dependencies: ["684FA0E505BFD43B"]
+			id: "4F860729BD2D92EB"
 			tasks: [{
-				id: "3E23A7BA34C72D7A",
-				type: "checkmark",
+				id: "3E23A7BA34C72D7A"
+				type: "checkmark"
 				title: "Just Enough Items"
-			}],
+			}]
 			rewards: [{
-				id: "2148C8CB9E160BCD",
-				type: "item",
-				item: "pamhc2foodcore:chickenjerkyitem",
+				id: "2148C8CB9E160BCD"
+				type: "item"
+				item: "pamhc2foodcore:chickenjerkyitem"
 				count: 8
 			}]
-		},
+		}
 		{
-			x: 0.0d,
-			y: -6.0d,
-			shape: "square",
+			x: 0.0d
+			y: -6.0d
+			shape: "square"
 			description: [
-				"I made a short YouTube video showing how to claim, un-claim, and force load chunks. You can view it by going to this address.",
-				"",
-				"tinyurl.com/ftbchunk",
-				"",
+				"I made a short YouTube video showing how to claim, un-claim, and force load chunks. You can view it by going to this address."
+				""
+				"tinyurl.com/ftbchunk"
+				""
 				"Sorry, links do not work in quests."
-			],
-			dependencies: ["684FA0E505BFD43B"],
-			id: "3B6E98998179A87A",
+			]
+			dependencies: ["684FA0E505BFD43B"]
+			id: "3B6E98998179A87A"
 			tasks: [{
-				id: "4E2F247A311FA50B",
-				type: "checkmark",
+				id: "4E2F247A311FA50B"
+				type: "checkmark"
 				title: "Chunk Claiming"
-			}],
+			}]
 			rewards: [{
-				id: "2CB27AC9B420D4AC",
-				type: "item",
+				id: "2CB27AC9B420D4AC"
+				type: "item"
 				item: "forbidden_arcanus:edelwood_chicken_bucket"
 			}]
-		},
+		}
 		{
-			x: 1.5d,
-			y: -6.0d,
-			shape: "square",
+			x: 1.5d
+			y: -6.0d
+			shape: "square"
 			description: [
-				"Commands are initiated when you press the slash key '/' from within the world. Basic commands include:",
-				"/sethome will set a waypoint for your home",
-				"/home will teleport you to the home you set",
-				"/delhome delete your current hom",
-				"/spawn teleport you to spawn",
-				"/tpa allows you to request a teleport to another player. The player on the other end must accept your request for the teleport to be completed.",
-				"/rtp executes a teleport to a random location. Please note there is a cooldown period between random teleport.",
-				"/back after death you can teleport to your death point or can be used to return to a previous location.",
+				"Commands are initiated when you press the slash key '/' from within the world. Basic commands include:"
+				"/sethome will set a waypoint for your home"
+				"/home will teleport you to the home you set"
+				"/delhome delete your current hom"
+				"/spawn teleport you to spawn"
+				"/tpa allows you to request a teleport to another player. The player on the other end must accept your request for the teleport to be completed."
+				"/rtp executes a teleport to a random location. Please note there is a cooldown period between random teleport."
+				"/back after death you can teleport to your death point or can be used to return to a previous location."
 				"/trashcan opens a trashcan from your inventory."
-			],
-			dependencies: ["684FA0E505BFD43B"],
-			id: "28D89D7D75CBB663",
+			]
+			dependencies: ["684FA0E505BFD43B"]
+			id: "28D89D7D75CBB663"
 			tasks: [{
-				id: "3A68183CE1FFE005",
-				type: "checkmark",
+				id: "3A68183CE1FFE005"
+				type: "checkmark"
 				title: "Basic Commands"
-			}],
+			}]
 			rewards: [{
-				id: "0A1C39C70480B20B",
-				type: "item",
+				id: "0A1C39C70480B20B"
+				type: "item"
 				item: "waystones:waystone"
 			}]
-		},
+		}
 		{
-			x: 0.0d,
-			y: -8.0d,
-			shape: "pentagon",
+			x: 0.0d
+			y: -8.0d
+			shape: "pentagon"
 			description: [
-				"For the most part, the quests listed on the left menu are not necessarily in any particular order. However, the quests listed at the top of each category are probably good ones to start with.",
-				"",
-				"**IMPORTANT:**",
+				"For the most part, the quests listed on the left menu are not necessarily in any particular order. However, the quests listed at the top of each category are probably good ones to start with."
+				""
+				"&l&a**IMPORTANT**&r"
 				"It is very important that when you complete any quest that has an item or block that you place that item or block in your inventory before going to the next step. For example: In the Easy Steel quest 'Sharp Flint' if you leave it in the crafting grid and use it for the flint tools, FTB Quests will not credit you for making Sharp Flint."
-			],
-			size: 2.0d,
-			id: "684FA0E505BFD43B",
+			]
+			size: 2.0d
+			id: "684FA0E505BFD43B"
 			tasks: [{
-				id: "4601929084D98EF1",
-				type: "checkmark",
+				id: "4601929084D98EF1"
+				type: "checkmark"
 				title: "Quest Basics - Step-by-Step"
-			}],
+			}]
 			rewards: [{
-				id: "4CEE5E7293A59BA5",
-				type: "item",
-				item: "create:electron_tube",
+				id: "4CEE5E7293A59BA5"
+				type: "item"
+				item: "create:electron_tube"
 				count: 8
 			}]
-		},
+		}
 		{
-			x: -1.5d,
-			y: 1.5d,
-			dependencies: ["4A659E1BEA04F29F"],
-			id: "1CDFB15043AA98E3",
+			x: -1.5d
+			y: 1.5d
+			dependencies: ["4A659E1BEA04F29F"]
+			id: "1CDFB15043AA98E3"
 			tasks: [{
-				id: "5EB08A78FAB7E76F",
-				type: "item",
+				id: "5EB08A78FAB7E76F"
+				type: "item"
 				item: "minecraft:bamboo"
-			}],
+			}]
 			rewards: [
 				{
-					id: "4CFDF1A0601F54DB",
-					type: "item",
-					item: "minecraft:kelp",
+					id: "4CFDF1A0601F54DB"
+					type: "item"
+					item: "minecraft:kelp"
 					count: 8
-				},
+				}
 				{
-					id: "4CCB7FFF0C738CCC",
-					type: "xp",
+					id: "4CCB7FFF0C738CCC"
+					type: "xp"
 					xp: 25
 				}
 			]
-		},
+		}
 		{
-			x: -3.0d,
-			y: 3.0d,
-			dependencies: ["1CDFB15043AA98E3"],
-			id: "435375BE475421C8",
+			x: -3.0d
+			y: 3.0d
+			dependencies: ["1CDFB15043AA98E3"]
+			id: "435375BE475421C8"
 			tasks: [{
-				id: "50D13DB20714B534",
-				type: "item",
+				id: "50D13DB20714B534"
+				type: "item"
 				item: "minecraft:scaffolding"
-			}],
+			}]
 			rewards: [
 				{
-					id: "759741B2266677F2",
-					type: "item",
-					item: "minecraft:cactus",
+					id: "759741B2266677F2"
+					type: "item"
+					item: "minecraft:cactus"
 					count: 3
-				},
+				}
 				{
-					id: "673EEF57E21C2456",
-					type: "xp",
+					id: "673EEF57E21C2456"
+					type: "xp"
 					xp: 25
 				}
 			]
-		},
+		}
 		{
-			x: 3.0d,
-			y: -3.5d,
-			dependencies: ["45876E96C7B8E0EE"],
-			id: "6DE2AA72D0E51A71",
+			x: 3.0d
+			y: -3.5d
+			dependencies: ["45876E96C7B8E0EE"]
+			id: "6DE2AA72D0E51A71"
 			tasks: [{
-				id: "4BA3BB68274EBED8",
-				type: "item",
+				id: "4BA3BB68274EBED8"
+				type: "item"
 				item: "minecraft:campfire"
-			}],
+			}]
 			rewards: [
 				{
-					id: "5A667BDCCCDDB16D",
-					type: "item",
-					item: "minecraft:porkchop",
+					id: "5A667BDCCCDDB16D"
+					type: "item"
+					item: "minecraft:porkchop"
 					count: 8
-				},
+				}
 				{
-					id: "1731305E22CA3E2B",
-					type: "item",
-					item: "forbidden_arcanus:rotten_leather",
+					id: "1731305E22CA3E2B"
+					type: "item"
+					item: "forbidden_arcanus:rotten_leather"
 					count: 4
 				}
 			]
-		},
+		}
 		{
-			x: 4.5d,
-			y: -4.5d,
-			dependencies: ["6DE2AA72D0E51A71"],
-			id: "1B246AA7C295922F",
+			x: 4.5d
+			y: -4.5d
+			dependencies: ["6DE2AA72D0E51A71"]
+			id: "1B246AA7C295922F"
 			tasks: [{
-				id: "230E579B9575F907",
-				type: "item",
+				id: "230E579B9575F907"
+				type: "item"
 				item: "minecraft:composter"
-			}],
+			}]
 			rewards: [{
-				id: "205AD38F10941F7D",
-				type: "item",
-				item: "minecraft:bone_block",
+				id: "205AD38F10941F7D"
+				type: "item"
+				item: "minecraft:bone_block"
 				count: 8
 			}]
-		},
+		}
 		{
-			x: 0.0d,
-			y: 4.5d,
-			dependencies: ["6A9AF3F5ECD8E2C4"],
-			id: "5CE062A26B88E279",
+			x: 0.0d
+			y: 4.5d
+			dependencies: ["6A9AF3F5ECD8E2C4"]
+			id: "5CE062A26B88E279"
 			tasks: [{
-				id: "302EB4A7F837CCF0",
-				type: "item",
+				id: "302EB4A7F837CCF0"
+				type: "item"
 				item: "globalxp:xp_block"
-			}],
+			}]
 			rewards: [{
-				id: "79A4C3C6E6A50E03",
-				type: "xp",
+				id: "79A4C3C6E6A50E03"
+				type: "xp"
 				xp: 100
 			}]
 		}

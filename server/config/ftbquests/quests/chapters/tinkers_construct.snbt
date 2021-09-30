@@ -1,104 +1,105 @@
 {
-	id: "1FE4DB8FB5DEF0B3",
-	group: "6987EBD3219FABBD",
-	order_index: 3,
-	filename: "tinkers_construct",
-	title: "Tinkers Construct",
-	default_quest_shape: "",
+	id: "1FE4DB8FB5DEF0B3"
+	group: "6987EBD3219FABBD"
+	order_index: 3
+	filename: "tinkers_construct"
+	title: "Tinkers Construct"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 0.0d,
-			y: 0.5d,
-			shape: "diamond",
-			size: 1.5d,
-			id: "1904BC5191AC4592",
+			x: 0.0d
+			y: 0.5d
+			shape: "diamond"
+			size: 1.5d
+			id: "1904BC5191AC4592"
 			tasks: [{
-				id: "6A19B6339205B72C",
-				type: "item",
+				id: "6A19B6339205B72C"
+				type: "item"
 				item: "tconstruct:pattern"
-			}],
+			}]
 			rewards: [{
-				id: "7424B05D3C5DA218",
-				type: "item",
-				item: "tconstruct:pattern",
+				id: "7424B05D3C5DA218"
+				type: "item"
+				item: "tconstruct:pattern"
 				count: 3
 			}]
-		},
+		}
 		{
-			x: 2.0d,
-			y: 0.5d,
+			x: 2.0d
+			y: 0.5d
 			description: [
-				"The Tinker's Construct Crafting Station is part of the Tinker's multiblock crafting system. If you right-click the Crafting Station you can access any connected Tinker's Station, Part Builder, Part Chest, Modifier Chest, or Tinker's Anvil. It can also access any connected SINGLE inventory.",
-				"",
+				"The Tinker's Construct Crafting Station is part of the Tinker's multiblock crafting system. If you right-click the Crafting Station you can access any connected Tinker's Station, Part Builder, Part Chest, Modifier Chest, or Tinker's Anvil. It can also access any connected SINGLE inventory."
+				""
 				"Please note the Crafting Station you made in the Getting Started questline looks like the Tinker's Construct Crafting Station but acts completely differently. The Getting Started Crafting Station does not connect to the other Tinker's stations and it can access any attached inventory."
-			],
-			dependencies: ["1904BC5191AC4592"],
-			id: "75D8AB9CEB89D1C8",
+			]
+			dependencies: ["1904BC5191AC4592"]
+			id: "75D8AB9CEB89D1C8"
 			tasks: [{
-				id: "0AADB204900746B0",
-				type: "item",
+				id: "0AADB204900746B0"
+				type: "item"
 				item: "tconstruct:crafting_station"
-			}],
+			}]
 			rewards: [{
-				id: "1CE836533592FC94",
-				type: "item",
-				item: "pamhc2foodcore:fishjerkyitem",
+				id: "1CE836533592FC94"
+				type: "item"
+				item: "pamhc2foodcore:fishjerkyitem"
 				count: 4
 			}]
-		},
+		}
 		{
-			title: "Part Builder",
-			x: 0.0d,
-			y: -1.5d,
-			subtitle: "Craft Any Vanilla Part Builder",
-			dependencies: ["1904BC5191AC4592"],
-			id: "5D1515D14C6A473A",
+			title: "Part Builder"
+			x: 0.0d
+			y: -1.5d
+			subtitle: "Craft Any Vanilla Part Builder"
+			dependencies: ["1904BC5191AC4592"]
+			id: "5D1515D14C6A473A"
 			tasks: [{
-				id: "1BE08D40CA345D80",
-				type: "item",
+				id: "1BE08D40CA345D80"
+				type: "item"
 				item: {
-					id: "itemfilters:or",
-					Count: 1b,
+					id: "itemfilters:or"
+					Count: 1b
 					tag: {
 						items: [
 							{
-								id: "tconstruct:part_builder",
-								Count: 1b,
+								id: "tconstruct:part_builder"
+								Count: 1b
 								tag: {
 									texture: "minecraft:oak_planks"
 								}
-							},
+							}
 							{
-								id: "tconstruct:part_builder",
-								Count: 1b,
+								id: "tconstruct:part_builder"
+								Count: 1b
 								tag: {
 									texture: "minecraft:spruce_planks"
 								}
-							},
+							}
 							{
-								id: "tconstruct:part_builder",
-								Count: 1b,
+								id: "tconstruct:part_builder"
+								Count: 1b
 								tag: {
 									texture: "minecraft:birch_planks"
 								}
-							},
+							}
 							{
-								id: "tconstruct:part_builder",
-								Count: 1b,
+								id: "tconstruct:part_builder"
+								Count: 1b
 								tag: {
 									texture: "minecraft:jungle_planks"
 								}
-							},
+							}
 							{
-								id: "tconstruct:part_builder",
-								Count: 1b,
+								id: "tconstruct:part_builder"
+								Count: 1b
 								tag: {
 									texture: "minecraft:acacia_planks"
 								}
-							},
+							}
 							{
-								id: "tconstruct:part_builder",
-								Count: 1b,
+								id: "tconstruct:part_builder"
+								Count: 1b
 								tag: {
 									texture: "minecraft:dark_oak_planks"
 								}
@@ -106,72 +107,72 @@
 						]
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "65DF20DFEFF9F44D",
-				type: "item",
+				id: "65DF20DFEFF9F44D"
+				type: "item"
 				item: {
-					id: "tconstruct:repair_kit",
-					Count: 1b,
+					id: "tconstruct:repair_kit"
+					Count: 1b
 					tag: {
 						Material: "tconstruct:iron"
 					}
 				}
 			}]
-		},
+		}
 		{
-			title: "Tinker Station",
-			x: 1.5d,
-			y: -1.0d,
-			subtitle: "Craft Any Tinker Station",
-			dependencies: ["1904BC5191AC4592"],
-			id: "4B172848A1E98261",
+			title: "Tinker Station"
+			x: 1.5d
+			y: -1.0d
+			subtitle: "Craft Any Tinker Station"
+			dependencies: ["1904BC5191AC4592"]
+			id: "4B172848A1E98261"
 			tasks: [{
-				id: "320A56D3154192CF",
-				type: "item",
+				id: "320A56D3154192CF"
+				type: "item"
 				item: {
-					id: "itemfilters:or",
-					Count: 1b,
+					id: "itemfilters:or"
+					Count: 1b
 					tag: {
 						items: [
 							{
-								id: "tconstruct:tinker_station",
-								Count: 1b,
+								id: "tconstruct:tinker_station"
+								Count: 1b
 								tag: {
 									texture: "minecraft:oak_planks"
 								}
-							},
+							}
 							{
-								id: "tconstruct:tinker_station",
-								Count: 1b,
+								id: "tconstruct:tinker_station"
+								Count: 1b
 								tag: {
 									texture: "minecraft:spruce_planks"
 								}
-							},
+							}
 							{
-								id: "tconstruct:tinker_station",
-								Count: 1b,
+								id: "tconstruct:tinker_station"
+								Count: 1b
 								tag: {
 									texture: "minecraft:birch_planks"
 								}
-							},
+							}
 							{
-								id: "tconstruct:tinker_station",
-								Count: 1b,
+								id: "tconstruct:tinker_station"
+								Count: 1b
 								tag: {
 									texture: "minecraft:jungle_planks"
 								}
-							},
+							}
 							{
-								id: "tconstruct:tinker_station",
-								Count: 1b,
+								id: "tconstruct:tinker_station"
+								Count: 1b
 								tag: {
 									texture: "minecraft:acacia_planks"
 								}
-							},
+							}
 							{
-								id: "tconstruct:tinker_station",
-								Count: 1b,
+								id: "tconstruct:tinker_station"
+								Count: 1b
 								tag: {
 									texture: "minecraft:dark_oak_planks"
 								}
@@ -179,115 +180,115 @@
 						]
 					}
 				}
-			}],
-			rewards: [{
-				id: "656DD2F7595E618C",
-				type: "item",
-				item: "tconstruct:reinforcement"
 			}]
-		},
+			rewards: [{
+				id: "656DD2F7595E618C"
+				type: "item"
+				item: "tconstruct:iron_reinforcement"
+			}]
+		}
 		{
-			x: 5.5d,
-			y: 2.5d,
-			subtitle: "Craft Any Tinker's Anvil",
-			dependencies: ["7EB1D546A7B997FD"],
-			id: "0F6CE33B51FC2859",
+			x: 5.5d
+			y: 2.5d
+			subtitle: "Craft Any Tinker's Anvil"
+			dependencies: ["7EB1D546A7B997FD"]
+			id: "0F6CE33B51FC2859"
 			tasks: [{
-				id: "1EBCC45A095DE67F",
-				type: "item",
-				title: "Tinker's Anvil",
+				id: "1EBCC45A095DE67F"
+				type: "item"
+				title: "Tinker's Anvil"
 				item: {
-					id: "itemfilters:or",
-					Count: 1b,
+					id: "itemfilters:or"
+					Count: 1b
 					tag: {
 						items: [
 							{
-								id: "tconstruct:tinkers_anvil",
-								Count: 1b,
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
 								tag: {
 									texture: "tconstruct:slimesteel_block"
 								}
-							},
+							}
 							{
-								id: "tconstruct:tinkers_anvil",
-								Count: 1b,
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
 								tag: {
 									texture: "tconstruct:tinkers_bronze_block"
 								}
-							},
+							}
 							{
-								id: "tconstruct:tinkers_anvil",
-								Count: 1b,
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
 								tag: {
 									texture: "tconstruct:rose_gold_block"
 								}
-							},
+							}
 							{
-								id: "tconstruct:tinkers_anvil",
-								Count: 1b,
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
 								tag: {
 									texture: "tconstruct:pig_iron_block"
 								}
-							},
+							}
 							{
-								id: "tconstruct:tinkers_anvil",
-								Count: 1b,
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
 								tag: {
 									texture: "tconstruct:manyullyn_block"
 								}
-							},
+							}
 							{
-								id: "tconstruct:tinkers_anvil",
-								Count: 1b,
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
 								tag: {
 									texture: "tconstruct:hepatizon_block"
 								}
-							},
+							}
 							{
-								id: "tconstruct:tinkers_anvil",
-								Count: 1b,
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
 								tag: {
 									texture: "minecraft:netherite_block"
 								}
-							},
+							}
 							{
-								id: "tconstruct:tinkers_anvil",
-								Count: 1b,
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
 								tag: {
 									texture: "easy_steel:bronze_block"
 								}
-							},
+							}
 							{
-								id: "tconstruct:tinkers_anvil",
-								Count: 1b,
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
 								tag: {
 									texture: "create:brass_block"
 								}
-							},
+							}
 							{
-								id: "tconstruct:tinkers_anvil",
-								Count: 1b,
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
 								tag: {
 									texture: "immersiveengineering:storage_electrum"
 								}
-							},
+							}
 							{
-								id: "tconstruct:tinkers_anvil",
-								Count: 1b,
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
 								tag: {
 									texture: "immersiveengineering:storage_constantan"
 								}
-							},
+							}
 							{
-								id: "tconstruct:tinkers_anvil",
-								Count: 1b,
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
 								tag: {
 									texture: "easy_steel:steel_block"
 								}
-							},
+							}
 							{
-								id: "tconstruct:tinkers_anvil",
-								Count: 1b,
+								id: "tconstruct:tinkers_anvil"
+								Count: 1b
 								tag: {
 									texture: "immersiveengineering:storage_steel"
 								}
@@ -295,68 +296,68 @@
 						]
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "1F69D144EC978B1C",
-				type: "item",
+				id: "1F69D144EC978B1C"
+				type: "item"
 				item: {
-					id: "minecraft:potion",
-					Count: 1b,
+					id: "minecraft:potion"
+					Count: 1b
 					tag: {
 						Potion: "potionsmaster:emerald_sight"
 					}
 				}
 			}]
-		},
+		}
 		{
-			x: -2.0d,
-			y: 0.5d,
-			dependencies: ["1904BC5191AC4592"],
-			id: "2232723F165E73A7",
+			x: -2.0d
+			y: 0.5d
+			dependencies: ["1904BC5191AC4592"]
+			id: "2232723F165E73A7"
 			tasks: [{
-				id: "00AE27AA38A10C41",
-				type: "item",
+				id: "00AE27AA38A10C41"
+				type: "item"
 				item: "tconstruct:part_chest"
-			}],
+			}]
 			rewards: [{
-				id: "28D216A3074B0F40",
-				type: "item",
+				id: "28D216A3074B0F40"
+				type: "item"
 				item: {
-					id: "tconstruct:sword_blade",
-					Count: 1b,
+					id: "tconstruct:small_blade"
+					Count: 1b
 					tag: {
 						Material: "tconstruct:iron"
 					}
 				}
 			}]
-		},
+		}
 		{
-			x: -1.5d,
-			y: -1.0d,
-			dependencies: ["1904BC5191AC4592"],
-			id: "212A36E0C12C7C85",
+			x: -1.5d
+			y: -1.0d
+			dependencies: ["1904BC5191AC4592"]
+			id: "212A36E0C12C7C85"
 			tasks: [{
-				id: "38A4837AE245C0CF",
-				type: "item",
-				item: "tconstruct:modifier_chest"
-			}],
+				id: "38A4837AE245C0CF"
+				type: "item"
+				item: "tconstruct:tinkers_chest"
+			}]
 			rewards: [{
-				id: "10FAA41FA140297F",
-				type: "item",
+				id: "10FAA41FA140297F"
+				type: "item"
 				item: "minecraft:diamond"
 			}]
-		},
+		}
 		{
-			x: 0.0d,
-			y: 2.5d,
-			dependencies: ["1904BC5191AC4592"],
-			id: "2376FB302DA38680",
+			x: 0.0d
+			y: 2.5d
+			dependencies: ["1904BC5191AC4592"]
+			id: "2376FB302DA38680"
 			tasks: [{
-				id: "6B4DBED3097AB6F0",
-				type: "item",
+				id: "6B4DBED3097AB6F0"
+				type: "item"
 				item: {
-					id: "tconstruct:materials_and_you",
-					Count: 1b,
+					id: "tconstruct:materials_and_you"
+					Count: 1b
 					tag: {
 						mantle: {
 							book: {
@@ -365,24 +366,24 @@
 						}
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "3D63F053F1C50340",
-				type: "xp",
+				id: "3D63F053F1C50340"
+				type: "xp"
 				xp: 25
 			}]
-		},
+		}
 		{
-			x: 0.0d,
-			y: 4.0d,
-			dependencies: ["2376FB302DA38680"],
-			id: "25CB4104D3950BD4",
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["2376FB302DA38680"]
+			id: "25CB4104D3950BD4"
 			tasks: [{
-				id: "19BFDCCA9F7C27D7",
-				type: "item",
+				id: "19BFDCCA9F7C27D7"
+				type: "item"
 				item: {
-					id: "tconstruct:puny_smelting",
-					Count: 1b,
+					id: "tconstruct:puny_smelting"
+					Count: 1b
 					tag: {
 						mantle: {
 							book: {
@@ -391,24 +392,24 @@
 						}
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "538FB7EC583D6F41",
-				type: "xp",
+				id: "538FB7EC583D6F41"
+				type: "xp"
 				xp: 25
 			}]
-		},
+		}
 		{
-			x: 0.0d,
-			y: 5.5d,
-			dependencies: ["25CB4104D3950BD4"],
-			id: "42F545EC04EE5D7E",
+			x: 0.0d
+			y: 5.5d
+			dependencies: ["25CB4104D3950BD4"]
+			id: "42F545EC04EE5D7E"
 			tasks: [{
-				id: "589AEE7A3EBAAABC",
-				type: "item",
+				id: "589AEE7A3EBAAABC"
+				type: "item"
 				item: {
-					id: "tconstruct:mighty_smelting",
-					Count: 1b,
+					id: "tconstruct:mighty_smelting"
+					Count: 1b
 					tag: {
 						mantle: {
 							book: {
@@ -417,24 +418,24 @@
 						}
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "407B4C455CB642B8",
-				type: "xp",
+				id: "407B4C455CB642B8"
+				type: "xp"
 				xp: 50
 			}]
-		},
+		}
 		{
-			x: -1.5d,
-			y: 2.0d,
-			dependencies: ["1904BC5191AC4592"],
-			id: "149FB4B3FA979737",
+			x: -1.5d
+			y: 2.0d
+			dependencies: ["1904BC5191AC4592"]
+			id: "149FB4B3FA979737"
 			tasks: [{
-				id: "40C299C442EDC282",
-				type: "item",
+				id: "40C299C442EDC282"
+				type: "item"
 				item: {
-					id: "tconstruct:tinkers_gadgetry",
-					Count: 1b,
+					id: "tconstruct:tinkers_gadgetry"
+					Count: 1b
 					tag: {
 						mantle: {
 							book: {
@@ -443,24 +444,24 @@
 						}
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "29E1A6064B0A59BF",
-				type: "xp",
+				id: "29E1A6064B0A59BF"
+				type: "xp"
 				xp: 25
 			}]
-		},
+		}
 		{
-			x: 0.0d,
-			y: 7.0d,
-			dependencies: ["42F545EC04EE5D7E"],
-			id: "0C97096D8572D9DD",
+			x: 0.0d
+			y: 7.0d
+			dependencies: ["42F545EC04EE5D7E"]
+			id: "0C97096D8572D9DD"
 			tasks: [{
-				id: "32489E9B76F3C461",
-				type: "item",
+				id: "32489E9B76F3C461"
+				type: "item"
 				item: {
-					id: "tconstruct:fantastic_foundry",
-					Count: 1b,
+					id: "tconstruct:fantastic_foundry"
+					Count: 1b
 					tag: {
 						mantle: {
 							book: {
@@ -469,250 +470,265 @@
 						}
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "0107E246BBE3589B",
-				type: "xp",
+				id: "0107E246BBE3589B"
+				type: "xp"
 				xp: 75
 			}]
-		},
+		}
 		{
-			x: 5.5d,
-			y: 0.5d,
-			dependencies: ["4B4C4C1BB61790B1"],
-			id: "7EB1D546A7B997FD",
+			x: 5.5d
+			y: 0.5d
+			dependencies: ["4B4C4C1BB61790B1"]
+			id: "7EB1D546A7B997FD"
 			tasks: [{
-				id: "4507048F8EB34B8A",
-				type: "item",
-				item: "tconstruct:melter"
+				id: "4507048F8EB34B8A"
+				type: "item"
+				item: "tconstruct:seared_melter"
 			}]
-		},
+			rewards: [{
+				id: "26A56AEB41FF251F"
+				type: "random"
+				table_id: 3202284983173505384L
+			}]
+		}
 		{
-			x: 1.5d,
-			y: 2.0d,
-			dependencies: ["1904BC5191AC4592"],
-			id: "3E3AF33374D55F25",
+			x: 1.5d
+			y: 2.0d
+			dependencies: ["1904BC5191AC4592"]
+			id: "3E3AF33374D55F25"
 			tasks: [{
-				id: "54B42201AFE6EC20",
-				type: "item",
-				item: "tconstruct:grout",
+				id: "54B42201AFE6EC20"
+				type: "item"
+				item: "tconstruct:grout"
 				count: 32L
-			}],
+			}]
 			rewards: [{
-				id: "6EC24F64C6B11FCC",
-				type: "item",
-				item: "tconstruct:grout",
+				id: "6EC24F64C6B11FCC"
+				type: "item"
+				item: "tconstruct:grout"
 				count: 64
 			}]
-		},
+		}
 		{
-			x: 3.5d,
-			y: 4.0d,
-			dependencies: ["3E3AF33374D55F25"],
-			id: "4B4C4C1BB61790B1",
+			x: 3.5d
+			y: 4.0d
+			dependencies: ["3E3AF33374D55F25"]
+			id: "4B4C4C1BB61790B1"
 			tasks: [{
-				id: "49BA1E5215CF0FD2",
-				type: "item",
-				item: "tconstruct:seared_brick",
+				id: "49BA1E5215CF0FD2"
+				type: "item"
+				item: "tconstruct:seared_brick"
 				count: 64L
-			}],
+			}]
 			rewards: [{
-				id: "2B6387689B3FAF06",
-				type: "item",
-				item: "minecraft:sand",
+				id: "2B6387689B3FAF06"
+				type: "item"
+				item: "minecraft:sand"
 				count: 64
 			}]
-		},
+		}
 		{
-			x: 3.5d,
-			y: 5.5d,
-			dependencies: ["4B4C4C1BB61790B1"],
-			id: "412EB9B2B4A28A9B",
+			x: 3.5d
+			y: 5.5d
+			dependencies: ["4B4C4C1BB61790B1"]
+			id: "412EB9B2B4A28A9B"
 			tasks: [{
-				id: "71CCF64BA9C290E3",
-				type: "item",
-				item: "tconstruct:faucet"
-			}],
+				id: "71CCF64BA9C290E3"
+				type: "item"
+				item: "tconstruct:seared_faucet"
+			}]
 			rewards: [{
-				id: "15962CC022AA9360",
-				type: "item",
+				id: "15962CC022AA9360"
+				type: "item"
 				item: "cyclic:clock"
 			}]
-		},
+		}
 		{
-			x: 5.0d,
-			y: 4.0d,
-			dependencies: ["4B4C4C1BB61790B1"],
-			id: "67469CFAAA4405B4",
+			x: 5.0d
+			y: 4.0d
+			dependencies: ["4B4C4C1BB61790B1"]
+			id: "67469CFAAA4405B4"
 			tasks: [{
-				id: "4A5806A099B9B5E9",
-				type: "item",
-				item: "tconstruct:casting_table"
-			}],
+				id: "4A5806A099B9B5E9"
+				type: "item"
+				item: "tconstruct:seared_table"
+			}]
 			rewards: [{
-				id: "1445911FC1FAED82",
-				type: "item",
+				id: "1445911FC1FAED82"
+				type: "item"
 				item: "tconstruct:hammer_head_cast"
 			}]
-		},
+		}
 		{
-			x: 2.0d,
-			y: 4.0d,
-			dependencies: ["4B4C4C1BB61790B1"],
-			id: "6F13A3EA356A0982",
+			x: 2.0d
+			y: 4.0d
+			dependencies: ["4B4C4C1BB61790B1"]
+			id: "6F13A3EA356A0982"
 			tasks: [{
-				id: "110FA5CAC7F1EE02",
-				type: "item",
-				item: "tconstruct:casting_basin"
-			}],
+				id: "110FA5CAC7F1EE02"
+				type: "item"
+				item: "tconstruct:seared_basin"
+			}]
 			rewards: [{
-				id: "4DA6D9F4C6E81D27",
-				type: "item",
-				item: "minecraft:obsidian",
+				id: "4DA6D9F4C6E81D27"
+				type: "item"
+				item: "minecraft:obsidian"
 				count: 8
 			}]
-		},
+		}
 		{
-			x: 5.5d,
-			y: -1.5d,
-			dependencies: ["7EB1D546A7B997FD"],
-			id: "00B2B5CB48CDDA8C",
+			x: 5.5d
+			y: -1.5d
+			dependencies: ["7EB1D546A7B997FD"]
+			id: "00B2B5CB48CDDA8C"
 			tasks: [{
-				id: "35430871D74194D6",
-				type: "item",
+				id: "35430871D74194D6"
+				type: "item"
 				item: "tconstruct:smeltery_controller"
-			}],
+			}]
 			rewards: [{
-				id: "7AC4C5770702F2CA",
-				type: "item",
-				item: "create:copper_ore",
+				id: "7AC4C5770702F2CA"
+				type: "item"
+				item: "create:copper_ore"
 				count: 8
 			}]
-		},
+		}
 		{
-			x: 3.5d,
-			y: 0.5d,
-			dependencies: ["7EB1D546A7B997FD"],
-			id: "1ADF0DDA1B256BC7",
+			x: 3.5d
+			y: 0.5d
+			dependencies: ["7EB1D546A7B997FD"]
+			id: "1ADF0DDA1B256BC7"
 			tasks: [{
-				id: "014DAC09F0923684",
-				type: "item",
-				item: "tconstruct:seared_tank"
-			}],
+				id: "014DAC09F0923684"
+				type: "item"
+				item: "tconstruct:seared_fuel_tank"
+			}]
 			rewards: [{
-				id: "2A3AA7759D6ACB29",
-				type: "item",
+				id: "2A3AA7759D6ACB29"
+				type: "item"
 				item: "minecraft:lava_bucket"
 			}]
-		},
+		}
 		{
-			x: 7.0d,
-			y: 2.0d,
-			dependencies: ["7EB1D546A7B997FD"],
-			id: "7C1B362338E57C69",
+			x: 7.0d
+			y: 2.0d
+			dependencies: ["7EB1D546A7B997FD"]
+			id: "7C1B362338E57C69"
 			tasks: [{
-				id: "539BB553EE182908",
-				type: "item",
-				item: "tconstruct:seared_window"
-			}],
+				id: "539BB553EE182908"
+				type: "item"
+				item: "tconstruct:seared_ingot_tank"
+			}]
 			rewards: [{
-				id: "4FE514A4014367FB",
-				type: "item",
+				id: "4FE514A4014367FB"
+				type: "item"
 				item: {
-					id: "tconstruct:large_plate",
-					Count: 1b,
+					id: "tconstruct:large_plate"
+					Count: 1b
 					tag: {
 						Material: "tconstruct:bronze"
 					}
 				}
 			}]
-		},
+		}
 		{
-			x: 7.0d,
-			y: -1.0d,
-			dependencies: ["7EB1D546A7B997FD"],
-			id: "65275A58BB3DBCFC",
+			x: 7.0d
+			y: -1.0d
+			dependencies: ["7EB1D546A7B997FD"]
+			id: "65275A58BB3DBCFC"
 			tasks: [{
-				id: "27C9E20B88C86143",
-				type: "item",
+				id: "27C9E20B88C86143"
+				type: "item"
 				item: "tconstruct:seared_drain"
-			}],
+			}]
 			rewards: [{
-				id: "50A6AEB054F635F3",
-				type: "item",
+				id: "50A6AEB054F635F3"
+				type: "item"
 				item: "tconstruct:pickaxe_head_sand_cast"
 			}]
-		},
+		}
 		{
-			x: 7.5d,
-			y: 0.5d,
-			dependencies: ["7EB1D546A7B997FD"],
-			id: "21484885D4E39C6E",
+			x: 7.5d
+			y: 0.5d
+			dependencies: ["7EB1D546A7B997FD"]
+			id: "21484885D4E39C6E"
 			tasks: [{
-				id: "2632327594BC588E",
-				type: "item",
+				id: "2632327594BC588E"
+				type: "item"
 				item: "tconstruct:seared_duct"
-			}],
-			rewards: [{
-				id: "6461FFB4FA2CEAB4",
-				type: "item",
-				item: "tconstruct:sword_blade_sand_cast"
 			}]
-		},
+			rewards: [{
+				id: "6461FFB4FA2CEAB4"
+				type: "item"
+				item: "tconstruct:small_blade_sand_cast"
+			}]
+		}
 		{
-			x: 4.0d,
-			y: 2.0d,
-			dependencies: ["7EB1D546A7B997FD"],
-			id: "112C8D988FE7D9FA",
+			x: 4.0d
+			y: 2.0d
+			dependencies: ["7EB1D546A7B997FD"]
+			id: "112C8D988FE7D9FA"
 			tasks: [{
-				id: "68F4C11D289006AC",
-				type: "item",
+				id: "68F4C11D289006AC"
+				type: "item"
 				item: "tconstruct:seared_chute"
 			}]
-		},
-		{
-			x: 4.0d,
-			y: -1.0d,
-			dependencies: ["7EB1D546A7B997FD"],
-			id: "68AA2AC0E2918FA4",
-			tasks: [{
-				id: "1ABA902722BFCB17",
-				type: "item",
-				item: "tconstruct:seared_bricks",
-				count: 32L
-			}],
 			rewards: [{
-				id: "16A5802BCB9D306A",
-				type: "item",
-				item: "minecraft:gravel",
+				id: "1A656EBCC39AA29B"
+				type: "random"
+				table_id: 3202284983173505384L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			dependencies: ["7EB1D546A7B997FD"]
+			id: "68AA2AC0E2918FA4"
+			tasks: [{
+				id: "1ABA902722BFCB17"
+				type: "item"
+				item: "tconstruct:seared_bricks"
+				count: 32L
+			}]
+			rewards: [{
+				id: "16A5802BCB9D306A"
+				type: "item"
+				item: "minecraft:gravel"
 				count: 64
 			}]
-		},
+		}
 		{
-			x: 3.5d,
-			y: 7.0d,
-			dependencies: ["412EB9B2B4A28A9B"],
-			id: "455BB6ED9FC95632",
+			x: 3.5d
+			y: 7.0d
+			dependencies: ["412EB9B2B4A28A9B"]
+			id: "455BB6ED9FC95632"
 			tasks: [{
-				id: "1C8FD43808905130",
-				type: "item",
-				item: "tconstruct:channel"
-			}],
-			rewards: [{
-				id: "3148E08150BB7C04",
-				type: "item",
-				item: "tconstruct:casting_table"
+				id: "1C8FD43808905130"
+				type: "item"
+				item: "tconstruct:seared_channel"
 			}]
-		},
+			rewards: [{
+				id: "7C8AFE256B66233A"
+				type: "random"
+				table_id: 3202284983173505384L
+			}]
+		}
 		{
-			x: 5.0d,
-			y: 5.5d,
-			dependencies: ["67469CFAAA4405B4"],
-			id: "5DCDCA2831462ADB",
+			x: 5.0d
+			y: 5.5d
+			dependencies: ["67469CFAAA4405B4"]
+			id: "5DCDCA2831462ADB"
 			tasks: [{
-				id: "33C096496B46B5B1",
-				type: "item",
+				id: "33C096496B46B5B1"
+				type: "item"
 				item: "tconstruct:cast_chest"
+			}]
+			rewards: [{
+				id: "0A1891A3F9D8461E"
+				type: "random"
+				table_id: 3202284983173505384L
 			}]
 		}
 	]

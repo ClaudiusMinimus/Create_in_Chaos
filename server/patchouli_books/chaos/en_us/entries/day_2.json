@@ -6,13 +6,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "I survived the first night, thankfully, I noticed quest book and was able to get a dirt shelter put up. I think today I will work on the quest book some more to see what I can learn. I learned to make a crafting station and then found an interesting thing - a Mining Dimension Teleporter. Be sure to claim your Dank Null in the quest book."
-        },
-        {
-            "type": "link",
-            "text": "Press the 'i' key to toggle the Dank Storage mode to bag or construction. Use the Dock to access the inventory. The link below is for an older version of Dank Storage.",
-            "link_text": "YouTube Video",
-            "url": "https://www.youtube.com/watch?v=ixAV9pXZ78I"
+            "text": "I survived the first night I noticed the quest book and was able to get a dirt shelter put up. Today I will work on the quest book some more to see what I can learn. One of the first quests was to gather 64 cobblestone blocks, which resulted in the quest reward of a $(l:dank)Dank level 1 and a Dank Dock!"
         }
     ]
 }

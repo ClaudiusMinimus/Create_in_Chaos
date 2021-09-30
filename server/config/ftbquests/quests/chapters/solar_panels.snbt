@@ -1,291 +1,292 @@
 {
-	id: "617B1EE55EF482F4",
-	group: "0A2579D302D893EF",
-	order_index: 2,
-	filename: "solar_panels",
-	title: "Power!",
-	default_quest_shape: "",
+	id: "617B1EE55EF482F4"
+	group: "0A2579D302D893EF"
+	order_index: 2
+	filename: "solar_panels"
+	title: "Power!"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 0.5d,
-			y: 0.5d,
-			shape: "diamond",
-			size: 1.5d,
-			id: "153B9D4A1411EA61",
+			x: 0.5d
+			y: 0.5d
+			shape: "diamond"
+			size: 1.5d
+			id: "153B9D4A1411EA61"
 			tasks: [{
-				id: "03EC6E07F550EA76",
-				type: "item",
-				item: "solarflux:sp_1",
+				id: "03EC6E07F550EA76"
+				type: "item"
+				item: "solarflux:sp_1"
 				count: 4L
 			}]
-		},
+		}
 		{
-			x: 2.0d,
-			y: 0.5d,
-			dependencies: ["153B9D4A1411EA61"],
-			id: "647C763529BB689F",
+			x: 2.0d
+			y: 0.5d
+			dependencies: ["153B9D4A1411EA61"]
+			id: "647C763529BB689F"
 			tasks: [{
-				id: "6D456E42E87AA617",
-				type: "item",
-				item: "solarflux:sp_2",
+				id: "6D456E42E87AA617"
+				type: "item"
+				item: "solarflux:sp_2"
 				count: 2L
 			}]
-		},
+		}
 		{
-			x: 3.5d,
-			y: 0.5d,
-			dependencies: ["647C763529BB689F"],
-			id: "7E46D37CE670B45C",
+			x: 3.5d
+			y: 0.5d
+			dependencies: ["647C763529BB689F"]
+			id: "7E46D37CE670B45C"
 			tasks: [{
-				id: "78BE2996686D2C84",
-				type: "item",
-				item: "solarflux:sp_3",
+				id: "78BE2996686D2C84"
+				type: "item"
+				item: "solarflux:sp_3"
 				count: 2L
 			}]
-		},
+		}
 		{
-			x: 5.0d,
-			y: 0.5d,
-			dependencies: ["7E46D37CE670B45C"],
-			id: "6417314251993756",
+			x: 5.0d
+			y: 0.5d
+			dependencies: ["7E46D37CE670B45C"]
+			id: "6417314251993756"
 			tasks: [{
-				id: "6BF5769106322DF9",
-				type: "item",
+				id: "6BF5769106322DF9"
+				type: "item"
 				item: "solarflux:sp_4"
 			}]
-		},
+		}
 		{
-			x: 8.0d,
-			y: 0.5d,
-			dependencies: ["3CFD42B83E359FF5"],
-			id: "3470C0C76280FB3E",
+			x: 8.0d
+			y: 0.5d
+			dependencies: ["3CFD42B83E359FF5"]
+			id: "3470C0C76280FB3E"
 			tasks: [{
-				id: "746A5BED048C177D",
-				type: "item",
+				id: "746A5BED048C177D"
+				type: "item"
 				item: "solarflux:sp_6"
 			}]
-		},
+		}
 		{
-			x: 6.5d,
-			y: 0.5d,
-			dependencies: ["6417314251993756"],
-			id: "3CFD42B83E359FF5",
+			x: 6.5d
+			y: 0.5d
+			dependencies: ["6417314251993756"]
+			id: "3CFD42B83E359FF5"
 			tasks: [{
-				id: "6AC3F40436BFADB8",
-				type: "item",
+				id: "6AC3F40436BFADB8"
+				type: "item"
 				item: "solarflux:sp_5"
 			}]
-		},
+		}
 		{
-			x: 9.5d,
-			y: 0.5d,
-			dependencies: ["3470C0C76280FB3E"],
-			id: "65A26A35B550BCD4",
+			x: 9.5d
+			y: 0.5d
+			dependencies: ["3470C0C76280FB3E"]
+			id: "65A26A35B550BCD4"
 			tasks: [{
-				id: "4094398DB37AE597",
-				type: "item",
+				id: "4094398DB37AE597"
+				type: "item"
 				item: "solarflux:sp_7"
 			}]
-		},
+		}
 		{
-			x: 11.0d,
-			y: 0.5d,
-			dependencies: ["65A26A35B550BCD4"],
-			id: "3AB897DE7339DD06",
+			x: 11.0d
+			y: 0.5d
+			dependencies: ["65A26A35B550BCD4"]
+			id: "3AB897DE7339DD06"
 			tasks: [{
-				id: "1B7F79E6FAB7DAFF",
-				type: "item",
+				id: "1B7F79E6FAB7DAFF"
+				type: "item"
 				item: "solarflux:sp_8"
 			}]
-		},
+		}
 		{
-			x: -1.0d,
-			y: -1.0d,
-			subtitle: "(Up to 20, 20 = 2x gen)",
-			dependencies: ["153B9D4A1411EA61"],
-			id: "2C027A989E23A4AD",
+			x: -1.0d
+			y: -1.0d
+			subtitle: "(Up to 20, 20 = 2x gen)"
+			dependencies: ["153B9D4A1411EA61"]
+			id: "2C027A989E23A4AD"
 			tasks: [{
-				id: "74EBD7414D8A7B2B",
-				type: "item",
-				item: "solarflux:efficiency_upgrade",
+				id: "74EBD7414D8A7B2B"
+				type: "item"
+				item: "solarflux:efficiency_upgrade"
 				count: 20L
 			}]
-		},
+		}
 		{
-			x: 2.0d,
-			y: -1.0d,
-			subtitle: "(Up to 10, 10 = 2.5x transfer)",
-			dependencies: ["153B9D4A1411EA61"],
-			id: "6DE2D0C08C411B79",
+			x: 2.0d
+			y: -1.0d
+			subtitle: "(Up to 10, 10 = 2.5x transfer)"
+			dependencies: ["153B9D4A1411EA61"]
+			id: "6DE2D0C08C411B79"
 			tasks: [{
-				id: "43E4AFE226E6FED7",
-				type: "item",
-				item: "solarflux:transfer_rate_upgrade",
+				id: "43E4AFE226E6FED7"
+				type: "item"
+				item: "solarflux:transfer_rate_upgrade"
 				count: 10L
 			}]
-		},
+		}
 		{
-			x: 0.5d,
-			y: -1.0d,
-			description: ["(Up to 10, 10 = 2x capacity)"],
-			dependencies: ["153B9D4A1411EA61"],
-			id: "3DC676C2C02D8AD2",
+			x: 0.5d
+			y: -1.0d
+			description: ["(Up to 10, 10 = 2x capacity)"]
+			dependencies: ["153B9D4A1411EA61"]
+			id: "3DC676C2C02D8AD2"
 			tasks: [{
-				id: "4AB58A925702F72A",
-				type: "item",
-				item: "solarflux:capacity_upgrade",
+				id: "4AB58A925702F72A"
+				type: "item"
+				item: "solarflux:capacity_upgrade"
 				count: 10L
 			}]
-		},
+		}
 		{
-			x: -1.0d,
-			y: 2.0d,
-			subtitle: "When installed, solar panel will output energy to machines attached to eachother, in 5 block range)",
-			dependencies: ["153B9D4A1411EA61"],
-			id: "7B30F15BD2BBC29A",
+			x: -1.0d
+			y: 2.0d
+			subtitle: "When installed, solar panel will output energy to machines attached to eachother, in 5 block range)"
+			dependencies: ["153B9D4A1411EA61"]
+			id: "7B30F15BD2BBC29A"
 			tasks: [{
-				id: "34771B2AB3B7FEC6",
-				type: "item",
+				id: "34771B2AB3B7FEC6"
+				type: "item"
 				item: "solarflux:traversal_upgrade"
 			}]
-		},
+		}
 		{
-			x: 0.5d,
-			y: 2.0d,
-			subtitle: "(When installed, solar panel will charge players nearby)",
-			dependencies: ["153B9D4A1411EA61"],
-			id: "1A1567CD4D368081",
+			x: 0.5d
+			y: 2.0d
+			subtitle: "(When installed, solar panel will charge players nearby)"
+			dependencies: ["153B9D4A1411EA61"]
+			id: "1A1567CD4D368081"
 			tasks: [{
-				id: "03EAF6F94631C238",
-				type: "item",
+				id: "03EAF6F94631C238"
+				type: "item"
 				item: "solarflux:dispersive_upgrade"
 			}]
-		},
+		}
 		{
-			x: 2.0d,
-			y: 2.0d,
-			subtitle: "(When installed, solar panel will output energy to linked block, within 16 block range)",
-			description: ["Before installing, you must link it to the block it will send energy to. "],
-			dependencies: ["153B9D4A1411EA61"],
-			id: "3E432422A2FC550C",
+			x: 2.0d
+			y: 2.0d
+			subtitle: "(When installed, solar panel will output energy to linked block, within 16 block range)"
+			description: ["Before installing, you must link it to the block it will send energy to. "]
+			dependencies: ["153B9D4A1411EA61"]
+			id: "3E432422A2FC550C"
 			tasks: [{
-				id: "36E23028BD39B17D",
-				type: "item",
+				id: "36E23028BD39B17D"
+				type: "item"
 				item: "solarflux:block_charging_upgrade"
 			}]
-		},
+		}
 		{
-			x: -1.0d,
-			y: 0.5d,
-			subtitle: "(When installed, fuels the furnace below)",
-			dependencies: ["153B9D4A1411EA61"],
-			id: "5D6D2B13FF4433AB",
+			x: -1.0d
+			y: 0.5d
+			subtitle: "(When installed, fuels the furnace below)"
+			dependencies: ["153B9D4A1411EA61"]
+			id: "5D6D2B13FF4433AB"
 			tasks: [{
-				id: "4BCFB6D36CE54C1C",
-				type: "item",
+				id: "4BCFB6D36CE54C1C"
+				type: "item"
 				item: "solarflux:furnace_upgrade"
 			}]
-		},
+		}
 		{
-			x: -5.5d,
-			y: 0.5d,
-			shape: "diamond",
-			description: ["Place a block of obsidian one block above bedrock. Throw the Redstone dust under obsidian and right-click the obsidian."],
-			size: 1.5d,
-			id: "5956C1633E757697",
+			x: -5.5d
+			y: 0.5d
+			shape: "diamond"
+			description: ["Place a block of obsidian one block above bedrock. Throw the Redstone dust under obsidian and right-click the obsidian."]
+			size: 1.5d
+			id: "5956C1633E757697"
 			tasks: [{
-				id: "11BD5C0F04A20118",
-				type: "item",
+				id: "11BD5C0F04A20118"
+				type: "item"
 				item: "fluxnetworks:flux_dust"
 			}]
-		},
+		}
 		{
-			x: -5.5d,
-			y: -1.5d,
-			description: ["Used for Adding Energy to the network. You can add energy from all sides simultaneously."],
-			dependencies: ["5956C1633E757697"],
-			id: "48CAD1B441F2053A",
+			x: -5.5d
+			y: -1.5d
+			description: ["Used for Adding Energy to the network. You can add energy from all sides simultaneously."]
+			dependencies: ["5956C1633E757697"]
+			id: "48CAD1B441F2053A"
 			tasks: [{
-				id: "58BD9EFE881FD8A6",
-				type: "item",
+				id: "58BD9EFE881FD8A6"
+				type: "item"
 				item: "fluxnetworks:flux_plug"
 			}]
-		},
+		}
 		{
-			x: -7.5d,
-			y: -1.5d,
-			description: ["Used to Remove Energy from the network. You can remove energy from all sides simultaneously."],
-			dependencies: ["5956C1633E757697"],
-			id: "257A4E2A210E6273",
+			x: -7.5d
+			y: -1.5d
+			description: ["Used to Remove Energy from the network. You can remove energy from all sides simultaneously."]
+			dependencies: ["5956C1633E757697"]
+			id: "257A4E2A210E6273"
 			tasks: [{
-				id: "095555C407BC4BB0",
-				type: "item",
+				id: "095555C407BC4BB0"
+				type: "item"
 				item: "fluxnetworks:flux_point"
 			}]
-		},
+		}
 		{
-			x: -3.5d,
-			y: -1.5d,
-			description: ["Required to activate Cross-dimensional inventory charging. Inventory charging can be configured in the Wireless Charging Tab. Only one controller can be connected to a network at one time. The controller's 'Output' refers to energy outputted from the network via Wireless Charging. Network's do not require a Flux Controller to operate."],
-			dependencies: ["5956C1633E757697"],
-			id: "1BFD8F2B84E528CF",
+			x: -3.5d
+			y: -1.5d
+			description: ["Required to activate Cross-dimensional inventory charging. Inventory charging can be configured in the Wireless Charging Tab. Only one controller can be connected to a network at one time. The controller's 'Output' refers to energy outputted from the network via Wireless Charging. Network's do not require a Flux Controller to operate."]
+			dependencies: ["5956C1633E757697"]
+			id: "1BFD8F2B84E528CF"
 			tasks: [{
-				id: "0DA07898C9528D81",
-				type: "item",
+				id: "0DA07898C9528D81"
+				type: "item"
 				item: "fluxnetworks:flux_controller"
 			}]
-		},
+		}
 		{
-			x: -5.5d,
-			y: 2.5d,
-			subtitle: "Storage Capacity 1,000,000 FE",
-			description: [" Used to Store Energy in the network. Flux Storage is used to store excess energy. It will only be filled once each Flux Point has received enough energy. This energy can only be accessed by removing energy with a Flux Point. Network's do not require a Flux Storage unit to operate."],
-			dependencies: ["5956C1633E757697"],
-			id: "0B2379B9C7A3BC4E",
+			x: -5.5d
+			y: 2.5d
+			subtitle: "Storage Capacity 1,000,000 FE"
+			description: [" Used to Store Energy in the network. Flux Storage is used to store excess energy. It will only be filled once each Flux Point has received enough energy. This energy can only be accessed by removing energy with a Flux Point. Network's do not require a Flux Storage unit to operate."]
+			dependencies: ["5956C1633E757697"]
+			id: "0B2379B9C7A3BC4E"
 			tasks: [{
-				id: "62F61773DA1A2B46",
-				type: "item",
+				id: "62F61773DA1A2B46"
+				type: "item"
 				item: "fluxnetworks:basic_flux_storage"
 			}]
-		},
+		}
 		{
-			x: -5.5d,
-			y: 4.0d,
-			subtitle: "Storage Capacity 8,000,000 FE",
-			description: [""],
-			dependencies: ["0B2379B9C7A3BC4E"],
-			id: "6DDF1726D105942F",
+			x: -5.5d
+			y: 4.0d
+			subtitle: "Storage Capacity 8,000,000 FE"
+			description: [""]
+			dependencies: ["0B2379B9C7A3BC4E"]
+			id: "6DDF1726D105942F"
 			tasks: [{
-				id: "17D83A4D52C8F058",
-				type: "item",
+				id: "17D83A4D52C8F058"
+				type: "item"
 				item: "fluxnetworks:herculean_flux_storage"
 			}]
-		},
+		}
 		{
-			x: -5.5d,
-			y: 5.5d,
-			subtitle: "Storage Capacity 128,000,000 FE",
-			dependencies: ["6DDF1726D105942F"],
-			id: "7995239718ED3B9A",
+			x: -5.5d
+			y: 5.5d
+			subtitle: "Storage Capacity 128,000,000 FE"
+			dependencies: ["6DDF1726D105942F"]
+			id: "7995239718ED3B9A"
 			tasks: [{
-				id: "71C0F39BCB66055A",
-				type: "item",
+				id: "71C0F39BCB66055A"
+				type: "item"
 				item: "fluxnetworks:gargantuan_flux_storage"
 			}]
-		},
+		}
 		{
-			x: -3.5d,
-			y: 0.5d,
+			x: -3.5d
+			y: 0.5d
 			description: [
-				"The Flux Configurator can also be connected to a network. It can be used to access, edit, delete networks on the go. And shares the same GUI as connectors. It can also be used to copy/paste settings between connectors.",
-				"",
+				"The Flux Configurator can also be connected to a network. It can be used to access, edit, delete networks on the go. And shares the same GUI as connectors. It can also be used to copy/paste settings between connectors."
+				""
 				"Copying Settings: Shift-Right Click on a connector to copy its settings and then Right Click on a connector you wish to paste the settings to. If you right-click something which isn't a connector you'll bring up the Network GUI and also you'll be able to edit the settings which the Configurator will paste. The configurator can also be renamed here, with the name field."
-			],
-			dependencies: ["5956C1633E757697"],
-			id: "5AC40D918C34D910",
+			]
+			dependencies: ["5956C1633E757697"]
+			id: "5AC40D918C34D910"
 			tasks: [{
-				id: "178E5921AED49CA2",
-				type: "item",
+				id: "178E5921AED49CA2"
+				type: "item"
 				item: "fluxnetworks:flux_configurator"
 			}]
 		}

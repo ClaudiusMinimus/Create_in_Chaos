@@ -1,0 +1,36 @@
+{
+    "name": "Grapple Hook Recipes",
+    "icon": "computercraft:printed_pages",
+    "category": "game_tips",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Here are some useful recipes."
+        },
+        {
+            "type": "image",
+            "title": "Iron Hook Recipe",
+            "images": [
+                "cic:iron_hook_recipe.png", 
+                "cic:iron_hook.png"
+            ]
+        },
+        {
+            "type": "image",
+            "title": "Gold Hook Recipe",
+            "images": [
+                "cic:gold_hook_recipe.png", 
+                "cic:gold_hook.png"
+            ]
+        },
+        {
+            "type": "image",
+            "title": "Diamond Hook Recipe",
+            "images": [
+                "cic:diamond_hook_recipe.png", 
+                "cic:diamond_hook.png"
+            ]
+        }
+    ]
+}

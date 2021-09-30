@@ -1,103 +1,312 @@
 {
-	id: "2C70CD39CB9FE168",
-	order_index: 0,
-	title: "Common",
-	loot_size: 1,
+	id: "2C70CD39CB9FE168"
+	order_index: 0
+	title: "Common"
+	loot_size: 1
 	rewards: [
-		{
-			item: "waterstrainer:worm",
-			count: 16
-		},
+		{ item: "waterstrainer:worm", count: 16 }
 		{
 			item: {
-				id: "naturescompass:naturescompass",
-				Count: 1b,
-				tag: {}
+				id: "naturescompass:naturescompass"
+				Count: 1b
+				tag: { }
 			}
-		},
-		{
-			item: "tconstruct:earth_slime_grass_seeds"
-		},
-		{
-			item: "tconstruct:earth_slime_sapling"
-		},
-		{
-			item: "tconstruct:sky_slime_grass_seeds"
-		},
-		{
-			item: "tconstruct:sky_slime_sapling"
-		},
-		{
-			item: "tconstruct:ender_slime_grass_seeds"
-		},
-		{
-			item: "tconstruct:ender_slime_sapling"
-		},
-		{
-			item: "mysticalagriculture:inferium_furnace"
-		},
-		{
-			item: "waterstrainer:worm_bin"
-		},
-		{
-			item: "pamhc2foodcore:saucepanitem"
-		},
-		{
-			item: "pamhc2foodcore:chocolatecupcakeitem",
-			count: 6
-		},
-		{
-			item: "pamhc2foodcore:cookiesandmilkitem",
-			count: 4
-		},
-		{
-			item: "pamhc2foodcore:fruitcrumbleitem",
-			count: 4
-		},
-		{
-			item: "pamhc2foodcore:meatloafitem",
-			count: 4
-		},
-		{
-			item: "pamhc2foodcore:cottoncandyitem",
-			count: 4
-		},
-		{
-			item: "pamhc2foodcore:basichamburgeritem",
-			count: 6
-		},
-		{
-			item: "pamhc2foodcore:trailmixitem",
-			count: 8
-		},
-		{
-			item: "pamhc2foodcore:chocolatecaramelfudgeitem",
-			count: 4
-		},
-		{
-			item: "pamhc2foodcore:rolleritem"
-		},
-		{
-			item: "pamhc2foodcore:melonsmoothieitem",
-			count: 6
-		},
-		{
-			item: "pamhc2foodcore:pumpkincupcakeitem",
-			count: 6
-		},
-		{
-			item: "pamhc2foodcore:caramelappleitem",
-			count: 4
-		},
-		{
-			item: "pamhc2foodcore:chickenpotpieitem",
-			count: 2
-		},
-		{
-			item: "mysticalagriculture:apatite_seeds"
-		},
-		{
-			item: "mysticalagriculture:dye_seeds"
 		}
+		{ item: "tconstruct:earth_slime_grass_seeds" }
+		{ item: "tconstruct:earth_slime_sapling" }
+		{ item: "tconstruct:sky_slime_grass_seeds" }
+		{ item: "tconstruct:sky_slime_sapling" }
+		{ item: "tconstruct:ender_slime_grass_seeds" }
+		{ item: "tconstruct:ender_slime_sapling" }
+		{ item: "mysticalagriculture:inferium_furnace" }
+		{ item: "waterstrainer:worm_bin" }
+		{ item: "pamhc2foodcore:saucepanitem" }
+		{ item: "pamhc2foodcore:chocolatecupcakeitem", count: 6 }
+		{ item: "pamhc2foodcore:cookiesandmilkitem", count: 4 }
+		{ item: "pamhc2foodcore:fruitcrumbleitem", count: 4 }
+		{ item: "pamhc2foodcore:meatloafitem", count: 4 }
+		{ item: "pamhc2foodcore:cottoncandyitem", count: 4 }
+		{ item: "pamhc2foodcore:basichamburgeritem", count: 6 }
+		{ item: "pamhc2foodcore:trailmixitem", count: 8 }
+		{ item: "pamhc2foodcore:chocolatecaramelfudgeitem", count: 4 }
+		{ item: "pamhc2foodcore:rolleritem" }
+		{ item: "pamhc2foodcore:melonsmoothieitem", count: 6 }
+		{ item: "pamhc2foodcore:pumpkincupcakeitem", count: 6 }
+		{ item: "pamhc2foodcore:caramelappleitem", count: 4 }
+		{ item: "pamhc2foodcore:chickenpotpieitem", count: 2 }
+		{ item: "mysticalagriculture:apatite_seeds" }
+		{ item: "mysticalagriculture:dye_seeds" }
+		{
+			item: {
+				id: "tconstruct:puny_smelting"
+				Count: 1b
+				tag: {
+					mantle: {
+						book: {
+							current_page: "tier_two_materials.tconstruct:silver"
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:mighty_smelting"
+				Count: 1b
+				tag: {
+					mantle: {
+						book: {
+							current_page: "tier_three_materials.tconstruct:electrum"
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:tinkers_gadgetry"
+				Count: 1b
+				tag: {
+					mantle: {
+						book: {
+							current_page: "tools.damage_tools"
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:fantastic_foundry"
+				Count: 1b
+				tag: {
+					mantle: {
+						book: {
+							current_page: "tier_four_materials.tconstruct:hepatizon"
+						}
+					}
+				}
+			}
+		}
+		{ item: "tconstruct:flint_shuriken", count: 16 }
+		{ item: "tconstruct:blood_slime_ball", count: 4 }
+		{ item: "tconstruct:bacon", count: 8 }
+		{ item: "tconstruct:seared_bricks", count: 8 }
+		{ item: "storagedrawers:dark_oak_full_drawers_1", count: 4 }
+		{ item: "quark:glowing_glass_item_frame", count: 4 }
+		{ item: "quark:light_blue_item_frame", count: 4 }
+		{ item: "quark:white_candle", count: 8 }
+		{ item: "quark:paper_lantern", count: 8 }
+		{ item: "quark:black_stool", count: 4 }
+		{ item: "quark:lit_lamp", count: 4 }
+		{ item: "refinedstorage:processor_binding", count: 8 }
+		{ item: "mob_grinding_utils:mob_swab" }
+		{ item: "mysticalagradditions:inferium_apple", count: 4 }
+		{ item: "immersiveengineering:creosote_bucket" }
+		{ item: "mob_grinding_utils:fluid_xp_bucket" }
+		{ item: "immersiveengineering:conveyor_basic", count: 8 }
+		{ item: "minecraft:iron_block" }
+		{
+			item: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "engineerstools:engineerstools_manual"
+				}
+			}
+		}
+		{ item: "essentials:fertile_soil_beetroot" }
+		{ item: "essentials:fertile_soil_potato" }
+		{ item: "essentials:fertile_soil_carrot" }
+		{ item: "essentials:candle_lilypad" }
+		{
+			item: {
+				id: "easy_steel:flint_knife"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "easy_steel:crack_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "essentials:obsidian_cutting_kit", count: 4 }
+		{ item: "engineersdecor:steel_catwalk_stairs", count: 4 }
+		{ item: "engineersdecor:iron_hatch" }
+		{ item: "tconstruct:pattern", count: 6 }
+		{ item: "minecraft:slime_ball", count: 3 }
+		{ item: "minecraft:paper", count: 9 }
+		{ item: "solarflux:sp_1", count: 2 }
+		{ item: "cyclic:item_pipe", count: 8 }
+		{ item: "cyclic:fluid_pipe", count: 8 }
+		{ item: "cyclic:energy_pipe", count: 8 }
+		{
+			item: {
+				id: "cyclic:shears_flint"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "cyclic:fan" }
+		{ item: "botanypots:botany_pot" }
+		{ item: "cyclic:mason_cobble", count: 4 }
+		{ item: "botania:blue_pavement", count: 12 }
+		{ item: "botania:endoflame", count: 4 }
+		{
+			item: {
+				id: "minecraft:iron_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "createplus:goggle_iron_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:iron_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "easy_steel:armor_bronze_body"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "easy_steel:bronze_paxel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "easy_steel:bronze_block" }
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "potionsmaster:iron_sight"
+				}
+			}
+		}
+		{ item: "botanypots:hopper_botany_pot" }
+		{ item: "tconstruct:iron_reinforcement" }
+		{ item: "tconstruct:ichor_slime_crystal" }
+		{ item: "tconstruct:earth_slime_crystal" }
+		{ item: "tconstruct:sky_slime_crystal" }
+		{ item: "craftingstation:crafting_station" }
+		{ item: "minecraft:glass", count: 8 }
+		{ item: "minecraft:melon", count: 4 }
+		{ item: "minecraft:hay_block", count: 8 }
+		{ item: "minecraft:black_stained_glass", count: 8 }
+		{ item: "minecraft:oak_sapling", count: 4 }
+		{ item: "minecraft:spruce_sapling", count: 4 }
+		{ item: "minecraft:jungle_sapling", count: 4 }
+		{ item: "minecraft:acacia_sapling", count: 4 }
+		{ item: "minecraft:dark_oak_sapling", count: 4 }
+		{ item: "minecraft:cobweb", count: 8 }
+		{ item: "minecraft:sea_pickle", count: 8 }
+		{ item: "minecraft:kelp", count: 8 }
+		{ item: "minecraft:lily_pad", count: 8 }
+		{ item: "minecraft:vine", count: 8 }
+		{ item: "minecraft:iron_bars", count: 8 }
+		{ item: "minecraft:jukebox" }
+		{ item: "minecraft:furnace" }
+		{ item: "minecraft:crimson_fungus", count: 4 }
+		{ item: "minecraft:chain", count: 8 }
+		{ item: "minecraft:red_carpet", count: 8 }
+		{ item: "minecraft:light_blue_glazed_terracotta", count: 8 }
+		{ item: "minecraft:scaffolding", count: 16 }
+		{ item: "minecraft:item_frame", count: 4 }
+		{ item: "minecraft:light_blue_bed" }
+		{ item: "minecraft:armor_stand" }
+		{ item: "minecraft:stonecutter" }
+		{ item: "minecraft:composter" }
+		{ item: "minecraft:smoker" }
+		{ item: "minecraft:smithing_table" }
+		{ item: "minecraft:grindstone" }
+		{ item: "minecraft:bee_nest" }
+		{ item: "minecraft:lantern", count: 8 }
+		{ item: "minecraft:campfire" }
+		{ item: "minecraft:hopper" }
+		{ item: "minecraft:redstone_torch", count: 8 }
+		{ item: "minecraft:target" }
+		{ item: "minecraft:repeater", count: 2 }
+		{ item: "minecraft:minecart" }
+		{ item: "minecraft:saddle" }
+		{ item: "minecraft:bucket" }
+		{ item: "minecraft:lava_bucket" }
+		{ item: "minecraft:water_bucket" }
+		{ item: "minecraft:leather", count: 8 }
+		{ item: "minecraft:milk_bucket" }
+		{ item: "minecraft:snowball", count: 8 }
+		{ item: "minecraft:pufferfish_bucket" }
+		{ item: "minecraft:salmon_bucket" }
+		{ item: "minecraft:brick", count: 8 }
+		{
+			item: {
+				id: "minecraft:compass"
+				Count: 1b
+				tag: {
+					"quark:compass_calculated": 1b
+					"quark:compass_in_nether": 0b
+				}
+			}
+		}
+		{ item: "minecraft:book", count: 8 }
+		{ item: "minecraft:ink_sac", count: 8 }
+		{ item: "minecraft:cake" }
+		{ item: "minecraft:tropical_fish_bucket" }
+		{ item: "minecraft:cod_bucket" }
+		{ item: "minecraft:cauldron" }
+		{ item: "minecraft:chicken_spawn_egg" }
+		{ item: "minecraft:bee_spawn_egg" }
+		{ item: "minecraft:husk_spawn_egg" }
+		{ item: "minecraft:parrot_spawn_egg" }
+		{ item: "minecraft:mule_spawn_egg" }
+		{ item: "minecraft:panda_spawn_egg" }
+		{ item: "minecraft:sheep_spawn_egg" }
+		{ item: "minecraft:magma_cube_spawn_egg" }
+		{ item: "minecraft:mooshroom_spawn_egg" }
+		{ item: "minecraft:rabbit_spawn_egg" }
+		{ item: "minecraft:skeleton_spawn_egg" }
+		{ item: "minecraft:wolf_spawn_egg" }
+		{ item: "minecraft:witch_spawn_egg" }
+		{ item: "minecraft:zombie_spawn_egg" }
+		{ item: "minecraft:zombie_villager_spawn_egg" }
+		{ item: "minecraft:potato", count: 3 }
+		{ item: "minecraft:carrot", count: 3 }
+		{ item: "minecraft:poisonous_potato", count: 3 }
+		{ item: "minecraft:writable_book" }
+		{ item: "minecraft:cow_spawn_egg" }
+		{ item: "minecraft:firework_star", count: 8 }
+		{ item: "minecraft:firework_rocket", count: 8 }
 	]
 }

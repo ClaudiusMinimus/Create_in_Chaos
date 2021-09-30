@@ -1,8 +1,5 @@
 type = customizablemenus
 
-net.minecraft.client.gui.screen.MainMenuScreen {
-}
-
 com.github.alexthe666.iceandfire.client.gui.IceAndFireMainMenu {
 }
 
@@ -10,5 +7,8 @@ net.minecraft.client.gui.screen.MultiplayerScreen {
 }
 
 net.minecraft.client.gui.screen.WorldSelectionScreen {
+}
+
+net.minecraft.client.gui.screen.MainMenuScreen {
 }
 

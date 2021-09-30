@@ -1,601 +1,750 @@
 {
-	id: "73FADB757C32CF7C",
-	group: "6A9ADDD61F3DD320",
-	order_index: 1,
-	filename: "get_cooking",
-	title: "Get Cooking",
-	default_quest_shape: "",
+	id: "73FADB757C32CF7C"
+	group: "6A9ADDD61F3DD320"
+	order_index: 1
+	filename: "get_cooking"
+	title: "Get Cooking"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 0.0d,
-			y: 0.0d,
-			shape: "diamond",
-			size: 1.5d,
-			id: "1B94870BBA30246A",
+			x: 0.0d
+			y: 0.0d
+			shape: "diamond"
+			size: 1.5d
+			id: "1B94870BBA30246A"
 			tasks: [{
-				id: "29A06492AB929A88",
-				type: "item",
+				id: "29A06492AB929A88"
+				type: "item"
 				item: "cookingforblockheads:recipe_book"
-			}],
+			}]
 			rewards: [{
-				id: "532F3E91617DB232",
-				type: "item",
+				id: "532F3E91617DB232"
+				type: "item"
 				item: "solcarrot:food_book"
 			}]
-		},
+		}
 		{
-			x: 0.0d,
-			y: -2.0d,
-			dependencies: ["1B94870BBA30246A"],
-			id: "591034C68D83260B",
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["1B94870BBA30246A"]
+			id: "591034C68D83260B"
 			tasks: [{
-				id: "14128D7A72D952B3",
-				type: "item",
+				id: "14128D7A72D952B3"
+				type: "item"
 				item: "cookingforblockheads:crafting_book"
 			}]
-		},
+			rewards: [{
+				id: "7ED13D0026300304"
+				type: "random"
+				table_id: 3661348958344125783L
+			}]
+		}
 		{
-			x: -2.0d,
-			y: 0.0d,
-			dependencies: ["1B94870BBA30246A"],
-			id: "57C8E5C8B936E0FC",
+			x: -2.0d
+			y: 0.0d
+			dependencies: ["1B94870BBA30246A"]
+			id: "57C8E5C8B936E0FC"
 			tasks: [{
-				id: "747A91DB56C25634",
-				type: "item",
+				id: "747A91DB56C25634"
+				type: "item"
 				item: "cookingforblockheads:no_filter_edition"
 			}]
-		},
+			rewards: [{
+				id: "2320AF404D642E83"
+				type: "xp"
+				xp: 100
+			}]
+		}
 		{
-			x: 8.5d,
-			y: 0.0d,
-			dependencies: ["0EEFE2BAEFC330D9"],
-			id: "5223CDEEDDCBB021",
+			x: 8.5d
+			y: 0.0d
+			dependencies: ["0EEFE2BAEFC330D9"]
+			id: "5223CDEEDDCBB021"
 			tasks: [
 				{
-					id: "3A893A49EAA8CB1E",
-					type: "item",
+					id: "3A893A49EAA8CB1E"
+					type: "item"
 					item: "cookingforblockheads:cooking_table"
-				},
+				}
 				{
-					id: "0C1A7BD6398BDCB7",
-					type: "item",
+					id: "0C1A7BD6398BDCB7"
+					type: "item"
 					item: "cookingforblockheads:oven"
-				},
+				}
 				{
-					id: "10FA37A54D192C0C",
-					type: "item",
+					id: "10FA37A54D192C0C"
+					type: "item"
 					item: "cookingforblockheads:sink"
-				},
+				}
 				{
-					id: "19E10D23DC4F3897",
-					type: "item",
-					item: "cookingforblockheads:counter",
+					id: "19E10D23DC4F3897"
+					type: "item"
+					item: "cookingforblockheads:counter"
 					count: 3L
-				},
+				}
 				{
-					id: "2314D4A602A964F6",
-					type: "item",
+					id: "2314D4A602A964F6"
+					type: "item"
 					item: "cookingforblockheads:corner"
-				},
+				}
 				{
-					id: "0EBBBAA36F86A4EC",
-					type: "item",
-					item: "cookingforblockheads:cabinet",
+					id: "0EBBBAA36F86A4EC"
+					type: "item"
+					item: "cookingforblockheads:cabinet"
 					count: 3L
-				},
+				}
 				{
-					id: "6D7A65E06E89B111",
-					type: "item",
-					item: "cookingforblockheads:fridge",
+					id: "6D7A65E06E89B111"
+					type: "item"
+					item: "cookingforblockheads:fridge"
 					count: 2L
-				},
+				}
 				{
-					id: "23840D9420778207",
-					type: "item",
-					item: "cookingforblockheads:white_kitchen_floor",
+					id: "23840D9420778207"
+					type: "item"
+					item: "cookingforblockheads:white_kitchen_floor"
 					count: 8L
 				}
-			],
+			]
 			rewards: [
 				{
-					id: "78D2B288A02DC07B",
-					type: "item",
-					item: "cookingforblockheads:white_kitchen_floor",
+					id: "78D2B288A02DC07B"
+					type: "item"
+					item: "cookingforblockheads:white_kitchen_floor"
 					count: 8
-				},
+				}
 				{
-					id: "4662BE1AD7DBE991",
-					type: "item",
+					id: "4662BE1AD7DBE991"
+					type: "item"
 					item: "cookingforblockheads:counter"
-				},
+				}
 				{
-					id: "4BC31DAD99BD5593",
-					type: "item",
-					item: "cookingforblockheads:cabinet",
+					id: "4BC31DAD99BD5593"
+					type: "item"
+					item: "cookingforblockheads:cabinet"
 					count: 2
-				},
+				}
 				{
-					id: "2873B6A5A5CA7FA2",
-					type: "item",
+					id: "2873B6A5A5CA7FA2"
+					type: "item"
 					item: "cookingforblockheads:preservation_chamber"
-				},
+				}
 				{
-					id: "3B4DAC71DB7C46A0",
-					type: "item",
+					id: "3B4DAC71DB7C46A0"
+					type: "item"
 					item: "cookingforblockheads:ice_unit"
-				},
+				}
 				{
-					id: "783B401E7507E3D2",
-					type: "item",
+					id: "783B401E7507E3D2"
+					type: "item"
 					item: "cookingforblockheads:heating_unit"
 				}
 			]
-		},
+		}
 		{
-			x: 8.5d,
-			y: -1.5d,
-			dependencies: ["5223CDEEDDCBB021"],
-			id: "65EA688AACAD01C1",
+			x: 8.5d
+			y: -1.5d
+			dependencies: ["5223CDEEDDCBB021"]
+			id: "65EA688AACAD01C1"
 			tasks: [{
-				id: "7B7281C08214F291",
-				type: "item",
+				id: "7B7281C08214F291"
+				type: "item"
 				item: "cookingforblockheads:milk_jar"
 			}]
-		},
-		{
-			x: 8.5d,
-			y: -3.0d,
-			dependencies: ["65EA688AACAD01C1"],
-			id: "456BDCD0BACF5C83",
-			tasks: [{
-				id: "6289B1173C9B59F1",
-				type: "item",
-				item: "cookingforblockheads:cow_jar"
-			}],
 			rewards: [{
-				id: "021D26AF5194BE60",
-				type: "item",
+				id: "516DF2766C3C960A"
+				type: "random"
+				table_id: 3202284983173505384L
+			}]
+		}
+		{
+			x: 8.5d
+			y: -3.0d
+			dependencies: ["65EA688AACAD01C1"]
+			id: "456BDCD0BACF5C83"
+			tasks: [{
+				id: "6289B1173C9B59F1"
+				type: "item"
+				item: "cookingforblockheads:cow_jar"
+			}]
+			rewards: [{
+				id: "021D26AF5194BE60"
+				type: "item"
 				item: "minecraft:cow_spawn_egg"
 			}]
-		},
+		}
 		{
-			x: 8.5d,
-			y: 2.0d,
-			dependencies: ["5223CDEEDDCBB021"],
-			id: "5A8CB177D158BEBD",
+			x: 8.5d
+			y: 2.0d
+			dependencies: ["5223CDEEDDCBB021"]
+			id: "5A8CB177D158BEBD"
 			tasks: [
 				{
-					id: "13DC4616F849E92B",
-					type: "item",
+					id: "13DC4616F849E92B"
+					type: "item"
 					item: "pamhc2foodcore:bakewareitem"
-				},
+				}
 				{
-					id: "4F7BBF6D1BD35647",
-					type: "item",
+					id: "4F7BBF6D1BD35647"
+					type: "item"
 					item: "pamhc2foodcore:potitem"
-				},
+				}
 				{
-					id: "6C98FCCB8126469D",
-					type: "item",
+					id: "6C98FCCB8126469D"
+					type: "item"
 					item: "pamhc2foodcore:saucepanitem"
-				},
+				}
 				{
-					id: "7B6784828EA17A9A",
-					type: "item",
+					id: "7B6784828EA17A9A"
+					type: "item"
 					item: "pamhc2foodcore:skilletitem"
 				}
 			]
-		},
+			rewards: [{
+				id: "067596B7F9A1DC33"
+				type: "random"
+				table_id: 3202284983173505384L
+			}]
+		}
 		{
-			x: 3.0d,
-			y: 0.0d,
-			dependencies: ["1B94870BBA30246A"],
-			id: "0EEFE2BAEFC330D9",
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["1B94870BBA30246A"]
+			id: "0EEFE2BAEFC330D9"
 			tasks: [
 				{
-					id: "6D130265F4AF4B55",
-					type: "item",
+					id: "6D130265F4AF4B55"
+					type: "item"
 					item: "pamhc2foodcore:cuttingboarditem"
-				},
+				}
 				{
-					id: "102F01470CFAED12",
-					type: "item",
+					id: "102F01470CFAED12"
+					type: "item"
 					item: "pamhc2foodcore:juiceritem"
-				},
+				}
 				{
-					id: "23FBB9A3FFCDEEA4",
-					type: "item",
+					id: "23FBB9A3FFCDEEA4"
+					type: "item"
 					item: "pamhc2foodcore:grinderitem"
-				},
+				}
 				{
-					id: "02C0361D50CFD5C4",
-					type: "item",
+					id: "02C0361D50CFD5C4"
+					type: "item"
 					item: "pamhc2foodcore:mixingbowlitem"
 				}
-			],
+			]
 			rewards: [
 				{
-					id: "1E6014E08022281B",
-					type: "item",
-					item: "cookingforblockheads:tool_rack",
+					id: "1E6014E08022281B"
+					type: "item"
+					item: "cookingforblockheads:tool_rack"
 					count: 2
-				},
+				}
 				{
-					id: "0E958BF2AEE5FE4F",
-					type: "item",
+					id: "0E958BF2AEE5FE4F"
+					type: "item"
 					item: "pamhc2foodcore:rolleritem"
 				}
 			]
-		},
+		}
 		{
-			x: 10.0d,
-			y: 0.0d,
-			dependencies: ["5223CDEEDDCBB021"],
-			id: "12FC13B77EF29C8B",
+			x: 10.0d
+			y: 0.0d
+			dependencies: ["5223CDEEDDCBB021"]
+			id: "12FC13B77EF29C8B"
 			tasks: [{
-				id: "74F2EE720868400D",
-				type: "item",
+				id: "74F2EE720868400D"
+				type: "item"
 				item: "cookingforblockheads:toaster"
-			}],
+			}]
 			rewards: [
 				{
-					id: "2EDA7468A1ADA26B",
-					type: "item",
+					id: "2EDA7468A1ADA26B"
+					type: "item"
 					item: "cookingforblockheads:fruit_basket"
-				},
+				}
 				{
-					id: "3FED1D84339424EB",
-					type: "item",
+					id: "3FED1D84339424EB"
+					type: "item"
 					item: "cookingforblockheads:spice_rack"
 				}
 			]
-		},
+		}
 		{
-			x: -1.5d,
-			y: 4.0d,
-			dependencies: ["0EEFE2BAEFC330D9"],
-			id: "2D430283ADFF9B34",
+			x: -1.5d
+			y: 4.0d
+			dependencies: ["0EEFE2BAEFC330D9"]
+			id: "2D430283ADFF9B34"
 			tasks: [{
-				id: "7523F685DE695243",
-				type: "item",
+				id: "7523F685DE695243"
+				type: "item"
 				item: "pamhc2foodcore:fruitsaladitem"
 			}]
-		},
+			rewards: [{
+				id: "58C0EC58CF2864EA"
+				type: "xp"
+				xp: 100
+			}]
+		}
 		{
-			x: 1.5d,
-			y: 4.0d,
-			dependencies: ["0EEFE2BAEFC330D9"],
-			id: "480A61F6D6DFC5C4",
+			x: 1.5d
+			y: 4.0d
+			dependencies: ["0EEFE2BAEFC330D9"]
+			id: "480A61F6D6DFC5C4"
 			tasks: [{
-				id: "1FCB71809B523483",
-				type: "item",
+				id: "1FCB71809B523483"
+				type: "item"
 				item: "pamhc2foodcore:applejuiceitem"
 			}]
-		},
+			rewards: [{
+				id: "4B07F39D4C39640B"
+				type: "xp"
+				xp: 100
+			}]
+		}
 		{
-			x: 3.0d,
-			y: 4.0d,
-			dependencies: ["0EEFE2BAEFC330D9"],
-			id: "2F7FEF4608F9C058",
+			x: 3.0d
+			y: 4.0d
+			dependencies: ["0EEFE2BAEFC330D9"]
+			id: "2F7FEF4608F9C058"
 			tasks: [{
-				id: "23A7729AE272A8D2",
-				type: "item",
+				id: "23A7729AE272A8D2"
+				type: "item"
 				item: "pamhc2foodcore:fruitpunchitem"
 			}]
-		},
+			rewards: [{
+				id: "183898EA7971C357"
+				type: "xp"
+				xp: 100
+			}]
+		}
 		{
-			x: 4.5d,
-			y: 4.0d,
-			dependencies: ["0EEFE2BAEFC330D9"],
-			id: "0934B97908F949B6",
+			x: 4.5d
+			y: 4.0d
+			dependencies: ["0EEFE2BAEFC330D9"]
+			id: "0934B97908F949B6"
 			tasks: [{
-				id: "3F2CDEB4F99E664C",
-				type: "item",
-				item: "pamhc2foodcore:applesauceitem",
+				id: "3F2CDEB4F99E664C"
+				type: "item"
+				item: "pamhc2foodcore:applesauceitem"
 				count: 8L
 			}]
-		},
+			rewards: [{
+				id: "64939AA68575231F"
+				type: "xp"
+				xp: 100
+			}]
+		}
 		{
-			x: 0.0d,
-			y: 4.0d,
-			dependencies: ["0EEFE2BAEFC330D9"],
-			id: "57B45F1553362692",
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["0EEFE2BAEFC330D9"]
+			id: "57B45F1553362692"
 			tasks: [{
-				id: "32429E5F636A3015",
-				type: "item",
-				item: "pamhc2foodcore:hotdogitem",
+				id: "32429E5F636A3015"
+				type: "item"
+				item: "pamhc2foodcore:hotdogitem"
 				count: 8L
 			}]
-		},
+			rewards: [{
+				id: "76F6C23EBD4F2F8E"
+				type: "xp"
+				xp: 100
+			}]
+		}
 		{
-			x: 6.0d,
-			y: 4.0d,
-			dependencies: ["0EEFE2BAEFC330D9"],
-			id: "2153F09EF5FF079F",
+			x: 6.0d
+			y: 4.0d
+			dependencies: ["0EEFE2BAEFC330D9"]
+			id: "2153F09EF5FF079F"
 			tasks: [{
-				id: "6C629EFE8DFFD7D1",
-				type: "item",
-				item: "pamhc2foodcore:beefjerkyitem",
+				id: "6C629EFE8DFFD7D1"
+				type: "item"
+				item: "pamhc2foodcore:beefjerkyitem"
 				count: 8L
 			}]
-		},
+			rewards: [{
+				id: "0EAFCFF6A46F84A4"
+				type: "xp"
+				xp: 100
+			}]
+		}
 		{
-			x: -3.0d,
-			y: 5.5d,
-			id: "1CF5B672A6985202",
+			x: -3.0d
+			y: 5.5d
+			id: "1CF5B672A6985202"
 			tasks: [{
-				id: "389B014AEA7CB83C",
-				type: "item",
+				id: "389B014AEA7CB83C"
+				type: "item"
 				item: "cyclic:apple_chocolate"
 			}]
-		},
+			rewards: [{
+				id: "738E54BDC69EBEF4"
+				type: "xp"
+				xp: 100
+			}]
+		}
 		{
-			x: -3.0d,
-			y: 7.0d,
-			id: "3F5D020064AA97E4",
+			x: -3.0d
+			y: 7.0d
+			id: "3F5D020064AA97E4"
 			tasks: [{
-				id: "5352D71D187A6297",
-				type: "item",
+				id: "5352D71D187A6297"
+				type: "item"
 				item: "cyclic:apple_honey"
 			}]
-		},
+			rewards: [{
+				id: "0A27DFBEA6ECB1DE"
+				type: "xp"
+				xp: 100
+			}]
+		}
 		{
-			x: -3.0d,
-			y: 10.0d,
-			dependencies: ["61E649BF9A3C9D44"],
-			id: "7C726D2B013ACEA3",
+			x: -3.0d
+			y: 10.0d
+			id: "7C726D2B013ACEA3"
 			tasks: [{
-				id: "6DD740891C3A7839",
-				type: "item",
+				id: "6DD740891C3A7839"
+				type: "item"
 				item: "create:builders_tea"
 			}]
-		},
+			rewards: [{
+				id: "7EBB3A45C318D4D5"
+				type: "xp"
+				xp: 100
+			}]
+		}
 		{
-			x: -3.0d,
-			y: 8.5d,
-			id: "5CB5D496FEA574F2",
+			x: -3.0d
+			y: 8.5d
+			id: "5CB5D496FEA574F2"
 			tasks: [{
-				id: "7FE8FEBCF039A7DC",
-				type: "item",
+				id: "7FE8FEBCF039A7DC"
+				type: "item"
 				item: "mysticalagradditions:inferium_apple"
 			}]
-		},
+			rewards: [{
+				id: "6F7E81DA8868FFDD"
+				type: "xp"
+				xp: 100
+			}]
+		}
 		{
-			x: 7.5d,
-			y: 4.0d,
-			id: "6D97E61A265DAA5A",
+			x: 7.5d
+			y: 4.0d
+			id: "6D97E61A265DAA5A"
 			tasks: [{
-				id: "59DFDBEAF8746954",
-				type: "item",
+				id: "59DFDBEAF8746954"
+				type: "item"
 				item: "minecraft:cooked_salmon"
 			}]
-		},
+			rewards: [{
+				id: "7B668A93BC5FBC13"
+				type: "xp"
+				xp: 100
+			}]
+		}
 		{
-			x: 7.5d,
-			y: 10.0d,
-			id: "2EBA04E0A7920C3B",
+			x: 7.5d
+			y: 10.0d
+			id: "2EBA04E0A7920C3B"
 			tasks: [{
-				id: "7C43BB162F1A781F",
-				type: "item",
+				id: "7C43BB162F1A781F"
+				type: "item"
 				item: "pamhc2foodcore:carrotbreaditem"
 			}]
-		},
+			rewards: [{
+				id: "71250F952E55CDA4"
+				type: "xp"
+				xp: 100
+			}]
+		}
 		{
-			x: 7.5d,
-			y: 5.5d,
-			id: "65E7D825A2BDA3EE",
+			x: 7.5d
+			y: 5.5d
+			id: "65E7D825A2BDA3EE"
 			tasks: [{
-				id: "10803C362362D119",
-				type: "item",
+				id: "10803C362362D119"
+				type: "item"
 				item: "pamhc2foodcore:hotchocolateitem"
 			}]
-		},
+			rewards: [{
+				id: "6E9F5FB39CF9EB10"
+				type: "xp"
+				xp: 100
+			}]
+		}
 		{
-			x: 7.5d,
-			y: 11.5d,
-			id: "7C1D108C42978D87",
+			x: 7.5d
+			y: 11.5d
+			id: "7C1D108C42978D87"
 			tasks: [{
-				id: "482A73116FABC1AF",
-				type: "item",
+				id: "482A73116FABC1AF"
+				type: "item"
 				item: "pamhc2foodcore:carrotmuffinitem"
 			}]
-		},
+			rewards: [{
+				id: "2983CDB3A5F3B785"
+				type: "xp"
+				xp: 100
+			}]
+		}
 		{
-			x: 4.5d,
-			y: 14.5d,
-			id: "3A76524557C53CAD",
+			x: 4.5d
+			y: 14.5d
+			id: "3A76524557C53CAD"
 			tasks: [{
-				id: "52D4993AAA11B714",
-				type: "item",
+				id: "52D4993AAA11B714"
+				type: "item"
 				item: "pamhc2foodcore:chocolatebaconitem"
 			}]
-		},
+			rewards: [{
+				id: "153472D45E35EA0F"
+				type: "xp"
+				xp: 100
+			}]
+		}
 		{
-			x: 6.0d,
-			y: 14.5d,
-			id: "60A2FC036D4B9677",
+			x: 6.0d
+			y: 14.5d
+			id: "60A2FC036D4B9677"
 			tasks: [{
-				id: "4D45080BCA0DF4CD",
-				type: "item",
+				id: "4D45080BCA0DF4CD"
+				type: "item"
 				item: "pamhc2foodcore:scrambledeggitem"
 			}]
-		},
+			rewards: [{
+				id: "286B7AB17EFA0053"
+				type: "xp"
+				xp: 100
+			}]
+		}
 		{
-			x: 7.5d,
-			y: 7.0d,
-			id: "5F3D8AAB7C2ED074",
+			x: 7.5d
+			y: 7.0d
+			id: "5F3D8AAB7C2ED074"
 			tasks: [{
-				id: "72FD61B42BDC39F5",
-				type: "item",
+				id: "72FD61B42BDC39F5"
+				type: "item"
 				item: "pamhc2foodcore:applejellytoastitem"
 			}]
-		},
+			rewards: [{
+				id: "1780A0AB20323559"
+				type: "xp"
+				xp: 100
+			}]
+		}
 		{
-			x: -3.0d,
-			y: 4.0d,
-			id: "59DB8C28F3F70CDE",
+			x: -3.0d
+			y: 4.0d
+			id: "59DB8C28F3F70CDE"
 			tasks: [{
-				id: "39927E9410482CB8",
-				type: "item",
+				id: "39927E9410482CB8"
+				type: "item"
 				item: "forbidden_arcanus:cherry_peach"
 			}]
-		},
+			rewards: [{
+				id: "5C3B8FF4E4A35F83"
+				type: "xp"
+				xp: 100
+			}]
+		}
 		{
-			x: 7.5d,
-			y: 13.0d,
-			id: "3E85E56C49F52DE0",
+			x: 7.5d
+			y: 13.0d
+			id: "3E85E56C49F52DE0"
 			tasks: [{
-				id: "7202AD18BC3E37D7",
-				type: "item",
+				id: "7202AD18BC3E37D7"
+				type: "item"
 				item: "pamhc2foodcore:basichamburgeritem"
 			}]
-		},
+			rewards: [{
+				id: "12B28838D37FCC69"
+				type: "xp"
+				xp: 100
+			}]
+		}
 		{
-			x: 1.5d,
-			y: 14.5d,
-			id: "1494492E6BE3A2E4",
+			x: 1.5d
+			y: 14.5d
+			id: "1494492E6BE3A2E4"
 			tasks: [{
-				id: "75E73D16BAA16A31",
-				type: "item",
+				id: "75E73D16BAA16A31"
+				type: "item"
 				item: "pamhc2foodcore:glazedcarrotsitem"
 			}]
-		},
+			rewards: [{
+				id: "00548493937C171B"
+				type: "xp"
+				xp: 100
+			}]
+		}
 		{
-			x: 3.0d,
-			y: 14.5d,
-			id: "1C43873BC35CD72A",
+			x: 3.0d
+			y: 14.5d
+			id: "1C43873BC35CD72A"
 			tasks: [{
-				id: "37AD72A7A0EC95C5",
-				type: "item",
+				id: "37AD72A7A0EC95C5"
+				type: "item"
 				item: "pamhc2foodcore:fruitcrumbleitem"
 			}]
-		},
+			rewards: [{
+				id: "1D469F0E5D718C9F"
+				type: "xp"
+				xp: 100
+			}]
+		}
 		{
-			x: 7.5d,
-			y: 8.5d,
-			id: "3A47653DFBD8BE45",
+			x: 7.5d
+			y: 8.5d
+			id: "3A47653DFBD8BE45"
 			tasks: [{
-				id: "09D9552005A48D76",
-				type: "item",
+				id: "09D9552005A48D76"
+				type: "item"
 				item: "pamhc2foodcore:fishandchipsitem"
 			}]
-		},
+			rewards: [{
+				id: "214722F7B4C1FA96"
+				type: "xp"
+				xp: 100
+			}]
+		}
 		{
-			x: 7.5d,
-			y: 14.5d,
-			id: "3C10DBA14B88EED3",
+			x: 7.5d
+			y: 14.5d
+			id: "3C10DBA14B88EED3"
 			tasks: [{
-				id: "182D96AE90B6117C",
-				type: "item",
+				id: "182D96AE90B6117C"
+				type: "item"
 				item: "pamhc2foodcore:caramelappleitem"
 			}]
-		},
+			rewards: [{
+				id: "629677BB3BF7EF09"
+				type: "xp"
+				xp: 100
+			}]
+		}
 		{
-			x: -1.5d,
-			y: 14.5d,
-			id: "3B708885B7E5F214",
+			x: -1.5d
+			y: 14.5d
+			id: "3B708885B7E5F214"
 			tasks: [{
-				id: "6338E585AFE7AF32",
-				type: "item",
+				id: "6338E585AFE7AF32"
+				type: "item"
 				item: "xreliquary:glowing_bread"
 			}]
-		},
+			rewards: [{
+				id: "2D97CCE62E652B2C"
+				type: "xp"
+				xp: 100
+			}]
+		}
 		{
-			x: 0.0d,
-			y: 14.5d,
-			id: "04991B796DAD7C1D",
+			x: 0.0d
+			y: 14.5d
+			id: "04991B796DAD7C1D"
 			tasks: [{
-				id: "5BD12758F92D5E7B",
-				type: "item",
+				id: "5BD12758F92D5E7B"
+				type: "item"
 				item: "pamhc2foodcore:baconcheeseburgeritem"
 			}]
-		},
+			rewards: [{
+				id: "416EF9FC597D75AB"
+				type: "xp"
+				xp: 100
+			}]
+		}
 		{
-			x: -3.0d,
-			y: 11.5d,
-			dependencies: ["61E649BF9A3C9D44"],
-			id: "5D244B82268FCF98",
+			x: -3.0d
+			y: 11.5d
+			id: "5D244B82268FCF98"
 			tasks: [{
-				id: "152658E8077C0AD4",
-				type: "item",
+				id: "152658E8077C0AD4"
+				type: "item"
 				item: "createaddition:chocolate_cake"
 			}]
-		},
+			rewards: [{
+				id: "460140FEAE72F4C4"
+				type: "xp"
+				xp: 100
+			}]
+		}
 		{
-			x: -3.0d,
-			y: 14.5d,
-			id: "55A2DC8ED66A4071",
+			x: -3.0d
+			y: 14.5d
+			id: "55A2DC8ED66A4071"
 			tasks: [{
-				id: "0BDBD847F3338735",
-				type: "item",
+				id: "0BDBD847F3338735"
+				type: "item"
 				item: "pamhc2foodcore:gummybearsitem"
 			}]
-		},
+			rewards: [{
+				id: "708EF7A9D1DCFEBB"
+				type: "xp"
+				xp: 100
+			}]
+		}
 		{
-			x: -3.0d,
-			y: 13.0d,
-			dependencies: ["61E649BF9A3C9D44"],
-			id: "6AD08FAD9F99EC6F",
+			x: -3.0d
+			y: 13.0d
+			id: "6AD08FAD9F99EC6F"
 			tasks: [{
-				id: "34828DF76E54974B",
-				type: "item",
+				id: "34828DF76E54974B"
+				type: "item"
 				item: "create:chocolate_glazed_berries"
 			}]
-		},
+			rewards: [{
+				id: "399FE618A9EB264C"
+				type: "xp"
+				xp: 100
+			}]
+		}
 		{
-			x: -5.5d,
-			y: 11.5d,
-			id: "61E649BF9A3C9D44",
+			x: 2.1785714285714235d
+			y: 9.440476190476183d
+			shape: "octagon"
+			dependencies: [
+				"480A61F6D6DFC5C4"
+				"59DB8C28F3F70CDE"
+				"2D430283ADFF9B34"
+				"57B45F1553362692"
+				"2F7FEF4608F9C058"
+				"0934B97908F949B6"
+				"2153F09EF5FF079F"
+				"6D97E61A265DAA5A"
+				"5A8CB177D158BEBD"
+				"65E7D825A2BDA3EE"
+				"5F3D8AAB7C2ED074"
+				"3A47653DFBD8BE45"
+				"2EBA04E0A7920C3B"
+				"7C1D108C42978D87"
+				"3E85E56C49F52DE0"
+				"3C10DBA14B88EED3"
+				"60A2FC036D4B9677"
+				"3A76524557C53CAD"
+				"1C43873BC35CD72A"
+				"1494492E6BE3A2E4"
+				"04991B796DAD7C1D"
+				"3B708885B7E5F214"
+				"55A2DC8ED66A4071"
+				"6AD08FAD9F99EC6F"
+				"5D244B82268FCF98"
+				"7C726D2B013ACEA3"
+				"5CB5D496FEA574F2"
+				"3F5D020064AA97E4"
+				"1CF5B672A6985202"
+			]
+			size: 2.0d
+			id: "2426616247B4429E"
 			tasks: [{
-				id: "55ED68A78514F45D",
+				id: "41F61CF77F621DE5"
 				type: "checkmark"
 			}]
-		},
-		{
-			x: 2.0d,
-			y: 9.5d,
-			shape: "octagon",
-			dependencies: [
-				"480A61F6D6DFC5C4",
-				"59DB8C28F3F70CDE",
-				"2D430283ADFF9B34",
-				"57B45F1553362692",
-				"2F7FEF4608F9C058",
-				"0934B97908F949B6",
-				"2153F09EF5FF079F",
-				"6D97E61A265DAA5A",
-				"5A8CB177D158BEBD",
-				"65E7D825A2BDA3EE",
-				"5F3D8AAB7C2ED074",
-				"3A47653DFBD8BE45",
-				"2EBA04E0A7920C3B",
-				"7C1D108C42978D87",
-				"3E85E56C49F52DE0",
-				"3C10DBA14B88EED3",
-				"60A2FC036D4B9677",
-				"3A76524557C53CAD",
-				"1C43873BC35CD72A",
-				"1494492E6BE3A2E4",
-				"04991B796DAD7C1D",
-				"3B708885B7E5F214",
-				"55A2DC8ED66A4071",
-				"6AD08FAD9F99EC6F",
-				"5D244B82268FCF98",
-				"7C726D2B013ACEA3",
-				"5CB5D496FEA574F2",
-				"3F5D020064AA97E4",
-				"1CF5B672A6985202"
-			],
-			size: 2.0d,
-			id: "2426616247B4429E",
-			tasks: [{
-				id: "41F61CF77F621DE5",
-				type: "checkmark"
-			}],
 			rewards: [{
-				id: "0B78C2292506A3A6",
-				type: "item",
-				item: "cyclic:heart",
+				id: "0B78C2292506A3A6"
+				type: "item"
+				item: "cyclic:heart"
 				count: 5
 			}]
 		}
