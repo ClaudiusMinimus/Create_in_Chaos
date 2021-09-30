@@ -2,7 +2,9 @@
 
 ## Version 1.2.0
 
-2021-09-28
+Create in Chaos replaces Survival in Chaos and as such you must generate a new world. Create in Chaos ALPHA and BETA worlds should be fine, just be sure to back them up first.
+
+2021-09-30
 
 - Mods Added:
   - aiotbotania-1.16.5-1.8.1
