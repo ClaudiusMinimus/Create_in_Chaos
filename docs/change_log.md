@@ -1,6 +1,6 @@
 # Change Log
 
-## Version 1.1.0
+## Version 1.2.0
 
 2021-09-28
 
@@ -8,6 +8,7 @@
   - aiotbotania-1.16.5-1.8.1
   - flywheel-1.16-0.2.4 (dependancy for Create)
   - tconplanner-1.16.5-1.1.0
+  - RPG-HUD-3.8.4
   - YungsExtras-Forge-1.16.4-1.0
 - Mods Updated:
   - Apotheosis-1.16.5-4.8.0
@@ -88,13 +89,16 @@
   - ultra_amplified_dimension-1.16.5-9.2.3-forge
   - valhelsia_core-16.0.11
   - Waystones_1.16.5-7.6.3
+  - YungsApi-1.16.4-Forge-12
+- Mods Removed:
+  - Overloaded Armor Bar
   - Xaeros_Minimap_21.16.0_Forge_1.16.5
   - XaerosWorldMap_1.17.1_Forge_1.16.5
-  - YungsApi-1.16.4-Forge-12
-- Mods Removed: none
 - Other Changes:
   - Upgraded Forge to 36.2.6
   - Lots of quest changes and additions
+  - Xaeros Minimap and World Map mods have been removed because FTB Chunks has a minimap and world map.
+  - RPG-HUD was addded to replace Overloaded Armor Bar and some functionality previously provided by Xaeros.
 
 ## Version 0.13.0 BETA
 

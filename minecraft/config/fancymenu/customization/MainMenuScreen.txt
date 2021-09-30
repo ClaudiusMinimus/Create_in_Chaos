@@ -101,6 +101,16 @@ customization {
 }
 
 customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376322%
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
   identifier = %id=400382%
   orientation = top-left
   x = 322
@@ -328,7 +338,7 @@ customization {
   y = -13
   scale = 1.0
   alignment = left
-  value = Create in Chaos v.1.16.5-1.1.0
+  value = Create in Chaos v.1.16.5-1.2.0
 }
 
 customization {
@@ -427,17 +437,17 @@ customization {
 }
 
 customization {
-  identifier = %id=376322%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=376322%
+  identifier = %id=0%
   action = vanilla_button_visibility_requirements
 }
 
 customization {
-  identifier = %id=0%
+  identifier = %id=9500%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=9500%
   action = vanilla_button_visibility_requirements
 }
 
