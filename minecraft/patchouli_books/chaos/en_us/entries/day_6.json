@@ -1,0 +1,30 @@
+{
+    "name": "Day 6",
+    "icon": "minecraft:writable_book",
+    "category": "journal",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Chaos World is challenging to get to bedrock and finding all of the ores I need. I made a mining elevator with a Rope Pulley and Mechanical Drill. I have found the Rope Pulley to be very effective, though I was careful to watch out for lava and water."
+        },
+        {
+            "type": "spotlight",
+            "text": "I discovered the Rope Pulley distance is limited - for me, it stopped at level 30ish. I found it had run out of rope. The good news is that I found myself a lot closer to bedrock!",
+            "item": "create:rope_pulley"
+        },
+        {
+            "type": "spotlight",
+            "text": "Fortunately, I did not hit any lava but did find lots of water. If I had run into lava, I think I might have poured a water bucket quickly.$(br)  In the water sections, I placed cobblestone to fill in as needed.$(br)  This mining elevaltor uses 1 waterwheel, 3 shafts, 2 vertical gearboxes, 1 rope pulley, 2 mechanical drills,",
+            "item": "create:mechanical_drill"
+        },
+        {
+            "type": "image",
+            "title": "Mining Elevator",
+            "images": [
+                "cic:mining-elevator.png"
+            ],
+            "text": "2 linear chassis, 1 water source, chest/barrel, and some building blocks."
+        }
+    ]
+}
