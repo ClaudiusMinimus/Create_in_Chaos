@@ -1,0 +1,22 @@
+{
+    "name": "Day 7",
+    "icon": "minecraft:writable_book",
+    "category": "journal",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Yesterday was a lot of work getting down to bedrock! I am glad I made the decission to venture so deep. I was able to find lots of ores and various stone. I was grateful I found Wolframite so I could made some really good tools only after a few days!$(br2)Wolframite allowed me to make a Tungsten-Carbide Hammer and also an Excavator."
+        },
+        {
+            "type": "crafting",
+            "recipe": "easy_steel:tungsten_carbide_hammer",
+            "text": "The Tungsten-Carbide Hammer is a diamond level hammer that let's me mine a 3x3 area at a time."
+        },
+        {
+            "type": "crafting",
+            "recipe": "easy_steel:tungsten_carbide_excavator",
+            "text": "The Tungsten-Carbide Excavator is a shovel that let's me dig a 3x3 area at a time.$(br2)Both of these tools sure make mining a lot more efficient and might I say, Fun!"
+        }
+    ]
+}
