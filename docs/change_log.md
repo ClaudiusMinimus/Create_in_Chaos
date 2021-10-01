@@ -1,5 +1,19 @@
 # Change Log
 
+## Version 1.3.0
+
+2021-10-01
+
+- Mods Added: none
+- Mods Updated:
+  - ftb-library-forge-1605.3.3-build.74 (fix crash)
+  - MysticalAgradditions-1.16.5-4.2.2 (fixes issue to repair tools made with Tinkers Construct Anvil)
+- Mods Removed: none
+- Other Changes:
+  - Copied recipes from 99 Mods on the Wall for ore processing
+  - Updated quests
+  - Edited Create in Chaos book. Added days 6 & 7 to journal
+
 ## Version 1.2.0
 
 Create in Chaos replaces Survival in Chaos and as such you must generate a new world. Create in Chaos ALPHA and BETA worlds should be fine, just be sure to back them up first.
