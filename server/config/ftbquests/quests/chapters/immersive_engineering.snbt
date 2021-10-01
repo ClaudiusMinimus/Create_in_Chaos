@@ -375,5 +375,24 @@
 				item: "immersiveengineering:transformer"
 			}]
 		}
+		{
+			x: -2.0d
+			y: -1.0d
+			description: ["Making a kiln may be the most efficient way to obtain some alloys."]
+			dependencies: ["000000000000088A"]
+			id: "0BE798F073758C98"
+			tasks: [{
+				id: "37A7809E52968DA2"
+				type: "item"
+				item: "immersiveengineering:alloybrick"
+				count: 8L
+			}]
+			rewards: [{
+				id: "1879F7A9F3945D79"
+				type: "item"
+				item: "mysticalagradditions:tertium_coal"
+				count: 4
+			}]
+		}
 	]
 }

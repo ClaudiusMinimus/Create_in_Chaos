@@ -731,5 +731,50 @@
 				table_id: 3202284983173505384L
 			}]
 		}
+		{
+			x: -2.5d
+			y: 4.5d
+			shape: "rsquare"
+			description: ["Your very own Encyclopedia of Tinkering!"]
+			dependencies: [
+				"2376FB302DA38680"
+				"25CB4104D3950BD4"
+				"42F545EC04EE5D7E"
+				"0C97096D8572D9DD"
+				"149FB4B3FA979737"
+			]
+			id: "541D1D8FD0BB5E23"
+			tasks: [{
+				id: "30229BB141806ED2"
+				type: "checkmark"
+				title: "Encyclopedia of Tinkering"
+				icon: {
+					id: "tconstruct:encyclopedia"
+					Count: 1b
+					tag: {
+						mantle: {
+							book: {
+								current_page: "slotless.slotless"
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "79C27760027C87E3"
+				type: "item"
+				item: {
+					id: "tconstruct:encyclopedia"
+					Count: 1b
+					tag: {
+						mantle: {
+							book: {
+								current_page: "slotless.slotless"
+							}
+						}
+					}
+				}
+			}]
+		}
 	]
 }

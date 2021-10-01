@@ -537,9 +537,12 @@
 			}]
 		}
 		{
+			disable_toast: true
 			x: -1.5d
 			y: 4.5d
-			description: ["The Mechanical Drill can be used for mining, but in early game can be used as part of a stationary cobble generator"]
+			description: [
+				"The Mechanical Drill is great for mining and used to make a stationary cobble generator."
+			]
 			dependencies: ["0000000000000799"]
 			id: "00000000000007CB"
 			tasks: [{
@@ -750,6 +753,7 @@
 		{
 			x: -3.0d
 			y: 9.0d
+			description: ["Brass is a commonly used crafting material for many Create items. While you can make brass using create, it might not be the most efficient way."]
 			dependencies: [
 				"00000000000008D6"
 				"0000000000000797"
