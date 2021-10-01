@@ -6,10 +6,8 @@
 	rewards: [
 		{ item: "tconstruct:manyullyn_block" }
 		{ item: "waterstrainer:super_worm" }
-		{ item: "tconstruct:creative_slot" }
 		{ item: "tconstruct:hepatizon_block" }
 		{ item: "mysticalagriculture:nether_star_seeds" }
-		{ item: "tconstruct:creative_slot" }
 		{ item: "xreliquary:witherless_rose" }
 		{ item: "mysticalagriculture:flight_augment" }
 		{
@@ -243,5 +241,23 @@
 			}
 		}
 		{ item: "cyclic:anvil" }
+		{
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "souls"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "upgrades"
+				}
+			}
+		}
 	]
 }
