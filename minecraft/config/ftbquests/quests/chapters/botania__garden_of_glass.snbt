@@ -1,7 +1,7 @@
 {
 	id: "3DFD3C26419B7986"
 	group: "256FB765D00D2B76"
-	order_index: 1
+	order_index: 0
 	filename: "botania__garden_of_glass"
 	title: "Botania"
 	icon: "botania:lexicon"
@@ -746,11 +746,10 @@
 				id: "0C3793E189DFE51E"
 				type: "item"
 				item: {
-					id: "apotheosis:potion_charm"
+					id: "minecraft:potion"
 					Count: 1b
 					tag: {
-						Damage: 0
-						Potion: "apotheosis:absorption"
+						Potion: "minecraft:long_night_vision"
 					}
 				}
 			}]
@@ -805,16 +804,7 @@
 			rewards: [{
 				id: "7762409FF16928E2"
 				type: "item"
-				item: {
-					id: "silentgems:enchantment_token"
-					Count: 1b
-					tag: {
-						TokenEnchantments: [{
-							lvl: 1s
-							id: "minecraft:smite"
-						}]
-					}
-				}
+				item: "dangerzone:rainbow_ant_token"
 			}]
 		}
 		{

@@ -141,10 +141,8 @@
 						Name: "{\"text\":\"CMs Sledge Hammer\"}"
 					}
 					tic_volatile_data: {
-						abilities: 2
-						"tconstruct:rarity": 2
 						"tconstruct:indestructible": 1b
-						upgrades: 11
+						"tconstruct:rarity": 2
 					}
 					tic_persistent_data: {
 						abilities: 0
@@ -188,18 +186,11 @@
 							level: 2s
 						}
 						{
-							name: "tconstruct:extra_ability"
-							level: 2s
-						}
-						{
-							name: "tconstruct:red_extra_upgrade"
-							level: 11s
-						}
-						{
 							name: "tconstruct:two_handed"
 							level: 1s
 						}
 					]
+					HideFlags: 3
 					tic_upgrades: [
 						{
 							name: "tconstruct:diamond"
