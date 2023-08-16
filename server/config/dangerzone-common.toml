@@ -1,0 +1,1224 @@
+
+#Configure mob spawn weight (How frequently they spawn & min/max group size. Set weight to 0 to disable.) (Make sure the max is not lower than your min or the game will crash)
+["NotBreeBree Spawn Chances"]
+	#Range: 0 ~ 640
+	"NotBreeBree Min" = 1
+	#Range: 0 ~ 640
+	"NotBreeBree Max" = 2
+	#Range: 0 ~ 100
+	"NotBreeBree Weight" = 7
+
+["AlexiCraft Spawn Chances"]
+	#Range: 0 ~ 640
+	"AlexiCraft Min" = 1
+	#Range: 0 ~ 640
+	"AlexiCraft Max" = 2
+	#Range: 0 ~ 100
+	"AlexiCraft Weight" = 7
+
+["AntVenom Spawn Chances"]
+	#Range: 0 ~ 640
+	"AntVenom Min" = 1
+	#Range: 0 ~ 640
+	"AntVenom Max" = 2
+	#Range: 0 ~ 100
+	"AntVenom Weight" = 7
+
+["Aphmau Spawn Chances"]
+	#Range: 0 ~ 640
+	"Aphmau Min" = 1
+	#Range: 0 ~ 640
+	"Aphmau Max" = 2
+	#Range: 0 ~ 100
+	"Aphmau Weight" = 7
+
+["BabyAngel Spawn Chances"]
+	#Range: 0 ~ 640
+	"BabyAngel Min" = 1
+	#Range: 0 ~ 640
+	"BabyAngel Max" = 2
+	#Range: 0 ~ 100
+	"BabyAngel Weight" = 7
+
+["BabyDuck Spawn Chances"]
+	#Range: 0 ~ 640
+	"BabyDuck Min" = 1
+	#Range: 0 ~ 640
+	"BabyDuck Max" = 2
+	#Range: 0 ~ 100
+	"BabyDuck Weight" = 7
+
+["BabyLeah Spawn Chances"]
+	#Range: 0 ~ 640
+	"BabyLeah Min" = 1
+	#Range: 0 ~ 640
+	"BabyLeah Max" = 2
+	#Range: 0 ~ 100
+	"BabyLeah Weight" = 7
+
+["BajanCanadian Spawn Chances"]
+	#Range: 0 ~ 640
+	"BajanCanadian Min" = 1
+	#Range: 0 ~ 640
+	"BajanCanadian Max" = 2
+	#Range: 0 ~ 100
+	"BajanCanadian Weight" = 7
+
+["BabyMax Spawn Chances"]
+	#Range: 0 ~ 640
+	"BabyMax Min" = 1
+	#Range: 0 ~ 640
+	"BabyMax Max" = 2
+	#Range: 0 ~ 100
+	"BabyMax Weight" = 7
+
+["CaptainSparkelz Spawn Chances"]
+	#Range: 0 ~ 640
+	"CaptainSparkelz Min" = 1
+	#Range: 0 ~ 640
+	"CaptainSparkelz Max" = 2
+	#Range: 0 ~ 100
+	"CaptainSparkelz Weight" = 7
+
+["Rainbow Ant Spawn Chances"]
+	#Range: 0 ~ 640
+	"Rainbow Ant Min" = 4
+	#Range: 0 ~ 640
+	"Rainbow Ant Max" = 10
+	#Range: 0 ~ 100
+	"Rainbow Ant Weight" = 7
+
+["StampyLongNose Spawn Chances"]
+	#Range: 0 ~ 64
+	"StampyLongNose Min" = 1
+	#Range: 0 ~ 64
+	"StampyLongNose Max" = 2
+	#Range: 0 ~ 100
+	"StampyLongNose Weight" = 7
+
+["Technoblade Spawn Chances"]
+	#Range: 0 ~ 64
+	"Technoblade Min" = 1
+	#Range: 0 ~ 64
+	"Technoblade Max" = 2
+	#Range: 0 ~ 100
+	"Technoblade Weight" = 7
+
+["Tewity Spawn Chances"]
+	#Range: 0 ~ 640
+	"Tewity Min" = 1
+	#Range: 0 ~ 640
+	"Tewity Max" = 2
+	#Range: 0 ~ 100
+	"Tewity Weight" = 7
+
+["Ent Spawn Chances"]
+	#Range: 0 ~ 640
+	"Ent Min" = 1
+	#Range: 0 ~ 640
+	"Ent Max" = 1
+	#Range: 0 ~ 100
+	"Ent Weight" = 7
+
+["Red Cow Spawn Chances"]
+	#Range: 0 ~ 640
+	"Red Cow Min" = 1
+	#Range: 0 ~ 640
+	"Red Cow Max" = 8
+	#Range: 0 ~ 100
+	"Red cow Weight" = 3
+
+#Spawnable Biomes
+["Red Cow Biomes Whitelist/Blacklist"]
+	"include Red Cow" = ["SNOWY", "MOUNTAIN", "MESA", "FOREST", "HILLS", "SANDY", "SAVANNA", "SWAMP", "BEACH", "PLAINS"]
+	"exclude Red Cow" = ["OCEAN", "END", "NETHER"]
+
+#Spawnable Biomes
+["StampyLongNose Biomes Whitelist/Blacklist"]
+	"include Stampy" = ["SNOWY", "MOUNTAIN", "MESA", "FOREST", "HILLS", "SANDY", "SAVANNA", "SWAMP", "BEACH", "PLAINS"]
+	"exclude Stampy" = ["OCEAN", "END", "NETHER"]
+
+#Spawnable Biomes
+["AlexiCraft Biomes Whitelist/Blacklist"]
+	"include AlexiCraft" = ["SNOWY", "MOUNTAIN", "MESA", "FOREST", "HILLS", "SANDY", "SAVANNA", "SWAMP", "BEACH", "PLAINS"]
+	"exclude AlexiCraft" = ["OCEAN", "END", "NETHER"]
+
+#Spawnable Biomes
+["AntVenom Biomes Whitelist/Blacklist"]
+	"include AntVenom" = ["SNOWY", "MOUNTAIN", "MESA", "FOREST", "HILLS", "SANDY", "SAVANNA", "SWAMP", "BEACH", "PLAINS"]
+	"exclude AntVenom" = ["OCEAN", "END", "NETHER"]
+
+#Spawnable Biomes
+["Aphmau Biomes Whitelist/Blacklist"]
+	"include Aphmau" = ["SNOWY", "MOUNTAIN", "MESA", "FOREST", "HILLS", "SANDY", "SAVANNA", "SWAMP", "BEACH", "PLAINS"]
+	"exclude Aphmau" = ["OCEAN", "END", "NETHER"]
+
+#Spawnable Biomes
+["BabyAngel Biomes Whitelist/Blacklist"]
+	"include BabyAngel" = ["SNOWY", "MOUNTAIN", "MESA", "FOREST", "HILLS", "SANDY", "SAVANNA", "SWAMP", "BEACH", "PLAINS"]
+	"exclude BabyAngel" = ["OCEAN", "END", "NETHER"]
+
+#Spawnable Biomes
+["BabyDuck Biomes Whitelist/Blacklist"]
+	"include BabyDuck" = ["SNOWY", "MOUNTAIN", "MESA", "FOREST", "HILLS", "SANDY", "SAVANNA", "SWAMP", "BEACH", "PLAINS"]
+	"exclude BabyDuck" = ["OCEAN", "END", "NETHER"]
+
+#Spawnable Biomes
+["BabyLeah Biomes Whitelist/Blacklist"]
+	"include BabyLeah" = ["SNOWY", "MOUNTAIN", "MESA", "FOREST", "HILLS", "SANDY", "SAVANNA", "SWAMP", "BEACH", "PLAINS"]
+	"exclude BabyLeah" = ["OCEAN", "END", "NETHER"]
+
+#Spawnable Biomes
+["BabyMax Biomes Whitelist/Blacklist"]
+	"include BabyMax" = ["SNOWY", "MOUNTAIN", "MESA", "FOREST", "HILLS", "SANDY", "SAVANNA", "SWAMP", "BEACH", "PLAINS"]
+	"exclude BabyMax" = ["OCEAN", "END", "NETHER"]
+
+#Spawnable Biomes
+["BajanCanadian Biomes Whitelist/Blacklist"]
+	"include BajanCanadian" = ["SNOWY", "MOUNTAIN", "MESA", "FOREST", "HILLS", "SANDY", "SAVANNA", "SWAMP", "BEACH", "PLAINS"]
+	"exclude BajanCanadian" = ["OCEAN", "END", "NETHER"]
+
+#Spawnable Biomes
+["CaptainSparkelz Biomes Whitelist/Blacklist"]
+	"include CaptainSparkelz" = ["SNOWY", "MOUNTAIN", "MESA", "FOREST", "HILLS", "SANDY", "SAVANNA", "SWAMP", "BEACH", "PLAINS"]
+	"exclude CaptainSparkelz" = ["OCEAN", "END", "NETHER"]
+
+#Spawnable Biomes
+["Technoblade Biomes Whitelist/Blacklist"]
+	"include Techno" = ["SNOWY", "MOUNTAIN", "MESA", "FOREST", "HILLS", "SANDY", "SAVANNA", "SWAMP", "BEACH", "PLAINS"]
+	"exclude Techno" = ["OCEAN", "END", "NETHER"]
+
+#Spawnable Biomes
+["Butterfly Biomes Whitelist/Blacklist"]
+	"include Butterfly" = ["SNOWY", "MOUNTAIN", "MESA", "FOREST", "HILLS", "SANDY", "SAVANNA", "SWAMP", "BEACH", "PLAINS", "OCEAN", "MAGICAL"]
+	"exclude Butterfly" = ["END", "NETHER"]
+
+["Butterfly Spawn Chances"]
+	#Range: 0 ~ 64
+	"Butterfly Min" = 1
+	#Range: 0 ~ 64
+	"Butterfly Max" = 5
+	#Range: 0 ~ 100
+	"Butterfly Weight" = 7
+
+#Spawnable Biomes
+["Bird Biomes Whitelist/Blacklist"]
+	"include Bird" = ["SNOWY", "MOUNTAIN", "MESA", "FOREST", "HILLS", "SANDY", "SAVANNA", "SWAMP", "BEACH", "PLAINS", "OCEAN", "MAGICAL"]
+	"exclude Bird" = ["END", "NETHER"]
+
+["Bird Spawn Chances"]
+	#Range: 0 ~ 64
+	"Bird Min" = 1
+	#Range: 0 ~ 64
+	"Bird Max" = 5
+	#Range: 0 ~ 100
+	"Bird Weight" = 7
+
+["Tewity Biomes Whitelist/Blacklist"]
+	"include Tewity" = ["SNOWY", "MOUNTAIN", "MESA", "FOREST", "HILLS", "SANDY", "SAVANNA", "SWAMP", "BEACH", "PLAINS"]
+	"exclude Tewity" = ["OCEAN", "END", "NETHER"]
+
+["NotBreeBree Biomes Whitelist/Blacklist"]
+	"include NotBreeBree" = ["SNOWY", "MOUNTAIN", "MESA", "FOREST", "HILLS", "SANDY", "SAVANNA", "SWAMP", "BEACH", "PLAINS"]
+	"exclude NotBreeBree" = ["OCEAN", "END", "NETHER"]
+
+["Rainbow Ant Biomes Whitelist/Blacklist"]
+	"include Rainbow Ant" = ["SNOWY", "MOUNTAIN", "MESA", "FOREST", "HILLS", "SANDY", "SAVANNA", "SWAMP", "BEACH", "PLAINS"]
+	"exclude Rainbow Ant" = ["OCEAN", "END", "NETHER"]
+
+["Ent Biomes Whitelist/Blacklist"]
+	"include Ent" = ["FOREST", "MAGICAL", "SAVANNA", "SWAMP"]
+	"exclude Ent" = ["OCEAN", "END", "NETHER"]
+
+["Weapon/Tools/Armor"]
+	#Coarse Amethyst Axe Damage
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_AXE_DAMAGE = 20
+	#Coarse Amethyst Axe Durability
+	#Range: 0 ~ 10000
+	COARSE_AMETHYST_AXE_DURABILITY = 2000
+	#Coarse Amethyst Axe Efficiency
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_AXE_EFFICIENCY = 11
+	#How much durability a CoarseAmethyst axe loses when an entity is hit
+	#Range: 0 ~ 10000
+	COARSE_AMETHYST_AXE_HIT_COST = 1
+	#Coarse Amethyst Axe Harvest Level
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_AXE_HARVEST_LEVEL = 4
+	#Coarse Amethyst Axe Encahntability
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_AXE_ENCHANTABILITY = 70
+	#Coarse Amethyst Axe Attack Speed, must be whole number
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_AXE_ATTACK_SPEED = 1
+	#Coarse Amethyst Hoe Damage
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_HOE_DAMAGE = 10
+	#Coarse Amethyst Hoe Durability
+	#Range: 0 ~ 10000
+	COARSE_AMETHYST_HOE_DURABILITY = 2000
+	#How much durability a Coarse Amethyst hoe loses when an entity is hit
+	#Range: 0 ~ 10000
+	COARSE_AMETHYST_HOE_HIT_COST = 1
+	#Coarse Amethyst Hoe Harvest Level
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_HOE_HARVEST_LEVEL = 4
+	#Coarse Amethyst Hoe Encahntability
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_HOE_ENCHANTABILITY = 70
+	#Coarse Amethyst Hoe Efficiency
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_HOE_EFFICIENCY = 11
+	#Coarse Amethyst Hoe Attack Speed, must be whole number
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_HOE_ATTACK_SPEED = 1
+	#Coarse Amethyst Shovel Damage
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_SHOVEL_DAMAGE = 15
+	#Coarse Amethyst Shovel Durability
+	#Range: 0 ~ 10000
+	COARSE_AMETHYST_SHOVEL_DURABILITY = 2000
+	#How much durability a CoarseAmethyst shovel loses when an entity is hit
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_SHOVEL_HIT_COST = 1
+	#Coarse Amethyst Shovel Harvest Level
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_SHOVEL_HARVEST_LEVEL = 4
+	#Coarse Amethyst Shovel Encahntability
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_SHOVEL_ENCHANTABILITY = 70
+	#Coarse Amethyst Shovel Efficiency
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_SHOVEL_EFFICIENCY = 11
+	#Coarse Amethyst Shovel Attack Speed, must be whole number
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_SHOVEL_ATTACK_SPEED = 1
+	#Coarse Amethyst Sword Damage
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_SWORD_DAMAGE = 30
+	#Coarse Amethyst Sword Durability
+	#Range: 0 ~ 10000
+	COARSE_AMETHYST_SWORD_DURABILITY = 2000
+	#How much durability a Coarse Amethyst sword loses when an entity is hit
+	#Range: 0 ~ 10000
+	COARSE_AMETHYST_SWORD_HIT_COST = 1
+	#Coarse Amethyst Sword Harvest Level
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_SWORD_HARVEST_LEVEL = 4
+	#Coarse Amethyst Sword Encahntability
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_SWORD_ENCHANTABILITY = 70
+	#Coarse Amethyst Sword Efficiency
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_SWORD_EFFICIENCY = 11
+	#Coarse Amethyst Sword Attack Speed, must be whole number
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_SWORD_ATTACK_SPEED = 1
+	#Coarse Amethyst Pickaxe Damage
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_PICKAXE_DAMAGE = 20
+	#Coarse Amethyst Pickaxe Durability
+	#Range: 0 ~ 10000
+	COARSE_AMETHYST_PICKAXE_DURABILITY = 2000
+	#How much durability a Coarse Amethyst pickaxe loses when an entity is hit
+	#Range: 0 ~ 10000
+	COARSE_AMETHYST_PICKAXE_HIT_COST = 1
+	#Coarse Amethyst Pickaxe Harvest Level
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_PICKAXE_HARVEST_LEVEL = 4
+	#Coarse Amethyst Pickaxe Encahntability
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_PICKAXE_ENCHANTABILITY = 70
+	#Coarse Amethyst Pickaxe Efficiency
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_PICKAXE_EFFICIENCY = 11
+	#Coarse Amethyst Pickaxe Attack Speed, must be whole number
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_PICKAXE_ATTACK_SPEED = 1
+	#Coarse Amethyst Helmet Durability
+	#Range: 0 ~ 10000
+	COARSE_AMETHYST_HELMET_DURABILITY = 1300
+	#How much durability a Coarse Amethyst helmet loses when a entity hits
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_HELMET_HIT_COST = 1
+	#Coarse Amethyst Chestplate Durability
+	#Range: 0 ~ 10000
+	COARSE_AMETHYST_CHESTPLATE_DURABILITY = 1500
+	#How much durability a Coarse Amethyst chestplate loses when a entity hits
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_CHESTPLATE_HIT_COST = 1
+	#Coarse Amethyst Leggings Durability
+	#Range: 0 ~ 10000
+	COARSE_AMETHYST_LEGGINGS_DURABILITY = 1600
+	#How much durability the Coarse Amethyst leggings lose when a entity hits
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_LEGGINGS_HIT_COST = 1
+	#Coarse Amethyst Boots Durability
+	#Range: 0 ~ 10000
+	COARSE_AMETHYST_BOOTS_DURABILITY = 1100
+	#How much durability the Coarse Amethyst boots lose when a entity hits
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_BOOTS_HIT_COST = 1
+	#How much armor the Coarse Amethyst boots have
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_BOOTS_ARMOR = 23
+	#Coarse Amethyst Boots Enchantability
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_BOOTS_ENCHANTABILITY = 40
+	#Coarse Amethyst Boots Toughness
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_BOOTS_TOUGHNESS = 0
+	#Coarse Amethyst Boots Knockback Resistance
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_BOOTS_KNOCK_BACK_RESISTANCE = 0
+	#How much armor the Coarse Amethyst Chestplate has
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_CHESTPLATE_ARMOR = 23
+	#Coarse Amethyst Chestplate Enchantability
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_CHESTPLATE_ENCHANTABILITY = 40
+	#Coarse Amethyst Boots Toughness
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_CHESTPLATE_TOUGHNESS = 0
+	#Coarse Amethyst Chestplate  Knockback Resistance
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_CHESTPLATE_KNOCK_BACK_RESISTANCE = 0
+	#How much armor the Coarse Amethyst Helmet Has
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_HELMET_ARMOR = 23
+	#Coarse Amethyst Helmet Enchantability
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_HELMET_ENCHANTABILITY = 40
+	#Coarse Amethyst Helmet Toughness
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_HELMET_TOUGHNESS = 0
+	#Coarse Amethyst Helmet Knockback Resistance
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_HELMET_KNOCK_BACK_RESISTANCE = 0
+	#How much armor the Coarse Amethyst Leggings have
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_LEGGINGS_ARMOR = 23
+	#Coarse Amethyst Leggings Enchantability
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_LEGGINGS_ENCHANTABILITY = 40
+	#Coarse Amethyst Leggings Toughness
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_LEGGINGS_TOUGHNESS = 0
+	#Coarse Amethyst Leggings Knockback Resistance
+	#Range: 0 ~ 1000
+	COARSE_AMETHYST_LEGGINGS_KNOCK_BACK_RESISTANCE = 0
+	#Cat's Eye Durability
+	#Range: 0 ~ 10000
+	CATS_EYE_HELMET_DURABILITY = 1500
+	#How much durability a Cat's Eye helmet loses when an entity is hit
+	#Range: 0 ~ 1000
+	CATS_EYE_HELMET_HIT_COST = 1
+	#How much armor the Cat's Eye Helmet Has
+	#Range: 0 ~ 1000
+	CATS_EYE_HELMET_ARMOR = 14
+	#Cat's Eye Helmet Enchantability
+	#Range: 0 ~ 1000
+	CATS_EYE_HELMET_ENCHANTABILITY = 40
+	#Cat's Eye Helmet Toughness
+	#Range: 0 ~ 1000
+	CATS_EYE_HELMET_TOUGHNESS = 3
+	#Cat's Eye Helmet Knockback Resistance. Must be a whole number
+	#Range: 0 ~ 1000
+	CATS_EYE_HELMET_KNOCK_BACK_RESISTANCE = 4
+	#Cat's Eye Chestplate Durability
+	#Range: 0 ~ 10000
+	CATS_EYE_CHESTPLATE_DURABILITY = 2000
+	#How much durability a Cat's Eye chestplate loses when an entity is hit
+	#Range: 0 ~ 1000
+	CATS_EYE_CHESTPLATE_HIT_COST = 1
+	#How much armor the Cat's Eye Chestplate has
+	#Range: 0 ~ 1000
+	CATS_EYE_CHESTPLATE_ARMOR = 12
+	#Cat's Eye Chestplate Enchantability
+	#Range: 0 ~ 1000
+	CATS_EYE_CHESTPLATE_ENCHANTABILITY = 40
+	#Cat's Eye Chestplate Toughness
+	#Range: 0 ~ 1000
+	CATS_EYE_CHESTPLATES_TOUGHNESS = 5
+	#Cat's Eye Chestplate Knockback Resistance. Must be a whole number
+	#Range: 0 ~ 1000
+	CATS_EYE_CHESTPLATE_KNOCK_BACK_RESISTANCE = 5
+	#Cat's Eye Leggings Durability
+	#Range: 0 ~ 10000
+	CATS_EYE_LEGGINGS_DURABILITY = 1500
+	#How much durability the Cat's Eye leggings lose when a entity is hit
+	#Range: 0 ~ 1000
+	CATS_EYE_LEGGINGS_HIT_COST = 1
+	#How much armor the Cat's Eye Leggings have
+	#Range: 0 ~ 1000
+	CATS_EYE_LEGGINGS_ARMOR = 14
+	#Cat's Eye Leggings Enchantability
+	#Range: 0 ~ 1000
+	CATS_EYE_LEGGINGS_ENCHANTABILITY = 40
+	#Cat's Eye Leggings Toughness
+	#Range: 0 ~ 1000
+	CATS_EYE_LEGGINGS_TOUGHNESS = 2
+	#Cat's Eye Leggings Knockback Resistance. Must be a whole number
+	#Range: 0 ~ 1000
+	CATS_EYE_LEGGINGS_KNOCK_BACK_RESISTANCE = 9
+	#Cat's Eye Boots Durability
+	#Range: 0 ~ 10000
+	CATS_EYE_BOOTS_DURABILITY = 500
+	#How much durability the Cat's Eye boots lose when a entity hits
+	#Range: 0 ~ 1000
+	CATS_EYE_BOOTS_HIT_COST = 1
+	#How much armor the Cat's Eye Boots have
+	#Range: 0 ~ 1000
+	CATS_EYE_BOOTS_ARMOR = 18
+	#Cat's Eye Boots Enchantability
+	#Range: 0 ~ 1000
+	CATS_EYE_BOOTS_ENCHANTABILITY = 40
+	#Cat's Eye Boots Toughness
+	#Range: 0 ~ 1000
+	CATS_EYE_BOOTS_TOUGHNESS = 7
+	#Cat's Eye Boots Knockback Resistance
+	#Range: 0 ~ 1000
+	CATS_EYE_BOOTS_KNOCK_BACK_RESISTANCE = 1
+	#Copper Helmet Durability
+	#Range: 0 ~ 10000
+	COPPER_HELMET_DURABILITY = 598
+	#How much durability a Copper helmet loses when an entity is hit
+	#Range: 0 ~ 10000
+	COPPER_HELMET_HIT_COST = 1
+	#How much armor the Copper Helmet has
+	#Range: 0 ~ 1000
+	COPPER_HELMET_ARMOR = 3
+	#Copper Helmet Enchantability
+	#Range: 0 ~ 1000
+	COPPER_HELMET_ENCHANTABILITY = 6
+	#Copper Helmet Toughness
+	#Range: 0 ~ 1000
+	COPPER_HELMET_TOUGHNESS = 0
+	#Copper Helmet Knockback Resistance
+	#Range: 0 ~ 1000
+	COPPER_HELMET_KNOCK_BACK_RESISTANCE = 0
+	#Copper Chestplate Durability
+	#Range: 0 ~ 10000
+	COPPER_CHESTPLATE_DURABILITY = 690
+	#How much durability a Copper Chestplate loses when an entity is hit
+	#Range: 0 ~ 10000
+	COPPER_CHESTPLETE_HIT_COST = 1
+	#How much armor the Copper Chestplate has
+	#Range: 0 ~ 1000
+	COPPER_CHESTPLETE_ARMOR = 3
+	#Copper Chestplate Enchantability
+	#Range: 0 ~ 1000
+	COPPER_CHESTPLETE_ENCHANTABILITY = 6
+	#Copper Chestplate Toughness
+	#Range: 0 ~ 1000
+	COPPER_CHESTPLETE_TOUGHNESS = 0
+	#Copper Chestplate Knockback Resistance
+	#Range: 0 ~ 1000
+	COPPER_CHESTPLETE_KNOCK_BACK_RESISTANCE = 0
+	#Copper Leggings Durability
+	#Range: 0 ~ 10000
+	COPPER_LEGGINGS_DURABILITY = 736
+	#How much durability the Copper leggings lose when a entity hits
+	#Range: 0 ~ 10000
+	COPPER_LEGGINGS_HIT_COST = 1
+	#Copper Boots Durability
+	#Range: 0 ~ 10000
+	COPPER_BOOTS_DURABILITY = 506
+	#How much durability the Copper boots lose when a entity hits
+	#Range: 0 ~ 10000
+	COPPER_BOOTS_HIT_COST = 1
+	#How much armor the Copper Boots has
+	#Range: 0 ~ 1000
+	COPPER_BOOTS_ARMOR = 3
+	#Copper Boots Enchantability
+	#Range: 0 ~ 1000
+	COPPER_BOOTS_ENCHANTABILITY = 6
+	#Copper Boots Toughness
+	#Range: 0 ~ 1000
+	COPPER_BOOTS_TOUGHNESS = 0
+	#Copper Boots Knockback Resistance
+	#Range: 0 ~ 1000
+	COPPER_BOOTS_KNOCK_BACK_RESISTANCE = 0
+	#Emerald Axe Damage
+	#Range: 0 ~ 1000
+	EMERALD_AXE_DAMAGE = 16
+	#Emerald Axe Durability
+	#Range: 0 ~ 10000
+	EMERALD_AXE_DURABILITY = 1300
+	#How much durability a Emerald axe loses when an entity is hit
+	#Range: 0 ~ 10000
+	EMERALD_AXE_HIT_COST = 1
+	#Emerald Axe Harvest Level
+	#Range: 0 ~ 1000
+	EMERALD_AXE_HARVEST_LEVEL = 3
+	#Emerald Axe Encahntability
+	#Range: 0 ~ 1000
+	EMERALD_AXE_ENCHANTABILITY = 70
+	#Emerald Axe Efficiency
+	#Range: 0 ~ 1000
+	EMERALD_AXE_EFFICIENCY = 10
+	#Emerald Axe Attack Speed, must be whole number
+	#Range: 0 ~ 1000
+	EMERALD_AXE_ATTACK_SPEED = 2
+	#Emerald Hoe Damage
+	#Range: 0 ~ 1000
+	EMERALD_HOE_DAMAGE = 5
+	#Emerald Hoe Durability
+	#Range: 0 ~ 10000
+	EMERALD_HOE_DURABILITY = 1300
+	#How much durability a Emerald hoe loses when an entity is hit
+	#Range: 0 ~ 10000
+	EMERALD_HOE_HIT_COST = 1
+	#Emerald Hoe Harvest Level
+	#Range: 0 ~ 1000
+	EMERALD_HOE_HARVEST_LEVEL = 3
+	#Emerald Hoe Encahntability
+	#Range: 0 ~ 1000
+	EMERALD_HOE_ENCHANTABILITY = 70
+	#Emerald Hoe Efficiency
+	#Range: 0 ~ 1000
+	EMERALD_HOE_EFFICIENCY = 10
+	#Emerald Hoe Attack Speed, must be whole number
+	#Range: 0 ~ 1000
+	EMERALD_HOE_ATTACK_SPEED = 2
+	#Emerald pickaxe Damage
+	#Range: 0 ~ 1000
+	EMERALD_PICKAXE_DAMAGE = 16
+	#Emerald Pickaxe Durability
+	#Range: 0 ~ 10000
+	EMERALD_PICKAXE_DURABILITY = 1300
+	#How much durability a Emerald pickaxe loses when an entity is hit
+	#Range: 0 ~ 10000
+	EMERALD_PICKAXE_HIT_COST = 1
+	#Emerald Pickaxe Harvest Level
+	#Range: 0 ~ 1000
+	EMERALD_PICKAXE_HARVEST_LEVEL = 3
+	#Emerald Pickaxe Encahntability
+	#Range: 0 ~ 1000
+	EMERALD_PICKAXE_ENCHANTABILITY = 70
+	#Emerald Pickaxe Efficiency
+	#Range: 0 ~ 1000
+	EMERALD_PICKAXE_EFFICIENCY = 10
+	#Emerald Pickaxe Attack Speed, must be whole number
+	#Range: 0 ~ 1000
+	EMERALD_PICKAXE_ATTACK_SPEED = 2
+	#Emerald Shovel Damage
+	#Range: 0 ~ 1000
+	EMERALD_SHOVEL_DAMAGE = 10
+	#Emerald Shovel Durability
+	#Range: 0 ~ 10000
+	EMERALD_SHOVEL_DURABILITY = 1300
+	#How much durability a Emerald shovel loses when an entity is hit
+	#Range: 0 ~ 10000
+	EMERALD_SHOVEL_HIT_COST = 1
+	#Emerald Shovel Harvest Level
+	#Range: 0 ~ 1000
+	EMERALD_SHOVEL_HARVEST_LEVEL = 3
+	#Emerald Shovel Encahntability
+	#Range: 0 ~ 1000
+	EMERALD_SHOVEL_ENCHANTABILITY = 70
+	#Emerald Shovel Efficiency
+	#Range: 0 ~ 1000
+	EMERALD_SHOVEL_EFFICIENCY = 10
+	#Emerald Shovel Attack Speed, must be whole number
+	#Range: 0 ~ 1000
+	EMERALD_SHOVEL_ATTACK_SPEED = 2
+	#Emerald Sword Damage
+	#Range: 0 ~ 1000
+	EMERALD_SWORD_DAMAGE = 24
+	#Emerald Sword Durability
+	#Range: 0 ~ 10000
+	EMERALD_SWORD_DURABILITY = 1300
+	#How much durability a Emerald sword loses when an entity is hit
+	#Range: 0 ~ 10000
+	EMERALD_SWORD_HIT_COST = 1
+	#Emerald Sword Harvest Level
+	#Range: 0 ~ 1000
+	EMERALD_SWORD_HARVEST_LEVEL = 3
+	#Emerald Sword Encahntability
+	#Range: 0 ~ 1000
+	EMERALD_SWORD_ENCHANTABILITY = 70
+	#Emerald Sword Efficiency
+	#Range: 0 ~ 1000
+	EMERALD_SWORD_EFFICIENCY = 10
+	#Emerald Sword Attack Speed, must be whole number
+	#Range: 0 ~ 1000
+	EMERALD_SWORD_ATTACK_SPEED = 2
+	#Emerald Helmet Durability
+	#Range: 0 ~ 10000
+	EMERALD_HELMET_DURABILITY = 1170
+	#How much durability a Emerald Helmet loses when an entity is hit
+	#Range: 0 ~ 10000
+	EMERALD_HELMET_HIT_COST = 1
+	#How much armor the Emerald Helmet has
+	#Range: 0 ~ 1000
+	EMERALD_HELMET_ARMOR = 6
+	#Emerald Helmet Enchantability
+	#Range: 0 ~ 1000
+	EMERALD_HELMET_ENCHANTABILITY = 60
+	#Emerald Helmet Toughness
+	#Range: 0 ~ 1000
+	EMERALD_HELMET_TOUGHNESS = 0
+	#Emerald Helmet Knockback Resistance
+	#Range: 0 ~ 1000
+	EMERALD_HELMET_KNOCK_BACK_RESISTANCE = 0
+	#Emerald Chestplate Durability
+	#Range: 0 ~ 10000
+	"`EMERALD_CHESTPLATE_DURABILITY" = 1350
+	#How much durability a Emerald Chestplate loses when an entity is hit
+	#Range: 0 ~ 10000
+	EMERALD_CHESTPLATE_HIT_COST = 1
+	#How much armor the Emerald Chestplate has
+	#Range: 0 ~ 1000
+	EMERALD_CHESTPLATE_ARMOR = 9
+	#Emerald Chestplate Enchantability
+	#Range: 0 ~ 1000
+	EMERALD_CHESTPLATE_ENCHANTABILITY = 6
+	#Emerald Chestplate Toughness
+	#Range: 0 ~ 1000
+	EMERALD_CHESTPLATE_TOUGHNESS = 0
+	#Emerald Chestplate Knockback Resistance
+	#Range: 0 ~ 1000
+	EMERALD_CHESTPLATE_KNOCK_BACK_RESISTANCE = 0
+	#Emerald Leggings Durability
+	#Range: 0 ~ 10000
+	EMERALD_LEGGINGS_DURABILITY = 1440
+	#How much durability the Emerald Leggings lose when a entity hits
+	#Range: 0 ~ 10000
+	EMERALD_LEGGINGS_HIT_COST = 1
+	#How much armor the Emerald Leggings has
+	#Range: 0 ~ 1000
+	EMERALD_LEGGINGS_ARMOR = 6
+	#Emerald Leggings Enchantability
+	#Range: 0 ~ 1000
+	EMERALD_LEGGINGS_ENCHANTABILITY = 6
+	#Emerald Leggings Toughness
+	#Range: 0 ~ 1000
+	EMERALD_LEGGINGS_TOUGHNESS = 0
+	#Emerald Leggings Knockback Resistance
+	#Range: 0 ~ 1000
+	EMERALD_LEGGINGS_KNOCK_BACK_RESISTANCE = 0
+	#Emerald Boots Durability
+	#Range: 0 ~ 10000
+	EMERALD_BOOTS_DURABILITY = 990
+	#How much durability the Emerald Boots lose when a entity hits
+	#Range: 0 ~ 10000
+	EMERALD_BOOTS_HIT_COST = 1
+	#How much armor the Emerald Boots has
+	#Range: 0 ~ 1000
+	EMERALD_BOOTS_ARMOR = 5
+	#Emerald Boots Enchantability
+	#Range: 0 ~ 1000
+	EMERALD_BOOTS_ENCHANTABILITY = 6
+	#Emerald Boots Toughness
+	#Range: 0 ~ 1000
+	EMERALD_BOOTS_TOUGHNESS = 0
+	#Emerald Boots Knockback Resistance
+	#Range: 0 ~ 1000
+	EMERALD_BOOTS_KNOCK_BACK_RESISTANCE = 0
+	#Lapis Helmet Durability
+	#Range: 0 ~ 10000
+	LAPIS_HELMET_DURABILITY = 1170
+	#How much durability the Lapis Helmet loses when an entity hit
+	#Range: 0 ~ 10000
+	LAPIS_HELMET_HIT_COST = 1
+	#How much armor the Lapis Helmet has
+	#Range: 0 ~ 1000
+	LAPIS_HELMET_ARMOR = 3
+	#Lapis Helmet Enchantability
+	#Range: 0 ~ 1000
+	LAPIS_HELMET_ENCHANTABILITY = 60
+	#Lapis Helmet Toughness
+	#Range: 0 ~ 1000
+	LAPIS_HELMET_TOUGHNESS = 0
+	#Lapis Helmet Knockback Resistance
+	#Range: 0 ~ 1000
+	LAPIS_HELMET_KNOCK_BACK_RESISTANCE = 0
+	#Lapis Chestplate Durability
+	#Range: 0 ~ 10000
+	LAPIS_CHESTPLATE_DURABILITY = 1350
+	#How much durability the Lapis chestplate loses when an entity is hit
+	#Range: 0 ~ 10000
+	LAPIS_CHESTPLATE_HIT_COST = 1
+	#How much armor the Lapis Chestplate has
+	#Range: 0 ~ 1000
+	LAPIS_CHESTPLATE_ARMOR = 3
+	#Lapis Chestplate Enchantability
+	#Range: 0 ~ 1000
+	LAPIS_CHESTPLATE_ENCHANTABILITY = 60
+	#Lapis Chestplate Toughness
+	#Range: 0 ~ 1000
+	LAPIS_CHESTPLATE_TOUGHNESS = 0
+	#Lapis Chestplate Knockback Resistance
+	#Range: 0 ~ 1000
+	LAPIS_CHESTPLATE_KNOCK_BACK_RESISTANCE = 0
+	#Lapis Leggings Durability
+	#Range: 100 ~ 10000
+	LAPIS_LEGGINGS_DURABILITY = 1440
+	#How much durability the Lapis leggings loses when an entity is hit
+	#Range: 0 ~ 10000
+	LAPIS_LEGGINGS_HIT_COST = 1
+	#How much armor the Lapis Leggings has
+	#Range: 0 ~ 1000
+	LAPIS_LEGGINGS_ARMOR = 3
+	#Lapis Leggings Enchantability
+	#Range: 0 ~ 1000
+	LAPIS_LEGGINGS_ENCHANTABILITY = 60
+	#Lapis Leggings Toughness
+	#Range: 0 ~ 1000
+	LAPIS_LEGGINGS_TOUGHNESS = 0
+	#Lapis Leggings Knockback Resistance
+	#Range: 0 ~ 1000
+	LAPIS_LEGGINGS_KNOCK_BACK_RESISTANCE = 0
+	#Lapis Boots Durability
+	#Range: 0 ~ 10000
+	LAPIS_BOOTS_DURABILITY = 990
+	#How much durability the Lapis boots lose when an entity hits
+	#Range: 0 ~ 10000
+	LAPIS_BOOTS_HIT_COST = 1
+	#How much armor the Lapis Boots has
+	#Range: 0 ~ 1000
+	LAPIS_BOOTS_ARMOR = 3
+	#Lapis Boots Enchantability
+	#Range: 0 ~ 1000
+	LAPIS_BOOTS_ENCHANTABILITY = 60
+	#Lapis Boots Toughness
+	#Range: 0 ~ 1000
+	LAPIS_BOOTS_TOUGHNESS = 0
+	#Lapis Boots Knockback Resistance
+	#Range: 0 ~ 1000
+	LAPIS_BOOTS_KNOCK_BACK_RESISTANCE = 0
+	#Cake Sword Damage
+	#Range: 0 ~ 1000
+	CAKE_SWORD_DAMAGE = 1
+	#Cake Sword Durability
+	#Range: 0 ~ 10000
+	CAKE_SWORD_DURABILITY = 2500
+	#How much durability the Cake sword loses when an entity is hit
+	#Range: 0 ~ 10000
+	CAKE_SWORD_HIT_COST = 1
+	#Cake Sword Harvest Level
+	#Range: 0 ~ 1000
+	CAKE_SWORD_HARVEST_LEVEL = 1
+	#Cake Sword Encahntability
+	#Range: 0 ~ 1000
+	CAKE_SWORD_ENCHANTABILITY = 1
+	#Cake Sword Efficiency
+	#Range: 0 ~ 1000
+	CAKE_SWORD_EFFICIENCY = 1
+	#Cake Sword Attack Speed, must be whole number
+	#Range: 0 ~ 1000
+	CAKE_SWORD_ATTACK_SPEED = 2
+	#Poppy Sword Damage
+	#Range: 0 ~ 1000
+	POPPY_SWORD_DAMAGE = 5
+	#Poppy Sword Durability
+	#Range: 0 ~ 10000
+	POPPY_SWORD_DURABILITY = 1300
+	#How much durability the Poppy sword loses when an entity is hit
+	#Range: 0 ~ 10000
+	POPPY_SWORD_HIT_COST = 1
+	#Poppy Sword Harvest Level
+	#Range: 0 ~ 1000
+	POPPY_SWORD_HARVEST_LEVEL = 3
+	#Poppy Sword Encahntability
+	#Range: 0 ~ 1000
+	POPPY_SWORD_ENCHANTABILITY = 70
+	#Poppy Sword Efficiency
+	#Range: 0 ~ 1000
+	POPPY_SWORD_EFFICIENCY = 10
+	#Poppy Sword Attack Speed, must be whole number
+	#Range: 0 ~ 1000
+	POPPY_SWORD_ATTACK_SPEED = 2
+	#Sapphire Sword Damage
+	#Range: 0 ~ 1000
+	SAPPHIRE_SWORD_DAMAGE = 18
+	#Sapphire Sword Durability
+	#Range: 0 ~ 10000
+	SAPPHIRE_SWORD_DURABILITY = 1400
+	#How much durability the Sapphire sword loses when an entity is hit
+	#Range: 0 ~ 10000
+	SAPPHIRE_SWORD_HIT_COST = 1
+	#Sapphire Sword Harvest Level
+	#Range: 0 ~ 1000
+	SAPPHIRE_SWORD_HARVEST_LEVEL = 4
+	#Sapphire Sword Encahntability
+	#Range: 0 ~ 1000
+	SAPPHIRE_SWORD_ENCHANTABILITY = 83
+	#Sapphire Sword Efficiency
+	#Range: 0 ~ 1000
+	SAPPHIRE_SWORD_EFFICIENCY = 10
+	#Sapphire Sword Attack Speed, must be whole number
+	#Range: 0 ~ 1000
+	SAPPHIRE_SWORD_ATTACK_SPEED = 2
+	#Sapphire Helmet Durability
+	#Range: 0 ~ 10000
+	SAPPHIRE_HELMET_DURABILITY = 1170
+	#How much durability the Sapphire helmet loses when an entity is hit
+	#Range: 0 ~ 10000
+	SAPPHIRE_HELMET_HIT_COST = 1
+	#Sapphire Helmet Armor
+	#Range: 0 ~ 1000
+	SAPPHIRE_HELMET_ARMOR = 3
+	#Helmet Leggings Enchantability
+	#Range: 0 ~ 1000
+	SAPPHIRE_HELMET_ENCHANTABILITY = 40
+	#Sapphire Helmet Toughness, must be a whole number
+	#Range: 0 ~ 1000
+	SAPPHIRE_HELMET_TOUGHNESS = 0
+	#Sapphire Helmet Knockback Resistance
+	#Range: 0 ~ 1000
+	SAPPHIRE_HELMET_KNOCK_BACK_RESISTANCE = 0
+	#Sapphire Chestplate Durability
+	#Range: 0 ~ 10000
+	SAPPHIRE_CHESTPLATE_DURABILITY = 1350
+	#How much durability the Sapphire chestplate loses when an entity is hit
+	#Range: 0 ~ 10000
+	SAPPHIRE_CHESTPLATE_HIT_COST = 1
+	#Sapphire Chestplate Armor
+	#Range: 0 ~ 1000
+	SAPPHIRE_CHESTPLATE_ARMOR = 8
+	#Sapphire Chestplate Enchantability
+	#Range: 0 ~ 1000
+	SAPPHIRE_CHESTPLATE_ENCHANTABILITY = 40
+	#Sapphire Chestplate Toughness, must be a whole number
+	#Range: 0 ~ 1000
+	SAPPHIRE_CHESTPLATE_TOUGHNESS = 0
+	#Sapphire Chestplate Knockback Resistance
+	#Range: 0 ~ 1000
+	SAPPHIRE_CHESTPLATE_KNOCK_BACK_RESISTANCE = 0
+	#Sapphire Leggings Durability
+	#Range: 0 ~ 10000
+	SAPPHIRE_LEGGINGS_DURABILITY = 1440
+	#How much durability the Sapphire leggings lose when a entity hits
+	#Range: 0 ~ 10000
+	SAPPHIRE_LEGGINGS_HIT_COST = 1
+	#Sapphire Boots Durability
+	#Range: 0 ~ 10000
+	SAPPHIRE_BOOTS_DURABILITY = 990
+	#How much durability the Sapphire boots lose when a entity hits
+	#Range: 0 ~ 10000
+	SAPPHIRE_BOOTS_HIT_COST = 1
+	#Sapphire Axe Damage
+	#Range: 0 ~ 1000
+	SAPPHIRE_AXE_DAMAGE = 18
+	#Sapphire Axe Durability
+	#Range: 0 ~ 10000
+	SAPPHIRE_AXE_DURABILITY = 1400
+	#How much durability a Sapphire axe loses when an entity is hit
+	#Range: 0 ~ 10000
+	SAPPHIRE_AXE_HIT_COST = 1
+	#Sapphire Axe Harvest Level
+	#Range: 0 ~ 1000
+	SAPPHIRE_AXE_HARVEST_LEVEL = 4
+	#Sapphire Axe Encahntability
+	#Range: 0 ~ 1000
+	SAPPHIRE_AXED_ENCHANTABILITY = 83
+	#Sapphire Axe Efficiency
+	#Range: 0 ~ 1000
+	SAPPHIRE_AXE_EFFICIENCY = 10
+	#Sapphire Axe Attack Speed, must be whole number
+	#Range: 0 ~ 1000
+	SAPPHIRE_AXE_ATTACK_SPEED = 2
+	#Sapphire Hoe Damage
+	#Range: 0 ~ 1000
+	SAPPHIRE_HOE_DAMAGE = 0
+	#Sapphire Hoe Durability
+	#Range: 0 ~ 10000
+	SAPPHIRE_HOE_DURABILITY = 1400
+	#How much durability a Sapphire hoe loses when an entity is hit
+	#Range: 0 ~ 10000
+	SAPPHIRE_HOE_HIT_COST = 1
+	#Sapphire Hoe Harvest Level
+	#Range: 0 ~ 1000
+	SAPPHIRE_HOE_HARVEST_LEVEL = 4
+	#Sapphire Hoe Encahntability
+	#Range: 0 ~ 1000
+	SAPPHIRE_HOE_ENCHANTABILITY = 83
+	#Sapphire Hoe Efficiency
+	#Range: 0 ~ 1000
+	SAPPHIRE_HOE_EFFICIENCY = 10
+	#Sapphire Hoe Attack Speed, must be whole number
+	#Range: 0 ~ 1000
+	SAPPHIRE_HOE_ATTACK_SPEED = 2
+	#Sapphire Shovel Damage
+	#Range: 0 ~ 1000
+	SAPPHIRE_SHOVEL_DAMAGE = 16
+	#Sapphire Shovel Durability
+	#Range: 0 ~ 10000
+	SAPPHIRE_SHOVEL_DURABILITY = 1400
+	#How much durability a Sapphire shovel loses when an entity is hit
+	#Range: 0 ~ 1000
+	SAPPHIRE_SHOVEL_HIT_COST = 1
+	#Sapphire Shovel Harvest Level
+	#Range: 0 ~ 1000
+	SAPPHIRE_SHOVEL_HARVEST_LEVEL = 4
+	#Sapphire Shovel Encahntability
+	#Range: 0 ~ 1000
+	SAPPHIRE_SHOVEL_ENCHANTABILITY = 83
+	#Sapphire Shovel Efficiency
+	#Range: 0 ~ 1000
+	SAPPHIRE_SHOVEL_EFFICIENCY = 10
+	#Sapphire Shovel Attack Speed, must be whole number
+	#Range: 0 ~ 1000
+	SAPPHIRE_SHOVEL_ATTACK_SPEED = 1
+	#Sapphire Pickaxe Damage
+	#Range: 0 ~ 1000
+	SAPPHIRE_PICKAXE_DAMAGE = 17
+	#Sapphire Pickaxe Durability
+	#Range: 0 ~ 10000
+	SAPPHIRE_PICKAXE_DURABILITY = 1400
+	#How much durability a Sapphire pickaxe loses when an entity is hit
+	#Range: 0 ~ 10000
+	SAPPHIRE_PICKAXE_HIT_COST = 1
+	#Sapphire Pickaxe Attack Speed, must be whole number
+	#Range: 0 ~ 1000
+	SAPPHIRE_PICKAXE_ATTACK_SPEED = 1
+	#Sapphire Pickaxe Harvest Level
+	#Range: 0 ~ 1000
+	SAPPHIRE_PICKAXE_HARVEST_LEVEL = 4
+	#Sapphire Pickaxe Encahntability
+	#Range: 0 ~ 1000
+	SAPPHIRE_PICKAXE_ENCHANTABILITY = 83
+	#Sapphire Pickaxe Efficiency
+	#Range: 0 ~ 1000
+	SAPPHIRE_PICKAXE_EFFICIENCY = 10
+	#Sapphire Leggings Armor
+	#Range: 0 ~ 1000
+	SAPPHIRE_LEGGINGS_ARMOR = 7
+	#Sapphire Leggings Enchantability
+	#Range: 0 ~ 1000
+	SAPPHIRE_LEGGINGS_ENCHANTABILITY = 40
+	#Sapphire Leggings Toughness, must be a whole number
+	#Range: 0 ~ 1000
+	SAPPHIRE_LEGGINGS_TOUGHNESS = 0
+	#Sapphire Leggings Knockback Resistance
+	#Range: 0 ~ 1000
+	SAPPHIRE_LEGGINGS_KNOCK_BACK_RESISTANCE = 0
+	#Sapphire Boots Armor
+	#Range: 0 ~ 1000
+	SAPPHIRE_BOOTS_ARMOR = 3
+	#Sapphire Boots Enchantability
+	#Range: 0 ~ 1000
+	SAPPHIRE_BOOTS_ENCHANTABILITY = 40
+	#Sapphire Boots Toughness, must be a whole number
+	#Range: 0 ~ 1000
+	SAPPHIRE_BOOTS_TOUGHNESS = 0
+	#Sapphire Boots Knockback Resistance
+	#Range: 0 ~ 1000
+	SAPPHIRE_BOOTS_KNOCK_BACK_RESISTANCE = 0
+	#Queen Ghidorah Scale Battle Axe Damage
+	#Range: 0 ~ 1000
+	QUEEN_GHIDORAH_SCALE_BATTLE_AXE_DAMAGE = 667
+	#Queen Ghidorah Scale Battle Axe Durability
+	#Range: 0 ~ 10000
+	QUEEN_GHIDORAH_SCALE_BATTLE_AXE_DURABILITY = 10000
+	#How much durability a Queen Ghidorah Scale Battle Axe loses when an entity is hit
+	#Range: 0 ~ 10000
+	QUEEN_GHIDORAH_SCALE_BATTLE_AXE_HIT_COST = 1
+	#Queen Ghidorah Scale Battle Axe Harvest Level
+	#Range: 0 ~ 1000
+	QUEEN_GHIDORAH_SCALE_BATTLE_AXE_HARVEST_LEVEL = 3
+	#Queen Ghidorah Scale Battle Axe Encahntability
+	#Range: 0 ~ 1000
+	QUEEN_GHIDORAH_SCALE_BATTLE_AXE_ENCHANTABILITY = 100
+	#Queen Ghidorah Scale Battle Axe Efficiency
+	#Range: 0 ~ 1000
+	QUEEN_GHIDORAH_SCALE_BATTLE_AXE_EFFICIENCY = 15
+	#Queen Ghidorah Scale Battle Axe Attack Speed, must be whole number
+	#Range: 0 ~ 1000
+	QUEEN_GHIDORAH_SCALE_BATTLE_AXE_ATTACK_SPEED = 1
+	#Mantis Claw Damage
+	#Range: 0 ~ 1000
+	MANTIS_CLAW_DAMAGE = 14
+	#Mantis Claw Durability
+	#Range: 0 ~ 10000
+	MANTIS_CLAW_DURABILITY = 800
+	#How much durability a Mantis Claw loses when an entity is hit
+	#Range: 0 ~ 10000
+	MANTIS_CLAW_HIT_COST = 1
+	#Mantis Claw Harvest Level
+	#Range: 0 ~ 1000
+	MANTIS_CLAW_HARVEST_LEVEL = 4
+	#Mantis Claw Encahntability
+	#Range: 0 ~ 1000
+	MANTIS_CLAW_ENCHANTABILITY = 70
+	#Mantis Claw Efficiency
+	#Range: 0 ~ 1000
+	MANTIS_CLAW_EFFICIENCY = 11
+	#Mantis Claw Attack Speed, must be whole number
+	#Range: 0 ~ 1000
+	MANTIS_CLAW_ATTACK_SPEED = 1
+	#Aluminium Axe Damage
+	#Range: 0 ~ 1000
+	ALUMINIUM_AXE_DAMAGE = 9
+	#Aluminium Axe Durability
+	#Range: 0 ~ 10000
+	ALUMINIUM_AXE_DURABILITY = 250
+	#How much durability a Aluminium axe loses when an entity is hit
+	#Range: 0 ~ 10000
+	ALUMINIUM_AXE_HIT_COST = 1
+	#Aluminium Axe Harvest Level
+	#Range: 0 ~ 1000
+	ALUMINIUM_AXE_HARVEST_LEVEL = 2
+	#Aluminium Axe Encahntability
+	#Range: 0 ~ 1000
+	ALUMINIUM_AXE_ENCHANTABILITY = 14
+	#Aluminium Axe Efficiency
+	#Range: 0 ~ 1000
+	ALUMINIUM_AXE_EFFICIENCY = 6
+	#Aluminium Axe Attack Speed, must be whole number
+	#Range: 0 ~ 1000
+	ALUMINIUM_AXE_ATTACK_SPEED = 1
+	#Aluminium Hoe Damage
+	#Range: 0 ~ 1000
+	ALUMINIUM_HOE_DAMAGE = 1
+	#Aluminium Hoe Durability
+	#Range: 0 ~ 10000
+	ALUMINIUM_HOE_DURABILITY = 250
+	#How much durability a Aluminium hoe loses when an entity is hit
+	#Range: 0 ~ 10000
+	ALUMINIUM_HOE_HIT_COST = 1
+	#Aluminium Hoe Harvest Level
+	#Range: 0 ~ 1000
+	ALUMINIUM_HOE_HARVEST_LEVEL = 2
+	#Aluminium Hoe Encahntability
+	#Range: 0 ~ 1000
+	ALUMINIUM_HOE_ENCHANTABILITY = 14
+	#Aluminium Hoe Efficiency
+	#Range: 0 ~ 1000
+	ALUMINIUM_HOE_EFFICIENCY = 6
+	#Aluminium Hoe Attack Speed, must be whole number
+	#Range: 0 ~ 1000
+	ALUMINIUM_HOE_ATTACK_SPEED = 1
+	#Aluminium pickaxe Damage
+	#Range: 0 ~ 1000
+	ALUMINIUM_PICKAXE_DAMAGE = 4
+	#Aluminium Pickaxe Durability
+	#Range: 0 ~ 10000
+	ALUMINIUM_PICKAXE_DURABILITY = 250
+	#How much durability a Aluminium pickaxe loses when an entity is hit
+	#Range: 0 ~ 10000
+	ALUMINIUM_PICKAXE_HIT_COST = 1
+	#Aluminium Pickaxe Harvest Level
+	#Range: 0 ~ 1000
+	ALUMINIUM_PICKAXE_HARVEST_LEVEL = 12
+	#Aluminium Pickaxe Encahntability
+	#Range: 0 ~ 1000
+	ALUMINIUM_PICKAXE_ENCHANTABILITY = 14
+	#Aluminium Pickaxe Efficiency
+	#Range: 0 ~ 1000
+	ALUMINIUM_PICKAXE_EFFICIENCY = 6
+	#Aluminium Pickaxe Attack Speed, must be whole number
+	#Range: 0 ~ 1000
+	ALUMINIUM_PICKAXE_ATTACK_SPEED = 1
+	#Aluminium Shovel Damage
+	#Range: 0 ~ 1000
+	ALUMINIUM_SHOVEL_DAMAGE = 5
+	#Aluminium Shovel Durability
+	#Range: 0 ~ 10000
+	ALUMINIUM_SHOVEL_DURABILITY = 250
+	#How much durability a Aluminium shovel loses when an entity is hit
+	#Range: 0 ~ 10000
+	ALUMINIUM_SHOVEL_HIT_COST = 1
+	#Aluminium Shovel Harvest Level
+	#Range: 0 ~ 1000
+	ALUMINIUM_SHOVEL_HARVEST_LEVEL = 2
+	#Aluminium Shovel Encahntability
+	#Range: 0 ~ 1000
+	ALUMINIUM_SHOVEL_ENCHANTABILITY = 14
+	#Aluminium Shovel Efficiency
+	#Range: 0 ~ 1000
+	ALUMINIUM_SHOVEL_EFFICIENCY = 6
+	#Aluminium Shovel Attack Speed, must be whole number
+	#Range: 0 ~ 1000
+	ALUMINIUM_SHOVEL_ATTACK_SPEED = 1
+	#Godzilla Axe Damage
+	#Range: 0 ~ 1000
+	GODZILLA_AXE_DAMAGE = 45
+	#Godzilla Axe Durability
+	#Range: 0 ~ 10000
+	GODZILLA_AXE_DURABILITY = 4000
+	#How much durability a Godzilla axe loses when an entity is hit
+	#Range: 0 ~ 10000
+	GODZILLA_AXE_HIT_COST = 1
+	#Godzilla Axe Harvest Level
+	#Range: 0 ~ 1000
+	GODZILLA_AXE_HARVEST_LEVEL = 6
+	#Godzilla Axe Encahntability
+	#Range: 0 ~ 1000
+	GODZILLA_AXE_ENCHANTABILITY = 2
+	#Godzilla Axe Efficiency
+	#Range: 0 ~ 1000
+	GODZILLA_AXE_EFFICIENCY = 7
+	#Godzilla Axe Attack Speed, must be whole number
+	#Range: 0 ~ 1000
+	GODZILLA_AXE_ATTACK_SPEED = 2
+	#Fire Cake Sword Damage
+	#Range: 0 ~ 1000
+	FIRE_CAKE_SWORD_DAMAGE = 5
+	#Fire Cake Sword Durability
+	#Range: 0 ~ 10000
+	FIRE_CAKE_SWORD_DURABILITY = 59
+	#How much durability a Fire Cake Sword loses when an entity is hit
+	#Range: 0 ~ 10000
+	FIRE_CAKE_SWORD_HIT_COST = 1
+	#Fire Cake Sword Harvest Level
+	#Range: 0 ~ 1000
+	FIRE_CAKE_SWORD_HARVEST_LEVEL = 0
+	#Fire Cake Sword Encahntability
+	#Range: 0 ~ 1000
+	FIRE_CAKE_SWORD_ENCHANTABILITY = 15
+	#Fire Cake Sword Efficiency
+	#Range: 0 ~ 1000
+	FIRE_CAKE_SWORD_EFFICIENCY = 2
+	#Fire Cake Sword Attack Speed, must be whole number
+	#Range: 0 ~ 1000
+	FIRE_CAKE_SWORD_ATTACK_SPEED = 1
+	#Titanium Cake Sword Damage
+	#Range: 0 ~ 1000
+	TITANIUM_CAKE_SWORD_DAMAGE = 7
+	#Titanium Cake Sword Durability
+	#Range: 0 ~ 10000
+	TITANIUM_CAKE_SWORD_DURABILITY = 250
+	#How much durability a Titanium Cake Sword loses when an entity is hit
+	#Range: 0 ~ 10000
+	TITANIUM_CAKE_SWORD_HIT_COST = 1
+	#Titanium Cake Sword Harvest Level
+	#Range: 0 ~ 1000
+	TITANIUM_CAKE_SWORD_HARVEST_LEVEL = 2
+	#Titanium Cake Sword Encahntability
+	#Range: 0 ~ 1000
+	TITANIUM_CAKE_SWORD_ENCHANTABILITY = 14
+	#Titanium Cake Sword Efficiency
+	#Range: 0 ~ 1000
+	TITANIUM_CAKE_SWORD_EFFICIENCY = 6
+	#Titanium Cake Sword Attack Speed, must be whole number
+	#Range: 0 ~ 1000
+	TITANIUM_CAKE_SWORD_ATTACK_SPEED = 1
+
+	["Weapon/Tools/Armor"."Red Ant Spawn Chances"]
+		#Range: 0 ~ 640
+		"Red Ant Min" = 4
+		#Range: 0 ~ 640
+		"Red Ant Max" = 10
+		#Range: 0 ~ 100
+		"Red Ant Weight" = 7
+
+	["Weapon/Tools/Armor"."Red Ant Biomes Whitelist/Blacklist"]
+		"include Red Ant" = ["SNOWY", "MOUNTAIN", "MESA", "FOREST", "HILLS", "SANDY", "SAVANNA", "SWAMP", "BEACH", "PLAINS"]
+		"exclude Red Ant" = ["OCEAN", "END", "NETHER"]
+
+	["Weapon/Tools/Armor"."Termite Spawn Chances"]
+		#Range: 0 ~ 640
+		"Termite Min" = 4
+		#Range: 0 ~ 640
+		"Termite Max" = 10
+		#Range: 0 ~ 100
+		"Termite Weight" = 7
+
+	["Weapon/Tools/Armor"."Termite Biomes Whitelist/Blacklist"]
+		"include Termite" = ["SNOWY", "MOUNTAIN", "MESA", "FOREST", "HILLS", "SANDY", "SAVANNA", "SWAMP", "BEACH", "PLAINS"]
+		"exclude Termite" = ["OCEAN", "END", "NETHER"]
+

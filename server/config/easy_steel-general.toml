@@ -1,0 +1,75 @@
+
+#Cassiterite Ore Generation
+[cassiterite_ore]
+	#Generate Cassiterite Ore in the world [true / false]
+	cassiteriteOreGeneration = true
+	#Size of Cassiterite Ore pockets [0-100, default: 9]
+	#Range: 0 ~ 100
+	cassiteriteOreSize = 9
+	#Chances of Cassiterite Ore pocket being generated [0-100, default: 25]
+	#Range: 0 ~ 100
+	cassiteriteOreChance = 25
+	#Maximal height for Cassiterite Ore pocket generation [0-255, default: 200]
+	#Range: 0 ~ 255
+	cassiteriteOreMaxHeight = 200
+
+#Bornite Ore Generation
+[bornite_ore]
+	#Generate Bornite Ore in the world [true / false]
+	borniteOreGeneration = true
+	#Size of Bornite Ore pockets [0-100, default: 12]
+	#Range: 0 ~ 100
+	borniteOreSize = 12
+	#Chances of Bornite Ore pocket being generated [0-100, default: 25]
+	#Range: 0 ~ 100
+	borniteOreChance = 25
+	#Maximal height for Bornite Ore pocket generation [0-255, default: 200]
+	#Range: 0 ~ 255
+	borniteOreMaxHeight = 200
+
+#Rutile Ore Generation
+[rutile]
+	#Generate Rutile Ore in the world [true / false]
+	rutileOreGeneration = true
+	#Size of Rutile Ore pockets [0-100, default: 5]
+	#Range: 0 ~ 100
+	rutileOreSize = 6
+	#Chances of Rutile Ore pocket being generated [0-100, default: 6]
+	#Range: 0 ~ 100
+	rutileOreChance = 18
+	#Maximal height for Rutile Ore pocket generation [0-255, default: 200]
+	#Range: 0 ~ 255
+	rutileOreMaxHeight = 40
+
+#Wolframite Ore Generation
+[wolframite_ore]
+	#Generate Wolframite Ore in the world [true / false]
+	wolframiteOreGeneration = true
+	#Size of Wolframite Ore pockets [0-100, default: 5]
+	#Range: 0 ~ 100
+	wolframiteOreSize = 6
+	#Chances of Wolframite Ore pocket being generated [0-100, default: 6]
+	#Range: 0 ~ 100
+	wolframiteOreChance = 18
+	#Maximal height for Wolframite Ore pocket generation [0-255, default: 200]
+	#Range: 0 ~ 255
+	wolframiteOreMaxHeight = 20
+
+#Hand Sovel drop chances
+[hand_shovel]
+	#Chance of Hand Shovel dropping Sharp Flint [0-1, default: .30]
+	#Range: 0.0 ~ 1.0
+	sharp_flint_drop_chance = 0.3
+
+#Tool/Armor Material Modifiers
+[material_modifiers]
+	#Modifies material base damage by this amount [1.0-50.0, default: 1.0]
+	#Range: 0.0 ~ 50.0
+	attack_damage_modifier = 1.0
+	#Modifies material base durability by this amount [1-5, default: 1]
+	#Range: 0 ~ 5
+	durability_modifier = 1
+	#Modifies material base damage reduction used by armors by this amount [1-5, default: 1]
+	#Range: 0 ~ 5
+	damage_reduction_modifier = 1
+

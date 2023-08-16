@@ -15,14 +15,16 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			icon: "minecraft:skeleton_skull"
 			x: 0.0d
 			y: -3.0d
+			description: ["Kill 10 Skeletons"]
 			id: "000000000000003D"
 			tasks: [{
 				id: "000000000000003E"
 				type: "kill"
 				title: "Novice Skeleton Hunter"
-				icon: "minecraft:skeleton_skull"
+				icon: "minecraft:skeleton_spawn_egg"
 				entity: "minecraft:skeleton"
 				value: 10L
 			}]
@@ -53,13 +55,14 @@
 			icon: "minecraft:skeleton_skull"
 			x: 1.5d
 			y: -3.0d
+			description: ["Kill 100 Skeletons"]
 			dependencies: ["000000000000003D"]
 			id: "000000000000003F"
 			tasks: [{
 				id: "0000000000000040"
 				type: "kill"
 				title: "Apprentice Skeleton Hunter"
-				icon: "minecraft:skeleton_skull"
+				icon: "minecraft:skeleton_spawn_egg"
 				entity: "minecraft:skeleton"
 				value: 100L
 			}]
@@ -79,15 +82,17 @@
 			}]
 		}
 		{
+			icon: "minecraft:skeleton_skull"
 			x: 3.0d
 			y: -3.0d
+			description: ["Kill 1,000 Skeletons"]
 			dependencies: ["000000000000003F"]
 			id: "0000000000000041"
 			tasks: [{
 				id: "0000000000000042"
 				type: "kill"
 				title: "Journeyman Skeleton Hunter"
-				icon: "minecraft:skeleton_skull"
+				icon: "minecraft:skeleton_spawn_egg"
 				entity: "minecraft:skeleton"
 				value: 1000L
 			}]
@@ -100,13 +105,15 @@
 		}
 		{
 			title: "Novice Zombie Hunter"
+			icon: "minecraft:zombie_head"
 			x: 0.0d
 			y: -1.5d
+			description: ["Kill 10 zombies"]
 			id: "000000000000004B"
 			tasks: [{
 				id: "000000000000004C"
 				type: "kill"
-				icon: "minecraft:zombie_head"
+				icon: "minecraft:zombie_spawn_egg"
 				entity: "minecraft:zombie"
 				value: 10L
 			}]
@@ -135,14 +142,16 @@
 		}
 		{
 			title: "Apprentice Zombie Hunter"
+			icon: "minecraft:zombie_head"
 			x: 1.5d
 			y: -1.5d
+			description: ["Kill 100 Zombies"]
 			dependencies: ["000000000000004B"]
 			id: "000000000000004D"
 			tasks: [{
 				id: "000000000000004E"
 				type: "kill"
-				icon: "minecraft:zombie_head"
+				icon: "minecraft:zombie_spawn_egg"
 				entity: "minecraft:zombie"
 				value: 100L
 			}]
@@ -151,15 +160,10 @@
 					id: "0000000000000054"
 					type: "item"
 					item: {
-						id: "apotheosis:potion_charm"
+						id: "minecraft:potion"
 						Count: 1b
 						tag: {
-							Damage: 0
-							Potion: "apotheosis:resistance"
-							Enchantments: [{
-								lvl: 1s
-								id: "forbidden_arcanus:indestructible"
-							}]
+							Potion: "minecraft:long_night_vision"
 						}
 					}
 				}
@@ -180,15 +184,17 @@
 			]
 		}
 		{
+			icon: "minecraft:zombie_head"
 			x: 3.0d
 			y: -1.5d
+			description: ["Kill 1,000 Zombies"]
 			dependencies: ["000000000000004D"]
 			id: "000000000000004F"
 			tasks: [{
 				id: "0000000000000050"
 				type: "kill"
 				title: "Journeyman Zombie Hunter"
-				icon: "minecraft:zombie_head"
+				icon: "minecraft:zombie_spawn_egg"
 				entity: "minecraft:zombie"
 				value: 1000L
 			}]
@@ -200,14 +206,37 @@
 			}]
 		}
 		{
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBjNDEwMDQ1Y2QzNzQ5YzNhOGVkODU2ZGY0MTFmNmMzM2U5YThhNmY5ZTU3ZTUyMTYwOGE4YWQ4ZWQ2ZWIzNyJ9fX0="
+							}]
+						}
+						Id: [I;
+							1282804182
+							-530366418
+							-1126143359
+							-1893065249
+						]
+					}
+					display: {
+						Name: "{\"text\":\"Spider Head\", \"italic\": false}"
+					}
+				}
+			}
 			x: 0.0d
 			y: 0.0d
+			description: ["Kill 10 Spiders"]
 			id: "0000000000000057"
 			tasks: [{
 				id: "0000000000000058"
 				type: "kill"
 				title: "Novice Spider Hunter"
-				icon: "minecraft:spider_eye"
+				icon: "minecraft:spider_spawn_egg"
 				entity: "minecraft:spider"
 				value: 10L
 			}]
@@ -235,15 +264,38 @@
 			]
 		}
 		{
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBjNDEwMDQ1Y2QzNzQ5YzNhOGVkODU2ZGY0MTFmNmMzM2U5YThhNmY5ZTU3ZTUyMTYwOGE4YWQ4ZWQ2ZWIzNyJ9fX0="
+							}]
+						}
+						Id: [I;
+							1282804182
+							-530366418
+							-1126143359
+							-1893065249
+						]
+					}
+					display: {
+						Name: "{\"text\":\"Spider Head\", \"italic\": false}"
+					}
+				}
+			}
 			x: 1.5d
 			y: 0.0d
+			description: ["Kill 100 Spiders"]
 			dependencies: ["0000000000000057"]
 			id: "0000000000000059"
 			tasks: [{
 				id: "000000000000005A"
 				type: "kill"
 				title: "Apprentice Spider Hunter"
-				icon: "minecraft:spider_eye"
+				icon: "minecraft:spider_spawn_egg"
 				entity: "minecraft:spider"
 				value: 100L
 			}]
@@ -263,15 +315,38 @@
 			}]
 		}
 		{
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBjNDEwMDQ1Y2QzNzQ5YzNhOGVkODU2ZGY0MTFmNmMzM2U5YThhNmY5ZTU3ZTUyMTYwOGE4YWQ4ZWQ2ZWIzNyJ9fX0="
+							}]
+						}
+						Id: [I;
+							1282804182
+							-530366418
+							-1126143359
+							-1893065249
+						]
+					}
+					display: {
+						Name: "{\"text\":\"Spider Head\", \"italic\": false}"
+					}
+				}
+			}
 			x: 3.0d
 			y: 0.0d
+			description: ["Kill 1,000 Spiders"]
 			dependencies: ["0000000000000059"]
 			id: "000000000000005B"
 			tasks: [{
 				id: "000000000000005C"
 				type: "kill"
 				title: "Journeyman Spider Hunter"
-				icon: "minecraft:spider_eye"
+				icon: "minecraft:spider_spawn_egg"
 				entity: "minecraft:spider"
 				value: 1000L
 			}]
@@ -287,14 +362,16 @@
 			}]
 		}
 		{
+			icon: "minecraft:creeper_head"
 			x: 0.0d
 			y: 1.5d
+			description: ["Kill 10 Creepers"]
 			id: "0000000000000061"
 			tasks: [{
 				id: "0000000000000062"
 				type: "kill"
 				title: "Novice Creeper Hunter"
-				icon: "minecraft:creeper_head"
+				icon: "minecraft:creeper_spawn_egg"
 				entity: "minecraft:creeper"
 				value: 10L
 			}]
@@ -319,15 +396,17 @@
 			]
 		}
 		{
+			icon: "minecraft:creeper_head"
 			x: 1.5d
 			y: 1.5d
+			description: ["Kill 100 Creepers"]
 			dependencies: ["0000000000000061"]
 			id: "0000000000000063"
 			tasks: [{
 				id: "0000000000000064"
 				type: "kill"
 				title: "Apprentice Creeper Hunter"
-				icon: "minecraft:creeper_head"
+				icon: "minecraft:creeper_spawn_egg"
 				entity: "minecraft:creeper"
 				value: 100L
 			}]
@@ -344,15 +423,17 @@
 			}]
 		}
 		{
+			icon: "minecraft:creeper_head"
 			x: 3.0d
 			y: 1.5d
+			description: ["Kill 1,000 Creepers"]
 			dependencies: ["0000000000000063"]
 			id: "0000000000000065"
 			tasks: [{
 				id: "0000000000000066"
 				type: "kill"
 				title: "Journeyman Creeper Hunter"
-				icon: "minecraft:creeper_head"
+				icon: "minecraft:creeper_spawn_egg"
 				entity: "minecraft:creeper"
 				value: 1000L
 			}]
@@ -369,14 +450,16 @@
 			}]
 		}
 		{
+			icon: "minecraft:wither_skeleton_skull"
 			x: -1.5d
 			y: -3.0d
+			description: ["Kill 10 Wither Skeletons"]
 			id: "000000000000006B"
 			tasks: [{
 				id: "000000000000006C"
 				type: "kill"
 				title: "Novice Wither Skeleton Hunter"
-				icon: "minecraft:wither_skeleton_skull"
+				icon: "minecraft:wither_skeleton_spawn_egg"
 				entity: "minecraft:wither_skeleton"
 				value: 10L
 			}]
@@ -393,15 +476,17 @@
 			}]
 		}
 		{
+			icon: "minecraft:wither_skeleton_skull"
 			x: -3.0d
 			y: -3.0d
+			description: ["Kill 100 Wither Skeletons"]
 			dependencies: ["000000000000006B"]
 			id: "000000000000006D"
 			tasks: [{
 				id: "000000000000006E"
 				type: "kill"
 				title: "Apprentice Wither Skeleton Hunter"
-				icon: "minecraft:wither_skeleton_skull"
+				icon: "minecraft:wither_skeleton_spawn_egg"
 				entity: "minecraft:wither_skeleton"
 				value: 100L
 			}]
@@ -412,15 +497,17 @@
 			}]
 		}
 		{
+			icon: "minecraft:wither_skeleton_skull"
 			x: -4.5d
 			y: -3.0d
+			description: ["Kill 1,000 Wither Skeletons"]
 			dependencies: ["000000000000006D"]
 			id: "000000000000006F"
 			tasks: [{
 				id: "0000000000000070"
 				type: "kill"
 				title: "Journeyman Wither Skeleton Hunter"
-				icon: "minecraft:wither_skeleton_skull"
+				icon: "minecraft:wither_skeleton_spawn_egg"
 				entity: "minecraft:zombie"
 				value: 1000L
 			}]
@@ -432,15 +519,38 @@
 			}]
 		}
 		{
-			icon: "minecraft:cauldron"
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTUyMGYxMmM2M2M3OTEyMTg2YzRiZTRlMzBjMzNjNWFjYWVjMGRiMGI2YWJkODM2ZDUxN2Q3NGE2MjI3NWQ0YiJ9fX0="
+							}]
+						}
+						Id: [I;
+							1696289012
+							2039172566
+							-1465964905
+							-2014007301
+						]
+					}
+					display: {
+						Name: "{\"text\":\"Witch Head\", \"italic\": false}"
+					}
+				}
+			}
 			x: -1.5d
 			y: 0.0d
+			shape: "circle"
+			description: ["Kill 10 Witches"]
 			id: "0000000000000075"
 			tasks: [{
 				id: "0000000000000076"
 				type: "kill"
 				title: "Novice Witch Hunter"
-				icon: "minecraft:cauldron"
+				icon: "minecraft:witch_spawn_egg"
 				entity: "minecraft:witch"
 				value: 10L
 			}]
@@ -460,8 +570,32 @@
 			}]
 		}
 		{
+			title: "Novice Slime Hunter"
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzA2NDI0ZWM3YTE5NmIxNWY5YWQ1NzMzYTM2YTZkMWYyZTZhMGQ0MmZmY2UxZTE1MDhmOTBmMzEyYWM0Y2FlZCJ9fX0="
+							}]
+						}
+						Id: [I;
+							1765070533
+							-171816755
+							-1442939767
+							-598490293
+						]
+					}
+					display: {
+						Name: "{\"text\":\"Slime Head\", \"italic\": false}"
+					}
+				}
+			}
 			x: 0.0d
 			y: 3.0d
+			description: ["Kill 10 Slimes"]
 			id: "0000000000000077"
 			tasks: [{
 				id: "0000000000000078"
@@ -477,13 +611,36 @@
 			}]
 		}
 		{
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGVlMjNkYzdhMTBjNmE4N2VmOTM3NDU0YzBlOTRlZDQyYzIzYWE2NDFhOTFlZDg0NzBhMzA0MmQwNWM1MmM1MiJ9fX0="
+							}]
+						}
+						Id: [I;
+							1692930919
+							-1837806688
+							-1636188603
+							-134784371
+						]
+					}
+					display: {
+						Name: "{\"text\":\"Blaze Head\", \"italic\": false}"
+					}
+				}
+			}
 			x: -1.5d
 			y: -1.5d
+			description: ["Kill 10 Blazes"]
 			id: "0000000000000098"
 			tasks: [{
 				id: "0000000000000099"
 				type: "kill"
-				icon: "minecraft:blaze_rod"
+				icon: "minecraft:blaze_spawn_egg"
 				entity: "minecraft:blaze"
 				value: 10L
 			}]
@@ -500,14 +657,37 @@
 			}]
 		}
 		{
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGVlMjNkYzdhMTBjNmE4N2VmOTM3NDU0YzBlOTRlZDQyYzIzYWE2NDFhOTFlZDg0NzBhMzA0MmQwNWM1MmM1MiJ9fX0="
+							}]
+						}
+						Id: [I;
+							1692930919
+							-1837806688
+							-1636188603
+							-134784371
+						]
+					}
+					display: {
+						Name: "{\"text\":\"Blaze Head\", \"italic\": false}"
+					}
+				}
+			}
 			x: -3.0d
 			y: -1.5d
+			description: ["Kill 100 Blazes"]
 			dependencies: ["0000000000000098"]
 			id: "000000000000009A"
 			tasks: [{
 				id: "000000000000009B"
 				type: "kill"
-				icon: "minecraft:blaze_rod"
+				icon: "minecraft:blaze_spawn_egg"
 				entity: "minecraft:blaze"
 				value: 100L
 			}]
@@ -525,14 +705,37 @@
 			}]
 		}
 		{
+			icon: {
+				id: "minecraft:player_head"
+				Count: 2b
+				tag: {
+					SkullOwner: {
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGVlMjNkYzdhMTBjNmE4N2VmOTM3NDU0YzBlOTRlZDQyYzIzYWE2NDFhOTFlZDg0NzBhMzA0MmQwNWM1MmM1MiJ9fX0="
+							}]
+						}
+						Id: [I;
+							1692930919
+							-1837806688
+							-1636188603
+							-134784371
+						]
+					}
+					display: {
+						Name: "{\"text\":\"Blaze Head\", \"italic\": false}"
+					}
+				}
+			}
 			x: -4.5d
 			y: -1.5d
+			description: ["Kill 1,000 Blazes"]
 			dependencies: ["000000000000009A"]
 			id: "000000000000009C"
 			tasks: [{
 				id: "000000000000009D"
 				type: "kill"
-				icon: "minecraft:blaze_rod"
+				icon: "minecraft:blaze_spawn_egg"
 				entity: "minecraft:blaze"
 				value: 1000L
 			}]
@@ -544,14 +747,37 @@
 			}]
 		}
 		{
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E1OWJiMGE3YTMyOTY1YjNkOTBkOGVhZmE4OTlkMTgzNWY0MjQ1MDllYWRkNGU2YjcwOWFkYTUwYjljZiJ9fX0="
+							}]
+						}
+						Id: [I;
+							1431935243
+							-921090365
+							-2056191739
+							-793461628
+						]
+					}
+					display: {
+						Name: "{\"text\":\"Enderman Head\", \"italic\": false}"
+					}
+				}
+			}
 			x: -1.5d
 			y: 1.5d
+			description: ["Kill 10 Endermen"]
 			id: "00000000000003DE"
 			tasks: [{
 				id: "00000000000003DF"
 				type: "kill"
 				title: "Novice Enderman Hunter"
-				icon: "minecraft:ender_pearl"
+				icon: "minecraft:enderman_spawn_egg"
 				entity: "minecraft:enderman"
 				value: 10L
 			}]
@@ -576,16 +802,38 @@
 			]
 		}
 		{
-			icon: "minecraft:cauldron"
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTUyMGYxMmM2M2M3OTEyMTg2YzRiZTRlMzBjMzNjNWFjYWVjMGRiMGI2YWJkODM2ZDUxN2Q3NGE2MjI3NWQ0YiJ9fX0="
+							}]
+						}
+						Id: [I;
+							1696289012
+							2039172566
+							-1465964905
+							-2014007301
+						]
+					}
+					display: {
+						Name: "{\"text\":\"Witch Head\", \"italic\": false}"
+					}
+				}
+			}
 			x: -3.0d
 			y: 0.0d
+			description: ["Kill 100 Witches"]
 			dependencies: ["0000000000000075"]
 			id: "00000000000003E0"
 			tasks: [{
 				id: "00000000000003E1"
 				type: "kill"
 				title: "Apprentice Witch Hunter"
-				icon: "minecraft:cauldron"
+				icon: "minecraft:witch_spawn_egg"
 				entity: "minecraft:witch"
 				value: 100L
 			}]
@@ -605,15 +853,38 @@
 			}]
 		}
 		{
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTUyMGYxMmM2M2M3OTEyMTg2YzRiZTRlMzBjMzNjNWFjYWVjMGRiMGI2YWJkODM2ZDUxN2Q3NGE2MjI3NWQ0YiJ9fX0="
+							}]
+						}
+						Id: [I;
+							1696289012
+							2039172566
+							-1465964905
+							-2014007301
+						]
+					}
+					display: {
+						Name: "{\"text\":\"Witch Head\", \"italic\": false}"
+					}
+				}
+			}
 			x: -4.5d
 			y: 0.0d
+			description: ["Kill 1,000 Witches"]
 			dependencies: ["00000000000003E0"]
 			id: "00000000000003E2"
 			tasks: [{
 				id: "00000000000003E3"
 				type: "kill"
 				title: "Journeyman Witch Hunter"
-				icon: "minecraft:cauldron"
+				icon: "minecraft:witch_spawn_egg"
 				entity: "minecraft:witch"
 				value: 1000L
 			}]
@@ -630,15 +901,38 @@
 			}]
 		}
 		{
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E1OWJiMGE3YTMyOTY1YjNkOTBkOGVhZmE4OTlkMTgzNWY0MjQ1MDllYWRkNGU2YjcwOWFkYTUwYjljZiJ9fX0="
+							}]
+						}
+						Id: [I;
+							1431935243
+							-921090365
+							-2056191739
+							-793461628
+						]
+					}
+					display: {
+						Name: "{\"text\":\"Enderman Head\", \"italic\": false}"
+					}
+				}
+			}
 			x: -3.0d
 			y: 1.5d
+			description: ["Kill 100 Endermen"]
 			dependencies: ["00000000000003DE"]
 			id: "00000000000003E6"
 			tasks: [{
 				id: "00000000000003E7"
 				type: "kill"
 				title: "Apprentice Enderman Hunter"
-				icon: "minecraft:ender_pearl"
+				icon: "minecraft:enderman_spawn_egg"
 				entity: "minecraft:enderman"
 				value: 100L
 			}]
@@ -658,8 +952,31 @@
 			}]
 		}
 		{
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E1OWJiMGE3YTMyOTY1YjNkOTBkOGVhZmE4OTlkMTgzNWY0MjQ1MDllYWRkNGU2YjcwOWFkYTUwYjljZiJ9fX0="
+							}]
+						}
+						Id: [I;
+							1431935243
+							-921090365
+							-2056191739
+							-793461628
+						]
+					}
+					display: {
+						Name: "{\"text\":\"Enderman Head\", \"italic\": false}"
+					}
+				}
+			}
 			x: -4.5d
 			y: 1.5d
+			description: ["Kill 1,000 Endermen"]
 			dependencies: [
 				"00000000000003DE"
 				"00000000000003E6"
@@ -669,25 +986,45 @@
 				id: "00000000000003E9"
 				type: "kill"
 				title: "Journeyman Enderman Hunter"
-				icon: "minecraft:ender_pearl"
+				icon: "minecraft:enderman_spawn_egg"
 				entity: "minecraft:enderman"
 				value: 1000L
 			}]
 			rewards: [{
 				id: "0000000000000469"
 				type: "item"
-				item: "apotheosis:pearl_endshelf"
+				item: "quark:ender_watcher"
 				count: 15
 			}]
 		}
 		{
-			x: -1.5d
-			y: -6.0d
-			dependencies: [
-				"29FFE1F7BC45D711"
-				"000000000000057E"
-				"0000000000000460"
-			]
+			title: "Apprentice Wither Hunter"
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWRhMTA4MjhmNjNiN2VjZGVmZDc2N2IzMjQ1ZmJkYWExM2MzZWMwYzZiMTM3NzRmMWVlOGQzMDdjMDM0YzM4MyJ9fX0="
+							}]
+						}
+						Id: [I;
+							-172284779
+							-316848346
+							-1723774382
+							-1516435592
+						]
+					}
+					display: {
+						Name: "{\"text\":\"Wither Head\", \"italic\": false}"
+					}
+				}
+			}
+			x: -3.0d
+			y: -4.5d
+			description: ["Kill 100 Withers"]
+			dependencies: ["29FFE1F7BC45D711"]
 			id: "000000000000045E"
 			tasks: [{
 				id: "000000000000045F"
@@ -704,8 +1041,11 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -7.5d
+			title: "Novice Ender Dragon Hunter"
+			x: 0.0d
+			y: -4.5d
+			description: ["Kill 10 Ender Dragons"]
+			dependency_requirement: "one_completed"
 			id: "0000000000000460"
 			tasks: [{
 				id: "0000000000000461"
@@ -736,15 +1076,39 @@
 			]
 		}
 		{
-			icon: "minecraft:sea_lantern"
-			x: -0.5d
-			y: -7.5d
+			title: "Novice Elder Guardian Hunter"
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGEyZDY0ZjRhMDBlOWM4NWY2NzI2MmVkY2FjYjg0NTIzNTgxYWUwZjM3YmRhYjIyZGQ3MDQ1MjRmNjJlMTY5ZiJ9fX0="
+							}]
+						}
+						Id: [I;
+							-2087480571
+							-1985132553
+							-1470295064
+							-389834096
+						]
+					}
+					display: {
+						Name: "{\"text\":\"Elder Guardian Head\", \"italic\": false}"
+					}
+				}
+			}
+			x: -3.0d
+			y: -6.0d
+			description: ["Kill 10  Elder Guardians"]
 			id: "000000000000057E"
 			tasks: [{
 				id: "000000000000057F"
 				type: "kill"
+				icon: "minecraft:elder_guardian_spawn_egg"
 				entity: "minecraft:elder_guardian"
-				value: 1L
+				value: 10L
 			}]
 			rewards: [{
 				id: "0000000000000583"
@@ -754,8 +1118,32 @@
 			}]
 		}
 		{
+			title: "Apprentice Slime Hunter"
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzA2NDI0ZWM3YTE5NmIxNWY5YWQ1NzMzYTM2YTZkMWYyZTZhMGQ0MmZmY2UxZTE1MDhmOTBmMzEyYWM0Y2FlZCJ9fX0="
+							}]
+						}
+						Id: [I;
+							1765070533
+							-171816755
+							-1442939767
+							-598490293
+						]
+					}
+					display: {
+						Name: "{\"text\":\"Slime Head\", \"italic\": false}"
+					}
+				}
+			}
 			x: 1.5d
 			y: 3.0d
+			description: ["Kill 100 Slimes"]
 			dependencies: ["0000000000000077"]
 			id: "043EE8CDE9C3B394"
 			tasks: [{
@@ -780,8 +1168,32 @@
 			}]
 		}
 		{
+			title: "Journeyman Slime Hunter"
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzA2NDI0ZWM3YTE5NmIxNWY5YWQ1NzMzYTM2YTZkMWYyZTZhMGQ0MmZmY2UxZTE1MDhmOTBmMzEyYWM0Y2FlZCJ9fX0="
+							}]
+						}
+						Id: [I;
+							1765070533
+							-171816755
+							-1442939767
+							-598490293
+						]
+					}
+					display: {
+						Name: "{\"text\":\"Slime Head\", \"italic\": false}"
+					}
+				}
+			}
 			x: 3.0d
 			y: 3.0d
+			description: ["Kill 1,000 Slimes"]
 			dependencies: ["043EE8CDE9C3B394"]
 			id: "7C193E14EB083DEE"
 			tasks: [{
@@ -797,9 +1209,32 @@
 			}]
 		}
 		{
-			title: "Wither Slayer"
+			title: "Novice Wither Hunter"
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWRhMTA4MjhmNjNiN2VjZGVmZDc2N2IzMjQ1ZmJkYWExM2MzZWMwYzZiMTM3NzRmMWVlOGQzMDdjMDM0YzM4MyJ9fX0="
+							}]
+						}
+						Id: [I;
+							-172284779
+							-316848346
+							-1723774382
+							-1516435592
+						]
+					}
+					display: {
+						Name: "{\"text\":\"Wither Head\", \"italic\": false}"
+					}
+				}
+			}
 			x: -1.5d
 			y: -4.5d
+			description: ["Kill 10 Withers"]
 			id: "29FFE1F7BC45D711"
 			tasks: [{
 				id: "7026974F128C0C61"
@@ -822,6 +1257,120 @@
 					count: 4
 				}
 			]
+		}
+		{
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTUyMGYxMmM2M2M3OTEyMTg2YzRiZTRlMzBjMzNjNWFjYWVjMGRiMGI2YWJkODM2ZDUxN2Q3NGE2MjI3NWQ0YiJ9fX0="
+							}]
+						}
+						Id: [I;
+							1696289012
+							2039172566
+							-1465964905
+							-2014007301
+						]
+					}
+					display: {
+						Name: "{\"text\":\"Witch Head\", \"italic\": false}"
+					}
+				}
+			}
+			x: -6.0d
+			y: 0.0d
+			description: ["Kill 10,000 Witches"]
+			dependencies: ["00000000000003E2"]
+			dependency_requirement: "one_completed"
+			id: "13C7584A9BEEDD40"
+			tasks: [{
+				id: "2B66C1CF0EBD3106"
+				type: "kill"
+				title: "Bane of Witches"
+				icon: "minecraft:witch_spawn_egg"
+				entity: "minecraft:witch"
+				value: 10000L
+			}]
+			rewards: [{
+				id: "1D081748161A8A7B"
+				type: "item"
+				item: {
+					id: "botania:spell_cloth"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTUyMGYxMmM2M2M3OTEyMTg2YzRiZTRlMzBjMzNjNWFjYWVjMGRiMGI2YWJkODM2ZDUxN2Q3NGE2MjI3NWQ0YiJ9fX0="
+							}]
+						}
+						Id: [I;
+							1696289012
+							2039172566
+							-1465964905
+							-2014007301
+						]
+					}
+					display: {
+						Name: "{\"text\":\"Witch Head\", \"italic\": false}"
+					}
+				}
+			}
+			x: -7.5d
+			y: 0.0d
+			description: ["Kill 100,000 Witches"]
+			dependencies: ["13C7584A9BEEDD40"]
+			id: "5EBE64415C6BFFD2"
+			tasks: [{
+				id: "235FED407E119244"
+				type: "kill"
+				title: "Slayer of Witches"
+				icon: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTUyMGYxMmM2M2M3OTEyMTg2YzRiZTRlMzBjMzNjNWFjYWVjMGRiMGI2YWJkODM2ZDUxN2Q3NGE2MjI3NWQ0YiJ9fX0="
+								}]
+							}
+							Id: [I;
+								1696289012
+								2039172566
+								-1465964905
+								-2014007301
+							]
+						}
+						display: {
+							Name: "{\"text\":\"Witch Head\", \"italic\": false}"
+						}
+					}
+				}
+				entity: "minecraft:witch"
+				value: 100000L
+			}]
+			rewards: [{
+				id: "6D9109B24BEC2F58"
+				type: "item"
+				item: "minecraft:enchanted_golden_apple"
+				count: 16
+			}]
 		}
 	]
 }

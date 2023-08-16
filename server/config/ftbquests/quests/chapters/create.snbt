@@ -141,7 +141,7 @@
 			rewards: [{
 				id: "2B5FE7896E86C918"
 				type: "item"
-				item: "apotheosis:obsidian_arrow"
+				item: "wyrmroost:purple_geode_tipped_arrow"
 				count: 4
 			}]
 		}
@@ -540,9 +540,7 @@
 			disable_toast: true
 			x: -1.5d
 			y: 4.5d
-			description: [
-				"The Mechanical Drill is great for mining and used to make a stationary cobble generator."
-			]
+			description: ["The Mechanical Drill is great for mining and used to make a stationary cobble generator."]
 			dependencies: ["0000000000000799"]
 			id: "00000000000007CB"
 			tasks: [{
@@ -1152,16 +1150,7 @@
 			rewards: [{
 				id: "0504A23E2B1FE5CD"
 				type: "item"
-				item: {
-					id: "apotheosis:hellshelf"
-					Count: 1b
-					tag: {
-						Enchantments: [{
-							lvl: 5s
-							id: "apotheosis:hell_infusion"
-						}]
-					}
-				}
+				item: "quark:crimson_bookshelf"
 				count: 2
 			}]
 		}
@@ -1201,7 +1190,7 @@
 			rewards: [{
 				id: "735F65B1B6C2C586"
 				type: "item"
-				item: "apotheosis:endshelf"
+				item: "quark:ender_watcher"
 				count: 2
 			}]
 		}
@@ -1589,22 +1578,6 @@
 				id: "7280904848D70F40"
 				type: "xp"
 				xp: 100
-			}]
-		}
-		{
-			x: 0.5d
-			y: 13.0d
-			dependencies: ["3E31B9BBFA9BF2E4"]
-			id: "500F27D19167D975"
-			tasks: [{
-				id: "6E69E9629C6A03B5"
-				type: "item"
-				item: "createaddition:charger"
-			}]
-			rewards: [{
-				id: "170501F602D5C9F9"
-				type: "item"
-				item: "forbidden_arcanus:stellarite_piece"
 			}]
 		}
 		{
